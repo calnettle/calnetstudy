@@ -1,0 +1,11 @@
+node_modules/
+
+# generated at build time
+public/data/
+public/icon-192.png
+public/icon-512.png
+public/icon-maskable-512.png
+
+.vercel
+.DS_Store
+*.log

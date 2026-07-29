@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>calnetstudy</title>
+<meta name="description" content="Study notes, all subjects, one place." />
+<meta name="theme-color" content="#903BD4" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="calnetstudy" />
+<link rel="manifest" href="/manifest.webmanifest" />
+<link rel="apple-touch-icon" href="/icon-192.png" />
+<link rel="icon" href="/icon-192.png" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<header class="topbar">
+  <button class="iconbtn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+  </button>
+
+  <a class="brand" href="#/" aria-label="calnetstudy home">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span class="brand-name">calnet<b>study</b></span>
+  </a>
+
+  <button class="iconbtn" id="searchBtn" aria-label="Search notes">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+  </button>
+</header>
+
+<div class="scrim" id="scrim" hidden></div>
+
+<aside class="sidebar" id="sidebar" aria-label="Subjects">
+  <div class="sidebar-head">
+    <span>Subjects</span>
+    <button class="iconbtn small" id="closeNav" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <nav id="nav" class="nav"></nav>
+  <div class="sidebar-foot">
+    <span id="offlineBadge" class="badge" hidden>Offline</span>
+    <span id="buildStamp" class="stamp"></span>
+  </div>
+</aside>
+
+<main class="main" id="main">
+  <div class="loading" id="loading">Loading notes…</div>
+</main>
+
+<!-- Search overlay -->
+<div class="search" id="search" hidden>
+  <div class="search-bar">
+    <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    <input id="searchInput" type="search" placeholder="Search all notes…"
+           autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" />
+    <button class="textbtn" id="searchClose">Cancel</button>
+  </div>
+  <div class="search-results" id="searchResults">
+    <p class="hint">Search formulas, definitions, worked examples — across every subject.</p>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
