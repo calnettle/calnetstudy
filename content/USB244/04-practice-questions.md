@@ -1,0 +1,425 @@
+# Extra Practice Questions
+
+Exam-style questions across Topics 1 and 2 and Tutorial 1. Attempt each
+before opening the answer.
+
+## Section A — Capital value and strategy
+
+**Q1.** A suburban office building produces gross income of $1,450,000 with
+outgoings of $410,000. Comparable sales indicate a cap rate of 6.75%.
+
+(a) Calculate the capital value.
+(b) The manager renegotiates the cleaning contract, saving $35,000 pa, and
+signs a 7-year lease with a government tenant which the valuer says
+justifies a 25 basis point tightening. Calculate the new capital value.
+(c) How much of the gain came from the income lever and how much from the
+cap rate lever?
+
+<details>
+<summary>Answer</summary>
+
+**(a)**
+
+```
+NI = 1,450,000 − 410,000 = 1,040,000
+CV = 1,040,000 / 0.0675 = $15,407,407
+```
+
+**(b)**
+
+```
+NI = 1,040,000 + 35,000 = 1,075,000
+CR = 6.75% − 0.25%      = 6.50%
+CV = 1,075,000 / 0.0650 = $16,538,462
+```
+
+Total gain **$1,131,055**.
+
+**(c)** Isolate each lever:
+
+```
+Income only:   1,075,000 / 0.0675 = 15,925,926  → +$518,519
+Cap rate only: 1,040,000 / 0.0650 = 16,000,000  → +$592,593
+                                                  ─────────
+Sum of separate effects                            1,111,112
+Actual combined gain                               1,131,055
+Interaction (both together)                           19,943
+```
+
+The cap rate lever contributed slightly more, and there is a small positive
+interaction because the extra income is also capitalised at the tighter
+rate. Note the saving was in *outgoings*, which flows into NI exactly like
+extra rent.
+
+</details>
+
+---
+
+**Q2.** Explain, using `CV = NI / CR`, why a landlord facing a tenant who
+demands a $50/sqm rent reduction on a 1,000 sqm tenancy would usually prefer
+to offer a six-month rent-free period instead. Assume a face rent of
+$450/sqm and a 6% cap rate.
+
+<details>
+<summary>Answer</summary>
+
+**Option 1 — cut the face rent by $50/sqm:**
+
+```
+Income lost    = 1,000 × 50 = $50,000 pa, permanently
+Value destroyed = 50,000 / 0.06 = $833,333
+```
+
+**Option 2 — six months rent free, face rent held at $450/sqm:**
+
+```
+Cash cost      = 1,000 × 450 × 0.5 = $225,000, once
+Value destroyed = $0 — face rent, and therefore NI, is unchanged
+```
+
+The reduction destroys $833,333 of capital value permanently; the incentive
+costs $225,000 once and leaves capitalised income intact. This is why
+incentives are the standard tool and why face and effective rent diverge in
+soft markets.
+
+The honest qualification: a valuer who sees large incentives across the whole
+rent roll will treat the face rents as unsustainable and adjust the
+capitalised value anyway, so the protection is not unlimited.
+
+</details>
+
+---
+
+**Q3.** A manager reports that "the cap rate on our centre improved from 6.0%
+to 6.5% this year." What is wrong with this sentence?
+
+<details>
+<summary>Answer</summary>
+
+The direction is backwards. CR sits in the **denominator**, so a *higher* cap
+rate means a *lower* capital value:
+
+```
+At 6.0%: CV = NI / 0.060
+At 6.5%: CV = NI / 0.065   → 7.7% lower on the same income
+```
+
+"Improved" would mean **compressed** — 6.5% down to 6.0%. Cap rate expansion
+signals that the market perceives more risk, or that income quality has
+deteriorated.
+
+</details>
+
+## Section B — Stakeholders, agency and SAM
+
+**Q4.** A property manager is offered a free overseas conference trip by the
+HVAC contractor whose maintenance tender she is currently assessing. Identify
+the duties engaged and the correct course of action.
+
+<details>
+<summary>Answer</summary>
+
+Duties engaged:
+
+- **Not to take secret commissions or profit** — the trip is a benefit arising
+  from her position as agent.
+- **To act in the interests of the principal with utmost good faith** —
+  accepting creates an interest adverse to the owner's.
+- **Not to act on her own behalf** — she would derive personal benefit from an
+  agency decision.
+- **To account and keep informed** — the offer itself is material.
+- Arguably **professional skill and due care**, since a compromised tender
+  assessment is not a competent one.
+
+Correct course: disclose the offer to the principal in writing and decline
+it — or accept only with the principal's informed written consent while
+withdrawing from the tender assessment. The implicit obligations (codes of
+conduct, ethics and morals) point the same way as the explicit ones.
+
+</details>
+
+---
+
+**Q5.** Distinguish the *tenant* from the *occupant* in the stakeholder table
+and give an example where their interests conflict.
+
+<details>
+<summary>Answer</summary>
+
+The **tenant / lessee** is the contracting party and wants the *best platform
+for business* — measured by business performance, lease issues (security of
+tenure, cost competitiveness), and client and staff satisfaction.
+
+The **occupant** is whoever physically uses the space and wants it
+*habitable* — logical, accessible, controllable, safe, with available services
+and amenities and social links.
+
+Conflict: a tenant cutting occupancy cost pushes the landlord to reduce
+after-hours air conditioning and cleaning frequency. That improves the
+tenant's cost competitiveness while degrading occupant comfort and amenity.
+The manager sits between them — and unhappy occupants eventually become a
+retention problem for that same tenant.
+
+</details>
+
+---
+
+**Q6.** The RICS definition of SAM refers to aligning business and property
+asset strategies. Explain what that subordination means for a university
+deciding whether to keep a satellite campus.
+
+<details>
+<summary>Answer</summary>
+
+The RICS definition makes property the *servant* of the business: SAM
+optimises property assets "in a way which best supports its key business
+goals and objectives." So the question is not "does this campus produce an
+adequate property return?" but "does holding it advance the university's
+teaching, research and student-experience objectives better than the
+alternatives?"
+
+A satellite campus might show a poor standalone property return yet be
+retained because it delivers regional access, a strategic enrolment pipeline
+or a community obligation. Conversely a well-performing property could be
+divested if the business no longer needs that location.
+
+The unit's own example is the Caboolture campus switching from QUT to USC —
+a property decision driven by an institutional strategy question, not by the
+building's yield. Note also that universities appear explicitly in the SAM
+slide's list of not-for-profit portfolios.
+
+</details>
+
+---
+
+**Q7.** List the four strategy families that follow from `CV = NI / CR`, and
+give two concrete actions under each.
+
+<details>
+<summary>Answer</summary>
+
+Because `NI = gross income − outgoings` and `CV = NI / CR`, there are exactly
+four things to strategise about.
+
+| Family | Two actions |
+|---|---|
+| **Gross income** | Diversify income sources (signage, licences, car parking, kiosks); minimise vacancy periods |
+| **Outgoings** | Individual metering for user pays; tender service contracts |
+| **Capitalisation rate** | Lengthen WALE; secure good quality tenants |
+| **Capital value / portfolio** | Adapt property to changing needs; conduct regular valuations |
+
+Any two from each list is fine — the point is knowing there are four
+families and that they are derived from the formula rather than arbitrary.
+
+</details>
+
+## Section C — Risk, grades and measurement
+
+**Q8.** Classify each and give the matrix response:
+
+(a) A shopping centre in a flood-prone suburb faces a 1-in-50-year flood that
+would close it for three months.
+(b) Trolleys are regularly left in the car park, causing minor vehicle damage
+claims most months.
+(c) The anchor tenant's lease expires in 18 months and it has signalled it
+may not renew.
+
+<details>
+<summary>Answer</summary>
+
+**(a) Low probability, high impact** → **insurance**, plus lowering the risk
+profile in that specific area (flood mitigation works, business interruption
+cover).
+
+**(b) High probability, low impact** → adjust systems and activities to lower
+the probability (trolley collection contract, containment bays, wheel-lock
+trolleys); benchmark; low-cost systems solutions.
+
+**(c) High probability, high impact** → **specific risk management plan** and
+major strategy changes if necessary. This is the concentrate-effort quadrant:
+begin renewal negotiations immediately, model the income and cap-rate
+consequences of losing the anchor, and identify replacement tenants. It
+cannot be insured and it will not be solved by a system.
+
+</details>
+
+---
+
+**Q9.** An existing Brisbane CBD office building has 21,000 sqm NLA, 1,050 sqm
+floor plates, a NABERS Office Energy rating of 4.5 stars, NABERS Office Water
+3.5 stars, and Green Star – Performance v1.2 of 3 stars. What grade does the
+PCA guide support?
+
+<details>
+<summary>Answer</summary>
+
+**Grade A.**
+
+Working through the *existing buildings* tables, with Brisbane falling under
+"other CBDs":
+
+```
+B1 size        21,000 sqm  > 20,000 Premium threshold        ✓ Premium
+B2 floor plate  1,050 sqm  > 1,000 Premium threshold         ✓ Premium
+A1 Green Star   3 Star     Premium needs 4 Star              ✗ (= Grade A)
+A2 Energy       4.5 Star   Premium needs 5 Star              ✗ (= Grade A)
+A3 Water        3.5 Star   Premium needs 4 Star              ✗ (= Grade A)
+```
+
+It meets Premium on physical size but falls to Grade A on all three
+environmental parameters, and the grade is set by the weakest limb. Note that
+if this were a *new* building, Brisbane would be named separately and the
+Premium size thresholds would rise to 25,000 sqm and a 1,500 sqm floor plate —
+so it would fail those too.
+
+</details>
+
+---
+
+**Q10.** A single-tenanted warehouse measures 60m × 30m to the **inside** face
+of the external walls. The external walls are 0.3m thick and are solid
+masonry (windows are well under half of each wall's area). Calculate the GLA.
+
+<details>
+<summary>Answer</summary>
+
+GLA measures to the **outside** face of the dominant portion. The walls are
+solid, so the wall is the dominant portion and the measurement plane is the
+finished outer surface. You must add the wall thickness on **both** sides of
+each dimension:
+
+```
+Outside length = 60 + (2 × 0.3) = 60.6 m
+Outside width  = 30 + (2 × 0.3) = 30.6 m
+GLA            = 60.6 × 30.6    = 1,854.36 sqm
+```
+
+The inside figure of 60 × 30 = 1,800 sqm would be the NLA-style measurement.
+The difference — **54.36 sqm, about 3%** — is exactly why you cannot compare
+$/sqm rates struck on different bases.
+
+</details>
+
+---
+
+**Q11.** Why are structural columns included in both NLA and GLA when a tenant
+cannot use the floor area they occupy?
+
+<details>
+<summary>Answer</summary>
+
+Because the PCA methods measure the *envelope of the tenancy*, not the usable
+floor. Both methods explicitly include structural columns and engaged
+perimeter columns or piers. The rationale is practical and consistent: column
+positions vary between buildings, so deducting them would make areas
+non-comparable and would require re-measurement whenever a fit-out changed.
+
+The efficiency loss is instead priced into the rent — a heavily columned floor
+achieves a lower $/sqm. The one exception is under GLA, where a column
+**protruding beyond the external face** is not included, because it is outside
+the measurement envelope entirely.
+
+</details>
+
+## Section D — Reading the IM
+
+**Q12.** A centre reports Net Passing Income of $1,950,000 and Net Fully
+Leased Income of $2,080,000, and is quoted at a 6.25% yield. What price does
+each imply, and which should a buyer rely on?
+
+<details>
+<summary>Answer</summary>
+
+```
+On fully leased: 2,080,000 / 0.0625 = $33,280,000
+On passing:      1,950,000 / 0.0625 = $31,200,000
+Difference:                             $2,080,000
+```
+
+Quoting the yield on **fully leased** income supports a price $2.08m higher,
+on the strength of $130,000 of income that nobody currently pays. A buyer
+should rely on **passing** income for what they are actually acquiring, and
+treat the fully leased figure as an upside case — testing whether the assumed
+letting-up rate is achievable, how long it will take, and what incentives and
+letting fees it will cost to get there.
+
+</details>
+
+---
+
+**Q13.** A centre's anchor occupies 60% of GLA but generates 35% of income.
+Its GOCR is 3.1%. Its lease has 18 years to run. Write three sentences a
+Part A report could use about this tenant.
+
+<details>
+<summary>Answer</summary>
+
+Something close to:
+
+> The anchor provides exceptional income security — an 18-year residual term
+> at a gross occupancy cost ratio of 3.1% is comfortably sustainable against
+> the tenant's turnover, so the risk of default or non-renewal is low and the
+> covenant supports a tighter capitalisation rate. That security comes at the
+> cost of income intensity: the anchor occupies 60% of lettable area while
+> contributing only 35% of gross income, so 65% of the centre's income is
+> generated by the remaining 40% of floor space on materially shorter leases.
+> The practical consequence is that the centre's income risk, and therefore
+> the property manager's attention, belongs with the specialty tenancies
+> rather than with the anchor.
+
+The three moves being demonstrated: state the fact, interpret it against the
+formula, then draw the management implication.
+
+</details>
+
+---
+
+**Q14.** An IM states "occupancy 99%" and "10% of GLA expiring in the next 24
+months." Are these consistent, and what should you check?
+
+<details>
+<summary>Answer</summary>
+
+They are consistent — they measure different things. Occupancy is the
+proportion of GLA currently under lease *today*; the expiry profile is how
+much of that leased area rolls over in a defined future window. A centre can
+be 99% occupied now and still face 10% of its area expiring within two years.
+
+What to check:
+
+- **Whether the expiries are anchor or specialty** — 10% of GLA in small
+  specialty tenancies is a very different risk from 10% concentrated in one
+  tenant.
+- **How much of that 10% is income**, not just area — the area-weighted and
+  income-weighted figures usually differ (see the two WALEs).
+- **The renewal history** — a centre with strong retention will convert most
+  expiries to renewals, which is why "exceptional tenant retention" claims are
+  worth testing against the actual schedule.
+- **Whether options exist** and who holds them.
+
+</details>
+
+---
+
+**Q15.** An IM claims a property is "priced 40% below replacement cost."
+Replacement cost is stated as $12,000/sqm and the asking price is
+$8,000/sqm. Verify.
+
+<details>
+<summary>Answer</summary>
+
+```
+1 − (8,000 / 12,000) = 1 − 0.6667 = 33.3% below replacement cost
+```
+
+The claim of 40% is overstated; the correct discount is **33.3%**. For
+completeness, replacement cost is 12,000 / 8,000 − 1 = **50% above** the asking
+price — which is the same relationship expressed from the other direction, and
+the direction marketing documents tend to muddle.
+
+Two lessons: always compute the percentage yourself, and always state which
+number is the base. A "40% discount" and a "40% premium" are not the same
+relationship, and the Richlands Plaza IM gets this exact pair of statistics
+labelled the wrong way round.
+
+</details>
