@@ -24,6 +24,33 @@ To ship a change: commit, `git push`, then `vercel --prod --scope
 calnettles-projects` from this folder. `vercel.json` already sets the build
 command and output directory, so there is no manual build config.
 
+### Nightly publish
+
+`scripts/nightly-publish.sh` commits changed notes, pushes and deploys.
+A Claude Code scheduled task (`calnetstudy-nightly-publish`, 2:13am daily)
+runs it; the task lives at
+`~/.claude/scheduled-tasks/calnetstudy-nightly-publish/SKILL.md`.
+
+Test it any time without side effects:
+
+```bash
+./scripts/nightly-publish.sh --dry-run
+```
+
+Two things worth knowing:
+
+- **It only stages `content/`.** Code and config changes are never
+  auto-committed — an unattended job that commits the whole tree publishes
+  whatever happens to be in it, reviewed or not.
+- **It is a Claude Code task, not launchd or cron, and that is deliberate.**
+  This repo sits under `~/Desktop`, which macOS TCC protects. A
+  launchd-spawned process can `cd` into the repo but gets `Operation not
+  permitted` on every file inside it, so a plain cron job fails silently
+  every night. Claude Code already holds the Desktop grant. The tradeoff is
+  that the task runs only while the app is open — if it is closed at 2am
+  the run happens at next launch. Moving the repo off the Desktop is the
+  only way to make a real cron job viable.
+
 **Do not try to deploy via the Vercel MCP.** It has read scope only —
 `deploy_to_vercel` returns `403 forbidden: You don't have permission to
 create a project`. Listing projects works fine. Use the `vercel` CLI from
