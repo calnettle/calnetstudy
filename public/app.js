@@ -208,9 +208,29 @@
     if (!anchor) { window.scrollTo(0, 0); return; }
     var target = document.getElementById(anchor);
     if (!target) { window.scrollTo(0, 0); return; }
-    var top = target.getBoundingClientRect().top + window.pageYOffset - 72;
-    window.scrollTo({ top: top, behavior: 'auto' });
+
+    // Land the heading 72px down, clear of the fixed top bar. Correcting a
+    // miss should never animate, so bypass html{scroll-behavior:smooth} —
+    // 'auto' means "use the CSS value", which is smooth here.
+    function align() {
+      var h = document.documentElement;
+      var prev = h.style.scrollBehavior;
+      h.style.scrollBehavior = 'auto';
+      window.scrollTo(0, target.getBoundingClientRect().top + window.pageYOffset - 72);
+      h.style.scrollBehavior = prev;
+    }
+
+    align();
     target.setAttribute('tabindex', '-1');
+
+    // On a cold load we scroll before the webfont has swapped in; the reflow
+    // that follows drags the heading out from under the reader (landing ~195px
+    // off). Re-align once fonts settle — a no-op on warm navigations.
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(function () {
+        if (Math.abs(target.getBoundingClientRect().top - 72) > 2) align();
+      });
+    }
   }
 
   function renderDoc(code, id, anchor) {

@@ -11,28 +11,23 @@ coursework; EFB335 (Investments) is the first unit in it.
 Owner: Cal — `cal@calnetcorp.com.au`, GitHub `calnettle`, Vercel team
 `calnettles-projects` (`team_s8QArCHFSfqntpC8VX7s4L9e`).
 
-## Status
+## Status — live
 
 | | |
 |---|---|
-| Repo | Initialised, one commit, **no remote yet** |
-| GitHub | Not created |
-| Vercel | Not deployed |
+| Site | <https://calnetstudy.vercel.app> |
+| GitHub | `calnettle/calnetstudy` (public), branch `master` |
+| Vercel | project `calnetstudy` under `calnettles-projects` |
 | Content | EFB335 complete (6 docs, ~10.8k words) |
 
-### The one outstanding task
-
-```bash
-gh repo create calnetstudy --public --source=. --push
-```
-
-Then import at **vercel.com/new**. `vercel.json` already sets the build
-command and output directory, so no manual build config is needed.
+To ship a change: commit, `git push`, then `vercel --prod --scope
+calnettles-projects` from this folder. `vercel.json` already sets the build
+command and output directory, so there is no manual build config.
 
 **Do not try to deploy via the Vercel MCP.** It has read scope only —
 `deploy_to_vercel` returns `403 forbidden: You don't have permission to
-create a project`. Listing projects works fine. Use `gh` + the Vercel
-dashboard, or the `vercel` CLI from Cal's machine.
+create a project`. Listing projects works fine. Use the `vercel` CLI from
+Cal's machine, which is already authenticated as `calnettle`.
 
 ## Commands
 
@@ -100,9 +95,29 @@ map — extend it rather than reintroducing a blanket strip.
 falls back to best-effort per-file unlink because `fs.rmSync` throws
 `EPERM` on some FUSE mounts. Don't "simplify" it back to a bare `rmSync`.
 
-**Service worker caching.** `public/sw.js` uses `CACHE = 'calnetstudy-v1'`.
-If you change the shell (`index.html`, `app.js`, `styles.css`), bump that
-constant or returning visitors keep the stale shell.
+**Service worker caching.** `public/sw.js` defines `CACHE =
+'calnetstudy-vN'` (currently `v2`). If you change the shell (`index.html`,
+`app.js`, `styles.css`), bump that constant or returning visitors keep the
+stale shell.
+
+**`[hidden]` needs the `!important` rule in `styles.css`.** The search
+overlay, the scrim and the offline badge are toggled by setting the
+`hidden` attribute from `app.js`. The UA stylesheet's
+`[hidden] { display: none }` loses to *any* author rule that sets
+`display`, so `.search { display: flex }` silently kept the overlay on
+screen over the whole app — the site rendered as a blank search page and
+nothing was tappable. `[hidden] { display: none !important; }` near the top
+of `styles.css` is what makes the attribute reliable. Don't remove it, and
+don't switch these elements to a `.is-open` class without it.
+
+**Deep links scroll twice, on purpose.** `scrollToAnchor()` in `app.js`
+aligns the heading 72px below the top bar, then re-aligns after
+`document.fonts.ready`. On a cold load the first scroll runs before the
+webfont swaps in, and the reflow drags the target ~195px out of place.
+Both scrolls temporarily clear `html{scroll-behavior:smooth}` so a
+correction never animates. Verified with Playwright against a real browser
+— note that a headless/hidden tab never fires `requestAnimationFrame`, so
+scroll behaviour cannot be tested in one.
 
 ## Adding content
 

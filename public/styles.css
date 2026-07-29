@@ -26,6 +26,13 @@
 
 * { box-sizing: border-box; }
 
+/* The app shows and hides the search overlay, the scrim and the offline badge
+   via the `hidden` attribute. The UA stylesheet's [hidden]{display:none} is
+   author-origin-losing, so any rule of ours that sets `display` silently beats
+   it — which is how the search overlay ended up permanently covering the app.
+   Keep this rule above everything that sets `display`. */
+[hidden] { display: none !important; }
+
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 
 body {
