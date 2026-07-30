@@ -421,7 +421,7 @@ Turn the question around: at $2,500 a month, how much can she borrow?
 
 > **Trap — a whole-dollar payment does not clear the loan.** The same
 > worksheet's repayment schedule uses a literal `2762` in the payment column
-> rather than the calculated `2762.1618`. Twenty-five cents a month for 300
+> rather than the calculated `2762.1618`. Sixteen cents a month for 300
 > months, compounded, leaves **$88.67 still owing** at month 300. Reference
 > the `PMT` cell, don't retype it rounded.
 

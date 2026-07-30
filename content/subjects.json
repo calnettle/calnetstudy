@@ -1,4 +1,102 @@
 {
+  "BSB106": {
+    "name": "Dynamic Markets",
+    "institution": "QUT",
+    "term": "1st Year · Sem 1",
+    "colour": "#C2410C",
+    "description": "A frameworks unit — the business environment canvas, industry and market forces, the business model canvas, disruption, and collaborative teamwork."
+  },
+  "BSB107": {
+    "name": "Financial Performance",
+    "institution": "QUT",
+    "term": "1st Year · Sem 1",
+    "colour": "#CA8A04",
+    "description": "Financial statements and the accounting equation, investments and borrowings, ratio analysis, CVP and break-even, and discounted cash flow valuation."
+  },
+  "EFB231": {
+    "name": "Economics",
+    "institution": "QUT",
+    "term": "1st Year · Sem 1",
+    "colour": "#9F1239",
+    "description": "Introductory micro and macro in one semester — elasticity, efficiency and intervention, cost and market structures, national accounts, AD-AS, policy and trade."
+  },
+  "USB142": {
+    "name": "Residential Valuation",
+    "institution": "QUT",
+    "term": "1st Year · Sem 1",
+    "colour": "#15803D",
+    "description": "The first valuation unit: property characteristics and measurement, legal interests and title, market value and highest and best use, and the market approach."
+  },
+  "BSB105": {
+    "name": "The Future Enterprise",
+    "institution": "QUT",
+    "term": "1st Year · Sem 2",
+    "colour": "#B45309",
+    "description": "Management strategy and digital transformation, digital capabilities and how AI works, the economy of algorithms, and the future of work."
+  },
+  "EFB201": {
+    "name": "Financial Markets",
+    "institution": "QUT",
+    "term": "1st Year · Sem 2",
+    "colour": "#BE185D",
+    "description": "Instruments, institutions and pricing across fixed income, equity, derivatives and FX markets, plus market efficiency and professional ethics."
+  },
+  "USB144": {
+    "name": "Investment Valuation",
+    "institution": "QUT",
+    "term": "1st Year · Sem 2",
+    "colour": "#0369A1",
+    "description": "Putting a number on an income-producing property — time value of money, commercial leases and rent reviews, capitalisation, DCF and hypothetical development."
+  },
+  "USB145": {
+    "name": "Property Transactions",
+    "institution": "QUT",
+    "term": "1st Year · Sem 2",
+    "colour": "#0E7490",
+    "description": "Contract and agency law, seller disclosure under the Property Law Act 2023, due diligence, negligence and the Australian Consumer Law."
+  },
+  "BSB108": {
+    "name": "Business Environment",
+    "institution": "QUT",
+    "term": "1st Year · Summer",
+    "colour": "#78350F",
+    "description": "A macro-level scan of the Australian business environment using the PEST framework — institutions, macroeconomic indicators, policy, regulation, trade and geopolitics."
+  },
+  "EFB210": {
+    "name": "Fundamentals of Finance",
+    "institution": "QUT",
+    "term": "1st Year · Summer",
+    "colour": "#4338CA",
+    "description": "Corporate finance from first principles: Fisher separation, time value of money, security valuation, capital budgeting under tax, portfolio theory, CAPM and WACC."
+  },
+  "ABB155": {
+    "name": "Property Law and Land Use Planning",
+    "institution": "QUT",
+    "term": "2nd Year · Sem 1",
+    "colour": "#4D7C0F",
+    "description": "Queensland land tenure and property rights, the evolution of land use planning, statutory planning controls, and GIS-based site constraint analysis."
+  },
+  "EFB222": {
+    "name": "Introduction to Applied Econometrics",
+    "institution": "QUT",
+    "term": "2nd Year · Sem 1",
+    "colour": "#5B21B6",
+    "description": "Regression for causal inference — building a model that answers the research question, reading Stata output, and the seven pitfalls that make a coefficient lie."
+  },
+  "USB141": {
+    "name": "Building Construction",
+    "institution": "QUT",
+    "term": "2nd Year · Sem 1",
+    "colour": "#1D4ED8",
+    "description": "Construction concepts, materials and design across industrial, retail, commercial and residential property, with PCA area measurement and cost estimating."
+  },
+  "USB240": {
+    "name": "Market Analysis",
+    "institution": "QUT",
+    "term": "2nd Year · Sem 1",
+    "colour": "#1E3A8A",
+    "description": "Property market analysis using urban economic theory, economic and demographic indicators, and research methods across all four sectors."
+  },
   "EFB335": {
     "name": "Investments",
     "institution": "QUT",

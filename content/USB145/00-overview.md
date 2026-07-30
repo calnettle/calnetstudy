@@ -18,6 +18,7 @@ quiz examines. Add later topics as they are released.
 | 04 | Topic 4 — Negligence, Misrepresentation and the ACL | Tort elements, duty/breach/damage, negligent misstatement, ACL s 18, unconscionable conduct, stigmatised property, caveat emptor |
 | 05 | Tutorial Worked Solutions | Every tutorial problem and MCQ from Weeks 2–6, with the working |
 | 06 | Practice Questions | Exam-style questions with hidden answers |
+| 07 | Rules, Deadlines and Exam Traps | One-page reference — every section, threshold and number, who bears what risk and when, ten traps, recall drill |
 
 ## Why the unit exists
 

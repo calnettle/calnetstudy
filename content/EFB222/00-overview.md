@@ -4,7 +4,7 @@ QUT · Semester 1, 2026 · **Introduction to Applied Econometrics**
 
 Unit coordinators: **Annastiina Silvennoinen** (lectures) and **Anushiya
 Thanapalan** (unit management). All communication goes through the helpdesk,
-`efb222admin@qut.edu.au`.
+(contact via Canvas).
 
 Textbook: **Jeremy Arkes, *Regression Analysis: A Practical Introduction***.
 

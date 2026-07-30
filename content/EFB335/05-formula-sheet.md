@@ -76,7 +76,7 @@
 
 ---
 
-# EXAM TRAPS — QUICK CHECKLIST
+## EXAM TRAPS — QUICK CHECKLIST
 
 1. **`n` in annualising is YEARS**, not number of observations.
 2. **AM > GM always** (unless all returns identical). If you get GM > AM, you've made an arithmetic error.

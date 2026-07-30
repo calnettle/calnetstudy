@@ -4,7 +4,7 @@ QUT · Semester 2, 2025 · **The Future Enterprise**
 
 Unit coordinator and lecturer: **Dr Elliroma Gardiner** (she/her), Associate
 Professor, School of Management, QUT Faculty of Business and Law
-(`bsb105admin@qut.edu.au`). Lecture 5 is delivered by **Associate Professor
+(contact via Canvas). Lecture 5 is delivered by **Associate Professor
 Penelope "Penny" Williams**, Director of the Centre for Decent Work and
 Industry (CDWI).
 
@@ -27,8 +27,9 @@ Industry (CDWI).
 | 00 | Unit Overview | Structure, teaching team, schedule, assessment, coverage gaps | Lectures 1–6 |
 | 01 | Topic 1 — Management, Strategy and Digital Transformation | PLOC, strategic analysis (PESTEL / Five Forces / VRIO / SWOT), dynamic capabilities, competitive positioning, KPIs, Vial's DT framework, disruption | Lectures 1, 2, 6 |
 | 02 | Topic 2 — Digital Capabilities and How AI Actually Works | WEF Future of Jobs, ML, vectors, ANNs and DNNs, NLP, LLMs, robotics, the JISC framework, A1 | Lecture 3 |
-| 03 | Topic 3 — The Economy of Algorithms and the Future of Work | Autonomous algorithms, B2A2C, DAOs, divergence, transcendence, alignment faking, algorithmic management, gig work, decent work | Lectures 4, 5 |
-| 04 | Practice Questions | Exam-style questions with hidden answers | All of the above |
+| 03 | Topic 3 — The Economy of Algorithms | Autonomous algorithms, generative-AI governance, the shadow/phantom AI matrix, DAOs, B2A2C, automation levels 0–5, divergence, transcendence, alignment faking | Lecture 4 |
+| 04 | Topic 4 — The Future of Work | Cobots and humanoids, gig work and the platform triangle, algorithmic management across the employee lifecycle, surveillance evidence, Taylorism, decent work | Lecture 5 |
+| 05 | Practice Questions | Exam-style questions with hidden answers, numerical drills, and the full contradiction register | All of the above |
 
 ## What the unit is
 
@@ -147,7 +148,8 @@ put on a slide, then name the way it gets misused.
 Every number here was recomputed in Python before it was written down. Where
 the source contradicts itself — and it does, in several places — the note
 shows the arithmetic and says which reading is right rather than quietly
-picking one. Those places are flagged inline and listed again in note 04.
+picking one. Those places are flagged inline and collected in the
+contradiction register at the end of note 05.
 
 ## Source material
 

@@ -4,8 +4,8 @@ QUT · Semester 1, 2026 · **Property Law and Land Use Planning**
 Faculty of Engineering, School of Architecture and Built Environment
 
 Unit Coordinator and Lecturer: **Professor Dr Tan Yigitcanlar**
-(`tan.yigitcanlar@qut.edu.au`). Property law lectures: **Dr Andrea Blake**
-(`a.blake@qut.edu.au`).
+(contact via Canvas). Property law lectures: **Dr Andrea Blake**
+(contact via Canvas).
 
 Living document. Written from the Week 1–3 lectures, both assessment
 briefs and CRAs, the full Assessment 1 property information pack, and the
