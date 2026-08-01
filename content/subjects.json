@@ -97,6 +97,13 @@
     "colour": "#1E3A8A",
     "description": "Property market analysis using urban economic theory, economic and demographic indicators, and research methods across all four sectors."
   },
+  "AYB250": {
+    "name": "Personal Financial Planning",
+    "institution": "QUT",
+    "term": "2nd Year · Sem 2",
+    "colour": "#B91C1C",
+    "description": "Personal financial planning in the Australian regulatory context — financial statements and ratios, time value of money, tax and HECS, and goal-based Excel modelling."
+  },
   "EFB335": {
     "name": "Investments",
     "institution": "QUT",
@@ -110,5 +117,12 @@
     "term": "2nd Year · Sem 2",
     "colour": "#0F766E",
     "description": "Capital value and net income, the property manager's role, PCA building grades and measurement, office and industrial markets."
+  },
+  "USB245": {
+    "name": "Property Investment Analysis",
+    "institution": "QUT",
+    "term": "2nd Year · Sem 2",
+    "colour": "#134E4A",
+    "description": "Property investment decision-making for income-producing assets — risk and return, investment objectives, and building a monthly discounted cash flow model."
   }
 }
