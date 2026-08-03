@@ -273,3 +273,146 @@ Dominance requires being **at least as good on one dimension and strictly better
 
 **Violated:** assumption **(5)** — risk aversion — and arguably **(2)**. A lottery ticket has a **negative** expected return and **enormous** variance; a risk-averse investor should never buy one. The lecture acknowledges this directly: *"not all investors avoid risk... it may depend on the amount of money involved: risking small amounts but insuring against large losses."* This is the classic **Friedman–Savage** utility puzzle: the utility function is concave (risk-averse) over large losses but convex (risk-seeking) over small stakes with large payoffs.
 </details>
+
+---
+
+## Set D — Multi-asset portfolios, annualising and strategy evaluation (Topic 2)
+
+**D1.** Three assets held at weights `w = (0.50, 0.30, 0.20)`. The **monthly** covariance matrix is:
+
+```
+           A         B         C
+A     0.0040    0.0012    0.0008
+B     0.0012    0.0025    0.0005
+C     0.0008    0.0005    0.0090
+```
+
+Compute the monthly and annual portfolio standard deviation, and state the diversification benefit against the weighted average of the three annual SDs.
+
+<details><summary>Answer</summary>
+
+`σ²_port = wᵀ Σ w` — six distinct terms, three variances and three doubled covariances:
+
+```
+Variance terms   (0.50)²(0.0040) = 0.00100000
+                 (0.30)²(0.0025) = 0.00022500
+                 (0.20)²(0.0090) = 0.00036000
+
+Covariance terms 2(0.50)(0.30)(0.0012) = 0.00036000
+                 2(0.50)(0.20)(0.0008) = 0.00016000
+                 2(0.30)(0.20)(0.0005) = 0.00006000
+                                          ──────────
+σ²_monthly                              = 0.00216500
+σ_monthly  = √0.002165 = 4.653%
+```
+
+Annualise the **variance** by 12, then take the root:
+
+```
+σ²_annual = 0.002165 × 12 = 0.025980
+σ_annual  = √0.025980     = 16.118%     (= 4.653% × √12 ✓)
+```
+
+Individual annual SDs are `√(0.0040×12) = 21.909%`, `√(0.0025×12) = 17.321%` and `√(0.0090×12) = 32.863%`. Their weighted average is **22.723%**.
+
+**Diversification benefit = 22.723% − 16.118% = 6.61 percentage points.** The correlations are low — 0.379 (A–B), 0.133 (A–C), 0.105 (B–C) — which is why the benefit is large.
+</details>
+
+---
+
+**D2.** A stock's monthly returns have a mean of **0.9%** and a standard deviation of **5.2%**. Annualise both. What do you get if you multiply each by 12 instead, and why is that wrong?
+
+<details><summary>Answer</summary>
+
+```
+Annual return = (1 + 0.009)¹² − 1 = 11.351%
+Annual σ      = 0.052 × √12       = 18.013%
+```
+
+Multiplying by 12 gives **10.80%** and **62.4%**.
+
+- **The return** is only slightly wrong (10.80% vs 11.351%) because `12 × r̄` ignores **compounding**. The gap widens fast as the monthly return grows.
+- **The standard deviation is catastrophically wrong** — 62.4% against 18.0%, an overstatement of 3.46×. **Variance** is what scales linearly with time, so σ scales with **√t**. `σ × 12` is `σ × √12 × √12`, i.e. √12 ≈ 3.46 times too large.
+</details>
+
+---
+
+**D3.** Two assets: `σ₁ = 18%`, `σ₂ = 25%`, correlation `r = 0.30`. Find the minimum-variance weights and the resulting portfolio SD. Compare with an equal-weighted portfolio.
+
+<details><summary>Answer</summary>
+
+```
+Cov(1,2) = 0.30 × 0.18 × 0.25 = 0.0135
+
+w₁* = (σ₂² − Cov) / (σ₁² + σ₂² − 2Cov)
+    = (0.0625 − 0.0135) / (0.0324 + 0.0625 − 0.0270)
+    = 0.0490 / 0.0679
+    = 0.7216
+
+w₂* = 0.2784
+
+σ²_port = (0.7216)²(0.0324) + (0.2784)²(0.0625) + 2(0.7216)(0.2784)(0.0135)
+        = 0.027139
+σ_port  = 16.474%
+```
+
+Equal weights give `σ = 17.457%` — **0.98 pp worse**, and both are below either asset alone.
+
+> **Do not reach for `w₁* = σ₂²/(σ₁² + σ₂²)`.** That is the **special case for r = 0** and would give 0.6586 here. The general formula has `− Cov` on top and `− 2Cov` on the bottom; they vanish only when the covariance is zero.
+</details>
+
+---
+
+**D4.** *Conceptual.* You compute a covariance and two standard deviations from six observations, once dividing by 6 and once by 5. The two covariances differ and the two pairs of standard deviations differ, yet both give **exactly** the same correlation coefficient. Explain, then state the one way to get this wrong.
+
+<details><summary>Answer</summary>
+
+Write the correlation out in full:
+
+```
+        Σ(xᵢ − x̄)(yᵢ − ȳ) / k
+r = ─────────────────────────────────────────
+    √[Σ(xᵢ − x̄)²/k] × √[Σ(yᵢ − ȳ)²/k]
+```
+
+The denominator's two square roots each contribute one factor of `1/√k`, so together they contribute `1/k` — which **cancels** the `1/k` in the numerator. Whatever `k` is, it disappears. Correlation is a pure, scale-free number.
+
+**The one way to get it wrong: mixing conventions.** Use `COVARIANCE.P` with `STDEV.S`, and the `k`s no longer cancel — you get a number that is neither a population nor a sample correlation and is not bounded by ±1 in general. This is exactly the mismatch that turns the EFB335 2021 stocks-vs-bonds correlation from the correct **0.1813** into a meaningless **0.1662**.
+</details>
+
+---
+
+**D5.** A back-tested strategy returns **6.2% p.a.** over five years with **320 trades**. Buy-and-hold on the same asset over the same window returned **9.1% p.a.** Round-trip transaction costs are **10 basis points**. Evaluate the strategy.
+
+<details><summary>Answer</summary>
+
+```
+Trades per year   = 320 / 5 = 64
+Annual cost drag  = 64 × 0.10% = 6.4%
+Net annual return = 6.2% − 6.4% = −0.2%
+```
+
+**The strategy is a failure on three separate grounds, and you should state all three:**
+
+1. **It loses to its benchmark before costs.** 6.2% against 9.1% for doing nothing. Gross outperformance is the minimum bar, and it is not cleared.
+2. **It is negative after costs.** The 6.4% cost drag more than consumes the entire gross return. A gross return is not a return.
+3. **Tax has not been counted.** 64 trades a year realise gains annually at the full marginal rate, whereas buy-and-hold defers the gain and (in Australia, after 12 months) attracts the CGT discount. The after-tax gap is wider still than −0.2% vs 9.1%.
+
+**Also required for a complete evaluation:** the strategy's **risk**. A lower return at materially lower volatility would at least be a coherent trade-off. Return alone never settles the question.
+</details>
+
+---
+
+**D6.** *Short answer.* Excel's Data Analysis → Covariance tool returns a covariance matrix for 50 assets. State how many numbers it produces, why you cannot feed it straight into `MMULT`, and which divisor it has used.
+
+<details><summary>Answer</summary>
+
+```
+Numbers produced = n(n+1)/2 = (50 × 51)/2 = 1,275
+   ( = 50 variances on the diagonal + 1,225 unique covariances )
+```
+
+**Why you cannot use it directly:** the tool outputs only the **lower triangle**. `MMULT` reads the blank upper triangle as **zeros**, so `wᵀΣw` would omit half of every covariance term and **understate** the portfolio variance. You must mirror the triangle into a full 50 × 50 symmetric square (2,500 cells) first.
+
+**Divisor:** Data Analysis → Covariance uses the **population** divisor `n`, with no option to change it — matching `VAR.P` / `COVARIANCE.P`, not `VAR.S` / `COVARIANCE.S`. Take your standard deviations with `STDEV.P` to stay consistent.
+</details>

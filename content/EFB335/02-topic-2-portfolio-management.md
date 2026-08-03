@@ -153,16 +153,32 @@ Cov(i,j) = Σ [Rᵢ,ₜ − E(Rᵢ)][Rⱼ,ₜ − E(Rⱼ)] / (n − 1)
 
 ### Worked example — S&P 500 vs Barclays US Aggregate Bond Index, 2021
 
-*(Exhibits 6.4–6.7)*
+*(Exhibits 6.4–6.7; numbers from `Topic 2 Returns and Risk_solved.xlsx`)*
 
-Twelve monthly returns for each index. The computation:
+Twelve monthly returns for each index, January–December 2021.
 
-1. Find `E(R)` for each series (arithmetic mean of the 12 monthly returns).
-2. For each month, compute `[R_stocks − E(R_stocks)]` and `[R_bonds − E(R_bonds)]`.
-3. Multiply the two deviations together for each month.
-4. Sum the 12 products and **divide by 11 (n−1)**.
+**Step 1 — the two means:**
 
-**Result:** a **positive** covariance → indicates a positive relationship between the two indices.
+```
+E(R_stocks) = +0.021700  = +2.1700%   per month
+E(R_bonds)  = −0.001267  = −0.1267%   per month
+```
+
+**Step 2 — for each month form `[R_s − E(R_s)] × [R_b − E(R_b)]` and sum.** September is the largest single contributor: stocks fell 4.65% (a −6.82 pp deviation) while bonds fell 0.87% (a −0.74 pp deviation), and two negatives multiply to a **positive** 0.000507.
+
+```
+Σ of the 12 cross-products = 0.0005215
+```
+
+**Step 3 — divide by n − 1 = 11:**
+
+```
+Cov(stocks, bonds) = 0.0005215 / 11 = 0.00004741
+```
+
+**Result:** **positive** — a positive relationship between the two indices during 2021.
+
+> **What the sign does and does not tell you.** A positive covariance means the two series were, on balance, above or below **their own means** at the same time. It does **not** mean both rose — bonds *lost* money on average in 2021. Covariance is measured against each series' mean, not against zero.
 
 ---
 
@@ -192,15 +208,49 @@ The coefficient varies in the range **+1 to −1**.
 
 **Any correlation < +1.0 delivers a diversification benefit.** The lower the correlation, the greater the benefit.
 
-### The 2021 result
+### The 2021 result, standardised
+
+Take the covariance from §2.6 and the two **sample** standard deviations of the same twelve monthly returns:
 
 ```
-r = 0.181
+σ_stocks = 3.189608%      (variance 0.00101736)
+σ_bonds  = 0.819693%      (variance 0.00006719)
+
+r = 0.00004741 / (0.03189608 × 0.00819693)
+  = 0.00004741 / 0.00026145
+  = 0.1813
 ```
 
-A **weak positive correlation** between the S&P 500 and the Barclays Bond index.
+A **weak positive correlation**. Because `r < 1`, there is a substantial diversification benefit from combining them.
 
-**Because r < 1, there is a stronger diversification benefit from combining them in a portfolio.**
+> **Every input must use the same divisor.** Excel's `CORREL()` returns 0.1813 here, and so does `COVARIANCE.S / (STDEV.S × STDEV.S)`. Mix a *population* covariance with *sample* standard deviations and you get 0.1662 — a number that is not any correlation at all. The `n − 1` cancels only when it appears in all three inputs.
+
+### The same pair over twenty-two years
+
+*(`Topic 2 US Equities vs Bonds-1_for charts.xlsx` — S&P 500 and the US Aggregate Bond index, **daily** total returns, 30 Apr 2002 to 30 Jul 2024, n = 5,783)*
+
+| | Equities | Bonds |
+|---|---|---|
+| Mean **daily** return | 0.042681% | 0.012821% |
+| Annualised, `(1+r̄)²⁵² − 1` | **11.353%** | **3.283%** |
+| **Daily** standard deviation | 1.193651% | 0.256222% |
+| Annualised, `σ_d × √252` | **18.949%** | **4.067%** |
+| Daily covariance | \-0.0000076333 | |
+| **Correlation** | **−0.2496** | |
+
+**The correlation is *negative* over the long sample and *positive* in 2021.** Same two asset classes, opposite sign. Nothing was computed wrongly — the relationship genuinely differs by period and by observation frequency.
+
+> ⚠️ **This is the estimation-risk problem made concrete, and it is a favourite exam prompt.** A Markowitz optimiser fed `r = +0.181` will build a materially different portfolio from one fed `r = −0.250`. The correlation you use is an *estimate* from a chosen sample window and frequency, not a property of the assets. Twelve monthly observations is a very thin basis for a decision; 5,783 daily ones is better but still just history.
+
+**Annualisation rules used above — memorise all three:**
+
+```
+Returns:            (1 + r̄_period)^(periods per year) − 1
+Standard deviation: σ_period × √(periods per year)
+Variance:           σ²_period × (periods per year)
+```
+
+Returns compound; standard deviation scales with the **square root** of time because *variance* is what is additive. Multiplying a daily σ by 252 instead of √252 inflates it roughly 16-fold.
 
 ### The scatterplot (Exhibit 6.8)
 
@@ -328,6 +378,8 @@ Now hold correlation at r = 0 and vary the weights from 100% Asset 1 → 100% As
 - At w₁ = 0.00 → **the same as Asset 2**.
 - In between → a **curved** locus bulging left toward lower risk.
 
+At `r = +1.00` that locus would instead be a **straight line** — no bulge, no benefit. The lower the correlation, the further the curve bows to the left.
+
 **Minimum variance portfolio** (when r = 0):
 
 ```
@@ -335,6 +387,40 @@ w₁* = σ₂² / (σ₁² + σ₂²) = 0.0100 / (0.0049 + 0.0100) = 0.671
 ```
 
 → 67.1% in Asset 1, 32.9% in Asset 2, giving σ_port = **5.74%** — lower than *either* asset alone, at a 13.29% expected return.
+
+### Worked example on real data — two ASX stocks
+
+*(`Topic 2 Diversification Benefits-2-1.xlsx` — 157 monthly total returns, July 2011 to July 2024)*
+
+The workbook labels its two columns **AGL** and **CBA**. Annualised inputs:
+
+| | Annual return | Annual σ |
+|---|---|---|
+| AGL | 7.983% | 16.842% |
+| CBA | 14.977% | 16.993% |
+| **Correlation** | **0.4767** | |
+| **Annual covariance** | `0.4767 × 0.16842 × 0.16993 =` **0.013644** | |
+
+Now sweep the weights, using `σ²_port = w₁²σ₁² + w₂²σ₂² + 2w₁w₂Cov`:
+
+| w_AGL | Portfolio return | **Portfolio σ** | Return ÷ risk |
+|---|---|---|---|
+| 1.0 | 7.983% | 16.842% | 0.4740 |
+| 0.7 | 10.081% | 14.909% | 0.6761 |
+| **0.5** | **11.480%** | **14.537%** | 0.7897 |
+| 0.3 | 12.878% | 14.978% | 0.8598 |
+| **0.1** | 14.277% | 16.165% | **0.8832** ← highest |
+| 0.0 | 14.977% | 16.993% | 0.8813 |
+
+**Three things to take from this table:**
+
+1. **The 50/50 portfolio is less risky than either stock on its own** — 14.54% against 16.84% and 16.99%. The weighted average of the two SDs is 16.92%, so diversification bought **2.38 percentage points** of risk for nothing.
+2. **The minimum-risk mix is close to 50/50** (`w_AGL = 0.509`, σ = 14.536%), because the two SDs are almost identical here. When two assets have similar volatility, the minimum-variance portfolio sits near the middle.
+3. **Minimum risk is not the goal.** Return ÷ risk keeps improving past the minimum-variance point, peaking around **10% AGL / 90% CBA**. The risk-minimising portfolio and the best risk-adjusted portfolio are different portfolios.
+
+> **The ratio in the last column is a "modified" Sharpe ratio — return over risk, with no risk-free rate subtracted.** A true Sharpe ratio is `(R_p − R_f)/σ_p`. Subtracting `R_f` reorders the ranking, so do not quote one as the other. The workbook is explicit that it has left `R_f` out.
+
+> ⚠️ **Source flag.** In this workbook's `Data` tab, the column headed *AGL ENERGY – TOT RETURN IND* carries the Datastream code **`A:TLS(RI)`** — Telstra's code, not AGL's. The name and the code contradict each other. The arithmetic is internally consistent, but the **identity of the first stock is uncertain**; do not cite these as AGL's figures without checking.
 
 ### The big picture
 
@@ -371,7 +457,84 @@ Total terms:       n(n + 1) / 2
 
 Beyond three assets this requires **matrix multiplication** — hence the Topic 1 maths refresher.
 
-**Excel:** build a covariance matrix using **Data Analysis → Covariance**, then `σ²_port = wᵀ Σ w` via nested `=MMULT()`.
+### The matrix form, and where it comes from
+
+*(`Topic 2 Covariance Matrix.docx` derives this term by term)*
+
+```
+σ²_port = Σᵢ Σⱼ wᵢ wⱼ Cov(rᵢ, rⱼ)          where Cov(rᵢ, rᵢ) = Var(rᵢ)
+```
+
+Expand the double sum for `n = 2` and you get four terms, two of which are identical:
+
+```
+σ²_p = w₁w₁Cov(r₁,r₁) + w₁w₂Cov(r₁,r₂) + w₂w₁Cov(r₂,r₁) + w₂w₂Cov(r₂,r₂)
+     = w₁²σ₁² + w₂²σ₂² + 2w₁w₂Cov(r₁,r₂)
+```
+
+That is where the **2** in the two-asset formula comes from: `Cov(1,2)` and `Cov(2,1)` are the same number, counted twice. For `n = 3` the same expansion gives nine terms — three variances and **three** distinct covariances, each doubled. In matrix form, for any `n`:
+
+```
+σ²_port = wᵀ Σ w
+```
+
+with `w` the column vector of weights and `Σ` the **full square symmetric** covariance matrix.
+
+### Building the matrix in Excel
+
+*(`Topic 2 Covariance Matrix-1-1.xlsx` — **187 ASX stocks**, 60 monthly returns, Jan 2019 – Dec 2023)*
+
+1. Convert the return-index series to returns: `= RI_t / RI_{t−1} − 1`.
+2. **Data → Data Analysis → Covariance** over the whole block of returns.
+3. Excel returns a **lower-triangular** matrix — 17,578 numbers for 187 assets (`n(n+1)/2`), with the variances on the diagonal and each covariance appearing **once**.
+4. **Mirror it into a full square before using it.** `MMULT` cannot read a half-empty matrix: it will treat the blank upper triangle as zeros and silently understate the portfolio variance. The workbook does exactly this — the sheet holds the 17,578-cell triangle *and* a second, complete 187 × 187 block (34,969 cells) built by reflecting it.
+5. Then `σ²_port = MMULT(MMULT(wᵀ, Σ), w)`.
+
+> ⚠️ **This workbook uses the POPULATION divisor and the 2021 one uses the SAMPLE divisor.** Its diagonal is `=VARP(...)` and Excel's Data Analysis → Covariance tool divides by **n**, with no option to change it. `Topic 2 Returns and Risk_solved.xlsx` uses `COVARIANCE.S` and `STDEV.S`, which divide by **n − 1**. Both files are correct on their own terms and they are not interchangeable. If you build a matrix with Data Analysis and then compute standard deviations with `STDEV.S`, your correlations will be wrong. Pick one convention per workbook and label it.
+
+### Worked example — three assets
+
+*(`Topic 2 3 Assets_solve.xlsx` — BHP, Woolworths and CAR Group, 173 monthly returns, Nov 2009 – Mar 2024)*
+
+**Annualised inputs:**
+
+| | Annual return | Annual σ |
+|---|---|---|
+| BHP | 11.923% | 25.254% |
+| WOW | 7.925% | 16.840% |
+| CAR | 24.064% | 26.087% |
+
+**Monthly covariance matrix** (sample, `n − 1`; the diagonal is the variance):
+
+```
+            BHP          WOW          CAR
+BHP    0.00531483   0.00078857   0.00098662
+WOW    0.00078857   0.00236322   0.00128763
+CAR    0.00098662   0.00128763   0.00567101
+```
+
+Standardised, these are correlations of **0.223** (BHP–WOW), **0.180** (BHP–CAR) and **0.352** (WOW–CAR) — all low, so there is real diversification to be had.
+
+**A 30 / 30 / 40 portfolio:**
+
+```
+σ²_monthly = wᵀ Σ w        = 0.00228615
+σ²_annual  = 0.00228615×12 = 0.02743379
+σ_annual   = √0.02743379   = 16.563%
+```
+
+Against a weighted average of the three annual SDs of **23.063%**, that is a **6.50 percentage point** diversification benefit.
+
+> ⚠️ **The two "portfolio return" figures in this workbook differ, and both are right.** Take the weighted average of the three *annualised* returns and you get **15.580%**. Annualise the portfolio's own *monthly* return series and you get **15.382%**. Annualising is `(1+r̄)¹² − 1`, which is non-linear, so averaging-then-annualising and annualising-then-averaging are not the same operation. **Portfolio return is a weighted average of component returns only at a single, common frequency.** Do the weighting on monthly returns, then annualise once.
+
+**Optimising with Solver** (risk-free rate 1.35%):
+
+| Objective | BHP | WOW | CAR | Return | σ | Sharpe |
+|---|---|---|---|---|---|---|
+| Minimise σ | 22.81% | 62.81% | 14.38% | 11.158% | **14.897%** | 0.6584 |
+| Maximise Sharpe | 23.57% | 6.48% | 69.95% | 20.157% | 20.629% | **0.9117** |
+
+The minimum-variance portfolio piles into the lowest-volatility asset (WOW); the maximum-Sharpe portfolio does close to the opposite, because CAR's return more than pays for its risk. Both lie **on** the efficient frontier — the frontier is the set of all such solutions as the target return is swept.
 
 ---
 
@@ -440,108 +603,18 @@ The frontier is **concave** — the slope **decreases steadily as you move upwar
 
 ---
 
-## 2.13 Efficient Frontier and Investor Utility
-
-An individual investor's **utility curve** specifies the **trade-offs he/she is willing to make between expected return and risk**.
-
-Two curves interact:
-
-1. The **efficient frontier** — its slope decreases steadily as you move upward (the marginal utility of each additional unit of risk falls).
-2. The investor's **utility curves** (indifference curves) — each represents a constant level of satisfaction.
-
-**The interaction of these two curves determines the particular portfolio selected by an individual investor.**
-
-### The optimal portfolio
-
-**The optimal portfolio lies at the point of tangency between the efficient frontier and the utility curve with the highest possible utility.**
-
-- Investor **X**, with steep utility curves, achieves highest utility at portfolio **X**.
-- Investor **Y**, with flatter utility curves, achieves highest utility at portfolio **Y**.
-
-**Which investor is more risk averse?** → **Investor X.** Steeper utility curves mean the investor demands a **large** increase in return to accept a **small** increase in risk. Investor Y's flatter curves mean they'll tolerate more risk for extra return, so their tangency point sits further right/up the frontier.
-
-### The utility function
-
-```
-U = E(r) − 0.5 × A × σ²
-```
-
-| Symbol | Meaning |
-|---|---|
-| `U` | Utility |
-| `E(r)` | Expected return on the portfolio |
-| `A` | **Risk aversion coefficient**, obtained via the risk tolerance questionnaire |
-| `σ²` | Risk level of the portfolio (measured by the **variance** of portfolio return) |
-
-**Values of A:**
-
-| Investor type | A |
-|---|---|
-| Conservative | ~**7** |
-| Aggressive | ~**1** |
-| Risk-neutral | 0 |
-
-> **Note the σ² — it's VARIANCE, not standard deviation.** Squaring is the single most common error here. Also note: higher A → the risk term is penalised more heavily → the investor picks a lower-risk portfolio.
-
-**Worked micro-example:**
-
-Portfolio with E(r) = 15%, σ = 20% (σ² = 0.04):
-
-```
-Conservative (A = 7):  U = 0.15 − 0.5(7)(0.04)  = 0.15 − 0.14 = 0.01
-Aggressive   (A = 1):  U = 0.15 − 0.5(1)(0.04)  = 0.15 − 0.02 = 0.13
-```
-
-The same portfolio delivers wildly different utility depending on risk aversion — which is why the tangency point differs by investor.
-
-**Certainty equivalent:** U is expressed in return units, so U is the **guaranteed** return that would make the investor indifferent to the risky portfolio. The conservative investor above would swap this 15%-return portfolio for a certain **1%**.
-
----
-
-## 2.14 Setting Up and Evaluating an Investment Strategy
-
-*(Preparing for Assessment 2)*
-
-### Before you start — investment philosophy
-
-Before deciding on a strategy, reflect on what kind of investor you are:
-
-- **Value vs Growth** investor?
-- **Index** investor?
-- Investing along **socially responsible** (ESG) lines?
-
-### Constructing the strategy
-
-1. **Ensure your investment strategy can be stated as a clear process that could be followed by anyone** choosing to use the strategy. (Replicability is being marked.)
-2. Use an **"in-sample" period** to construct and refine your strategy.
-3. ⚠️ **Be careful not to "overfit" your model** — it will not work so well in the out-of-sample period.
-
-### Evaluating the strategy
-
-1. Use an **"out-of-sample" period** to test the strategy. This can be **any time period after the in-sample period**.
-2. Calculate the **annual return and risk** from implementing the strategy.
-
-### Other factors to consider
-
-- **How often did you trade?** (turnover)
-- **How much would it cost for each of those trades?** (brokerage, spread, market impact)
-- **Would you need to pay taxes on these earnings?** (CGT, dividend imputation)
-
-> These three questions are the difference between a paper return and a real one. A strategy that looks great gross of costs can be comfortably negative after 200 trades a year.
-
----
-
-## 2.15 Topic 2 Summary
+## 2.13 Summary — the measurement half
 
 - A good portfolio is **not** simply a collection of individually good investments — the **relationships** between assets matter.
-- **Portfolio return** = weighted average of component returns. **Portfolio risk ≠** weighted average of component risks.
-- **Covariance** gives the **direction** of a relationship; **correlation** standardises it to give the **strength** (range −1 to +1).
-- Any correlation **< +1.0** produces a diversification benefit. At **+1.0** there is none; at **−1.0** it is maximised.
-- Estimation errors with portfolio risk/return calculations may be reduced by **relating each security to an index** (where it is a reasonable proxy) instead of calculating each correlation/covariance between every pair of securities — reducing 4,950 terms to 100 for a 100-asset portfolio.
-- The **efficient frontier** represents a set of portfolios with the maximum rate of return for every given level of risk, or the minimum risk for every level of return.
-- The slope of the efficient frontier **decreases steadily** as you move upward — diminishing marginal utility of each additional unit of risk.
-- The **optimal portfolio** is the tangency point of the efficient frontier and the investor's highest attainable utility curve:
+- **Portfolio return** = weighted average of component returns. **Portfolio risk ≠** weighted average of component risks. That gap is the diversification benefit, and it is free.
+- **Covariance** gives the **direction** of a relationship; **correlation** standardises it to give the **strength** (range −1 to +1). `Cov(i,j) = rᵢⱼσᵢσⱼ`.
+- Any correlation **< +1.0** produces a diversification benefit. At **+1.0** there is none; at **−1.0** it is maximised — but only at the risk-minimising weights, not automatically.
+- **The same two assets can show opposite correlations** over different windows and frequencies (S&P vs US bonds: **+0.181** monthly in 2021, **−0.250** daily over 2002–2024). Correlation is an estimate, not a property — this is **estimation risk**.
+- **Annualise correctly:** returns compound, `(1+r̄)^m − 1`; variance scales with `m`; standard deviation scales with `√m`. And weight the *periodic* returns before annualising, never the other way round.
+- An **n-asset** portfolio needs `n` variances and `n(n−1)/2` unique covariances. Beyond three assets that means matrix algebra: `σ²_port = wᵀΣw`, with `Σ` mirrored into a **full square** first.
+- **Be consistent about the divisor.** `n` (population) and `n − 1` (sample) give different variances, standard deviations and covariances — though the correlation is identical, provided all three inputs use the same one.
+- Estimation errors may be reduced by **relating each security to an index** instead of estimating every pairwise correlation — 4,950 terms down to 100 for a 100-asset portfolio.
+- The **efficient frontier** is the set of portfolios with the maximum return for every level of risk, or the minimum risk for every level of return. Its slope **decreases steadily** as you move upward — diminishing marginal return for risk. Its two endpoints are individual securities; everything between them is a portfolio.
+- **Minimum risk ≠ best risk-adjusted return.** The minimum-variance portfolio and the maximum-Sharpe portfolio are different points on the same frontier.
 
-```
-U = E(r) − 0.5 × A × σ²
-```
+**This document has established what is attainable. It cannot say which point an investor should hold — that needs a statement of their tolerance for risk.** Continue with **doc 03, Topic 2 (continued) — Investor Utility and Investment Strategy**, which covers the utility function, the risk tolerance questionnaire, and how to design and honestly evaluate an investment strategy.

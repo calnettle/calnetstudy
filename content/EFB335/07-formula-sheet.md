@@ -25,8 +25,11 @@
 | Standard deviation | `σ = √σ²` |
 | Coefficient of Variation | `CV = σ / E(R)` — **lower is better** |
 | Sharpe Ratio | `(Rₘ − R_f) / σ` — **higher is better** |
-| Annualising variance | `σ²_annual = σ²_daily × trading days` |
-| Annualising SD | `σ_annual = σ_daily × √(trading days)` |
+| Annualising a **return** | `(1 + r̄_period)^(periods per year) − 1` |
+| Annualising **variance** | `σ²_annual = σ²_period × periods per year` |
+| Annualising **SD** | `σ_annual = σ_period × √(periods per year)` |
+
+*Periods per year: 12 monthly, 52 weekly, **252** daily (trading days).*
 
 ## Margin — Long
 
@@ -59,6 +62,7 @@
 | Portfolio expected return | `E(R_p) = Σ wᵢ E(Rᵢ)` |
 | Covariance (definition) | `Cov(i,j) = E{[Rᵢ − E(Rᵢ)][Rⱼ − E(Rⱼ)]}` |
 | Covariance (sample) | `Σ [Rᵢ,ₜ − E(Rᵢ)][Rⱼ,ₜ − E(Rⱼ)] / (n − 1)` |
+| Covariance (population) | `Σ [Rᵢ,ₜ − E(Rᵢ)][Rⱼ,ₜ − E(Rⱼ)] / n` |
 | Correlation | `r(i,j) = Cov(i,j) / (σᵢ σⱼ)`, range −1 to +1 |
 | Covariance from correlation | `Cov(i,j) = r(i,j) σᵢ σⱼ` |
 | Goodness of fit | `R² = r²` |
@@ -67,12 +71,27 @@
 | Matrix form | `σ²_p = wᵀ Σ w` |
 | Number of variance terms | `n` |
 | Number of unique covariances | `n(n − 1) / 2` |
-| Min-variance weight (r = 0) | `w₁* = σ₂² / (σ₁² + σ₂²)` |
+| Three-asset variance | `w₁²σ₁² + w₂²σ₂² + w₃²σ₃² + 2w₁w₂Cov₁₂ + 2w₁w₃Cov₁₃ + 2w₂w₃Cov₂₃` |
+| **Min-variance weight (any r)** | **`w₁* = (σ₂² − Cov₁₂) / (σ₁² + σ₂² − 2Cov₁₂)`** |
+| Min-variance weight (r = 0) | `w₁* = σ₂² / (σ₁² + σ₂²)` — *special case of the above* |
 | Zero-risk weight (r = −1) | `w₁* = σ₂ / (σ₁ + σ₂)` |
 | σ_p when r = +1 | `w₁σ₁ + w₂σ₂` (weighted average) |
-| σ_p when r = −1 | `|w₁σ₁ − w₂σ₂|` |
+| σ_p when r = −1 | `abs(w₁σ₁ − w₂σ₂)` |
 | Single-index correlation | `r(i,j) = βᵢβⱼσ²_m / (σᵢσⱼ)` |
 | **Utility function** | **`U = E(r) − 0.5 × A × σ²`** (A ≈ 7 conservative, ≈ 1 aggressive) |
+| Indifference curve | `E(r) = U + 0.5 × A × σ²` — a **parabola**, steeper for higher A |
+| "Modified" Sharpe ratio | `E(R_p) / σ_p` — **no** risk-free rate. Not the same ranking as the true Sharpe |
+
+## Excel function map
+
+| Task | Sample (÷ n−1) | Population (÷ n) |
+|---|---|---|
+| Variance | `VAR.S` | `VAR.P` / `VARP` |
+| Standard deviation | `STDEV.S` | `STDEV.P` |
+| Covariance | `COVARIANCE.S` | `COVARIANCE.P`, **Data Analysis → Covariance** |
+| Correlation | `CORREL` — identical either way | |
+
+**Matrix work:** `=SUMPRODUCT(P, R)` for `E(R)`; `=MMULT(MMULT(wᵀ, Σ), w)` for `σ²_port`; `=TRANSPOSE()` to turn a weight row into a column. Data Analysis → Covariance returns only the **lower triangle** — mirror it into a full square before `MMULT`, or the blank cells are read as zeros and portfolio variance is understated.
 
 ---
 
@@ -93,7 +112,14 @@
 13. **Number of covariance terms is n(n−1)/2** for *unique pairs*, but `n(n−1)` if counting both `Cov(i,j)` and `Cov(j,i)` in the double-sum formula. Read the question.
 14. **Stop orders become market orders** when triggered — gap risk means you may not get your stop price.
 15. **State your assumptions** on ambiguous questions (interest treatment on shorts, rounding of share counts). Markers reward method.
+16. **Any `r < +1.0` gives a diversification benefit** — not "any *low* r". A correlation of 0.8 still helps. The threshold is exactly +1.0.
+17. **Correlation is divisor-invariant only if you are consistent.** `COVARIANCE.P` over `STDEV.S` produces a number that is not a correlation.
+18. **σ scales with √t, not t.** Multiplying a daily SD by 252 overstates it by a factor of √252 ≈ 15.9.
+19. **Weighted-average-of-annualised ≠ annualised-portfolio.** Weight the *periodic* returns, then annualise once. Annualising is non-linear.
+20. **Minimum variance ≠ maximum Sharpe.** They are different points on the same frontier, and questions ask for one or the other deliberately.
+21. **A strategy back-test needs a benchmark.** Buy-and-hold on the same asset over the same window, and a turnover/cost count. A positive gross return proves nothing.
+22. **Covariance is measured against each series' own mean, not zero.** A positive covariance does not mean both assets rose.
 
 ---
 
-*Notes compiled from EFB335 Topic 1 and Topic 2 lecture slides, Tutorial 1 questions and solutions, and the Topic 1 Excel workbooks. All numerical worked examples independently verified.*
+*Notes compiled from EFB335 Topic 1 and Topic 2 lecture slides, the Tutorial 1 and Tutorial 2 question sheets, and the Topic 1 and Topic 2 Excel workbooks. All numerical worked examples independently verified in Python.*
