@@ -513,6 +513,190 @@ they are not reproduced in the brief.
    **price**, not of outlay.
 </details>
 
+## 4.10 Beyond Flat Rates — Itemised Costs, Vacancy, Incentives, Escalations
+
+Everything above describes `USB245_worked_example_DCF_FICTIONAL.xlsx`. A
+second workbook, `USB245_worked_example_DCF_v2.xlsx`, sits beside it in the
+unit folder and extends the model in four ways. All four are things a marker
+can reasonably expect you to have thought about, and all four are places
+where the simple version quietly flatters the deal.
+
+### One flat growth rate for seven years is an assumption you cannot defend
+
+The v1 model escalates everything with a single rate: `(1+g)^INT((m−1)/12)`,
+with `g` = 3.25% for rent and 3.0% for outgoings, every year, for seven
+years. Nobody forecasts a property market that way. Rates, land tax and
+insurance routinely outrun CPI; rents move in cycles; vacancy peaks and
+recovers.
+
+v2 adds a sheet — **`3b Escalations`** — carrying one input *per year* for
+each driver, across years 1 to 8:
+
+| Driver | Yr 1 | Yr 2 | Yr 3 | Yr 4 | Yr 5 | Yr 6 | Yr 7 | Yr 8 |
+|---|---|---|---|---|---|---|---|---|
+| Market rent growth | — | 1.0% | 0.5% | 2.0% | 3.5% | 4.0% | 4.0% | 3.5% |
+| Outgoings growth | — | 4.5% | 4.0% | 3.5% | 3.0% | 3.0% | 3.0% | 3.0% |
+| Structural vacancy | 1.0% | 3.0% | 5.5% | 6.0% | 3.5% | 2.0% | 1.5% | 1.5% |
+| Rent free (months) | 3 | 4 | 6 | 6 | 4 | 3 | 3 | 3 |
+| Fitout ($/m²) | 150 | 200 | 300 | 300 | 220 | 150 | 150 | 150 |
+| Leasing commission | 12% | 14% | 15% | 15% | 14% | 12% | 12% | 12% |
+
+Year 8 is there because the terminal value capitalises the **year 8** NOI
+(§4.5) — it needs a growth rate of its own.
+
+The compounding moves out of the cashflow and onto a **cumulative index
+row**, built once:
+
+```
+Year 1 index = 1.0000                      ← you are already at today's rent
+Year n index = Year (n−1) index × (1 + growth entering year n)
+
+  Yr1    Yr2      Yr3      Yr4      Yr5      Yr6      Yr7      Yr8
+1.0000  1.0100   1.0151   1.0354   1.0716   1.1145   1.1590   1.1996
+```
+
+and the monthly sheet looks the index up by year instead of raising a rate
+to a power:
+
+```
+v1:   = base × (1 + g) ^ INT((m − 1) / 12)
+v2:   = base × INDEX(escalation_index_row, year_index_of_this_month)
+```
+
+> **Year 1's growth cell must be locked at zero, and this is the single
+> easiest thing to get wrong.** In year 1 you are already *at* today's
+> market rent — you have just bought the property. If you let year 1 carry a
+> growth rate, every rent in the model is escalated one year early and the
+> terminal value inherits the error compounded seven times. In v2 the year-1
+> cells are formatted black rather than blue for exactly this reason. The
+> equivalent check on the v1 formula is that `INT((m−1)/12)` returns 0 for
+> month 1.
+
+> **Setting every year to the same number reproduces the flat model
+> exactly.** Nothing is lost by building it this way, so there is no reason
+> not to — and a grader can see at a glance which years you thought about.
+
+### Acquisition costs are not one blended percentage
+
+v1 uses `Total outlay = price × (1 + 5.5%)`. v2 itemises:
+
+| Line | Amount |
+|---|---|
+| Purchase price | $9,000,000 |
+| Transfer duty (Qld) | $498,025 |
+| Legal fees | $25,000 |
+| Due diligence | $45,000 |
+| Other (registration, searches, bank fees) | $15,000 |
+| **Total acquisition costs** | **$583,025** |
+| **Total acquisition outlay** | **$9,583,025** |
+
+The blended 5.5% understated the real figure: **$583,025 is 6.478% of the
+price**, not 5.5%. On this deal that single change costs **$88,025 of NPV**.
+
+Duty is not a flat percentage — it is a **stepped scale**, so it must be
+looked up, not multiplied:
+
+```
+Duty = fixed amount for the bracket
+     + rate per $100 × (dutiable value − bracket threshold) / 100
+
+At $9,000,000, on the general transfer duty scale:
+     = 38,025 + 5.75 × (9,000,000 − 1,000,000) / 100
+     = 38,025 + 460,000
+     = $498,025
+```
+
+> **Duty rates change, and a scale you half-remember is worth five figures
+> of error.** v2 holds the brackets as an editable lookup table with an
+> `INDEX`/`MATCH` on the price, precisely so you can update it in one place.
+> **Verify the current Queensland scale against the Queensland Revenue
+> Office before you submit**, and check whether any surcharge applies — the
+> table in the workbook is a starting point, not an authority.
+
+> **A stepped duty scale breaks the "maximum price payable" shortcut.**
+> Both `PV × (1 − acq%)` and `PV ÷ (1 + acq%)` (note 03, §3.8) assume
+> acquisition costs are a constant *percentage*. With a stepped scale the
+> percentage itself moves with the price, so both are approximations. For an
+> exact answer use **Data → What-If Analysis → Goal Seek**: set the NPV cell
+> to 0 by changing the purchase price cell.
+
+### Structural vacancy is not the same line as lease-expiry downtime
+
+v1 models vacancy only through the occupied flag — space is empty for a
+known number of months after a known expiry. That captures the *lettable*
+vacancy but nothing else: incidental voids, bad debt, under-recovery,
+holdover disputes.
+
+v2 adds a **structural vacancy allowance** as its own line, a percentage of
+gross rent taken from the year-by-year vector:
+
+```
+GROSS RENTAL INCOME              sum of tenant cash rents
+Less structural vacancy          = −gross × vacancy% for that year
+NET RENTAL INCOME
+```
+
+> **Do not double count.** The gross rental income line has *already* lost
+> the rent of any tenant whose occupied flag is 0. Applying a structural
+> allowance on top is an allowance against the rent you still expect to
+> collect — which is the correct treatment, but only if you say so. If you
+> instead set the structural rate high enough to "cover" the known expiries
+> as well, you have charged for the same vacancy twice.
+
+### Incentives cost money beyond the rent-free period
+
+v1 models an incentive purely as abatement — cash rent × `(1 − rentfree)`.
+Real incentives also cost capital, and a re-letting costs agency fees. v2
+adds both, as lump sums in the month the new lease commences:
+
+```
+Fitout contribution   = −area × fitout $/m² for that year
+Leasing commission    = −area × new passing rent × commission% for that year
+```
+
+For fictional Tenant A (700 m², re-letting in month 41, which falls in
+year 4):
+
+```
+Fitout       700 × $300                     = $210,000.00
+Commission   700 × $455.5544 × 15%          = $ 47,833.22
+                                              ───────────
+Year 4 leasing cost                           $257,833.22
+```
+
+Tenant C adds $52,210.76 in year 6. **$310,043.98 of cost that v1 does not
+show at all**, and it lands in exactly the years the income has already
+dipped.
+
+### What all of it does to the answer
+
+Each change applied in turn, on otherwise identical assumptions:
+
+| Step | NPV | Change | IRR |
+|---|---|---|---|
+| v1 baseline — flat rates, blended 5.5% | $721,237 | — | 8.8548% |
+| + itemised acquisition costs | $633,212 | −$88,025 | 8.6824% |
+| + structural vacancy allowance | $416,678 | −$216,534 | 8.2818% |
+| + fitout & leasing commission | $177,550 | −$239,128 | 7.8330% |
+| + longer rent-free in the soft years | $116,805 | −$60,745 | 7.7191% |
+| + year-by-year rent & outgoings growth | **−$170,869** | −$287,674 | 7.1748% |
+
+> **The same property, the same price, the same discount rate — and the NPV
+> travels from +$721,237 to −$170,869.** Not one of those five steps is
+> exotic. Every one is a line an experienced analyst would expect to see.
+> This is the real lesson of the exercise: a DCF's output is an argument
+> about its assumptions, and a model that omits the uncomfortable lines will
+> tell you what you want to hear. When you present A1, the defensible claim
+> is not "the NPV is $X" — it is "the NPV is $X **given these assumptions**,
+> and here is how far they can move before the answer changes."
+
+> **Three decision tests can disagree, and that disagreement is the
+> finding.** At the v2 base case the equity IRR (8.39%) clears the AREIT's
+> 7.0% target, but the NPV is negative and the property IRR (7.17%) is below
+> the 7.5% required return. All three statements are true. They differ
+> because they are measured against different benchmarks, and because equity
+> IRR is geared. Report all three and say which one you are recommending on.
+
 ## Summary
 
 - The teaching workbook is fictional; take its structure and formulas, never
@@ -530,3 +714,11 @@ they are not reproduced in the brief.
   of selling costs.
 - `NPV = Σ PVs − total acquisition outlay`. Annualise IRR by compounding.
 - Reconcile monthly to annual as a visible row in the sheet.
+- Set growth, vacancy and incentives **year by year** on an escalations
+  sheet, with year 1 growth locked at zero and a cumulative index doing the
+  compounding. Flat rates are a choice you have to defend.
+- **Itemise acquisition costs.** Transfer duty is a stepped scale, not a
+  percentage — look it up, and verify the current scale with the QRO.
+- Structural vacancy, fitout contributions and leasing commission are all
+  real lines that a simple model omits. Adding them moved this deal's NPV
+  from **+$721,237 to −$170,869**.

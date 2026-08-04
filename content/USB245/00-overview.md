@@ -146,8 +146,11 @@ principles), the Week 1 tutorial (financial maths recap), the Week 2 lecture
 (DCF and cashflow components), the Week 3 tutorial and its solution workbook
 `Week 3_solution.xlsx`, the `DCF_Sample.xls` commercial reference model, the
 USB245 Assignment Brief 2026, the information memorandum for 41 Park Road,
-Milton, and the `USB245_worked_example_DCF_FICTIONAL.xlsx` teaching workbook.
-All live in `2nd Year/Sem 2/USB245/`.
+Milton, and the `USB245_worked_example_DCF_FICTIONAL.xlsx` teaching workbook
+with its extended version `USB245_worked_example_DCF_v2.xlsx` (itemised
+acquisition costs, structural vacancy, explicit leasing incentives and a
+year-by-year escalations sheet — see note 06, §4.10). All live in
+`2nd Year/Sem 2/USB245/`.
 
 > **The DCF workbook is fictional and says so on its first sheet.** It
 > models "200 Teaching Lane, Milton" — an invented property with invented

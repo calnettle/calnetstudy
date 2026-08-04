@@ -246,6 +246,54 @@ Year index for the roll-up:        ROUNDUP(month / 12, 0)
 Test both at month 1, month 12 and month 13 before you copy the column
 across.
 
+### When the rate is not flat
+
+One rate for the whole hold is a choice you have to defend. To vary it by
+year, put a growth vector on an escalations sheet and compound it once into
+a **cumulative index**, then look the index up:
+
+```
+Year 1 index = 1.0000                  ← no growth in the year you buy
+Year n index = Year (n−1) index × (1 + growth entering year n)
+
+In the cashflow:   = base × INDEX(index_row, year_index_of_this_month)
+                   ← replaces  base × (1+g)^INT((m−1)/12)
+```
+
+Same result when every year carries the same rate, so there is no cost to
+building it this way.
+
+> **Lock year 1's growth cell at zero.** You are already at today's rent in
+> year 1. A growth rate there escalates every rent one year early and the
+> error compounds into the terminal value.
+
+> **Look up the index by the year the month falls in.** For a re-letting
+> event at month *M*, the year is `INT(M/12)+1` — this is *not* the same as
+> `ROUNDUP(M/12,0)` when *M* is an exact multiple of 12. Check month 48.
+
+## Transfer Duty (Queensland)
+
+A stepped scale, not a percentage. It must be looked up:
+
+```
+Duty = fixed amount for the bracket
+     + rate per $100 × (value − bracket threshold) / 100
+
+At $9,000,000:  38,025 + 5.75 × (9,000,000 − 1,000,000)/100  =  $498,025
+```
+
+In Excel, hold the brackets as a table and use `INDEX`/`MATCH(...,1)` on the
+price so the model updates in one place.
+
+> **Verify the current scale with the Queensland Revenue Office before you
+> submit.** Duty rates and surcharges change, and a half-remembered scale is
+> a five-figure error.
+
+> **A stepped scale breaks both maximum-price shortcuts.** `PV × (1 − acq%)`
+> and `PV ÷ (1 + acq%)` both assume acquisition costs are a constant
+> percentage. When duty steps, the percentage moves with the price — use
+> **Goal Seek** on the NPV cell for an exact maximum price.
+
 ## Re-letting Sequence
 
 ```
@@ -430,6 +478,22 @@ One line each. Each of these changes an answer.
   *reduces* the cost base.
 - **A DCF with no capex line has modelled a bond, not a building.**
   Obsolescence is specific to property as an asset class.
+- **A blended acquisition-cost percentage is usually too low.** Itemised —
+  duty, legals, due diligence, registration — the teaching example comes to
+  6.478%, not the 5.5% assumed. That gap alone cost $88,025 of NPV.
+- **Transfer duty is a stepped scale, not a flat rate.** Look it up, and
+  verify the current scale with the QRO.
+- **Structural vacancy and lease-expiry downtime are different lines.** The
+  occupied flag handles known expiries; a structural allowance covers
+  incidental voids and bad debt. Charging one rate to do both double counts.
+- **Incentives cost more than the rent-free period.** Fitout contributions
+  and leasing commission are cash, paid at lease commencement, and they land
+  in the years income has already dipped — $310,044 in the teaching example.
+- **Vary growth, vacancy and incentives by year.** A flat rate across seven
+  years is an assumption a marker can challenge and you cannot evidence.
+- **NPV, property IRR and equity IRR can disagree.** Different benchmarks,
+  and equity IRR is geared. Report all three and name the one you recommend
+  on.
 
 ### Week 3 — Cashflow Components
 
