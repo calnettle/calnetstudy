@@ -1,6 +1,6 @@
 # FORMULA SHEET & EXAM TRAPS
 
-Everything from Weeks 1–2 and the assignment model, on one page.
+Everything from Weeks 1–3 and the assignment model, on one page.
 
 ## Returns
 
@@ -124,6 +124,61 @@ For a purchase, step 6 is a **subtraction**:
 NPV = Σ PVs − price × (1 + acquisition cost %)
 ```
 
+## The Cashflow Waterfall (Week 3)
+
+```
+        Gross (potential) income      every m² let, all of the time
+  less  Vacancy allowance             % of gross potential
+  ────────────────────────────────
+      = Gross (effective) income
+
+  less  Statutory charges             council rates, water rates, LAND TAX
+  less  Operating expenses            insurance, maintenance/service/repairs,
+                                      management fees
+  ────────────────────────────────
+      = Net (operating) income
+```
+
+Net income across the holding period, in four objects:
+
+```
+Period 0     price + acquisition costs          = price × (1 + T)
+Period 1..n  gross − vacancy − expenses, per period
+Period n     terminal value − selling costs
+Period n+1   net income only — no cashflow; it prices the exit
+```
+
+For every line, ask **WHEN** (which column), **WHAT** (which row) and
+**HOW** (from leases, the tenancy schedule, outgoings budgets, market
+research, CPI estimates).
+
+## Unit Conversions That Cost Marks
+
+```
+Weekly rent    → annual:      × 52          (not × 4 × 12 = 48)
+Monthly figure → annual:      × 12
+Quarterly      → annual:      × 4           (not × 12)
+Annual $/m²    → monthly:     / 12
+```
+
+## Maximum Price Payable vs Expected Return
+
+Step 7 answers one of two questions, depending on which cell you left blank:
+
+```
+Price unknown  →  MAXIMUM PRICE PAYABLE
+                  the deduct method (as taught):   PP = Σ PV × (1 − T)
+                  the gross-up   (algebraic):      PP = Σ PV / (1 + T)
+
+Price fixed    →  EXPECTED RETURN (IRR)
+                  solve r such that  Σ CFt/(1+r)^t = price × (1 + T)
+```
+
+The two conventions differ. On the Week 3 exercise: $895,988 vs $897,424,
+a gap of $1,435.88 (note 05 §7.5). Grossing up is the internally consistent
+one, because acquisition costs are a percentage *of price*. State which you
+used.
+
 ## Monthly Conversions
 
 ```
@@ -152,6 +207,33 @@ Terminal NOI    = Year n NOI × (1 + g)          ← the FORWARD year
 Gross TV        = Terminal NOI / terminal cap rate
 Net TV          = Gross TV × (1 − selling cost %)
 PV of TV        = Net TV / (1 + r)^n
+```
+
+The exit multiplier — how much a $1 error in year n+1 income costs:
+
+```
+Δ sale price = Δ NI(n+1) × (1 / terminal yield)
+
+at 3.5%  → × 28.57       at 6.0%  → × 16.67
+at 4.5%  → × 22.22       at 7.0%  → × 14.29
+at 5.5%  → × 18.18       at 8.0%  → × 12.50
+```
+
+Coherence check on any terminal yield, before you defend it:
+
+```
+r ≈ y + g        terminal yield + expected income growth ≈ required return
+```
+
+Week 3's exercise: `3.5% + 7.0% = 10.5%` against a 10% required return —
+tight but coherent. A 3.5% exit yield with 2% growth would not be.
+
+The final-period cashflow is **three** things, not one:
+
+```
+Period n net cashflow = year n net income
+                      + terminal value
+                      − selling costs
 ```
 
 ## Escalation in a Monthly Model
@@ -211,6 +293,47 @@ Capital gains tax cost base:
 Cost base = acquisition outlay + capital expenditure − Div 43 already claimed
 Gain      = net sale proceeds − cost base
 ```
+
+## Excel Function Map
+
+The Week 3 solution's whole model, as formulas. Each row is copied across;
+only the assumption cells are typed.
+
+| Row | Formula | Note |
+|---|---|---|
+| Gross income, period 1 | `=C4*52` | Weekly rent, annualised in the cell |
+| Gross income, period t | `=C15*(1+$C5)` | Relative row, absolute rate |
+| Less vacancy | `=C15*$C$8` | % of that period's gross |
+| Expenses, flat | `=C18` | What Exercise 1 does |
+| Expenses, inflated | `=C18*(1+$C$10)` | What Exercise 1a does |
+| Net income | `=C15-C18-C16` | The waterfall |
+| Sale price | `=H19/C11` | Year **n+1** NI ÷ terminal yield |
+| Selling costs | `=G20*C12` | % of sale price |
+| Final net cashflow | `=G19+G20-G21` | NI + sale − selling costs |
+| Discount factor | `=1/(1+$C3)^C14` | Exponent read from the period row |
+| PV | `=C22*C23` | |
+| Sum of PVs | `=SUM(C24:G24)` | Stops at period n — **not** n+1 |
+| Acquisition costs | `=B25*C9` | Class method |
+| Maximum price | `=B25-B27` | |
+
+Elsewhere in the assignment model:
+
+```
+=SUMIFS(monthly row, year-index row, year)     monthly → annual roll-up
+=INT((month-1)/12)                             annual escalation step
+=ROUNDUP(month/12, 0)                          year index
+=IRR(range)                                    monthly IRR; then (1+i)^12−1
+=NPV(rate, range)                              EXCLUDES period 0 — add it
+                                               back outside the function
+=MAX(taxable, 0)                               no refunds on a loss year
+```
+
+> **Excel's `NPV()` does not return an NPV.** It discounts the range as if
+> the first cell were period **1**, and it does not include period 0. The
+> correct pattern is `=NPV(rate, CF1:CFn) + CF0`, with `CF0` negative. Both
+> the Week 3 solution and the teaching workbook avoid the function entirely
+> and build explicit discount-factor rows, which is also what the brief's
+> "show all your formula" requirement wants.
 
 ---
 
@@ -308,6 +431,53 @@ One line each. Each of these changes an answer.
 - **A DCF with no capex line has modelled a bond, not a building.**
   Obsolescence is specific to property as an asset class.
 
+### Week 3 — Cashflow Components
+
+- **Period 0 ADDS acquisition costs.** The deck's concept-check slide says
+  "purchase price less acquisition costs"; the initial-outlay slide says
+  "acquisition price **+** acquisition costs". The outlay is
+  `price × (1 + T)`. The "less" belongs to step 6, not to period 0.
+- **Weekly × 52, quarterly × 4.** Treating a per-quarter statutory charge as
+  monthly costs $82,451 of maximum price on the Week 3 exercise.
+- **There are two grosses.** Gross *potential* income is before vacancy;
+  gross *effective* income is after it. Name which one your ratio uses.
+- **Land tax is statutory and usually not recoverable.** It is the line most
+  often left out — including by the 41 Park Road IM's own quarterly total.
+- **Income growth and expense growth are two rates.** Escalating rent while
+  freezing outgoings manufactures margin: worth 2.34% of the answer in the
+  Week 3 exercise.
+- **Vacancy set as a % of gross needs no growth rate of its own** — it
+  escalates with the rent. Expenses do need one.
+- **Period n+1 carries income but no cashflow.** It exists only to price the
+  exit. Including it in the sum of PVs double-counts the sale.
+- **The exit multiplier is `1 / terminal yield`.** At a 3.5% exit yield a $1
+  error in year n+1 income is a $28.57 error in the sale price. Check that
+  column harder than any other.
+- **Sanity-check any terminal yield against `r ≈ y + g`.** A 3.5% exit with
+  7% growth implies 10.5% — coherent with a 10% required return. The same
+  3.5% with 2% growth is not defensible.
+- **The final period's cashflow is three things** — year n income, plus the
+  terminal value, less selling costs. A cell holding only the sale price is
+  missing a year of rent.
+- **Sensitivity belongs on the exit yield first.** 100 bp on the terminal
+  yield moved the Week 3 answer 4.56 times as far as 100 bp on the discount
+  rate, because 88.2% of present value sits in the terminal cashflow.
+- **The discount rate and the terminal yield are different numbers doing
+  different jobs.** The first prices your holding period; the second prices
+  the next buyer's. 10% and 3.5% in the same model is not an inconsistency.
+- **Step 7 has two possible answers.** Price unknown → maximum price payable.
+  Price fixed → expected return. They must point the same way; if the max
+  price is below the asking price, the expected return must be below the
+  required return.
+- **Decide whether acquisition costs are inside the return.** The Week 3
+  house returns 10.08% on the price alone and 9.17% once the 4% is included
+  — pass and fail on the same deal.
+- **`=NPV()` in Excel excludes period 0 and starts at period 1.** Use
+  `=NPV(rate, CF1:CFn) + CF0`, or build explicit discount factors.
+- **A sum range that starts one column too far left picks up period 0.** The
+  Week 3 model deliberately leaves period 0 empty because price is the
+  unknown; A1's period 0 is a real negative outlay and must be included.
+
 ### Reporting
 
 - **Say which return you are reporting** — required or expected, ungeared or
@@ -346,3 +516,30 @@ The Movement Standard's monthly rent should be $16,475.85 (not $16,475.00);
 the Land Tax "per quarter" figure of $2,458.33 is a monthly figure (quarterly
 is $7,375.00); and the quarterly outgoings total of $16,966.10 omits land tax
 entirely (correct total $24,341.10).
+
+### Quick Reference — the Week 3 Exercise
+
+```
+Rent $775/wk    g 7%    n 5 yrs    r 10%    TY 3.5%
+Outgoings $511.25/qtr + $5,360 pa       Vacancy 5%
+Selling 3%      Acquisition 4%          Asking price $930,000
+
+Year 1 net income                       $   30,880.00
+Year 6 (n+1) net income                 $   46,291.69
+Sale price   = 46,291.69 / 0.035        $1,322,619.80
+Selling costs at 3%                     $   39,678.59
+Period 5 net cashflow                   $1,325,720.03
+Sum of PVs (periods 1–5)                $  933,320.72
+Maximum price — class method            $  895,987.89
+Maximum price — gross-up                $  897,423.77
+Expected return at $930,000, price only       10.08%
+Expected return at $930,000 + 4% costs         9.17%
+Terminal share of present value                88.2%
+With expenses inflated at 3% (Ex 1a)    $  874,997.99
+```
+
+Two things in the Week 3 material that are wrong or ambiguous: the lecture
+slide prints **$1,325,720 as the sale price** when that figure is the period
+5 net cashflow (the sale price is $1,322,619.80); and step 6 deducts 4% of
+the *present value* when the assumption cell defines it as 4% of the *price*,
+a $1,435.88 difference. Both are set out with the algebra in note 05 §7.5.
