@@ -270,7 +270,10 @@ mechanisms" as part of the income growth profile.
 > in [Formula Sheet & Exam Traps](#/USB244/05-formula-sheet).
 >
 > Calculating WALE from a tenancy schedule is the **Week 3 tutorial** — this
-> tutorial only asks you to find the figure in the IM and understand it.
+> tutorial only asks you to find the figure in the IM and understand it. The
+> full method at an EOI date, including every edge case the assessment FAQ
+> decides (vacant space, holdover tenants, car parking, signage, options), is
+> in [Assessment 1 Part A](#/USB244/06-assessment-1-part-a-guide).
 
 ## 3.7 Outgoings
 
@@ -305,9 +308,11 @@ Week 4 tutorial.
 
 > **Non-recoverable outgoings are the line to attack in Part A.** Every dollar
 > of the $111,400 is a dollar off NI, and at a 6% cap rate each dollar
-> destroys about **$16.53** of capital value. Cutting non-recoverables by
-> $20,000 through better lease drafting at renewal is worth roughly $330,000
-> of capital value — with no rent increase at all.
+> destroys **$16.67** of capital value (`1 / 0.06`). Cutting non-recoverables
+> by $20,000 through better lease drafting at renewal is worth roughly
+> **$333,000** of capital value — with no rent increase at all. Method for
+> presenting this against the PCA benchmark is in
+> [Assessment 1 Part A](#/USB244/06-assessment-1-part-a-guide).
 
 The **asset overview** section covers building services — HVAC, gardening,
 cleaning — and the tutorial asks how these impact. They are simultaneously

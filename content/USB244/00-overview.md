@@ -13,6 +13,8 @@ Living document. Weeks 1–2 complete. Add new topics as lectures are released.
 | 03 | Tutorial 1 — Reading an Information Memorandum | Full worked walk-through of the Richlands Plaza IM, every figure reconciled |
 | 04 | Extra Practice Questions | Exam-style questions across both topics |
 | 05 | Formula Sheet & Exam Traps | Everything you need on one page |
+| 06 | Assessment 1 Part A — Property Manager Performance | Rubric-driven word budget, WALE at the EOI date with every FAQ edge case decided, ancillary and non-space income, PCA outgoings benchmarking, site-visit checklist |
+| 07 | Assessment 1 Part B — Strategic Asset Management Plan | Portfolio WALE and concentration, ancillary income at portfolio scale, the three timeframes, proptech and AI, all three scenario factors quantified |
 
 ## Learning outcomes
 
@@ -37,13 +39,28 @@ phrase your report conclusions in their language:
 | 1 (Part B) — Report, forecasting and strategy | 7 Oct 2026, 11:59pm | 30% | Group of 4 |
 | 2 — Final exam | QUT Central Examination | 50% | Individual |
 
-**Part A is a prerequisite for Part B.** Part A is a historical analysis of
-*one* property, looking back three years from the EOI date of its
-Information Memorandum. Four students each analyse a different property
-(A, B, C, D), then those four analyses feed the group's Part B.
+**Part A is a prerequisite for Part B.** Part A reviews *two* properties in
+the same sector — one from a site visit (primary data) and one from an
+Information Memorandum (secondary data) — looking back three years from the
+**EOI date** of the IM. Each group member uses a different IM, and at least
+three of those become the group's Part B portfolio.
 
-The chain is: pick an IM → analyse it individually → pool four properties
-into a group forecast and strategy.
+The chain is: attend a site visit and pick an IM → review both individually
+→ pool at least three properties into a group forecast, SAM plan and scenario
+analysis.
+
+Full guides: [Part A](#/USB244/06-assessment-1-part-a-guide) ·
+[Part B](#/USB244/07-assessment-1-part-b-sam-plan).
+
+| | Part A | Part B |
+|---|---|---|
+| Weight | 20% | 30% |
+| Words | 1,500 (±10%), excl. exec summary, tables, appendices | 5,000 |
+| Compulsory calculations | WALE (income **and** area) at the EOI date; outgoings benchmarked against PCA | Portfolio-level metrics, scenario modelling |
+| Direction | Historical — *"not a recommendation for future actions"* | Forward — 10 years, short / medium / long |
+| Rubric | Supplied — 20 points across 5 criteria | **Not yet supplied** — get it off Canvas |
+
+An automatic 48-hour extension applies to Assessment 1 per the unit outline.
 
 ## Suggested milestones
 
@@ -67,6 +84,13 @@ The lecturer's own week-by-week schedule for Part A:
 > recycled from last year without updating. The assessment due dates above
 > (2 Sep / 7 Oct 2026) come from the current unit information slide and are
 > the ones to trust. Confirm everything else on Canvas.
+>
+> The **assessment brief and FAQ are recycled too**: the FAQ links to a
+> library page tagged `USB244_25se2` (Semester 2 **2025**), the Part B
+> scenario forecasts an RBA cash rate "by the end of **2025**", the IM
+> cut-off is "pre-March **2025**", and the Part A rubric is headed
+> "Assessment **2** (Part A)" when Assessment 2 is the final exam. Each is
+> flagged where it matters in the Part A and Part B guides.
 
 ## How these notes are built
 
@@ -86,3 +110,6 @@ lecture on commercial and industrial PM theories, the Week 2 tutorial on
 reading an Information Memorandum, the Richlands Plaza IM itself, and Phil
 Levesque's guest lecture on commercial property management in practice.
 All live in `2nd Year/Sem 2/USB244/`.
+
+The two assessment guides are compiled from the Assessment 1 brief, the unit
+FAQ page and the Part A CRA rubric.

@@ -82,6 +82,105 @@ Richlands Plaza: income 3.76 years, area 4.02 years — the anchor case.
 
 Calculating WALE from a tenancy schedule is the **Week 3** tutorial.
 
+**Remaining term**, calculated at the assessment's **EOI date**:
+
+```
+remaining term (years) = (lease expiry date − EOI date) / 365.25
+```
+
+**What goes in, decided** (assessment FAQ):
+
+| Schedule line | Income WALE | Area WALE |
+|---|---|---|
+| Vacant tenancy | Omit | **Include at 0 years** |
+| Holdover / monthly | Omit | Omit — state the assumption |
+| Car park, no separate lease | In that tenancy's gross rent | Follows the tenancy |
+| Car park, separately licensed | **Include** | No area — discuss |
+| Signage | Include if car parking is included | No area — discuss |
+| Tenant with an option | Assume **not** exercised | Assume **not** exercised |
+
+### Portfolio WALE
+
+```
+Portfolio WALE (income) = Σ (asset net income × asset WALE) / Σ (asset net income)
+Portfolio WALE (area)   = Σ (asset area       × asset WALE) / Σ (asset area)
+```
+
+Never the simple average of the asset WALEs — that weights a small asset
+equally with a large one.
+
+## Ancillary / Non-Space Income
+
+Income that occupies no lettable area: rooftop telecommunications, signage,
+ATMs, media screens, casual mall leasing, car parking, EV charging, storage,
+utility on-selling (embedded network), percentage rent.
+
+```
+Ancillary share  = ancillary income / gross income
+Value            = ancillary income / cap rate      ← usually a HIGHER cap rate
+```
+
+Richlands Plaza:
+
+```
+ATMs 19,706 + sundry 62,127 + % rent 10,441 = 92,274   = 3.31% of gross income
+
+capitalised at 6.0%  $1,537,900
+              7.0%   $1,318,200
+              8.0%   $1,153,425     ← 25% less than at 6%
+```
+
+**Effect on WALE** — zero-area income lines move the income WALE only:
+
+| Driver | Which WALE is higher |
+|---|---|
+| Big anchor, long lease, low $/sqm | **Area** WALE (Richlands 4.02 > 3.76) |
+| Long zero-area licences (telco, signage) | **Income** WALE |
+
+A $28,000 p.a. rooftop telco lease with 15 years to run — 2.2% of income —
+lifts an income WALE from 5.21 to **5.43** years and leaves the area WALE
+untouched. Casual mall leasing is excluded from the WALE altogether (nominal
+term), so a centre with material CML income has a WALE that overstates the
+security of its *total* income.
+
+## Outgoings Benchmarking (PCA)
+
+```
+Outgoings per sqm   = outgoings $ / lettable area     ← NLA for office, GLA/GLAR for retail
+Outgoings ratio     = total outgoings / gross income
+Recoverable         = statutory + operating
+Non-recoverable     = straight off net income
+```
+
+Richlands Plaza, worked:
+
+```
+Statutory        147,349   $29.79/sqm    24.4% of outgoings
+Operating        345,032   $69.75/sqm    57.1%
+Non-recoverable  111,400   $22.52/sqm    18.5%
+                 ───────   ──────────
+                 603,781  $122.05/sqm  · GLA 4,947 sqm
+Outgoings ratio  603,781 / 2,791,905 = 21.63% of gross market income
+```
+
+Match the **benchmark year to the EOI date**, and the **benchmark sector** to
+the asset (office vs retail). If the matching year is unavailable, use the
+latest and justify it in the report.
+
+### Cap rate sensitivity — the number to quote
+
+On $2,188,124 of net income:
+
+| Cap rate | Value | vs 6.00% |
+|---:|---:|---:|
+| 5.50% | $39,784,073 | +9.09% |
+| 5.75% | $38,054,330 | +4.35% |
+| **6.00%** | **$36,468,733** | — |
+| 6.25% | $35,009,984 | −4.00% |
+| 6.50% | $33,663,446 | −7.69% |
+
+**25 basis points ≈ 4% of capital value.**
+
 ## PCA Measurement — the one table to memorise
 
 | | **NLA** | **GLA** |
@@ -241,5 +340,25 @@ and warehousing 44%, retail trade 19%.
 
 > **15. The slide decks contradict themselves on dates and one figure.** Site
 > visits appear as both 2025 and 2026; 360 Queen Street is 45,000 sqm in one
-> place and 50,000 sqm in another; the Jan-25 slide misdates Sydney's 18%
-> vacancy as January 2025 when it is July 2024. Check Canvas, and cite ranges.
+> place and 50,000 sqm in another; Waterfront Brisbane delivers its first
+> tower in "2026" per the pipeline slide but "2028" per the assessment brief;
+> the Jan-25 slide misdates Sydney's 18% vacancy as January 2025 when it is
+> July 2024. Check Canvas, and cite ranges.
+
+> **16. WALE is calculated at the EOI date, not today** — and vacant space is
+> in the area WALE at zero years but out of the income WALE. Not out of both.
+
+> **17. Portfolio WALE is income- or area-weighted, never a simple average**
+> of the asset WALEs.
+
+> **18. Losing an anchor costs more than the lost rent.** The cap rate
+> re-rates too. On Richlands' numbers the income fall is 47.1% and the total
+> value fall, with the cap rate moving 6.00% → 7.50%, is **57.7%**.
+
+> **19. Never benchmark $/sqm across different area bases.** GLA is always
+> larger than NLA for the same envelope, so the same dollars give a lower
+> $/sqm on GLA. Office benchmarks on NLA, retail on GLA/GLAR.
+
+> **20. Ancillary income is not capitalised like base rent.** Short, unsecured
+> and foot-traffic dependent — a 200 bp premium costs 25% of its value. And it
+> falls *with* the anchor, because it prices off the same foot traffic.
