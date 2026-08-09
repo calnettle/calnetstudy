@@ -267,13 +267,13 @@ mechanisms" as part of the income growth profile.
 > huge area and long term, pulls the area WALE up but contributes less
 > income. The shorter leases are the higher-rent specialties. Income is
 > therefore rolling over faster than floor area is. Formula and full method
-> in [Formula Sheet & Exam Traps](#/USB244/05-formula-sheet).
+> in [Formula Sheet & Exam Traps](#/USB244/07-formula-sheet).
 >
 > Calculating WALE from a tenancy schedule is the **Week 3 tutorial** — this
 > tutorial only asks you to find the figure in the IM and understand it. The
 > full method at an EOI date, including every edge case the assessment FAQ
 > decides (vacant space, holdover tenants, car parking, signage, options), is
-> in [Assessment 1 Part A](#/USB244/06-assessment-1-part-a-guide).
+> in [Assessment 1 Part A](#/USB244/08-assessment-1-part-a-guide).
 
 ## 3.7 Outgoings
 
@@ -312,7 +312,7 @@ Week 4 tutorial.
 > by $20,000 through better lease drafting at renewal is worth roughly
 > **$333,000** of capital value — with no rent increase at all. Method for
 > presenting this against the PCA benchmark is in
-> [Assessment 1 Part A](#/USB244/06-assessment-1-part-a-guide).
+> [Assessment 1 Part A](#/USB244/08-assessment-1-part-a-guide).
 
 The **asset overview** section covers building services — HVAC, gardening,
 cleaning — and the tutorial asks how these impact. They are simultaneously

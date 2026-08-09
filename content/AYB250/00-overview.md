@@ -2,12 +2,14 @@
 
 QUT · 2nd Year, Semester 2 · **Personal Financial Planning**
 
-> **These notes cover Weeks 1 and 2 only.** The unit is running right now —
-> Semester 2 2026 — so only the first two lectures and the Part A assignment
-> brief exist in the source folder. Everything from Week 3 onwards
-> (taxation planning, insurance, superannuation, social security, estate
-> planning, the Statement of Advice) is **not written yet**, because there is
-> nothing to write it from. Don't read a gap here as "not examinable".
+> **These notes cover Weeks 1 to 3.** The unit is running right now —
+> Semester 2 2026 — so only the first three lectures and the Part A
+> assignment brief exist in the source folder. Everything from Week 4
+> onwards (the Week 3 closing slide names asset allocation and investment
+> next, followed by insurance, superannuation, social security, estate
+> planning, and the Statement of Advice) is **not written yet**, because
+> there is nothing to write it from. Don't read a gap here as "not
+> examinable".
 
 ## What is actually in the source
 
@@ -15,6 +17,7 @@ QUT · 2nd Year, Semester 2 · **Personal Financial Planning**
 |---|---|
 | `Lecture/AYB250 Week 1.pptx` + `.pdf` | 41 slides — what financial planning is, its history, why it is growing, the regulators, the Corporations Act disclosure documents |
 | `Lecture/AYB250 Week 2.pptx` | 60 slides — personal financial statements, the four ratios, time value of money, annuities, NPV/IRR, tax and inflation on returns |
+| `Lecture/AYB250 Week 3.pptx` | 77 slides — taxation planning: the tax system, deductions, offsets, Medicare/MLS/HECS, investment income, CGT (current rules and the 1 July 2027 changes), tax structures, negative gearing, salary packaging, FBT, GST |
 | `AYB250 Part A Individual Project.docx` | The full Part A brief: case study, the eight sheets to complete, integrity rules |
 | `AYB250_PartA_StudentNumber_Surname.xlsx` | The blank Excel template — 11 sheets, pre-populated case data and 2026-27 rates |
 
@@ -28,9 +31,11 @@ no past exam papers and no textbook chapters in it.
 | 01 | Topic 1 — Financial planning and regulation | Week 1. Definition, history, FOFA, the five regulators, AFSL / FSG / PDS / SoA, best interests duty |
 | 02 | Topic 2 — Personal financial statements and ratios | Week 2, first half. Cash flow budget, personal balance sheet, the four planning ratios |
 | 03 | Topic 2 — Time value of money and investment maths | Week 2, second half. Simple and compound interest, effective rates, annuities, NPV, IRR, tax and inflation |
-| 04 | Individual Project Part A | The case study worked end to end, with every figure verified |
-| 05 | Practice questions | Exam-style, answers hidden |
-| 06 | Formula sheet and exam traps | Everything on one page |
+| 04 | Topic 3 — Income tax and deductions | Week 3, first half. The tax system, the 2026-27 rate scale, deductions (including the new standard deduction), Medicare levy/MLS/HECS, tax offsets, LITO, minors |
+| 05 | Topic 3 — Investment tax and planning | Week 3, second half. Interest/rental/dividend income, franking credits, CGT (current rules and the 1 July 2027 changes), tax structures, negative gearing, salary packaging, FBT, GST |
+| 06 | Individual Project Part A | The case study worked end to end, with every figure verified |
+| 07 | Practice questions | Exam-style, answers hidden |
+| 08 | Formula sheet and exam traps | Everything on one page |
 
 ## Assessment
 
@@ -64,7 +69,7 @@ worth repeating exactly: earlier editions have similar content, but **many
 rates and thresholds will be out of date**, and updated rates are given in
 lectures. The Week 2 slides are screenshots straight out of the 2nd-edition
 Chapter 2, so the textbook's worked examples and the lecture's worked
-examples are the same numbers.
+examples are the same numbers. Week 3's reading is **Chapter 3**.
 
 E-book access through the library is limited to three simultaneous users, per
 the speaker notes on the textbook slide.
@@ -97,10 +102,23 @@ tutorial questions before the Week 2 tutorial.
   them in complex scenarios
 - Explain the effect of taxation and inflation on the rate of return
 
-Week 2's closing slide says the next topic is **taxation planning**, and
-Week 1's closing slide flags Week 2 as "very important for your individual
-project". Both are consistent with the Part A brief, which spans "Topics 1–3
-— financial statements, taxation, budgeting, and goal-based planning".
+**Week 3** (readings: Chapter 3)
+
+- Calculate net tax payable for an individual, including levies and tax
+  offsets
+- Understand the taxation of investment returns, including capital gains
+  tax
+- Identify a range of common tax-effective strategies
+- Explain remuneration planning and the taxation implications of salary
+  packaging and fringe benefits tax (FBT)
+- Explain the goods and services tax (GST)
+
+Week 2's closing slide said the next topic was **taxation planning**, which
+Week 3 delivered in full. Week 1's closing slide flagged Week 2 as "very
+important for your individual project" — both are consistent with the Part
+A brief, which spans "Topics 1–3 — financial statements, taxation,
+budgeting, and goal-based planning". Week 3's own closing slide names
+**asset allocation and investment** as next.
 
 ## The AI rule for Part A
 
@@ -118,12 +136,13 @@ the technique and verify the arithmetic — they are not a submission.
 
 ## What was checked, and what disagrees
 
-Every number in Topics 02, 03 and 04 was recomputed in Python before it was
-written down. The lecture's own arithmetic is unusually clean — the four
-ratios, the annuity examples, the NPV table and the compound-interest table
-all reconcile exactly. Four things do not:
+Every number in Topics 02 to 05 and the Individual Project note was
+recomputed in Python before it was written down. The lecture's own
+arithmetic is unusually clean — the four ratios, the annuity examples, the
+NPV table, the compound-interest table and most of the Week 3 tax
+worked examples all reconcile exactly. Seven things do not:
 
-> **Four flagged issues, each detailed in the topic notes.**
+> **Seven flagged issues, each detailed in the topic notes.**
 >
 > 1. **Week 2 slide 58** — the footnote says the example assumes inflation of
 >    5% p.a., but the table subtracts **4.0%**. The table is internally
@@ -138,13 +157,25 @@ all reconcile exactly. Four things do not:
 > 4. **Week 2 slide 55** — linear interpolation gives an IRR of 12.7%; the
 >    true IRR of that cash flow is **12.59%**. The method is the syllabus
 >    method, but know that it overstates.
+> 5. **Week 3 slide 29** — Sophie's worked total is stated as
+>    "$5,490 + $998 = $6,488", which matches none of the deck's own line
+>    items. Tax payable ($5,445) + Medicare levy ($995) = **$6,440**.
+> 6. **Week 3 slide 32** — the LITO working shows `4 750 × 0.015 = $71.20`
+>    (exact value **$71.25**), and the final net tax payable is stated as
+>    "$6,186.23" where the deck's own numbers give **$6,186.25**.
+> 7. **Week 3 slide 52** — Tobias's capital-gains "tax payable" is
+>    calculated as the net gain × 37% flat, despite the slide's own
+>    assumption of no other income. With genuinely no other income the
+>    progressive scale gives **$40,270** (current rules) / **$33,454.60**
+>    (new rules), not $59,200 / $52,385 — though the *saving* between the
+>    two regimes, $6,815.40, is identical either way.
 >
 > Confirm each with your tutor before relying on it in an exam answer.
 
 One thing that is *not* an error but reads like one: the HECS-HELP table in
 the Excel template has a third row at $186,050 with a 10% rate and the note
 "Total income". That is a genuine cap, not a typo — the arithmetic behind it
-is shown in note 04.
+is shown in note 06.
 
 ## Source hygiene note
 
@@ -157,11 +188,15 @@ the textbook figures themselves.
 ## What is missing, plainly
 
 - No tutorial questions or solutions for any week.
-- No Week 3+ lecture material — taxation planning, insurance, super,
-  social security, estate planning, plan construction.
+- No Week 4+ lecture material — asset allocation and investment, insurance,
+  super, social security, estate planning, plan construction.
 - No exam paper, sample exam, or exam specification.
 - No Part B brief.
 - No unit outline / CRA rubric, so the mark allocation *within* Part A's
   eight sheets is unknown.
+- The Week 3 deck doesn't give a worked FBT example or the actual gross-up
+  rate — only the three-step process (taxable value → gross-up → 47%). Note
+  05 says so rather than inventing a number.
 
-When those land, add them as `07-`, `08-` and so on.
+When new lecture material lands, insert new topic notes after 05 and before
+06 (Individual Project Part A), renumbering 06 onward as needed.

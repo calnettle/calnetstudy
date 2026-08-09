@@ -2,19 +2,21 @@
 
 QUT · Semester 2, 2026 · **Property and Asset Management**
 
-Living document. Weeks 1–2 complete. Add new topics as lectures are released.
+Living document. Weeks 1–4 complete. Add new topics as lectures are released.
 
 ## Unit Map
 
 | # | Note | Covers |
 |---|---|---|
 | 01 | Topic 1 — Property and Asset Management | Nature of real property, the property manager's role, stakeholders, agency, strategic asset management, `CV = NI / CR` |
-| 02 | Topic 2 — Office and Industrial | Risk management, PCA office market, building grades, PCA measurement (NLA / GLA / GLAR), incentives, industrial |
-| 03 | Tutorial 1 — Reading an Information Memorandum | Full worked walk-through of the Richlands Plaza IM, every figure reconciled |
-| 04 | Extra Practice Questions | Exam-style questions across both topics |
-| 05 | Formula Sheet & Exam Traps | Everything you need on one page |
-| 06 | Assessment 1 Part A — Property Manager Performance | Rubric-driven word budget, WALE at the EOI date with every FAQ edge case decided, ancillary and non-space income, PCA outgoings benchmarking, site-visit checklist |
-| 07 | Assessment 1 Part B — Strategic Asset Management Plan | Portfolio WALE and concentration, ancillary income at portfolio scale, the three timeframes, proptech and AI, all three scenario factors quantified |
+| 02 | Topic 2 — Office and Industrial | Risk management, PCA office market, building grades, PCA measurement (NLA / GLA), incentives, industrial |
+| 03 | Topic 3 — Retail | Shopping centre history and classifications, PCA measurement (GLAR), configurations, design and development issues |
+| 04 | Tutorial 1 — Reading an Information Memorandum | Full worked walk-through of the Richlands Plaza IM, every figure reconciled |
+| 05 | Tutorial 2 — Reading a Tenancy Schedule (Auburn Quarter) | Full worked walk-through of a real tenancy schedule, WALE by income and area, gross income vs the net income the schedule can't answer |
+| 06 | Extra Practice Questions | Exam-style questions across Topics 1–3 and both tutorials |
+| 07 | Formula Sheet & Exam Traps | Everything you need on one page |
+| 08 | Assessment 1 Part A — Property Manager Performance | Rubric-driven word budget, WALE at the EOI date with every FAQ edge case decided, ancillary and non-space income, PCA outgoings benchmarking, site-visit checklist |
+| 09 | Assessment 1 Part B — Strategic Asset Management Plan | Portfolio WALE and concentration, ancillary income at portfolio scale, the three timeframes, proptech and AI, all three scenario factors quantified |
 
 ## Learning outcomes
 
@@ -49,8 +51,8 @@ The chain is: attend a site visit and pick an IM → review both individually
 → pool at least three properties into a group forecast, SAM plan and scenario
 analysis.
 
-Full guides: [Part A](#/USB244/06-assessment-1-part-a-guide) ·
-[Part B](#/USB244/07-assessment-1-part-b-sam-plan).
+Full guides: [Part A](#/USB244/08-assessment-1-part-a-guide) ·
+[Part B](#/USB244/09-assessment-1-part-b-sam-plan).
 
 | | Part A | Part B |
 |---|---|---|
@@ -107,9 +109,11 @@ right rather than quietly picking one.
 
 Compiled from the Week 1 lecture and unit information deck, the Week 2
 lecture on commercial and industrial PM theories, the Week 2 tutorial on
-reading an Information Memorandum, the Richlands Plaza IM itself, and Phil
-Levesque's guest lecture on commercial property management in practice.
-All live in `2nd Year/Sem 2/USB244/`.
+reading an Information Memorandum, the Richlands Plaza IM itself, Phil
+Levesque's guest lecture on commercial property management in practice, the
+Week 3 tutorial on reading a tenancy schedule, the Auburn Quarter tenancy
+schedule itself, and the Week 4 lecture on retail property and asset
+management. All live in `2nd Year/Sem 2/USB244/`.
 
 The two assessment guides are compiled from the Assessment 1 brief, the unit
 FAQ page and the Part A CRA rubric.

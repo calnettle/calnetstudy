@@ -1,11 +1,12 @@
 # PRACTICE QUESTIONS — WEEKS 3+
 
-Exam-style questions on the Week 3 material: cashflow components and the
-seven-step DCF. Answers are tap-to-reveal. Every figure was recomputed
-before it was written down — work them on paper first, then check.
+Exam-style questions on the Week 3 and Week 4 material: cashflow
+components, the seven-step DCF, and deriving the discount rate. Answers
+are tap-to-reveal. Every figure was recomputed before it was written
+down — work them on paper first, then check.
 
 Weeks 1–2 and the assignment material are in
-[Practice Questions](#/USB245/08-practice-questions).
+[Practice Questions](#/USB245/10-practice-questions).
 
 ## Section G — Cashflow Components and the Seven-Step DCF
 
@@ -269,4 +270,189 @@ agency forecasts, and an expense inflation rate sourced from an RBA or ABS
 CPI series. Then say which outgoings are recoverable, because a recoverable
 expense that escalates is a cost *and* a matching income, and a
 non-recoverable one is a cost alone.
+</details>
+
+## Section H — Deriving the Discount Rate
+
+Week 4 material. Work these on paper before opening the answers.
+
+### H1
+
+The 10-year Commonwealth government bond yields 4.35%. You assess a risk
+premium of 5.9% for a suburban industrial asset. Give the discount rate two
+ways, and state which the lecture calls more accurate.
+
+<details><summary>Answer</summary>
+
+```
+Simple sum:       r = 4.35% + 5.9%                = 10.25%
+Fully compounded: r = 1.0435 × 1.059 − 1           = 10.5066...%  →  10.51%
+```
+
+The lecture's own equation `1 + r = (1 + rV)(1 + π)(1 + rP)` compounds all
+three elements and is described as "more accurate" — here that is a 26.6
+basis point difference from the simple sum. Use the compounded form when
+asked to derive a rate from first principles.
+</details>
+
+### H2
+
+Three comparable sales give discount rates of 9.15%, 9.60% and 10.85%. You
+judge the first (9.15%) highly comparable, the second (9.60%) slightly
+superior, and the third (10.85%) notably inferior, and adopt weights of
+55%, 30% and 15% respectively. What discount rate do you adopt?
+
+<details><summary>Answer</summary>
+
+```
+0.0915 × 0.55  =  0.050325
+0.0960 × 0.30  =  0.028800
+0.1085 × 0.15  =  0.016275
+                  ─────────
+Weighted r     =  0.095400  →  9.54%
+```
+
+Weights sum to 1.00. The weighting itself is a judgement call — the mark
+is in the weights being *consistent with the stated comparability*
+(most weight on the most comparable sale), not in a single correct
+percentage split.
+</details>
+
+### H3
+
+Financing is available at 7.25% p.a. at a 70% loan-to-value ratio; equity
+investors require 12.5%. Calculate the WACC, and state the one condition
+under which this figure is a reliable discount rate for the full holding
+period.
+
+<details><summary>Answer</summary>
+
+```
+r_WACC = (0.0725 × 0.70) + (0.125 × 0.30)
+       = 0.05075 + 0.0375
+       = 0.08825  →  8.825%
+```
+
+This is reliable across the whole holding period **only if the loan is
+interest-only**. If the loan amortises, the debt balance — and therefore
+`D/V` — falls every year, so the 8.825% calculated at t=0 no longer
+describes the blended return once principal has been repaid.
+</details>
+
+### H4
+
+A fund's overall target return is 11.2%. Equity investors require 16%, and
+debt is drawn at a 55% loan-to-value ratio. What is the implied cost of
+debt?
+
+<details><summary>Answer</summary>
+
+```
+rD = (r_WACC − rE × (1 − LVR)) / LVR
+   = (0.112 − 0.16 × 0.45) / 0.55
+   = (0.112 − 0.072) / 0.55
+   = 0.040 / 0.55
+   = 0.07273  →  7.27%
+```
+
+Sense-check: debt (7.27%) is cheaper than both the blended target (11.2%)
+and equity's requirement (16%), which has to be true whenever equity is
+compensated for bearing the geared, residual risk.
+</details>
+
+### H5
+
+A comparable property produces net income of $132,000 and sold for
+$1,650,000. Market rental growth is forecast at 3.25% p.a.
+
+(a) What is the implied cap rate?
+(b) Under what single condition could this figure also be used directly
+    as a discount rate?
+(c) Using the Gordon Growth relationship, what discount rate is implied
+    once the 3.25% growth forecast is factored in?
+
+<details><summary>Answer</summary>
+
+**(a)** `132,000 / 1,650,000 =` **8.00%**.
+
+**(b)** Only if the $132,000 net income is **stabilised** — level and
+non-growing over the holding period. The moment growth or lease events
+enter the forecast, the cap rate and the discount rate diverge.
+
+**(c)** `Discount rate = cap rate + growth = 8.00% + 3.25% =` **11.25%**.
+This is the delivery-side identity — the requirement side (`rf + risk
+premium`) should land close to the same number if the two are to be
+reconciled.
+</details>
+
+### H6
+
+A tenancy of 180 m² currently rents at $260/m² net, with 3.75% annual
+reviews, and expires in 3 years. Forecast market rent in year 4 is
+$275/m². Separately, the building needs a $35,000 (today's dollars)
+capital item completed in year 4, and CPI is forecast at 2.75% p.a.
+
+(a) In which year does the tenancy first show its reset rent, and what is
+    that reset rent?
+(b) What is the capex line's escalated cost in year 4, and what is the
+    most common way to get this wrong?
+
+<details><summary>Answer</summary>
+
+**(a)** "Expires in 3 years" means the existing lease runs through year 3;
+the reset happens in **year 4**, at that year's forecast market rent:
+`180 × $275/m² =` **$49,500.00** — not a continuation of the old lease's
+3.75% growth path.
+
+**(b)** `35,000 × 1.0275⁴ = 35,000 × 1.114621 =` **$39,011.74**. The
+common error is escalating by the years *remaining* until the capex date
+(3 years, `1.0275³`) rather than by the period's own index number (4),
+which understates the cost as $37,967.63 — **$1,044.11** short. The
+escalation exponent is always the period number itself, counting from
+today (period 0, index 1.0000) — the same rule that applies to every
+rent and outgoings line in the model.
+</details>
+
+### H7
+
+A group member's discount-rate memo for A2 says:
+
+> *"We calculated WACC at 9.4% using our 70% LVR loan and 15% required
+> equity return, and we'll use this as our discount rate for the full
+> 7-year hold. We also found a comparable sale with a cap rate of 6.8% and
+> adopted that directly as our discount rate. For our market evidence, we
+> weighted our three comparables 20/20/60, giving the most weight to the
+> sale our research rated as the least comparable, because it had the
+> most recent settlement date."*
+
+Identify every problem with this reasoning.
+
+<details><summary>Answer</summary>
+
+**Three separate problems, all of which change either the rate or its
+defensibility:**
+
+1. **WACC held flat across a 7-year amortising loan.** A1/A2's finance
+   involves a mortgage that pays down principal over the hold, so `D/V`
+   falls every year. A WACC computed once at t=0 only describes the
+   blended return in year 1, not year 7 — using it as a single flat rate
+   for the whole period is exactly the error note 04 §8.8 flags.
+2. **A cap rate adopted as a discount rate with no stabilised-income
+   check.** 6.8% is an income-only return; using it as a discount rate is
+   only valid if that comparable's income is level and non-growing.
+   Nothing in the memo confirms that — it needs to be checked, not
+   assumed.
+3. **The weighting contradicts the group's own comparability
+   assessment.** Recency of settlement is a legitimate factor, but it is
+   not the same thing as comparability, and the memo's own research rated
+   this sale the *least* comparable. Weighting 60% onto the property
+   least like the subject is the opposite of what note 04 §8.5's
+   weighting method calls for — the justification has to track the
+   stated similarity ranking, not an unrelated attribute.
+
+The fix for all three: use WACC only as a point-in-time check (or rebuild
+it year by year against the amortisation schedule), confirm the
+comparable's income basis before treating its cap rate as a discount
+rate, and re-weight the market evidence so the most comparable sale
+carries the most weight.
 </details>

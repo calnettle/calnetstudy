@@ -105,7 +105,7 @@ deck leaves that with a question mark, deliberately.
 > **A 7–10 year holding period is one cycle if you are lucky and half of one
 > if you are not.** The AREIT's stated horizon spans at least one turn in
 > rents and yields. That is why the terminal cap rate assumption dominates
-> the answer — see note 04, §4.5 and §4.7.
+> the answer — see note 05, §4.5 and §4.7.
 
 ## 2.3 Direct vs Indirect
 
@@ -282,7 +282,7 @@ Each does a different job in the report:
 
 ### Worked example — the AREIT's 7% target under `r = y + g`
 
-41 Park Road's net rental income is **$370,259.88** p.a. (see note 05 for
+41 Park Road's net rental income is **$370,259.88** p.a. (see note 06 for
 the reconciliation). At the quoted **$8,000,000**:
 
 ```
@@ -306,7 +306,7 @@ growth falls fast:
 > **`r = y + g` is an approximation, and the exam wants you to know it.** It
 > assumes income and capital value grow at the same constant rate forever
 > and that nothing interrupts the income. 41 Park Road has 80% of its income
-> expiring inside twelve months (note 05, §5.7), so the "g" here is doing
+> expiring inside twelve months (note 06, §5.7), so the "g" here is doing
 > work it cannot do. Use `r = y + g` as a *screen* — a fast test of whether
 > a price is plausible — and the DCF for the answer.
 
@@ -410,7 +410,7 @@ Both figures match the slide to the dollar ($137,767 and $142,767).
 > savings problem the adjustment is **+$5,000**, and in the property problem
 > it is **−(price + costs)**. Get the sign backwards in A1 and your NPV is
 > out by roughly twice the acquisition cost. The FICTIONAL teaching workbook
-> does it correctly: `NPV = Sum of PVs − Total acquisition outlay` (note 04,
+> does it correctly: `NPV = Sum of PVs − Total acquisition outlay` (note 05,
 > §4.5).
 
 ## 2.10 Risk — Actual ≠ Forecast

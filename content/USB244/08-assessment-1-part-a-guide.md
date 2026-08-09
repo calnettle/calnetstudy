@@ -14,7 +14,7 @@ lecture slides, the note says so rather than picking a side.
 > **This is a historical review, not a plan.** The brief closes the Part A
 > description with one line that decides half the marks: *"This is not a
 > recommendation for future actions."* Everything forward-looking belongs in
-> [Part B](#/USB244/07-assessment-1-part-b-sam-plan). If your Part A drifts
+> [Part B](#/USB244/09-assessment-1-part-b-sam-plan). If your Part A drifts
 > into "the manager should now consider…" you are spending your 1,500 words
 > on a criterion that isn't in this rubric.
 
@@ -569,7 +569,7 @@ Recoverable        147,349 + 345,032 = 492,381  →  $99.53/sqm
 > GLA is measured to the *outside* of external walls and is always the larger
 > number for the same envelope, so the same dollars produce a *lower* $/sqm on
 > GLA. Benchmark office on NLA and retail on GLA/GLAR, and say which you used.
-> Full measurement rules in [Formula Sheet & Exam Traps](#/USB244/05-formula-sheet).
+> Full measurement rules in [Formula Sheet & Exam Traps](#/USB244/07-formula-sheet).
 
 > **Non-recoverable outgoings are where the argument is.** Every dollar comes
 > straight off net income, and at a 6% cap rate each dollar destroys $16.67 of

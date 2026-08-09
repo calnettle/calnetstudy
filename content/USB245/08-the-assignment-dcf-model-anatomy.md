@@ -59,7 +59,7 @@ build the tabs now and populate them later.
 > your own market research is the whole information set. Anything the IM does
 > not disclose — tenancy areas, rent review dates, outgoings responsibility,
 > incentives already granted — has to be *assumed and justified*, not
-> obtained. Note 05 lists exactly what is missing.
+> obtained. Note 06 lists exactly what is missing.
 
 ## 4.2 Sheet 3 — Assumptions
 
@@ -154,7 +154,7 @@ pro-rata to occupied area**, and the owner wears outgoings on vacant space.
 > hundreds of thousands.** The teaching example assumes fully net leases and
 > recovers 100% of outgoings while fully occupied. 41 Park Road's IM shows
 > recovered outgoings of only **$13,386.76 against $97,364.40 of total
-> outgoings — 13.75%** (note 05, §5.5). If you copy the teaching example's
+> outgoings — 13.75%** (note 06, §5.5). If you copy the teaching example's
 > net-lease assumption onto 41 Park Road you will overstate NOI by roughly
 > $84,000 p.a., which at a 6.5% cap rate is about **$1.3 million** of
 > capital value. Model what the IM shows, and state the assumption.

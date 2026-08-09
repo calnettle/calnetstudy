@@ -82,6 +82,29 @@
 | Indifference curve | `E(r) = U + 0.5 × A × σ²` — a **parabola**, steeper for higher A |
 | "Modified" Sharpe ratio | `E(R_p) / σ_p` — **no** risk-free rate. Not the same ranking as the true Sharpe |
 
+## Capital Market Theory (CML) — Topic 3
+
+| Concept | Formula |
+|---|---|
+| Covariance with risk-free asset | `Cov(RF, i) = 0` always |
+| σ of RF + risky portfolio M | `σ_port = (1 − w_RF) σ_M` |
+| E(R) of RF + risky portfolio M | `E(R_port) = w_RF × RFR + (1 − w_RF) × E(R_M)` |
+| **CML** | **`E(R_port) = RFR + σ_port × [E(R_M) − RFR] / σ_M`** |
+| CML slope (price of risk) | `[E(R_M) − RFR] / σ_M` |
+| Weight in M for a target return | `w_M = [target E(R) − RFR] / [E(R_M) − RFR]` |
+| σ_port for a target return | `σ_port = [target E(R) − RFR] / CML slope` |
+| Sign of w_RF | `w_RF > 0` → lending (less risky than M). `w_RF < 0` → borrowing/leverage (riskier than M). |
+
+## CAPM / SML — Topic 3
+
+| Concept | Formula |
+|---|---|
+| **Beta** | **`βᵢ = Cov(i, M) / σ²_M = (σᵢ × r_iM) / σ_M`** |
+| Beta of the market | `β_M = 1` always |
+| **CAPM / SML** | **`E(Rᵢ) = RFR + βᵢ [E(R_M) − RFR]`** |
+| Characteristic line (regression form) | `βᵢ = COVARIANCE.S(Rᵢ, R_M) / VAR.S(R_M)` |
+| Mispricing test | Estimated > required → **underpriced** (above SML). Estimated < required → **overpriced** (below SML). |
+
 ## Excel function map
 
 | Task | Sample (÷ n−1) | Population (÷ n) |
@@ -119,7 +142,14 @@
 20. **Minimum variance ≠ maximum Sharpe.** They are different points on the same frontier, and questions ask for one or the other deliberately.
 21. **A strategy back-test needs a benchmark.** Buy-and-hold on the same asset over the same window, and a turnover/cost count. A positive gross return proves nothing.
 22. **Covariance is measured against each series' own mean, not zero.** A positive covariance does not mean both assets rose.
+23. **Only the tangency portfolio M has the maximum `(E(R) − RFR)/σ` ratio.** Every other point on the efficient frontier is dominated by some RF+M combination at the same risk level — don't assume any frontier portfolio is "efficient enough".
+24. **`w_RF` can be negative.** A negative weight in the risk-free asset means *borrowing*, not an invalid answer — don't discard it as an error.
+25. **The CML only prices fully diversified portfolios.** Never plug a single stock's own `σ` into the CML formula to find its "required return" — a single stock needs the **SML** and **beta**, not the CML and total risk.
+26. **β = Cov(i,M)/σ²_M, not Cov(i,M)/σ_M.** Dividing by σ_M once (not squared) is a very common slip and gives a number roughly `σ_M` times too large.
+27. **A negative beta still has a positive CAPM-required return in most exam numbers** — it's *lower than the RFR*, not negative itself, unless the premium × beta term exceeds the RFR.
+28. **Don't compare stocks' estimated returns to each other.** Compare each stock's own estimated return to its own CAPM-required return. The stock with the single highest forecast return is not automatically the best buy.
+29. **Changing the market proxy (S&P 500 vs a global index) changes beta and every downstream CAPM figure.** If a question changes the index used, expect the beta — and the mispricing verdict — to change too, even for the identical stock and time period.
 
 ---
 
-*Notes compiled from EFB335 Topic 1 and Topic 2 lecture slides, the Tutorial 1 and Tutorial 2 question sheets, and the Topic 1 and Topic 2 Excel workbooks. All numerical worked examples independently verified in Python.*
+*Notes compiled from EFB335 Topic 1, Topic 2 and Topic 3 lecture slides, the Tutorial 1, Tutorial 2 and Tutorial 3 question sheets, and the Topic 1, Topic 2 and Topic 3 Excel workbooks. All numerical worked examples independently verified in Python.*

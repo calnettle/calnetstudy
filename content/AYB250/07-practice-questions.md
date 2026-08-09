@@ -644,10 +644,246 @@ is a non-negotiable outflow that the ratio does not capture.*
 
 ---
 
+## Section E — Taxation planning (Week 3)
+
+### E1
+
+A taxpayer earns $68,000 in wages and $900 in interest. Their allowable
+work-related expenses are $180 (phone) and $260 (uniform and laundry),
+plus $220 in union fees. Compute taxable income and tax payable using the
+2026-27 scale.
+
+<details><summary>Answer E1</summary>
+
+```
+Assessable income = 68 000 + 900 = $68 900
+
+Non-union work expenses = 180 + 260 = $440
+Standard deduction       = $1 000        440 < 1 000 → take the standard
+                                          deduction instead of itemising
+
+Total deduction = 1 000 + 220 (union, always additional) = $1 220
+
+Taxable income = 68 900 − 1 220 = $67 680
+
+Tax payable = 4 020 + [0.30 × (67 680 − 45 000)]
+            = 4 020 + 6 804
+            = $10 824
+```
+
+</details>
+
+### E2
+
+A single taxpayer with no private hospital cover has taxable income of
+$118,000 (also their income for MLS purposes). Compute the Medicare levy
+and the Medicare Levy Surcharge.
+
+<details><summary>Answer E2</summary>
+
+```
+Medicare levy = 118 000 × 0.02 = $2 360
+
+MLS: 118 000 falls in Tier 1 ($105 001–$123 000) → 1%
+MLS = 118 000 × 0.01 = $1 180
+
+Total levies = 2 360 + 1 180 = $3 540
+```
+
+Both are applied to the **whole** $118,000, not the amount over each
+threshold.
+
+</details>
+
+### E3
+
+A taxpayer's repayment income is $175,000, with an outstanding HELP debt
+large enough not to be a limiting factor. Compute the compulsory
+repayment, and confirm whether the $186,050 cap binds.
+
+<details><summary>Answer E3</summary>
+
+```
+175 000 is in the 129 718–186 050 band:
+Repayment = 9 028 + 0.17 × (175 000 − 129 717)
+          = 9 028 + 7 698.11
+          = $16 726.11
+
+Cap check: 175 000 × 0.10 = $17 500
+16 726.11 < 17 500 → the cap does NOT bind; the marginal figure stands.
+```
+
+</details>
+
+### E4
+
+What LITO applies to a taxpayer with taxable income of $60,000?
+
+<details><summary>Answer E4</summary>
+
+```
+60 000 is in the 45 001–66 667 band:
+LITO = 325 − 0.015 × (60 000 − 45 000)
+     = 325 − 225
+     = $100
+```
+
+</details>
+
+### E5
+
+A taxpayer earns $32,000 in wages and receives a $15,000 fully franked
+dividend from a **small** company (25% tax rate). No other income or
+deductions. Compute the franking credit, taxable income, and net tax
+payable.
+
+<details><summary>Answer E5</summary>
+
+```
+Franking credit = 15 000 × (25/75) = $5 000
+
+Taxable income  = 32 000 + 15 000 + 5 000 = $52 000
+
+Tax payable     = 4 020 + [0.30 × (52 000 − 45 000)]
+                = 4 020 + 2 100
+                = $6 120
+
+Medicare levy   = 52 000 × 0.02 = $1 040
+
+Net tax payable = 6 120 + 1 040 − 5 000 (franking offset)
+                = $2 160
+```
+
+</details>
+
+### E6
+
+An investor sells three parcels of shares in the current year:
+
+- Shares A: bought $40,000, held 18 months, sold $58,000 (gain, discount-eligible)
+- Shares B: bought $10,000, held 4 months, sold $13,000 (gain, not discount-eligible)
+- Shares C: bought $25,000, held 2 years, sold $16,000 (loss)
+
+Compute the net capital gain under current rules.
+
+<details><summary>Answer E6</summary>
+
+```
+Gain A (discountable, >12mo) = 58 000 − 40 000 = 18 000
+Gain B (not discountable, <12mo) = 13 000 − 10 000 = 3 000
+Loss C = 16 000 − 25 000 = −9 000
+
+Step 1 — apply the loss to the NON-discountable gain first:
+  3 000 + (−9 000) = −6 000     (loss remaining, still to absorb)
+
+Step 2 — apply the remaining loss to the discountable gain, THEN discount:
+  18 000 + (−6 000) = 12 000
+  12 000 × 0.50 = $6 000
+
+Net capital gain = $6 000
+```
+
+Discounting Shares A first (`18 000 × 0.5 = 9 000`) and only then
+subtracting the loss would give a different, wrong answer — the loss must
+be netted before the discount is applied, per trap 15 in the formula sheet.
+
+</details>
+
+### E7
+
+The same Shares A parcel (bought $40,000) instead falls under the post-1
+July 2027 rules, with an indexation factor of 1.35 applied to the cost
+base, and no capital losses to net against it this year. What is the
+assessable gain?
+
+<details><summary>Answer E7</summary>
+
+```
+Indexed cost base = 40 000 × 1.35 = $54 000
+Assessable gain    = 58 000 − 54 000 = $4 000
+```
+
+Compare with the current-rules discount method on the same parcel in
+isolation: `(58 000 − 40 000) × 0.5 = $9 000`. Indexation gives a smaller
+assessable gain here because most of the nominal gain is being treated as
+inflation, not real gain — the two methods will not generally agree, and
+which is better depends on how much of the gain is genuinely real versus
+just inflation since purchase.
+
+</details>
+
+### E8
+
+A negatively geared rental property has weekly costs (rates, interest,
+insurance, management fees) of $410 and depreciation of nil (established
+property), against rental income of $340 a week. What is the annual tax
+deduction?
+
+<details><summary>Answer E8</summary>
+
+```
+Weekly deduction = 410 − 340 = $70
+Annual deduction  = 70 × 52 = $3 640
+```
+
+</details>
+
+### E9
+
+An employee on a $95,000 gross salary salary-sacrifices $15,000 into
+superannuation. Compute the total tax under both options and the saving.
+
+<details><summary>Answer E9</summary>
+
+```
+OPTION 1 — no packaging
+Tax payable = 4 020 + [0.30 × (95 000 − 45 000)] = $19 020
+Medicare    = 95 000 × 0.02                        = $ 1 900
+TOTAL                                              = $20 920
+
+OPTION 2 — $15,000 packaged to super
+Taxable income = 95 000 − 15 000 = $80 000
+Tax payable    = 4 020 + [0.30 × (80 000 − 45 000)] = $14 520
+Medicare       = 80 000 × 0.02                       = $ 1 600
+Contributions tax = 15 000 × 0.15                    = $ 2 250
+TOTAL                                                = $18 370
+
+SAVING = 20 920 − 18 370 = $2 550
+```
+
+</details>
+
+### E10
+
+Why does a trust distributing all its income to a beneficiary on the
+top marginal rate offer no tax advantage over that beneficiary earning the
+income directly — and when *does* a trust help?
+
+<details><summary>Answer E10</summary>
+
+Trust income is taxed in the hands of the beneficiary it's distributed to,
+at that beneficiary's own marginal rate. If every dollar goes to someone
+already on the 45% bracket, the outcome is identical to them earning it
+directly — the trust adds complexity (and, from 1 July 2028, a proposed
+minimum 30% trustee-level tax on undistributed or certain income) without
+changing the tax paid.
+
+A trust helps when there's a **lower-marginal-rate beneficiary** to
+distribute to — a discretionary trust's whole advantage is the flexibility
+to direct income wherever the household's marginal rates are lowest each
+year, which a partnership (fixed shares) or a company (flat 30%, no
+tax-free threshold) cannot replicate.
+
+</details>
+
+---
+
 ## Where these came from
 
 Sections A and B–C follow the Week 1 and Week 2 lecture material directly.
 Section D follows the technique required by Individual Project Part A, using
-the 2026-27 rates supplied in the assignment template. No question here is
-taken from a past exam paper — **there is no past exam paper in the source
-material**, and nothing in the folder describes the exam's format.
+the 2026-27 rates supplied in the assignment template. Section E follows
+the Week 3 lecture on taxation planning, using the same 2026-27 rates.
+No question here is taken from a past exam paper — **there is no past exam
+paper in the source material**, and nothing in the folder describes the
+exam's format.

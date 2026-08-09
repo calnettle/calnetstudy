@@ -9,7 +9,7 @@ Reading: Rowland Ch 2.60–2.100 and Ch 6.40, 6.50, 6.90, 6.140.
 
 The lecture's own worked example — the $930,000 house — is used here as the
 running illustration for each step. The full spreadsheet build of it, plus
-the expense-inflation variant, is in note 05.
+the expense-inflation variant, is in note 06.
 
 ## 6.1 What a DCF Is, and What It Is For
 
@@ -38,7 +38,7 @@ you are left discounting each period individually. That is all a DCF is.
 | Fails when | Income is not representative | Your forecasts are wrong |
 
 Both appear in professional practice, and a real model runs them side by side
-as a cross-check. Note 05 §7.7 shows a commercial model that reports three
+as a cross-check. Note 06 §7.7 shows a commercial model that reports three
 capitalisation results *and* a DCF, and adopts a value only where they agree.
 
 ## 6.2 The Seven Steps
@@ -186,7 +186,7 @@ your base every time.
 > tenants.** That makes it the single most commonly omitted line in a
 > student model — and in real documents. The 41 Park Road information
 > memorandum's quarterly outgoings total omits land tax entirely; the
-> correct total is $24,341.10, not the $16,966.10 printed (note 07 §5.5).
+> correct total is $24,341.10, not the $16,966.10 printed (note 09 §5.5).
 > When you list expenses, list statutory charges first, then tick land tax
 > off explicitly.
 
@@ -231,7 +231,7 @@ charge becomes annual by ×4.
 > $4,090 of phantom expense every year. Carried through the model, the
 > maximum purchase price falls from $895,988 to **$813,537**, an $82,451
 > error on a $900,000 decision. This unit's material has already produced
-> one column headed "per quater" holding a monthly figure (note 07 §5.5).
+> one column headed "per quater" holding a monthly figure (note 09 §5.5).
 > Read the unit label, then say out loud what you are multiplying by.
 
 ## 6.5 Step 2b — Sale Proceeds and the n+1 Year
@@ -274,7 +274,7 @@ Net proceeds                         $1,282,941.21
 **Why n+1 and not n.** The buyer at the end of year 5 is buying year 6's
 income. You have already collected year 5's. Capitalising year 5's net income
 instead gives a sale price of $1,222,252 — $100,368 low — and drags the
-maximum purchase price down by $58,033. Note 06 §4.5 makes the same point on
+maximum purchase price down by $58,033. Note 08 §4.5 makes the same point on
 the assignment workbook, where it is worth $375,318.
 
 **How do you determine a terminal yield?** The deck asks the question and
@@ -291,7 +291,7 @@ relationship.
 > is almost entirely the terminal value. That means the answer is a bet on
 > the terminal yield, not on the rent. Any sensitivity section that tests
 > rent growth but not the exit yield has tested the wrong variable (§7.6 of
-> note 05 quantifies it).
+> note 06 quantifies it).
 
 ## 6.6 Steps 3, 4 and 5 — Discounting
 
@@ -322,7 +322,7 @@ $933,321 — all agree.
 > net present value at the $930,000 asking price is
 > `933,321 − 930,000 × 1.04 = −$33,879`. Positive gross PV, negative NPV,
 > opposite recommendations. The same trap is already on the exam-traps list
-> from the Week 2 grandmother exercise (note 09) — this is its second
+> from the Week 2 grandmother exercise (note 11) — this is its second
 > appearance in three weeks.
 
 > **The slide's discount factors are printed to two decimals.** Using
@@ -367,7 +367,7 @@ check:  4% × 897,423.77 = $35,896.95
 > Deducting the cost percentage from the present value treats acquisition
 > costs as a percentage *of value*; grossing up treats them as a percentage
 > *of price*, which is what stamp duty and legals actually are. The
-> gross-up is the algebraically consistent one and is what note 06 §4.1 uses
+> gross-up is the algebraically consistent one and is what note 08 §4.1 uses
 > for the assignment (`outlay = price × (1 + T)`). **Use the class method for
 > the class exercise so your figures match the tutor's, and state the
 > gross-up in your A1 assumptions sheet.** Ask which the marker expects — on

@@ -122,7 +122,7 @@ Position each asset on hold / add value / divest, and defend it:
 Ancillary income — rooftop telecommunications, signage, media screens, casual
 mall leasing, car parking, EV charging, storage, utility on-selling — is
 catalogued asset-by-asset in
-[Part A §6.7](#/USB244/06-assessment-1-part-a-guide). At portfolio level it
+[Part A §6.7](#/USB244/08-assessment-1-part-a-guide). At portfolio level it
 becomes something different: a **strategy the owner can only execute because
 they hold three assets**, which is exactly the "portfolio as a whole, not just
 its parts" argument the brief is marking.
@@ -381,7 +381,7 @@ falls, GOCRs blow out, and the *next* renewal round is compromised too.
 
 **And the ancillary income goes with it** — casual mall leasing, ATMs, media
 screens and car parking all price off foot traffic, and they roll monthly, so
-they fall first. Worked in [§7.4](#/USB244/07-assessment-1-part-b-sam-plan):
+they fall first. Worked in [§7.4](#/USB244/09-assessment-1-part-b-sam-plan):
 a further $308k–$738k of value on this asset alone, depending on how far it
 falls.
 

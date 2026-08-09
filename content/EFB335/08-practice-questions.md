@@ -416,3 +416,101 @@ Numbers produced = n(n+1)/2 = (50 × 51)/2 = 1,275
 
 **Divisor:** Data Analysis → Covariance uses the **population** divisor `n`, with no option to change it — matching `VAR.P` / `COVARIANCE.P`, not `VAR.S` / `COVARIANCE.S`. Take your standard deviations with `STDEV.P` to stay consistent.
 </details>
+
+---
+
+## Set E — Capital Market Line and CAPM (Topic 3)
+
+**E1.** `RFR = 3%`, `E(R_M) = 8%`, `σ_M = 12%`. What standard deviation is required to target an expected return of 20%, and what does the required weighting imply about the investor's position (borrowing or lending)?
+
+<details><summary>Answer</summary>
+
+```
+slope = (8% − 3%) / 12% = 0.41667
+σ_port = (20% − 3%) / 0.41667 = 40.80%
+
+w_M = (20% − 3%) / (8% − 3%) = 3.4   →   w_RF = 1 − 3.4 = −2.4
+```
+
+**σ_port = 40.80%.** `w_RF = −2.4` means heavy **borrowing** — for every $1 of the investor's own equity, borrow $2.40 more and put the full $3.40 into the market portfolio. Check: `w_M × σ_M = 3.4 × 12% = 40.80%` ✓. A target this far above `E(R_M)` always implies leverage, since `E(R_M) = 8%` is the return at `w_RF = 0`.
+</details>
+
+---
+
+**E2.** `σ_M = 18%`. Given the covariance of stocks X, Y and Z with the market, find their betas: `Cov(X,M) = 3.24%`, `Cov(Y,M) = 1.62%`, `Cov(Z,M) = −0.90%`.
+
+<details><summary>Answer</summary>
+
+```
+β = Cov(i,M) / σ²_M,   σ²_M = 0.18² = 0.0324
+
+X:  0.0324 / 0.0324 = 1.00
+Y:  0.0162 / 0.0324 = 0.50
+Z: −0.0090 / 0.0324 = −0.28
+```
+
+**β_X = 1.00, β_Y = 0.50, β_Z = −0.28.** X moves exactly with the market. Y is a defensive, half-as-volatile stock. Z has a **negative** beta — it tends to move against the market, and would carry a CAPM-required return *below* the risk-free rate.
+</details>
+
+---
+
+**E3.** `RFR = 6%`, `E(R_M) = 11%`. Three stocks: P (β=1.10, analyst estimate 12%), Q (β=0.60, analyst estimate 7.5%), R (β=1.80, analyst estimate 16%). Find each stock's CAPM-required return and state whether it is under- or overpriced.
+
+<details><summary>Answer</summary>
+
+```
+Market risk premium = 11% − 6% = 5%
+```
+
+| Stock | β | Required = 6% + β(5%) | Estimated | Verdict |
+|---|---|---|---|---|
+| P | 1.10 | **11.5%** | 12.0% | Above SML → **underpriced, buy** |
+| Q | 0.60 | **9.0%** | 7.5% | Below SML → **overpriced, sell** |
+| R | 1.80 | **15.0%** | 16.0% | Above SML → **underpriced, buy** |
+
+Note R has both the highest beta *and* the highest estimated return of the three — high beta alone tells you nothing about mispricing. R is a buy not because 16% is a big number, but because 16% **exceeds what its own beta of 1.80 demands** (15%).
+</details>
+
+---
+
+**E4.** *Short answer.* State the Separation Theorem in one sentence. An investor becomes significantly more risk-averse after a market downturn. According to the theorem, which of their two portfolio decisions should change, and which should not?
+
+<details><summary>Answer</summary>
+
+**Separation Theorem:** the decision of *which risky assets to hold* (always the market portfolio, M) is independent of the decision of *how much to borrow or lend* at the risk-free rate to reach a personally preferred risk level.
+
+**What should change:** the **financing decision** — a more risk-averse investor should move toward **lending** (a higher `w_RF`), holding less of M and more of the risk-free asset.
+
+**What should NOT change:** the **investment decision** — the risky-asset holding itself should still be the market portfolio, M, in the same proportions as before. Risk aversion is expressed entirely through the RF/M mix, never by tilting away from M into a different combination of risky assets.
+</details>
+
+---
+
+**E5.** Two risky assets form the entire market portfolio: M1 (E(R)=12%, σ=25%, weight 35%) and M2 (E(R)=9%, σ=15%, weight 65%), correlation 0.20. `RFR = 4%`. Derive the CML equation, then find the expected return of a portfolio targeting `σ_port = 10%`, and the required split between the risk-free asset and M.
+
+<details><summary>Answer</summary>
+
+```
+E(R_M) = 0.35(12%) + 0.65(9%) = 4.20% + 5.85% = 10.05%
+
+σ²_M = (0.35)²(0.25)² + (0.65)²(0.15)² + 2(0.35)(0.65)(0.20)(0.25)(0.15)
+     = 0.007656 + 0.009506 + 0.003413
+     = 0.020575
+
+σ_M = √0.020575 = 14.34%
+```
+
+```
+CML:  E(R_port) = 4% + σ_port × (10.05% − 4%)/14.34% = 4% + 0.4218 σ_port
+```
+
+At `σ_port = 10%`:
+
+```
+E(R_port) = 4% + 0.4218(10%) = 4% + 4.22% = 8.22%
+
+w_M = σ_port / σ_M = 10% / 14.34% = 0.6972   →   w_RF = 1 − 0.6972 = 0.3028
+```
+
+**Invest 69.72% in the market portfolio, 30.28% in the risk-free asset, for an expected return of 8.22% at 10% risk.** Since `w_RF > 0`, this is a **lending** position — less risky than holding M outright (which would carry `σ_M = 14.34%`).
+</details>

@@ -1,7 +1,7 @@
 # Extra Practice Questions
 
-Exam-style questions across Topics 1 and 2 and Tutorial 1. Attempt each
-before opening the answer.
+Exam-style questions across Topics 1, 2 and 3 and Tutorials 1 and 2. Attempt
+each before opening the answer.
 
 ## Section A — Capital value and strategy
 
@@ -421,5 +421,131 @@ Two lessons: always compute the percentage yourself, and always state which
 number is the base. A "40% discount" and a "40% premium" are not the same
 relationship, and the Richlands Plaza IM gets this exact pair of statistics
 labelled the wrong way round.
+
+</details>
+
+## Section E — Retail and Tenancy Schedules
+
+**Q16.** A centre has 14,500 sqm GLA, one full-line discount department
+store, one major supermarket, and 55 specialty shops. Which PCA
+classification, and why?
+
+<details>
+<summary>Answer</summary>
+
+**Sub regional.** Its GLA sits in the 10,000–30,000 sqm band, and its tenant
+mix — a discount department store, a major supermarket and 55 specialty
+shops — matches the Sub regional profile (at least one full-line discount
+department store, a major supermarket, ~40 or more specialty shops). It is
+too small for Regional (30,000–50,000 sqm, needing a full-line department
+store as well as a discount one) and too large and too anchored to be a
+Neighbourhood centre.
+
+</details>
+
+---
+
+**Q17.** A specialty tenancy has inter-tenancy walls 6.4 m apart (centreline
+to centreline) and runs 10.5 m from the internal face of its rear external
+wall to the centre's mall line.
+
+(a) The shopfront is recessed 1.0 m behind the mall line for a display
+alcove. Calculate the GLAR.
+(b) Instead, the shopfront extends 0.5 m beyond the mall line as a kiosk-
+style protrusion. Calculate the GLAR.
+
+<details>
+<summary>Answer</summary>
+
+**(a)**
+
+```
+GLAR measures TO the mall line regardless of setback
+GLAR = 6.4 × 10.5 = 67.20 sqm
+```
+
+The 1.0 m recess is unbuilt space, but it doesn't reduce the GLAR — the
+measurement plane is the mall line itself, not the built shopfront.
+
+**(b)**
+
+```
+The front extends BEYOND the mall line, so measure to the external surface
+GLAR = 6.4 × (10.5 + 0.5) = 6.4 × 11.0 = 70.40 sqm
+```
+
+Here the extra 0.5 m is real, physically walkable-into space, so it adds to
+the GLAR — the opposite of GLA's treatment of a protruding external column,
+which is excluded rather than added.
+
+</details>
+
+---
+
+**Q18.** A small tenancy schedule for "Riverside Walk" shows, as at the
+schedule date:
+
+| Tenant | Area (sqm) | Income p.a. | Remaining term |
+|---|---:|---:|---:|
+| A — retail specialty | 200 | $150,000 | 3.20 years |
+| B — office suite | 300 | $180,000 | 1.55 years |
+| C — vacant | 80 | — | — |
+| D — holdover, monthly | 60 | $40,000 | monthly |
+| E — car park, separately licensed | 0 | $15,000 | 4.10 years |
+
+Calculate WALE by income and by area.
+
+<details>
+<summary>Answer</summary>
+
+Apply the edge-case table: **omit** the holdover tenant D from both WALEs;
+**include** the vacant tenant C's area at zero years but omit it from income
+(no income to weight); **include** the separately-licensed car park E in the
+income WALE, contributing area 0 (mathematically neutral) to the area WALE.
+
+```
+INCOME WALE
+  150,000 × 3.20 = 480,000
+  180,000 × 1.55 = 279,000
+   15,000 × 4.10 =  61,500
+                   ────────
+                   820,500  ÷  345,000  =  2.38 years
+
+AREA WALE
+     200 × 3.20 =    640.0
+     300 × 1.55 =    465.0
+      80 × 0.00 =      0.0    ← vacant, counted at zero
+                   ────────
+                  1,105.0  ÷  580  =  1.91 years
+```
+
+**WALE by income: 2.38 years. WALE by area: 1.91 years.** Tenant D (the
+holdover) is excluded from both — its area and income are real, but the
+convention treats a rolling monthly tenancy as having no secured remaining
+term worth weighting.
+
+</details>
+
+---
+
+**Q19.** An investor hands you Riverside Walk's tenancy schedule (Q18) and
+asks for the property's **Net Income**. Can you calculate it from the
+schedule alone? What else would you need?
+
+<details>
+<summary>Answer</summary>
+
+**No.** A tenancy schedule shows what is billed to and recovered from
+tenants — base rent, outgoings recoveries, car park income — not what the
+landlord actually **spends** operating the building. `NI = Gross income −
+Outgoings` needs the landlord's own **income and expenditure statement**,
+because recoveries and actual expenditure are not guaranteed to match:
+outgoings can be under- or over-recovered against the leases, and any
+**non-recoverable** outgoings — by definition — never appear as a recovery
+line in the tenancy schedule at all. Treating the schedule's outgoings
+recovery total as if it were the landlord's real outgoings spend silently
+assumes 100% recovery and zero non-recoverables, which Tutorial 1's
+Richlands Plaza figures show is not how a real building behaves (18.5% of
+its outgoings were non-recoverable).
 
 </details>

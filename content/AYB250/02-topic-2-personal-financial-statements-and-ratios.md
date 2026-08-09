@@ -89,7 +89,7 @@ contributions** that go directly to a fund.
 
 > **Income here is already after PAYG tax.** Read the line labels. If a
 > question gives you *gross* salary you have to strip tax, Medicare levy and
-> any HECS-HELP repayment out before it enters the budget — see note 04, where
+> any HECS-HELP repayment out before it enters the budget — see note 06, where
 > the assignment case study does exactly that.
 
 ## Projecting the budget forward

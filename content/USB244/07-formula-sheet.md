@@ -208,7 +208,88 @@ Window area MORE than 50% of wall  → windows dominant → measure to inside fa
 Window area LESS than 50% of wall  → wall dominant    → measure to finished wall surface
 ```
 
-Third method: **GLAR** (Gross Lettable Area – Retail), for retail premises.
+Third method: **GLAR** (Gross Lettable Area – Retail), for retail premises —
+full rules below.
+
+## PCA Measurement — GLAR (retail)
+
+Applies to shopping centres, commercial buildings, and strip/free-standing/
+semi-detached/terrace shops. Shares the dominant-portion and centreline
+rules with NLA/GLA, plus a **third boundary unique to retail — the mall or
+shop line**:
+
+```
+From   the internal surface, dominant portion of external walls, firewalls, service areas
+To     the centreline of inter-tenancy walls
+To     the mall or shop line          — regardless of whether the front is set back
+To     the external surface           — ONLY IF the front extends BEYOND the mall/shop line
+```
+
+| Include | Exclude |
+|---|---|
+| Window mullions and frames | Areas set aside for services (ducts, a/c risers, fire hose cupboards, plant rooms) |
+| Structural columns or piers | Public spaces not for exclusive tenant use (toilets, tea rooms) |
+| Engaged perimeter columns | Lift lobbies, shafts, stairs, escalators |
+| Fire hose reels attached to a wall | |
+| Additional facilities for individual tenants | |
+
+Clearance under 1.5 m (e.g. space under stairs) is measured and **recorded
+separately**.
+
+> **The mall line is the opposite trap to GLA's protruding column.** Under
+> GLA a protruding external column is *excluded*. Under GLAR a shopfront
+> extending *beyond* the mall line is *included* — the reference plane is
+> the mall line, not the building envelope, so physically extending past it
+> adds real lettable area. A setback shopfront still measures to the mall
+> line regardless — the setback recess counts as if built out. Full worked
+> example (both directions) in
+> [Topic 3 §3.5](#/USB244/03-topic-3-retail).
+
+## Shopping Centre Classification (PCA)
+
+A size-and-tenant-mix ladder, **not** a quality ladder — don't map
+Premium/A/B/C language onto it. Every tier requires a supermarket or
+department-store anchor.
+
+| Classification | GLA | Anchor requirement |
+|---|---|---|
+| City centre | > 1,000 sqm | None — CBD arcade/mall, specialty-dominated, usually no supermarket |
+| Neighbourhood | < 10,000 sqm | Supermarket + ~35 specialties |
+| Sub regional | 10,000–30,000 sqm | Discount department store + major supermarket + ~40+ specialties |
+| Regional | 30,000–50,000 sqm | Dept store + discount dept store + supermarket(s) + ~100+ specialties |
+| Major regional | 50,000–85,000 sqm | Dept store + discount dept store(s) + supermarket(s) + ~150+ specialties |
+| Super regional | > 85,000 sqm | 2 dept stores + discount dept store(s) + 2 supermarkets + ~250+ specialties |
+| Bulky goods | > 5,000 sqm | None — bulky-goods retailers, few specialties |
+
+> **A property with no supermarket or department store doesn't fit any row**,
+> no matter its size — classify it by **configuration** instead (strip /
+> mall / cluster). Auburn Quarter (1,491 sqm, no anchor) is the worked
+> example in [Tutorial 2](#/USB244/05-tutorial-2-auburn-quarter).
+
+## WALE From a Tenancy Schedule — No EOI Date
+
+The compulsory Part A method above is anchored to the **EOI date**. A
+standalone tenancy schedule (no sale in progress) has no EOI date, so use
+the schedule's own **"as of"** date — the same fallback Part A already uses
+when an IM has no stated EOI date.
+
+```
+No EOI date  →  use the tenancy schedule's own "as of" date
+```
+
+A signage or other zero-area licence that is a genuine separate lease (not a
+rolling/casual licence) is included in the income WALE exactly like a
+rooftop telco lease, and is mathematically neutral in the area WALE — 0 sqm
+contributes 0 to both the numerator and the denominator regardless of
+inclusion. Worked at length, including the sensitivity of dropping it, in
+[Tutorial 2](#/USB244/05-tutorial-2-auburn-quarter).
+
+> **A tenancy schedule gives you Gross income, not Net income.** It shows
+> what is billed and recovered from tenants — not what the landlord actually
+> spends operating the building. `NI = Gross income − Outgoings` needs the
+> income and expenditure statement; a tenancy schedule alone cannot complete
+> it, because recoveries and actual expenditure are not guaranteed to match
+> and non-recoverable outgoings never appear as a recovery line at all.
 
 ## PCA Office Grades — quick reference
 
@@ -362,3 +443,27 @@ and warehousing 44%, retail trade 19%.
 > **20. Ancillary income is not capitalised like base rent.** Short, unsecured
 > and foot-traffic dependent — a 200 bp premium costs 25% of its value. And it
 > falls *with* the anchor, because it prices off the same foot traffic.
+
+> **21. Retail's PCA classification (City Centre → Bulky Goods) ranks size
+> and tenant mix, not quality.** Don't map Premium/A/B/C language onto it —
+> and every tier from Neighbourhood up requires a supermarket or department-
+> store anchor. No anchor, no fit, regardless of size.
+
+> **22. GLAR's mall line is the opposite trap to GLA's protruding column.**
+> GLA excludes a protruding external column; GLAR *includes* a shopfront
+> that extends past the mall line, because the mall line — not the building
+> envelope — is the reference plane. A setback shopfront still measures to
+> the mall line regardless of the setback.
+
+> **23. A tenancy schedule gives Gross income, not Net income.** It shows
+> billed/recovered amounts, not the landlord's actual spend. Non-recoverable
+> outgoings never appear as a recovery line, so `NI = GI − Outgoings` cannot
+> be completed from a tenancy schedule alone.
+
+> **24. With no EOI date, use the tenancy schedule's own "as of" date for
+> WALE** — the same fallback already used for an IM with no stated EOI date.
+
+> **25. A zero-area licence that is a genuine separate lease (not a rolling
+> casual licence) belongs in the income WALE.** It is mathematically neutral
+> in the area WALE either way — 0 sqm contributes 0 regardless of inclusion —
+> but omitting it from the income WALE understates the number for no reason.

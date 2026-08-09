@@ -1,6 +1,6 @@
 # FORMULA SHEET & EXAM TRAPS
 
-Everything from Weeks 1–3 and the assignment model, on one page.
+Everything from Weeks 1–4 and the assignment model, on one page.
 
 ## Returns
 
@@ -152,6 +152,56 @@ For every line, ask **WHEN** (which column), **WHAT** (which row) and
 **HOW** (from leases, the tenancy schedule, outgoings budgets, market
 research, CPI estimates).
 
+## Deriving the Discount Rate (Week 4)
+
+Four methods, and none of them is exact — IVS and RICS both require the
+method and evidence to be **documented**, not a single correct number
+(note 04 §8.9).
+
+```
+1. Risk premium / build-up model    r = rf + rP
+                                     rf = rV + π    (time value + inflation)
+                                     1 + r = (1+rV)(1+π)(1+rP)   [compounded, more accurate]
+
+2. Market approach (comparable      Full DCF on each comparable, solved
+   sales)                           for r; weight by comparability:
+                                     weighted r = Σ (ri × wi),  Σ wi = 1
+
+3. Benchmark against alternative    Property must clear the return on
+   investments                     competing assets of similar risk
+
+4. WACC                             r_WACC = rD × (D/V) + rE × (E/V)
+                                     D/V = LVR,  E/V = 1 − LVR
+                                     valid for INTEREST-ONLY debt only
+```
+
+Solved for the missing variable instead of the blended rate:
+
+```
+rE = (r_WACC − rD × LVR) / (1 − LVR)          equity's required return
+rD = (r_WACC − rE × (1−LVR)) / LVR            implied cost of debt
+```
+
+**Cap rate vs discount rate** (note 04 §8.6):
+
+```
+Cap rate        = income return only         = NI(year 1) / value
+Discount rate    = income AND capital growth, across every period
+
+Cap rate = Discount rate  ONLY IF income is stabilised (level, non-growing)
+
+Gordon Growth Model:   Discount rate = Cap rate + Growth rate
+```
+
+Two decompositions of the same required return — already on this sheet
+under Returns, restated here as the "requirement vs delivery" framework
+RICS uses (§5.13):
+
+```
+REQUIREMENT:   risk-free rate + risk premium      =  discount rate
+DELIVERY:      cap rate + growth rate             =  total return (discount rate)
+```
+
 ## Unit Conversions That Cost Marks
 
 ```
@@ -175,9 +225,18 @@ Price fixed    →  EXPECTED RETURN (IRR)
 ```
 
 The two conventions differ. On the Week 3 exercise: $895,988 vs $897,424,
-a gap of $1,435.88 (note 05 §7.5). Grossing up is the internally consistent
+a gap of $1,435.88 (note 06 §7.5). Grossing up is the internally consistent
 one, because acquisition costs are a percentage *of price*. State which you
 used.
+
+> **The Week 4 solution workbook switches to the gross-up method.** The
+> `Annual Commercial` sheet's "less purchase costs" row computes
+> `−NPV × T/(1+T)`, which is algebraically the gross-up (`NPV/(1+T)`), not
+> the class method Week 3 taught. On the Week 4 commercial exercise:
+> $2,436,500.07 (gross-up) vs $2,430,408.82 (class method), a gap of
+> $6,091.25 (note 07 §9.9). The two weeks' solution files now disagree with
+> each other on which convention to use — match whichever week's material
+> you are being assessed against, and state your choice.
 
 ## Monthly Conversions
 
@@ -542,6 +601,43 @@ One line each. Each of these changes an answer.
   Week 3 model deliberately leaves period 0 empty because price is the
   unknown; A1's period 0 is a real negative outlay and must be included.
 
+### Week 4 — Deriving the Discount Rate
+
+- **A cap rate equals a discount rate only when income is stabilised.**
+  Growth or lease events in the cashflow make them diverge —
+  `discount rate = cap rate + growth rate` (Gordon Growth) is the
+  reconciling identity.
+- **WACC assumes a constant `D/V` and only holds for interest-only debt.**
+  An amortising loan reduces the debt balance every period, so a WACC
+  computed at t=0 does not describe the blended return once the loan has
+  paid down principal — do not use it inside a geared DCF with an
+  amortising mortgage (Weeks 7–9).
+- **Weighting comparable sales is a judgement call, not an arithmetic
+  one.** Any weighting is defensible provided it is *consistent with the
+  stated comparability* — putting more weight on the least comparable
+  sale is what loses marks, not the exact split chosen.
+- **Read the assumption cell, not just the question text.** The lecture's
+  own WACC Exercise 3 states debt at 8.5% but its target answer (8.25%)
+  only reconciles at 7.5% — a 75bp gap that moves the WACC 75bp one-for-one
+  through the 75% debt weighting. Confirm which figure your tutor intends
+  before quoting either.
+- **Multi-tenanted rents reset to the *forecast* market rent in the year
+  *after* the stated expiry**, then resume compounding at that tenancy's
+  own review rate — "expires in 3 years" resets in year 4, the same n+1
+  logic used for a terminal sale price.
+- **No blanket vacancy allowance in a multi-tenanted model.** Letting-up
+  costs (a vacancy-period allowance plus an agent's fee, both sized off
+  the *new* rent) hit only in the actual re-let year — net income can fall
+  in a year gross potential income rises.
+- **A capex item quoted "in today's dollars, in year N" escalates by the
+  period's own index number**, not the years remaining until it. Using
+  `(1+CPI)^(N−1)` instead of `(1+CPI)^N` understated a $50,000 item by
+  $1,591 on the Week 4 exercise.
+- **A hardcoded number in a "sensitivity" cell is not a live sensitivity.**
+  The Week 4 solution workbook's own `Sensitivity` tab has pasted-in
+  values that were never recalculated after its base case changed —
+  check whether a cell is a formula before trusting a sensitivity table.
+
 ### Reporting
 
 - **Say which return you are reporting** — required or expected, ungeared or
@@ -606,4 +702,38 @@ Two things in the Week 3 material that are wrong or ambiguous: the lecture
 slide prints **$1,325,720 as the sale price** when that figure is the period
 5 net cashflow (the sale price is $1,322,619.80); and step 6 deducts 4% of
 the *present value* when the assumption cell defines it as 4% of the *price*,
-a $1,435.88 difference. Both are set out with the algebra in note 05 §7.5.
+a $1,435.88 difference. Both are set out with the algebra in note 06 §7.5.
+
+### Quick Reference — the Week 4 Commercial Exercise
+
+```
+5-year hold    8% discount rate    9% terminal yield    3% CPI
+5% purchase costs    2% selling costs    6-month letting-up, 15% letting fee
+
+Hairdresser  200m² @$300/m² net, 3% reviews, expires yr 2 (resets yr 3)
+Butcher      250m² @$250/m² net, 4% reviews, expires yr 4 (resets yr 5)
+Newsagent    300m² @$275/m² net, 3.5% reviews, expires yr 3 (resets yr 4)
+Carparking   10 bays @$1,200 p.a., 3% reviews, no expiry
+
+Year 1 potential net income             $  217,000.00
+Year 3 net income (post letting-up)     $  169,814.99
+Year 6 (n+1) net income                 $  251,576.12
+Terminal value  = 251,576.12 / 0.09     $2,795,290.22
+Selling costs at 2%                     $   55,905.80
+Air-con capex, escalated to yr 3        $   54,636.35
+Sum of PVs (periods 1–5)                $2,558,325.08
+Maximum price — gross-up (this week)    $2,436,500.07
+Maximum price — class method (Wk 3)     $2,430,408.82
+Year-1 initial yield at gross-up price        8.14%
+
+Exercise 4 — weighted market discount rate    8.58%
+Exercise 5 — implied equity return              15%
+```
+
+Two things in the Week 4 material that are wrong or ambiguous: WACC
+Exercise 3's question text states 8.5% debt but its target answer of 8.25%
+only reconciles at 7.5% debt (§ above, and note 04 §8.8); and the solution
+workbook's `Sensitivity` tab does not reconcile with its own base case —
+its discount-rate table is a stale, hardcoded leftover and one column of
+its growth table just points back at that stale table instead of being
+recomputed (note 07 §9.2).

@@ -37,7 +37,7 @@ it flags for the DCF:
 > Here `20,000/120,000 = 16.7%` of gross. For Australian commercial property
 > a ratio far outside roughly 15–35% of gross means either the expense list
 > is incomplete or the leases are structured differently than you assumed.
-> 41 Park Road's ratio is 21.4% (note 05, §5.6) — plausible, which is itself
+> 41 Park Road's ratio is 21.4% (note 06, §5.6) — plausible, which is itself
 > evidence that the outgoings schedule is broadly complete.
 
 ## 3.2 Exercise 1b — Reading a Transaction

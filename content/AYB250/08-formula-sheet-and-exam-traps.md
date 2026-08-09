@@ -1,7 +1,7 @@
 # Formula Sheet and Exam Traps
 
-Everything from Weeks 1 and 2 and the Part A technique, on one page. Nothing
-here is new — it is the reference version of notes 01 to 04.
+Everything from Weeks 1 to 3 and the Part A technique, on one page. Nothing
+here is new — it is the reference version of notes 01 to 06.
 
 ## Personal financial statements
 
@@ -116,7 +116,7 @@ REAL RATE OF RETURN  (lecture method)
 ## 2026-27 rates (from the Part A template)
 
 ```
-INCOME TAX
+INCOME TAX (resident)
   Lower bound   Base tax    Marginal rate
         0             0        0%
    18 200             0       15%
@@ -126,7 +126,15 @@ INCOME TAX
 
   tax = base + (income − lower bound) × marginal rate
 
+INCOME TAX (non-resident) — no tax-free threshold
+        0             0       30%
+  135 000        40 500       37%
+  190 000        60 850       45%
+
 MEDICARE LEVY   2% of taxable income
+  Shaded in below the individual lower threshold ($28,011) to nil,
+  full rate reached at the upper threshold ($35,013). See note 04 for
+  the SAPTO / family thresholds.
 
 MEDICARE LEVY SURCHARGE   (no private hospital cover)
   Single       Family       Rate
@@ -150,6 +158,83 @@ Check the base figures reconcile:
  HELP:      (129 717 − 69 528) × 0.15         =  9 028.35  ✓
  HELP cap crossover: 9 028.35 + 0.17(x − 129 717) = 0.10x
                      →  x = $186 050.57   ✓ matches the table
+```
+
+## Deductions, offsets and investment tax (Week 3)
+
+```
+STANDARD DEDUCTION (new for 2026-27)
+  Up to $1 000, automatic, no records needed.
+  Reduced $-for-$ by work-related expenses claimed instead —
+  EXCEPT union fees/memberships, which are ALWAYS additional.
+
+TOOLS AND EQUIPMENT
+  < $300   → immediate deduction
+  ≥ $300   → depreciate over effective life (prime cost or diminishing
+             value), work-use proportion only
+
+LOW INCOME TAX OFFSET (LITO)
+  Taxable income          Offset
+    0 – 37 500            $700
+   37 501 – 45 000        $700 − 5c per $1 over 37 500
+   45 001 – 66 667        $325 − 1.5c per $1 over 45 000
+   above 66 667           $0
+
+FRANKING (IMPUTATION) CREDIT
+  credit = dividend received × [company tax rate / (1 − company tax rate)]
+  large company (30%):  dividend × 30/70
+  small company (25%):  dividend × 25/75
+  Partially franked → multiply by the franked percentage.
+  The resulting franking tax offset is REFUNDABLE.
+
+CAPITAL GAINS TAX
+  Net capital gain = gains − losses (current year + carried forward)
+  Held > 12 months:  Discount method — 50% of the gain assessable
+                      (individuals only; super funds get 1/3, not 1/2;
+                      companies get NO discount)
+                      Indexation method — cost base indexed
+                      (pre-21-Sept-1999 purchases only)
+  Held ≤ 12 months:  entire gain assessable, no concession
+  Netting order:      apply losses to NON-discountable gains first,
+                       then to the discountable pool BEFORE halving it
+  Pre-19-Sept-1985 assets, the main residence, and cars: CGT-exempt
+
+  FROM 1 JULY 2027: the 50% discount is replaced by cost-base indexation
+  (tax only the gain above inflation) plus a 30% MINIMUM tax rate on
+  gains accruing after that date.
+
+ENTITY TAX RATES
+  Companies            30% flat (25% base rate entities)
+  Superannuation funds  15% flat
+  Trusts / partnerships distributed to members/partners, taxed at
+                        their own marginal rate
+  Sole traders          taxed as individuals
+
+NEGATIVE GEARING CUTOVER — 7:30pm, 12 May 2026
+  Before that time, or a new build → old rules: losses offset ANY income
+  After that time, existing property → new rules (from 1 Jul 2027):
+    losses only offset OTHER residential property income (rent or
+    capital gains), carried forward if unused
+
+SALARY PACKAGING
+  Saving = packaged amount × (marginal rate + Medicare levy − 15%
+           contributions tax), while within the concessional cap
+```
+
+### Reference values
+
+```
+Sophie: wages 50 500 + interest 400, deductions 1 150 (standard $1 000 +
+        union $150), taxable income 49 750, tax $5 445, Medicare $995,
+        LITO $253.75  →  net tax payable $6 186.25
+Stanley: wages 45 000 + fully franked dividend 35 000 (large co.)
+        → franking credit $15 000, taxable income $95 000,
+          net tax payable $5 920
+Tobias CGT case study: net capital gain $160 000 (current rules) /
+        $141 580 (new rules, indexed) — tax saving under the new
+        rules is $6 815.40 either way the tax is then calculated
+Jenny negative gearing: weekly deduction $90, $4 680 p.a.
+Kristy salary packaging: $20 000 sacrificed to super saves $3 400 in tax
 ```
 
 ## Week 1 in one table
@@ -238,7 +323,7 @@ comparing.
 
 Two-stage savings problems: the first annuity's FV lands at the end of stage
 one and must be compounded forward as a lump sum before it can be added to
-the second. Skipping that step in the worked example in note 05 costs
+the second. Skipping that step in the worked example in note 07 costs
 $3,813 on a $34,817 answer.
 
 ### 7. Annuity timing
@@ -275,6 +360,48 @@ not `1 000 × 1.08³`. And part-year simple interest uses **365 days**.
 SMSFs are the **ATO**. Everything else super is **APRA**. This is the most
 likely single-mark regulatory question in the unit.
 
+### 13. Union fees pulled into the standard-deduction comparison
+
+The new $1,000 standard deduction excludes union fees and memberships —
+they're always additional. Comparing *all* work expenses (including union
+fees) against the $1,000 cap, instead of comparing non-union expenses only
+and then adding union fees back on top, is easy to get backwards. Sophie's
+worked example in note 04 turns entirely on this.
+
+### 14. Franking credits skip the taxable-income line
+
+The credit is added to assessable income and taxed at the marginal rate
+*before* being subtracted back out as a refundable offset — it isn't just
+tacked onto the final tax bill. Forgetting to gross up taxable income by
+the credit understates every number downstream, including the Medicare
+levy (which is calculated on the grossed-up taxable income, not the cash
+dividend received).
+
+### 15. CGT netting order: losses before the discount, not after
+
+Apply capital losses to non-discountable gains first, then any remainder
+to the discountable pool — **then** halve the net remaining discountable
+gain. Halving each discountable gain individually before netting the loss
+against it overstates the concession. Tobias's case study in note 05 is
+built around this exact trap.
+
+### 16. Super's CGT discount is one-third, not one-half
+
+Every other structure that gets a CGT concession at all gets 50%.
+Superannuation funds, already taxed at a flat 15%, get a **one-third**
+discount instead. Companies get no CGT concession at all outside
+small-business rules.
+
+### 17. Whole-of-income tax applied where marginal tax was meant
+
+A capital gain (or any income) taxed at "the marginal rate" only equals
+`gain × rate` when other income has already filled every bracket below it.
+With no other income, the correct figure comes from the full marginal
+formula — `base + (income − lower bound) × rate` — not the top rate
+applied flat to the whole amount. See the flagged issue on Tobias's tax
+payable in note 05: the gap is a fixed $18,930, regardless of which CGT
+regime applies.
+
 ## Reconciliation checks to run on any answer
 
 ```
@@ -290,15 +417,19 @@ likely single-mark regulatory question in the unit.
 
 ## Errors in the source material
 
-Four things in the Week 2 deck do not survive checking. All are detailed in
-notes 02 and 03; confirm each with your tutor.
+Four things in the Week 2 deck, and three in the Week 3 deck, do not survive
+checking. All are detailed in notes 02, 03, 04 and 05; confirm each with
+your tutor.
 
 | Slide | Says | Should be |
 |---|---|---|
-| 58 (footnote) | Inflation rate = 5% p.a. | The table subtracts **4.0%** and is internally consistent; the footnote is wrong. At 5% inflation every bracket goes negative: −0.90, −1.60, −1.95 and −2.35 |
-| 31 | FV = $1,360.50 | **$1,360.49** — exact value $1,360.4890, matching the year-by-year table on slide 29 |
-| 34 | `[1 + (j/m)]^m − 1` is "the periodic (effective) interest rate" | It is the effective **annual** rate. The periodic rate is `j/m` |
-| 55 | IRR = 12.7% | **12.59%** is the true IRR. 12.7% is what linear interpolation gives, and interpolation overstates |
+| Wk2, 58 (footnote) | Inflation rate = 5% p.a. | The table subtracts **4.0%** and is internally consistent; the footnote is wrong. At 5% inflation every bracket goes negative: −0.90, −1.60, −1.95 and −2.35 |
+| Wk2, 31 | FV = $1,360.50 | **$1,360.49** — exact value $1,360.4890, matching the year-by-year table on slide 29 |
+| Wk2, 34 | `[1 + (j/m)]^m − 1` is "the periodic (effective) interest rate" | It is the effective **annual** rate. The periodic rate is `j/m` |
+| Wk2, 55 | IRR = 12.7% | **12.59%** is the true IRR. 12.7% is what linear interpolation gives, and interpolation overstates |
+| Wk3, 29 | Sophie's total tax = "$5,490 + $998 = $6,488" | Doesn't match the deck's own line items: tax $5,445 + Medicare $995 = **$6,440** |
+| Wk3, 32 | LITO working shows `4 750 × 0.015 = $71.20`, then final net tax payable "$6,186.23" | $4,750 × 0.015 = **$71.25** (the stated LITO of $253.75 actually uses the correct $71.25). Net tax payable is **$6,186.25**, not $6,186.23 |
+| Wk3, 52 | Tobias's CGT "tax payable" = net gain × 37% flat, with "no other income" assumed | With genuinely no other income, the progressive scale gives **$40,270** (current rules) and **$33,454.60** (new rules) — not $59,200 / $52,385. The tax **saving** between old and new rules ($6,815.40) is identical either way |
 
 Not an error, though it looks like one: the fourth row of the HECS-HELP
 table ($186,050 / 10% / "Total income") is a genuine **cap**, and the
@@ -306,9 +437,10 @@ crossover arithmetic above proves it.
 
 ## What this sheet does not cover
 
-Weeks 3 onwards. The unit's own signposting says Week 3 is **taxation
-planning**, and Part A spans "Topics 1–3", so at minimum a full taxation
-topic sits between this material and the exam. Insurance, superannuation,
-social security, estate planning and plan construction are all in the Week 1
-list of what a planner must know and none of them have been lectured yet.
-Add to this sheet as those weeks land.
+Weeks 4 onwards. Week 3 (taxation planning — income tax, deductions,
+offsets, investment income, CGT, tax structures, negative gearing, salary
+packaging, FBT and GST) is now covered in notes 04 and 05. Insurance,
+superannuation, social security, estate planning and plan construction are
+all in the Week 1 list of what a planner must know, and none of them have
+been lectured yet — Week 3's own closing slide says the next topic is
+**asset allocation and investment**. Add to this sheet as those weeks land.
