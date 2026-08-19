@@ -5,7 +5,7 @@ classification ladder, the PCA measurement rules (GLAR this time, not
 NLA/GLA), and the design and development issues specific to a centre. The
 Week 4 tutorial applies this — and the Week 3 tenancy-schedule skill — to a
 real property; see
-[Tutorial 2 — Auburn Quarter](#/USB244/05-tutorial-2-auburn-quarter).
+[Tutorial 2 — Auburn Quarter](#/USB244/06-tutorial-2-auburn-quarter).
 
 ## 3.1 The Role of the Shopping Centre Manager
 
@@ -64,7 +64,7 @@ total gross lettable area across all tenants — not any one tenancy's area.
 > and medical/allied-health suites with no supermarket — doesn't fit any row,
 > no matter how many tenants it has. It's better described by the
 > **configuration** in §3.4 (most often a strip centre) than forced into a
-> classification it doesn't meet. [Tutorial 2](#/USB244/05-tutorial-2-auburn-quarter)
+> classification it doesn't meet. [Tutorial 2](#/USB244/06-tutorial-2-auburn-quarter)
 > works exactly this case.
 
 ### Market data — PCA Shopping Centre Online (as at March 2025)
@@ -89,7 +89,7 @@ labels supplied):
 > **Numerous ≠ dominant.** The count chart and the GLAR chart tell opposite
 > stories from the same market, for the same reason Richlands Plaza's
 > Woolworths inverts between GLA share and income share (see
-> [Tutorial 1](#/USB244/04-tutorial-1-information-memorandum)): a handful of
+> [Tutorial 1](#/USB244/05-tutorial-1-information-memorandum)): a handful of
 > very large centres can hold more floor area than hundreds of small ones. If
 > you cite "QLD's retail stock", say whether you mean by centre count or by
 > GLAR — they support different conclusions.

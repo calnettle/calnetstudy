@@ -202,6 +202,57 @@ REQUIREMENT:   risk-free rate + risk premium      =  discount rate
 DELIVERY:      cap rate + growth rate             =  total return (discount rate)
 ```
 
+## Return Measurements (Week 5)
+
+Static measures — any ratio of one known feature over another. Year-1
+figures only:
+
+```
+Rates                     Multipliers (yrs purchase)   Operating ratios
+Gross rate = GI/Value     GIM  = Value/GI              Expense    = Og/GI
+Net rate   = NI/Value     NIM  = Value/NI              Break-even = (Og+PMT)/GI
+Cash-on-cash = BTCF/Eq    Cash mult = Eq/BTCF          Profit mgn = BTCF/GI
+
+BTCF = NOI − annual debt service        Eq = initial equity
+```
+
+Cash-on-cash, cash multiplier, break-even and profit margin are **geared**
+— they move with the loan, not just the property. Static shortcomings
+(exam list): ignore time value, year-1 only, ignore acquisition/sale
+costs, ignore capital growth, like-with-like only.
+
+Dynamic measures:
+
+```
+        n     CFt
+NPV  =  Σ  ─────────  −  CF0          NPV > 0  accept (hurdle exceeded)
+       t=1 (1 + r)^t                  NPV = 0  earns exactly r
+                                      NPV < 0  reject
+
+IRR  =  the r that makes NPV = 0      no closed form — iterate
+                                      IRR > r  accept;  IRR < r  reject
+```
+
+The two are one model, two outputs: NPV reports the dollar surplus at
+your hurdle rate; IRR reports the rate at which the surplus vanishes.
+NPV and maximum price payable are the same equation rearranged:
+
+```
+NPV at price PP     = Σ PVs − (1 + acq%) × PP
+Break-even price    = Σ PVs / (1 + acq%)        (the price where NPV = 0,
+                                                 gross-up convention)
+```
+
+Required vs expected return (Rowland [2.60]): fix the **rate**, solve the
+**price** (investment value, Weeks 3–4) — or fix the **price**, solve the
+**rate** (expected return = IRR, Week 5).
+
+NPV–IRR ranking conflicts (mutually exclusive projects): **scale**
+(IRR favours the small hot project, NPV the large surplus), **timing**
+(IRR favours early cash), **horizon** (IRR favours quick doubles).
+Multiple IRRs whenever the cashflow changes sign more than once. In every
+conflict: **decide by NPV** — it measures the wealth increase directly.
+
 ## Unit Conversions That Cost Marks
 
 ```
@@ -225,7 +276,7 @@ Price fixed    →  EXPECTED RETURN (IRR)
 ```
 
 The two conventions differ. On the Week 3 exercise: $895,988 vs $897,424,
-a gap of $1,435.88 (note 06 §7.5). Grossing up is the internally consistent
+a gap of $1,435.88 (note 07 §7.5). Grossing up is the internally consistent
 one, because acquisition costs are a percentage *of price*. State which you
 used.
 
@@ -234,7 +285,7 @@ used.
 > `−NPV × T/(1+T)`, which is algebraically the gross-up (`NPV/(1+T)`), not
 > the class method Week 3 taught. On the Week 4 commercial exercise:
 > $2,436,500.07 (gross-up) vs $2,430,408.82 (class method), a gap of
-> $6,091.25 (note 07 §9.9). The two weeks' solution files now disagree with
+> $6,091.25 (note 08 §9.9). The two weeks' solution files now disagree with
 > each other on which convention to use — match whichever week's material
 > you are being assessed against, and state your choice.
 
@@ -434,6 +485,21 @@ Elsewhere in the assignment model:
                                                back outside the function
 =MAX(taxable, 0)                               no refunds on a loss year
 ```
+
+The Week 5 patterns, from the `NPV and IRR formula` tab:
+
+```
+=NPV(rate, CF1:CFn) + CF0     period 0 OUTSIDE the bracket, added after
+=IRR(CF0:CFn, guess)          period 0 INSIDE the range, and negative
+rate                          must be PERIODIC: annual/12 monthly, /2 semi
+guess                         use your discount rate — guards the root
+annualise a periodic IRR      × 12 or × 2 (unit convention; effective
+                              rate would be (1+i)^m − 1)
+Goal Seek                     Data → What-If → Goal Seek: NPV cell to 0
+                              by changing price (break-even) or rate (IRR)
+```
+
+Both functions read the raw **net cashflow row** — never the PV row.
 
 > **Excel's `NPV()` does not return an NPV.** It discounts the range as if
 > the first cell were period **1**, and it does not include period 0. The
@@ -638,6 +704,41 @@ One line each. Each of these changes an answer.
   values that were never recalculated after its base case changed —
   check whether a cell is a formula before trusting a sensitivity table.
 
+### Week 5 — Return Measurements
+
+- **`NPV()` excludes period 0; `IRR()` requires it.** The two functions
+  treat the purchase outlay in opposite ways — `=NPV(rate,CF1:CFn)+CF0`
+  vs `=IRR(CF0:CFn,guess)`. Mixing the conventions is the most common
+  Excel error in the topic.
+- **Feed both functions raw cashflows, never the PV row.** `NPV()` on
+  discounted values discounts twice; `IRR()` on them returns plausible
+  garbage.
+- **The discount rate in `NPV()` must match the period.** A monthly model
+  needs `annual/12` — the same convention trap as note 06 §3.9.
+- **The IRR is a property of the cashflows alone.** If your IRR cell
+  moves when the discount rate changes, the range is pointing at
+  discounted values.
+- **Zero NPV is not zero return** — it means the investment earns exactly
+  the discount rate.
+- **A ×12 (or ×2) annualised IRR is a nominal rate.** The effective rate
+  is `(1+i)^m − 1`; at Week 5's numbers the gap is 20–35bp. Follow the
+  unit's multiply convention, but say so.
+- **Static measures price year 1 and call it the investment** — no time
+  value, no later years, no acquisition/sale costs, no growth. Name the
+  denominator: cash-on-cash divides BTCF by *equity*, not price, and is
+  geared.
+- **When NPV and IRR rank alternatives differently, choose by NPV** —
+  scale, timing or horizon differences (and any cashflow with more than
+  one sign change) can flip the IRR ranking; NPV gives the
+  wealth-maximising signal.
+- **The Week 5 lecture's conflict slides don't reconcile with their own
+  tables** — the headline example's NPVs are computed at 10% despite the
+  slide saying 20%; the scale example's "NPV" column is the PV of
+  inflows, and its project-B IRR is 23.4%, not the printed 21%; the
+  timing example's stated results need a $120 year-2 cashflow, not the
+  printed $125. Rankings and conclusions are unaffected. Recompute before
+  quoting.
+
 ### Reporting
 
 - **Say which return you are reporting** — required or expected, ungeared or
@@ -702,7 +803,7 @@ Two things in the Week 3 material that are wrong or ambiguous: the lecture
 slide prints **$1,325,720 as the sale price** when that figure is the period
 5 net cashflow (the sale price is $1,322,619.80); and step 6 deducts 4% of
 the *present value* when the assumption cell defines it as 4% of the *price*,
-a $1,435.88 difference. Both are set out with the algebra in note 06 §7.5.
+a $1,435.88 difference. Both are set out with the algebra in note 07 §7.5.
 
 ### Quick Reference — the Week 4 Commercial Exercise
 
@@ -736,4 +837,33 @@ only reconciles at 7.5% debt (§ above, and note 04 §8.8); and the solution
 workbook's `Sensitivity` tab does not reconcile with its own base case —
 its discount-rate table is a stale, hardcoded leftover and one column of
 its growth table just points back at that stale table instead of being
-recomputed (note 07 §9.2).
+recomputed (note 08 §9.2).
+
+### Quick Reference — the Week 5 Exercises
+
+```
+Week 3 model repriced (3%-CPI expense variant, Σ PVs = $911,456.24):
+  PP $825,000    NPV +$53,456.24    IRR 11.43%
+  PP $850,000    NPV +$27,456.24    IRR 10.72%
+  PP $875,000    NPV + $1,456.24    IRR 10.04%
+  Break-even price (NPV = 0)        $876,400  ( = 911,456.24 / 1.04 )
+
+Six-monthly model, PP $825,000:     NPV +$70,221.71
+  IRR 5.893% per half-year → ×2 = 11.79% (effective 12.13%)
+
+Monthly commercial (Ex 9, PP $2.5m + 5% costs, r 8%, TY 9%):
+  Terminal value (NI mths 61–72 ÷ 9%)    $2,752,636.81  at month 60
+  NPV @ 8%/12                            −$104,564.46   → reject
+  IRR 0.5869%/month → ×12 = 7.04%  (effective 7.27%)  < 8% hurdle
+  Break-even price ≈ $2.40m
+```
+
+Three things in the Week 5 material that are wrong or stale, all flagged
+in note 09: the lecture's three NPV–IRR conflict slides do not reconcile
+with their own tables (details in the traps above); the `Exercise 8` tab's
+check comments quote "$18,815 NPV / 10.7% IRR at a $600,000 price" that no
+input reproduces — the tab's own base case gives +$70,221.71 / 11.79% at
+$825,000; and the workbook carries two contradictory "Week 3 solutions"
+(3%-CPI expenses with the class acquisition method vs 7% expenses with
+the gross-up), whose maximum prices differ by ~$30k — confirm with the
+tutor which variant the exam expects.

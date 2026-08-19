@@ -1,7 +1,7 @@
 # Extra Practice Questions
 
-Exam-style questions across Topics 1, 2 and 3 and Tutorials 1 and 2. Attempt
-each before opening the answer.
+Exam-style questions across Topics 1–4 and Tutorials 1–3. Attempt each
+before opening the answer.
 
 ## Section A — Capital value and strategy
 
@@ -548,4 +548,103 @@ assumes 100% recovery and zero non-recoverables, which Tutorial 1's
 Richlands Plaza figures show is not how a real building behaves (18.5% of
 its outgoings were non-recoverable).
 
+</details>
+
+## Section F — Leases and WALE Interpretation
+
+**F1.** A lease has a CPI review with a 2.5% collar and a 4.5% cap. Passing
+rent is $250,000 and CPI prints 5.1%. Calculate the new rent, and state who
+the cap protected.
+
+**F2.** A specialty lease has base rent of $95,000 and turnover rent of 6%.
+Where is the natural breakpoint, and what is total rent in a year when MAT
+is $1,900,000?
+
+**F3.** A 600 sqm tenancy signs at $450/sqm face for 5 years, with 3 months
+rent-free and a $67,500 fitout contribution. Calculate the incentive
+percentage and the effective rent per sqm.
+
+**F4.** A shopping centre earns $75,000 a year from casual mall leasing and
+$28,000 a year from a signage structure licensed to an outdoor media company
+for 10 years. Which line appears in the income WALE, and why?
+
+**F5.** The same market review clause — rent resets to market, but not below
+passing — sits in an office lease in the CBD and a specialty lease in a
+suburban shopping centre. The market falls 6%. What happens to each rent?
+
+**F6.** An IM advertises "significant mixed-use redevelopment upside (STCA)"
+alongside a 9-year WALE. What single lease clause would you check before
+believing both claims at once, and why?
+
+**F7.** Net income is $1,500,000. Lengthening the portfolio WALE persuades
+the valuer to move the cap rate from 6.50% to 6.25%. What is the value
+uplift in dollars and per cent?
+
+**F8.** List the three structural features that distinguish a green lease
+from a standard lease, and give one benefit each for the tenant and the
+landlord.
+
+**F9.** Auburn Quarter's WALE is 2.86 years by income and 2.60 by area.
+Explain the direction of the gap, and explain what kind of tenancy the
+schedule would need before the gap could run the Richlands way (area above
+income).
+
+<details><summary>Answers</summary>
+
+**F1.** CPI 5.1% exceeds the 4.5% cap, so the cap binds: $250,000 × 1.045 =
+**$261,250**. The cap protected the **tenant** — without it the increase
+would have been $12,750 larger. (The collar protects the landlord at the
+other end.)
+
+**F2.** Breakpoint = 95,000 ÷ 0.06 = **$1,583,333**. Turnover rent = 6% ×
+(1,900,000 − 1,583,333) = **$19,000**. Total rent = **$114,000**.
+
+**F3.** Total face = 450 × 600 × 5 = $1,350,000. Rent-free = 3/12 ×
+$270,000 = $67,500; total incentive = 67,500 + 67,500 = $135,000 = **10%**.
+Effective rent = (1,350,000 − 135,000) ÷ 5 = $243,000 p.a. ÷ 600 sqm =
+**$405/sqm** against $450 face.
+
+**F4.** Only the **signage licence**. It is a genuine separate letting with
+a fixed term and expiry, so it enters the income WALE (and is neutral in
+the area WALE at 0 sqm). Casual mall leasing runs on licences of days or
+weeks — nominal secured term, excluded like holdover tenants — so $75,000
+of real income is invisible to the WALE, which is itself worth a sentence
+of discussion.
+
+**F5.** In the **office lease** the ratchet holds rent at passing — the
+reset to a 6%-lower market is blocked. In the **retail** lease the ratchet
+is generally of no effect under Queensland's Retail Shop Leases Act, so the
+rent falls with the market. Same clause, opposite outcomes — confirm the
+current provisions before citing the Act.
+
+**F6.** The **demolition/relocation clause**. Redevelopment upside is only
+deliverable if the owner can terminate the leases; a genuine 9-year secured
+WALE and near-term redevelopment are mutually exclusive unless the leases
+contain demolition clauses — and if they do, the WALE is not worth 9 years
+to an income buyer. One of the two claims is softer than it looks.
+
+**F7.** 1,500,000 ÷ 0.0650 = $23,076,923; 1,500,000 ÷ 0.0625 = $24,000,000.
+Uplift = **$923,077 = +4.0%** — the standard 25 bp ≈ 4% result.
+
+**F8.** (1) Green provisions in the lease or an attached schedule;
+(2) consequences if either party misses the agreed targets;
+(3) joint governance — an Environmental Management Plan and Building
+Management Committee. Tenant benefit: lower outgoings (plus CSR and a
+healthier workplace). Landlord benefit: operating savings plus higher rent
+= higher value (`CV = NI / CR`), plus retention.
+
+**F9.** The long leases sit on little or no area — Essential Care Dental
+(121 sqm, ~10 yrs) and the zero-area Great Site signage licence (~8.7 yrs)
+lift the income WALE, while the largest areas (Auburn Medical 361 sqm,
+Auburn Body Corporate 255 sqm) expire within ~20 months and drag the area
+WALE. What it would take to flip: a tenancy whose **area share materially
+exceeds its income share** — a big space at well-below-average rent —
+holding the longest lease. Auburn Quarter doesn't have one: its rents
+cluster near the $769/sqm building average (even 361 sqm Auburn Medical
+sits at $791/sqm, so its area and income weights are nearly identical and
+re-signing it long lifts *both* WALEs almost equally). The Richlands
+pattern needs an anchor-shaped tenancy — Woolworths there holds 69% of the
+area at a fraction of specialty rent on the longest lease. No anchor, no
+flip: the gap's direction is a structural fingerprint, not a dial the
+manager can turn from within this rent roll.
 </details>

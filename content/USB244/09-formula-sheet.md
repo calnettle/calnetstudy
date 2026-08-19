@@ -1,6 +1,6 @@
 # Formula Sheet & Exam Traps
 
-Everything from Weeks 1–2 on one page.
+Everything from Weeks 1–5 on one page.
 
 ## Capital Value
 
@@ -143,6 +143,50 @@ untouched. Casual mall leasing is excluded from the WALE altogether (nominal
 term), so a centre with material CML income has a WALE that overstates the
 security of its *total* income.
 
+## Leases and Rent Reviews
+
+**WALE interpretation** (Week 5 tutorial):
+
+```
+WALE 5+ years      →  secured income, investor-preferred
+WALE under 5 years →  turnover, management and leasing cost
+                      — AND repositioning / rent-reset opportunity
+
+WALE ↑  →  cap rate ↓  →  capital value ↑     (25 bp ≈ 4% of value)
+```
+
+**Review mechanisms:** none · fixed % · percentage steps · CPI · market.
+**Modifiers:** ratchet (no decrease) · either-or (higher/lower of two) ·
+floor / minimum · cap and collar.
+
+```
+CPI review, collar 2% / cap 4%, on $400,000
+   CPI 1.1% → 2.0% → $408,000      CPI 6.8% → 4.0% → $416,000
+Market falls 8%: no ratchet → $368,000 ; ratchet → $400,000 held
+```
+
+**Effective rent** (straight-line):
+
+```
+Effective = (total face rent over term − total incentives) / term
+
+1,000 sqm · $500 face · 5 yrs · 6 mo rent-free + $150k fitout
+Incentive 400,000 / 2,500,000 = 16%  →  effective $420/sqm
+```
+
+**Percentage (turnover) rent:**
+
+```
+Natural breakpoint = base rent / percentage rate
+% rent             = rate × (turnover − breakpoint), if positive
+
+Base $80,000 at 5% → breakpoint $1.6m
+MAT $2.1m → % rent $25,000 → total $105,000
+```
+
+**Profit rent** = sublease income − head rent (sublet $360k on $300k head
+rent → $60k). **Rental shortfall** is the reverse gap.
+
 ## Outgoings Benchmarking (PCA)
 
 ```
@@ -264,7 +308,7 @@ department-store anchor.
 > **A property with no supermarket or department store doesn't fit any row**,
 > no matter its size — classify it by **configuration** instead (strip /
 > mall / cluster). Auburn Quarter (1,491 sqm, no anchor) is the worked
-> example in [Tutorial 2](#/USB244/05-tutorial-2-auburn-quarter).
+> example in [Tutorial 2](#/USB244/06-tutorial-2-auburn-quarter).
 
 ## WALE From a Tenancy Schedule — No EOI Date
 
@@ -282,7 +326,7 @@ rolling/casual licence) is included in the income WALE exactly like a
 rooftop telco lease, and is mathematically neutral in the area WALE — 0 sqm
 contributes 0 to both the numerator and the denominator regardless of
 inclusion. Worked at length, including the sensitivity of dropping it, in
-[Tutorial 2](#/USB244/05-tutorial-2-auburn-quarter).
+[Tutorial 2](#/USB244/06-tutorial-2-auburn-quarter).
 
 > **A tenancy schedule gives you Gross income, not Net income.** It shows
 > what is billed and recovered from tenants — not what the landlord actually
@@ -421,10 +465,10 @@ and warehousing 44%, retail trade 19%.
 
 > **15. The slide decks contradict themselves on dates and one figure.** Site
 > visits appear as both 2025 and 2026; 360 Queen Street is 45,000 sqm in one
-> place and 50,000 sqm in another; Waterfront Brisbane delivers its first
-> tower in "2026" per the pipeline slide but "2028" per the assessment brief;
-> the Jan-25 slide misdates Sydney's 18% vacancy as January 2025 when it is
-> July 2024. Check Canvas, and cite ranges.
+> place and 50,000 sqm in another; Waterfront Brisbane is 120,000 sqm in the
+> pipeline table but 145,190 sqm of total GFA in the detail slide; the Jan-25
+> slide misdates Sydney's 18% vacancy as January 2025 when it is July 2024.
+> Check Canvas, and cite ranges.
 
 > **16. WALE is calculated at the EOI date, not today** — and vacant space is
 > in the area WALE at zero years but out of the income WALE. Not out of both.
@@ -467,3 +511,26 @@ and warehousing 44%, retail trade 19%.
 > casual licence) belongs in the income WALE.** It is mathematically neutral
 > in the area WALE either way — 0 sqm contributes 0 regardless of inclusion —
 > but omitting it from the income WALE understates the number for no reason.
+
+> **26. Ratchets are restricted in retail.** A no-decrease clause on a market
+> review generally has no effect under Queensland's Retail Shop Leases Act,
+> but stands in a commercial (office/industrial) lease. Confirm the current
+> Act before quoting it — the office-vs-retail distinction is the exam point.
+
+> **27. Percentage rent only accrues above the natural breakpoint** — and the
+> breakpoint is base rent ÷ percentage rate, not a number someone chose.
+> $80,000 at 5% means nothing is payable until turnover clears $1.6m.
+
+> **28. The tenancy schedule shows face rent; the deal was done at effective
+> rent.** Effective = (total face − incentives) ÷ term. A 16% incentive turns
+> $500/sqm into $420/sqm, and the schedule never mentions it.
+
+> **29. A long lease with a demolition clause is not a long lease.** The
+> owner can cut it short for redevelopment, and purchasers price the WALE
+> accordingly — check for it whenever an IM sells "development upside" over
+> a long WALE. And options never count as secured term.
+
+> **30. A short WALE is risk *and* opportunity — say which you're arguing.**
+> Under five years means turnover, leasing cost and vacancy exposure to an
+> income investor, and a rent-reset/repositioning window to a value-add
+> buyer. An answer that only sees one side is half an answer.

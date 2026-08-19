@@ -3,12 +3,12 @@
 QUT · Semester 2, 2026 · **Property Investment Analysis**
 
 **Live document.** Cal is sitting this unit *now*. Coverage runs **Weeks 1
-to 4**. Topics 5 onward get added as each deck drops.
+to 5**. Topics 6 onward get added as each deck drops.
 
 ## Unit map
 
-Twelve notes, in reading order — topics, then tutorials, then the assignment
-and source material, then revision.
+Fourteen notes, in reading order — topics, then tutorials, then the
+assignment and source material, then revision.
 
 | # | Note | Covers |
 |---|---|---|
@@ -17,14 +17,16 @@ and source material, then revision.
 | 02 | Topic 2 — Property as an Asset Class and the DCF | Scale of the Australian market, direct vs indirect, market inefficiency, the five-step decision process, `P = E/(1+T−M)`, required vs expected return, the 7-step DCF, risk taxonomy |
 | 03 | Topic 3 — DCF and Cashflow Components | The seven steps filled in: time frame and period n+1, the initial outlay, the gross-to-net income waterfall, growth, sale proceeds and the terminal yield, discounting, acquisition costs. The lecture's $930,000 house worked end to end |
 | 04 | Topic 4 — Deriving the Discount Rate | Four methods (risk premium/build-up, market comparison, benchmark against alternative investments, WACC), cap rate vs discount rate, and what IVS and RICS require of a documented discount rate |
-| 05 | Tutorial 1 — Financial Maths and Your First DCF | Every Week 1 tutorial exercise worked end to end, plus the monthly gap-year DCF and the discount-rate convention trap |
-| 06 | Tutorial 2 — Building a Residential DCF in Excel | The Week 3 lab: the supplied solution rebuilt cell by cell, Exercise 1 and the expense-inflation variant 1a, a sensitivity grid, and what to take (and not take) from the `DCF_Sample.xls` commercial model |
-| 07 | Tutorial 3 — Deriving the Discount Rate, and a Multi-Tenanted Commercial DCF | Market-weighting and WACC-in-reverse exercises, then a five-tenancy commercial DCF built from scratch: independent lease expiries, re-letting at market rent, letting-up costs, escalated capex |
-| 08 | The Assignment DCF — Model Anatomy | The FICTIONAL worked-example workbook sheet by sheet, every formula explained, tied back to the brief's nine required worksheets |
-| 09 | Reading the 41 Park Road IM | Full reconciliation of the information memorandum: tenancy schedule, outgoings, yields, WALE. Three arithmetic errors found |
-| 10 | Practice Questions | Sections A–F: Weeks 1–2 and the assignment material, answers tap-to-reveal |
-| 11 | Practice Questions — Weeks 3+ | Sections G–H: cashflow components, the seven-step DCF, and deriving the discount rate |
-| 12 | Formula Sheet & Exam Traps | Everything on one page |
+| 05 | Topic 5 — Return Measurements | Static ratios (rates, multipliers, operating ratios) with the $48m worked grid, NPV and IRR definitions and decision rules, required vs expected return, and the three NPV–IRR ranking conflicts — with the deck's own tables recomputed |
+| 06 | Tutorial 1 — Financial Maths and Your First DCF | Every Week 1 tutorial exercise worked end to end, plus the monthly gap-year DCF and the discount-rate convention trap |
+| 07 | Tutorial 2 — Building a Residential DCF in Excel | The Week 3 lab: the supplied solution rebuilt cell by cell, Exercise 1 and the expense-inflation variant 1a, a sensitivity grid, and what to take (and not take) from the `DCF_Sample.xls` commercial model |
+| 08 | Tutorial 3 — Deriving the Discount Rate, and a Multi-Tenanted Commercial DCF | Market-weighting and WACC-in-reverse exercises, then a five-tenancy commercial DCF built from scratch: independent lease expiries, re-letting at market rent, letting-up costs, escalated capex |
+| 09 | Tutorial 4 — NPV and IRR in Excel | The Week 5 lab: the `NPV()`/`IRR()` function rules, the Week 3 model converted to an NPV/IRR model and repriced at three prices, discount-rate and rent-growth sensitivity tables, the six-monthly variant, and the monthly commercial capstone (Week 4's building, rebuilt monthly) |
+| 10 | The Assignment DCF — Model Anatomy | The FICTIONAL worked-example workbook sheet by sheet, every formula explained, tied back to the brief's nine required worksheets |
+| 11 | Reading the 41 Park Road IM | Full reconciliation of the information memorandum: tenancy schedule, outgoings, yields, WALE. Three arithmetic errors found |
+| 12 | Practice Questions | Sections A–F: Weeks 1–2 and the assignment material, answers tap-to-reveal |
+| 13 | Practice Questions — Weeks 3+ | Sections G–I: cashflow components, the seven-step DCF, deriving the discount rate, and return measurements (NPV/IRR) |
+| 14 | Formula Sheet & Exam Traps | Everything on one page |
 
 ## Learning outcomes
 
@@ -114,10 +116,11 @@ more layer of the assignment model.
 > Week 4 absorbed **both** the multi-tenanted DCF *and* the discount-rate
 > derivation content that the Week 3 table had spread across Weeks 4 and 5 —
 > so every week from 5 onward has shifted one slot earlier than previously
-> recorded here. The table above is the Week 4 deck's own version, which is
-> the most recent evidence available. Treat whichever week's deck you are
-> holding as authoritative for *that* week only, and expect this table to
-> move again.
+> recorded here. The table above is the Week 4 deck's own version — and the
+> Week 5 tutorial deck reproduces it row for row (Week 5 = NPV and IRR,
+> Week 6 = financial calculator and assignment Q&A), which is the first
+> time two consecutive decks have agreed. Treat whichever week's deck you
+> are holding as authoritative for *that* week only.
 >
 > Separately, the Week 3 **lecture** closed with "NEXT WEEK — Discount Rate
 > Derivation," and the Week 4 lecture itself closes with "NEXT WEEK — Return
@@ -152,7 +155,7 @@ and a step-6 deduction that does not reconcile with its own definition — and
 two problems in the Week 4 material: a WACC exercise whose stated question
 and target answer use different debt costs, and a `Sensitivity` tab whose
 own side-tables do not reconcile with its own base case. Each is shown with
-its working rather than quietly corrected — see notes 02, 03, 04, 06, 07 and
+its working rather than quietly corrected — see notes 02, 03, 04, 07, 08 and
 09.
 
 ## Source material
@@ -171,12 +174,12 @@ Brief 2026, the information memorandum for 41 Park Road, Milton, and the
 `USB245_worked_example_DCF_FICTIONAL.xlsx` teaching workbook with its
 extended version `USB245_worked_example_DCF_v2.xlsx` (itemised acquisition
 costs, structural vacancy, explicit leasing incentives and a year-by-year
-escalations sheet — see note 08, §4.10). All live in
+escalations sheet — see note 10, §4.10). All live in
 `2nd Year/Sem 2/USB245/`.
 
 > **The DCF workbook is fictional and says so on its first sheet.** It
 > models "200 Teaching Lane, Milton" — an invented property with invented
-> numbers, built so you can see how the sheets connect. Note 05 works
+> numbers, built so you can see how the sheets connect. Note 10 works
 > through it because the *structure* and the *formulas* are exactly what
 > A1 requires. **None of its inputs are evidence for 41 Park Road.** Every
 > figure in your own model needs a real, referenced source.

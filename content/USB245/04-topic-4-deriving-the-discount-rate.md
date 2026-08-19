@@ -225,7 +225,7 @@ rate to apply to your subject?"*
 > basis points) and does not change the teaching point, but it is a
 > reminder to recompute a stated average rather than copy it — the same
 > habit that caught three arithmetic errors in the 41 Park Road IM
-> (note 09).
+> (note 11).
 
 The real point of the question is that a **simple average treats every
 comparable as equally relevant to the subject**, which is rarely true.
@@ -255,7 +255,7 @@ Weights sum to 1.0.
 > growth and risk pattern typical of the comparable properties … care,
 > skill and attention to detail are all important in researching and
 > analysing the comparable evidence."* The footnote on the tutorial's own
-> weighting exercise (note 07 §9.1) says the same thing in the answer key itself:
+> weighting exercise (note 08 §9.1) says the same thing in the answer key itself:
 > *"There may be more than one correct answer for the weighting given, so
 > long as it can be justified and consistent with the sales analysis."*
 > Whatever weights you choose in A1 or A2, the justification carries the
@@ -290,7 +290,7 @@ Discount rate    = assesses the return from BOTH income and capital
 > condition.** The deck's own note: *"Cap Rate can be used as a Discount
 > Rate if we use 'Stabilised NI' through the investment period."* A
 > stabilised income is a level, non-growing income — exactly the
-> condition under which `CV = NI / Y` (note 12, Capitalisation) and a DCF
+> condition under which `CV = NI / Y` (note 14, Capitalisation) and a DCF
 > in perpetuity give the same answer. The moment the income is forecast
 > to grow, decay, or has lease events in it, the cap rate and the discount
 > rate separate, and using one where the other is needed misprices the
@@ -451,7 +451,7 @@ IVS §A20.34 states what the valuer **must** do, not merely should:
 > derivation or source."*
 
 That is precisely what the A1/A2 rubric rewards, in the unit's own
-language from note 08: an assumption with a named, cited source is worth
+language from note 10: an assumption with a named, cited source is worth
 marks that an unsupported number is not.
 
 > **Real property discount rates are customarily pre-tax.** IVS §A20.06:

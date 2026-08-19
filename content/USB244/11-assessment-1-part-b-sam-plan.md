@@ -3,9 +3,11 @@
 **30% · Group of 4 · Due 7 Oct 2026, 11:59pm · 5,000 words max**
 
 Part A looked backwards at one building. Part B looks forward at a
-**portfolio** built from the group's Building Twos — at least three different
-properties — over a **ten-year** horizon, and delivers a brief strategic asset
-management (SAM) plan.
+**portfolio** built from the group members' Part A properties — at least
+three different assets — over a **5–10 year** horizon, and delivers a brief
+strategic asset management (SAM) plan. (The brief still calls the Part A
+property "building two" in places — residue from the superseded two-building
+version.)
 
 > **No Part B rubric has been supplied.** Everything below infers weighting
 > from the brief's own task list and the unit learning outcomes. Get the CRA
@@ -17,7 +19,7 @@ management (SAM) plan.
 | | Part A | Part B |
 |---|---|---|
 | Unit of analysis | One building | **The portfolio as a whole** |
-| Direction | Historical — 3 years back from the EOI date | **Forward — 10 years** |
+| Direction | Historical — 3 years back from the EOI date | **Forward — 5–10 years** |
 | Question | What did the property manager *do*? | What should the asset manager *do*? |
 | Output | Review | **SAM plan** |
 | Words | 1,500 | 5,000 |
@@ -35,22 +37,28 @@ assessment goes wrong. Everything in §7.3 exists to stop that.
 
 ## 7.2 Building the portfolio
 
-- **At least three different properties**, taken from group members' Building
-  Twos.
+- **At least three different properties**, taken from group members' Part A
+  assets.
 - A group of 4 therefore has one spare — you do **not** have to use all four.
-  The FAQ's own worked case: if three members chose retail and one chose
-  office, the group may analyse the three retail assets only.
+  (An earlier FAQ version worked the example: three members chose retail, one
+  chose office, and the group analysed the three retail assets only.)
 - The portfolio **may** be mixed commercial and retail.
 
-That choice is itself an argument worth 200 words. Three retail assets give a
-clean sector story and a defensible sector scenario; a mixed portfolio lets
-you argue diversification but forces you to handle two market cycles, two
-benchmark sets and two sector scenarios. Say which you chose and why.
+That choice is itself an argument worth 200 words. Three same-sector assets
+give a clean sector story; a mixed portfolio lets you argue diversification
+but forces you to handle two market cycles and two benchmark sets. Say which
+you chose and why.
 
-> **Your sector scenario in Task 3 follows the portfolio, not the group.** If
-> you build a retail portfolio you take the retail scenario; if office, the
-> office one. A mixed portfolio has to nominate one — and justify the choice
-> by weight of income, not by headcount.
+> **The Task 3 factors are now sector-agnostic** — anchors, the cash rate and
+> lease tax concessions apply to any portfolio, so there is no sector
+> scenario to nominate. Two composition points still matter. *"The major
+> (anchor) tenants in two buildings"* assumes anchored assets: in retail the
+> anchor is the supermarket or DDS; in an office or industrial asset, read it
+> as the largest occupier by income — and say that is your reading. And Part
+> A now allows **industrial**, but Part B's brief still describes the
+> portfolio as *"mixed Commercial and Retail"* — if a member analysed an
+> industrial asset, confirm with the coordinator that it can join the
+> portfolio before building your numbers on it.
 
 ## 7.3 Making it a portfolio, not three reports
 
@@ -122,7 +130,7 @@ Position each asset on hold / add value / divest, and defend it:
 Ancillary income — rooftop telecommunications, signage, media screens, casual
 mall leasing, car parking, EV charging, storage, utility on-selling — is
 catalogued asset-by-asset in
-[Part A §6.7](#/USB244/08-assessment-1-part-a-guide). At portfolio level it
+[Part A §6.7](#/USB244/10-assessment-1-part-a-guide). At portfolio level it
 becomes something different: a **strategy the owner can only execute because
 they hold three assets**, which is exactly the "portfolio as a whole, not just
 its parts" argument the brief is marking.
@@ -273,7 +281,7 @@ The brief prescribes the structure, so use its headings:
 |---|---|---|
 | **Short** | 1–2 years | Cash rate and bond yields, incentives, arrears, leasing enquiry, outgoings inflation, insurance premiums |
 | **Medium** | 2–5 years | Supply pipeline delivering, lease expiries rolling, cap rate re-rating, refurbishment cycles, tenant covenant shifts |
-| **Long** | 5–10 years | Structural demand (hybrid work, e-commerce, population), obsolescence and repositioning, decarbonisation mandates, infrastructure and precinct change |
+| **Long** | 5+ years (out to ~10) | Structural demand (hybrid work, e-commerce, population), obsolescence and repositioning, decarbonisation mandates, infrastructure and precinct change |
 
 For each horizon, three moves: **forecast → portfolio impact → asset manager
 action.** Never a forecast on its own.
@@ -381,20 +389,20 @@ falls, GOCRs blow out, and the *next* renewal round is compromised too.
 
 **And the ancillary income goes with it** — casual mall leasing, ATMs, media
 screens and car parking all price off foot traffic, and they roll monthly, so
-they fall first. Worked in [§7.4](#/USB244/09-assessment-1-part-b-sam-plan):
+they fall first. Worked in [§7.4](#/USB244/11-assessment-1-part-b-sam-plan):
 a further $308k–$738k of value on this asset alone, depending on how far it
 falls.
 
-### Factor 2 — RBA cash rate decreasing to 3.35%
+### Factor 2 — RBA cash rate falling to 2.5% by the end of 2028
 
-> **This factor is dated to "the end of 2025", which is in the past.** The
-> brief is visibly recycled from the 2025 offering (the FAQ's library link is
-> tagged `USB244_25se2`; the site-visit deadline reads "11 August 2025"). Do
-> not write as though this is a forecast. Either treat 3.35% as the scenario's
-> **assumed rate**, dated explicitly, or check the actual RBA cash rate and
-> current forecast path at the time you write and analyse the *gap* between
-> the scenario and reality. Cite the RBA release you used. Confirm with the
-> coordinator which reading they want.
+> **2.5% is the scenario's assumed path, not a forecast you adopt.** Check
+> the actual cash rate and the market's forward path when you write, cite the
+> RBA release and its date, and analyse the scenario as a *divergence* from
+> that base. Then make the two-handed argument the top band wants: a cash
+> rate at 2.5% is deep — central banks cut that far because the economy is
+> soft. The same scenario that compresses cap rates also implies weaker
+> tenant demand, slower rent growth and rising arrears risk. Groups that
+> model only the valuation upside have read half the scenario.
 
 The transmission chain to write about:
 
@@ -427,63 +435,68 @@ capex while borrowing is cheap; and resist the temptation to read cap rate
 compression as management performance — it is a market gift, and the owner's
 report should say so.
 
-### Factor 3a — Office: Waterfront Brisbane opens 2028, ahead of Brisbane 2032
+In this brief the timing matters: the rate trough (end-2028) lands
+immediately before the lease-concession window opens (1 July 2029 — Factor
+3). 2029 is where the two tailwinds stack, which makes it the window to
+refinance long, complete capex, and re-gear expiries into.
 
-From the unit's own slides:
+### Factor 3 — Tax concessions for tenants signing 5+ year leases, from 1 July 2029
 
-| | |
+The scenario: from 1 July 2029, tenants who *"take up long term leases (5+
+years)"* receive a tax concession. The brief does not say what form it takes
+or whether it attaches to leases **signed** or **commencing** after that date
+— so state your reading (these notes assume leases commencing on or after
+1 July 2029) and carry it consistently.
+
+What it does to tenant behaviour is the whole analysis: the concession lowers
+the effective occupancy cost of a long commitment, so demand shifts from
+short leases to long ones — but only once the window opens.
+
+**The air pocket comes first.** An announced-but-not-yet-started concession
+defers demand: a tenant whose lease expires in early 2029 has every incentive
+to bridge on a holdover and sign nothing until July. Expect a soft leasing
+market in FY2029, then a surge. The manager's moves, sequenced:
+
+| When | Action |
 |---|---|
-| North Tower GFA (stage 1) | 75,331 sqm |
-| South Tower GFA (stage 2) | 59,999 sqm |
-| Podium GFA | 9,860 sqm |
-| **Total GFA** | **145,190 sqm** |
-| Pipeline table figure | 120,000 sqm |
-| Public realm | over 9,000 sqm |
-| Sustainability targets | 6-star Green Star, NABERS 5.5 energy, 4.5 water |
+| Now | Map every expiry and option date against 1 July 2029 — the expiries landing in the 12 months **before** it are the exposure |
+| 2028 | Don't sign tenants into 3-year renewals that straddle the window — that locks them out of the concession and the owner out of the WALE gain |
+| FY2029 | Offer structured bridges: agreement for lease signed now for a 5+ year term commencing after 1 July 2029, with the interim months on a **priced** holdover licence. Certainty for the owner, the concession for the tenant |
+| From Jul 2029 | Push every renewal and new letting to 5+ year terms; trade incentive dollars for term — the government now funds part of the inducement that incentives used to fund |
+| Ongoing | Long lease ≠ good covenant. The concession attracts weak tenants to long terms too — credit-assess as usual |
 
-> **Two dates and two areas, both from the unit's material.** The Week 2
-> lecture pipeline says the first tower delivers **2026**; the assessment
-> brief's scenario says Waterfront opens **2028**. And 120,000 sqm (pipeline
-> table) is not 145,190 sqm (**total GFA**, which includes the podium) — GFA
-> and NLA are different measures. Use the brief's 2028 for the scenario since
-> that is what you are asked to model, cite a range for the area, and note the
-> discrepancy in a footnote. It is a mark for care, not a problem.
-
-The argument to make: a premium tower of this scale plus a 2032 Olympics
-deadline drives a **flight to quality**. Premium and A-grade tenants trade up,
-their backfill floods B and C grade, and the secondary market takes the
-vacancy. If your portfolio holds B or C grade office, that is the entire
-medium-term story — and the response is either capital (refurbish, re-grade,
-chase a NABERS uplift, add end-of-trip) or exit (divest before the backfill
-arrives), and you must pick one.
-
-### Factor 3b — Retail: 2028 federal income stimulus lifts disposable income
-
-The chain to trace, and to bound:
+**Quantify the WALE harvest.** At a renewal, the gain to the income WALE is
+the tenant's income share times the extra years:
 
 ```
-Tax stimulus → disposable income ↑ → retail turnover ↑ → tenant MAT ↑
-             → percentage rent ↑ (where turnover rent clauses exist)
-             → GOCR falls at unchanged rent → HEADROOM to push rent at renewal
-             → specialty demand ↑ → casual mall and pop-up income ↑
+ΔWALE (income) = income share × additional term
+
+every 10% of portfolio income converted from a 3-year
+to a 5-year renewal                                    = +0.20 years of WALE
 ```
 
-The property-management move: a **falling GOCR is the signal to raise rent**.
-Woolworths at 3.3% GOCR at Richlands is already an affordable tenancy;
-specialties typically sit at 8–15%, and a specialty whose GOCR drops from 14%
-to 11% on higher turnover can absorb a market review. Identify which leases
-have turnover rent clauses and which have fixed reviews, because only the
-first captures the upside automatically.
+And WALE is a valuation input: a longer, more secure income stream supports a
+firmer cap rate. On the worked asset, 25 bp of compression (6.00% → 5.75%) is
+**+$1.59m** (+4.35%) — the concession's value to the *owner* arrives through
+the cap rate, not the rent line.
 
-The counter-argument that earns the top band: stimulus is **temporary and
-partly inflationary**. If it lifts CPI, it lifts the cash rate, which works
-against Factor 2 — and a rent set on a stimulus-inflated MAT becomes
-unsustainable when the stimulus ends. Note the tension between the two
-factors; the brief hands you three and expects you to see that they interact.
+**The trade-off to name:** locking tenants into 5+ year terms at 2029 rents
+caps the upside if market rents then run. The answer is structure, not
+shorter terms — fixed annual reviews or CPI-plus collars inside the long
+lease, and market reviews at option points.
+
+**The interaction the brief is testing:** Factor 1 hands you two vacated
+anchor boxes; Factor 3 hands you the tool to re-lease them. Time the backfill
+campaign so replacement leases commence after 1 July 2029 — the concession
+becomes your leasing incentive, funded by the government instead of the
+owner. And Factor 2's rate trough (end-2028) means the re-leased, re-WALEd
+asset is valued into a compressing-cap-rate market. The three factors are a
+sequence, not three separate essays: **defend income through the FY2029 air
+pocket, then harvest term and value from mid-2029.**
 
 ### Present it as a scenario matrix
 
-| | Base case | Downside (anchors leave) | Upside (rates fall + stimulus) |
+| | Base case | Downside (anchors leave) | Upside (2.5% cash rate + lease concessions) |
 |---|---|---|---|
 | Portfolio net income | | | |
 | Portfolio WALE | | | |
@@ -544,7 +557,7 @@ Part A's exclusion carries over — confirm it for Part B.
 
 > **4. Statistics without interpretation fail.** Stated outright in the brief.
 
-> **5. All three timeframes, every time.** Short 1–2, medium 2–5, long 5–10.
+> **5. All three timeframes, every time.** Short 1–2, medium 2–5, long 5+.
 > Missing the long term is the common omission because it is the hardest.
 
 > **6. Answer the proptech question with a recommendation.** Yes or no, staged
@@ -553,17 +566,21 @@ Part A's exclusion carries over — confirm it for Part B.
 > **7. Model the cap rate, not just the income.** In the anchor scenario the
 > re-rate was a third of the loss.
 
-> **8. The RBA factor is dated to end-2025 and that date has passed.** Handle
-> it explicitly; don't present it as a live forecast.
+> **8. The 2.5% cash rate is an assumed path — and deep cuts mean a soft
+> economy.** Model the demand-side downside alongside the valuation upside,
+> and benchmark the scenario against the RBA's actual path, release date
+> cited.
 
-> **9. Waterfront Brisbane appears with two dates and two areas in the unit's
-> own material.** Cite the range, footnote the discrepancy.
+> **9. State your reading of the concession's trigger.** Signed vs commencing
+> after 1 July 2029 changes every renewal decision in 2028–29 — the brief
+> doesn't say, so your assumption must.
 
 > **10. Your recommendations must actually vary across scenarios.** Identical
 > recommendations in every column means no scenario planning happened.
 
-> **11. Pick the sector scenario that matches the portfolio's income weight**,
-> not the group's headcount.
+> **11. The FY2029 air pocket is the manager's problem to manage.** Tenants
+> will bridge to the concession on holdovers — price the bridge and convert
+> it into a signed 5+ year commencement, don't donate it.
 
 > **12. Model ancillary income in the anchor scenario.** It prices off foot
 > traffic, so it falls with the anchor — a further $300k–$740k of value on the
@@ -587,8 +604,9 @@ Part A's exclusion carries over — confirm it for Part B.
    state what each bound assumes.
 4. A specialty tenant's GOCR falls from 14% to 11%. What has happened, and
    what does the property manager do at the next market review?
-5. Your group is three retail assets and one office asset. Which sector
-   scenario do you take in Task 3?
+5. A tenant whose lease expires in March 2029 asks for a month-to-month
+   holdover "until the middle of the year", then hints at a five-year term.
+   What is happening, and what do you do?
 6. Why is a portfolio-wide media and telecommunications strategy a Part B
    recommendation rather than a Part A one?
 
@@ -612,11 +630,14 @@ Part A's exclusion carries over — confirm it for Part B.
    manager pushes rent toward the sector-normal GOCR band (specialties
    typically 8–15%), capturing the upside that a fixed-review lease would
    otherwise leave with the tenant.
-5. **Retail** — but the real test is income weight, not headcount. Part B
-   needs only three assets, so the cleanest answer is to build the portfolio
-   from the three retail assets and take the retail scenario. If you keep all
-   four, nominate the sector carrying the majority of portfolio net income and
-   justify it.
+5. They are **bridging to the concession** — waiting out the 1 July 2029
+   start date so their five-year lease qualifies. Don't refuse the bridge
+   (they'll leave) and don't donate it: sign an agreement for lease now for a
+   5+ year term commencing on or after 1 July 2029, with the interim months
+   on a priced holdover licence. The owner converts an unsecured monthly
+   tenancy into a locked long lease; the tenant gets the concession; the
+   income WALE dips for four months and then jumps. State the
+   commencement-vs-signing assumption.
 6. Because **the value comes from scale, which a single asset does not have**.
    A media operator will fund a screen network across three sites and not one;
    tower companies negotiate telco renewals as a portfolio, so the owner should

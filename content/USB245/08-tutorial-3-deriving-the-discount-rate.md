@@ -3,7 +3,7 @@
 The Week 4 lab has three parts: two short discount-rate exercises that
 apply Topic 4's methods directly, a concept check, and — the bulk of the
 lab — building a five-tenancy commercial DCF from scratch, extending the
-single-let residential model from note 06 to a building with several
+single-let residential model from note 07 to a building with several
 leases expiring on different dates. Every figure below was recomputed
 independently in Python from the raw assumptions in `Week 4_solution.xlsx`
 and checked against the workbook's own formulas, not copied from its
@@ -84,11 +84,11 @@ debt is doing 70% of the capital stack at a comparatively cheap 8.5%.
 > this kind of question ever returns an equity rate *below* the cost of
 > debt, the arithmetic has gone wrong somewhere.
 
-The tutorial slide also points back at note 06's Week 3 sensitivity work:
+The tutorial slide also points back at note 07's Week 3 sensitivity work:
 *"Check out your W3 solution and see how changes to the discount rate
 impact your maximum purchase price. What about changes to other
 variables, such as Growth? Which variable has the bigger impact on
-outputs?"* Note 06 §7.7 already answers this in full — the
+outputs?"* Note 07 §7.7 already answers this in full — the
 terminal yield moves the answer 4.56 times as far as the discount rate,
 because 88.2% of present value sits in the exit. The Week 4 solution
 workbook carries an updated `Sensitivity` tab making the same comparison
@@ -109,7 +109,7 @@ Rowland"*).
 > four of its five columns are correctly recomputed for the new model
 > (matched independently to the cent), but its middle (7%-growth) column
 > is a formula that simply points at the stale discount-rate table instead
-> of being computed fresh. **Use note 06 §7.7's fully-reconciled Week 3
+> of being computed fresh. **Use note 07 §7.7's fully-reconciled Week 3
 > sensitivity table for "which variable moves the answer more" — it is
 > internally consistent and independently verified. Treat this workbook's
 > `Sensitivity` tab as a stale leftover, not a source of numbers.**
@@ -190,7 +190,7 @@ Purchase costs                  5%
 Selling costs                   2%
 ```
 
-> **No blanket vacancy allowance this time.** Note 06's residential model
+> **No blanket vacancy allowance this time.** Note 07's residential model
 > applies a flat 5% vacancy-and-relet allowance to *every* year regardless
 > of whether a lease actually expires. This building instead only loses
 > income in the specific years a lease **actually rolls** — a more
@@ -313,7 +313,7 @@ Capex, year-3 dollars = 50,000 × 1.03³ = 50,000 × 1.092727 = $54,636.35
 > index treats period 0 (today) as index 1.0000, so year 3's index is
 > `1.03³`, matching three full years of inflation from today to the
 > capex date — the same off-by-one risk already flagged for lease-expiry
-> indexing in note 12's escalation section, now showing up on the capex
+> indexing in note 14's escalation section, now showing up on the capex
 > line instead of a rent line.
 
 Full net cash flow and its present value at the 8% discount rate:
@@ -423,7 +423,7 @@ condition).
 - **The updated `Sensitivity` tab in `Week 4_solution.xlsx` does not
   reconcile with its own base case** — its discount-rate table is stale
   and one growth-table column just references it rather than being
-  recomputed. Use note 06 §7.7's Week 3 sensitivity table instead; it is
+  recomputed. Use note 07 §7.7's Week 3 sensitivity table instead; it is
   fully verified.
 - **Multi-tenanted DCFs reset each tenancy to forecast market rent in the
   year after its own expiry**, then resume compounding at that tenancy's

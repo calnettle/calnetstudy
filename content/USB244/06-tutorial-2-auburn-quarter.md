@@ -6,7 +6,7 @@ document Assessment 1 Part A requires you to annex if you use your own IM.
 Worked end to end on the tutorial's own dataset: the **tenancy schedule for
 Auburn Quarter, 296 Lidcombe Road, Auburn**, as of **27 July 2026**.
 
-Unlike [Tutorial 1](#/USB244/04-tutorial-1-information-memorandum), this
+Unlike [Tutorial 1](#/USB244/05-tutorial-1-information-memorandum), this
 exercise has no supplied answer sheet to check against — it is a raw Cirrus8
 tenancy schedule export, not a marketing IM. Every figure below was
 extracted from the schedule and independently recomputed in Python; the
@@ -65,7 +65,7 @@ own monthly figures, not errors.
 > **Fully leased.** The schedule's own footer confirms it: **Leased bays 7,
 > vacant bays 0, total bays 7**, and vacant area (0.00%). There is no vacant
 > tenancy line to handle in this exercise — unlike the compulsory Part A
-> edge cases in the [Formula Sheet](#/USB244/07-formula-sheet), where a
+> edge cases in the [Formula Sheet](#/USB244/09-formula-sheet), where a
 > vacant tenancy is included in the area WALE at zero years.
 
 ## 5.3 Gross Income, By Account Code
@@ -175,7 +175,7 @@ Ordered by remaining term from the schedule date (27 Jul 2026):
 > under 12 months. A new manager's first move on this schedule is starting
 > renewal conversations with Auburn Medical **now**, not waiting for the
 > expiry — the same "24–36 months out, open re-gear talks early" principle
-> from [Part B's anchor scenario](#/USB244/09-assessment-1-part-b-sam-plan).
+> from [Part B's anchor scenario](#/USB244/11-assessment-1-part-b-sam-plan).
 
 > **"Auburn Body Corporate" leasing office space from itself is worth a
 > second look.** The tenant name on Unit 0201 is Auburn Body Corporate, and
@@ -191,11 +191,11 @@ Ordered by remaining term from the schedule date (27 Jul 2026):
 
 The unit's two edge-case tables (vacant tenancy, holdover, car parking,
 signage, options — see the
-[Formula Sheet](#/USB244/07-formula-sheet)) were written for the **EOI
+[Formula Sheet](#/USB244/09-formula-sheet)) were written for the **EOI
 date** convention used in Assessment 1. This tutorial has no EOI date; there
 is no sale in progress. The natural reference date is the one printed on the
 document itself — **27 July 2026**, the schedule's "as of" date — which is
-exactly the fallback the [Part A guide](#/USB244/08-assessment-1-part-a-guide
+exactly the fallback the [Part A guide](#/USB244/10-assessment-1-part-a-guide
 ) already prescribes for an IM with no stated EOI date ("use the date on the
 financial pack / tenancy schedule").
 
@@ -260,7 +260,7 @@ WALE (area)   =     3,883.9 /     1,491.00 = 2.60 years
 > Dental (121 sqm, 9.97 yrs, $102,390) and the zero-area Great Site signage
 > licence (8.74 yrs, $28,123) pull the income WALE up without moving the
 > area WALE at all. Read [the formula sheet's WALE
-> table](#/USB244/07-formula-sheet) for the general rule this is an instance
+> table](#/USB244/09-formula-sheet) for the general rule this is an instance
 > of: zero- or low-area long leases lift income WALE; large-area short leases
 > drag area WALE down. Both are happening here at once, in opposite
 > directions, on the same schedule.
@@ -318,7 +318,7 @@ property? Rents. Expiries. Outgoings. Any opportunities?"*
 | **Rents** | Wide spread across similar-use tenancies — office rents from $437.62/m² (Auburn Physiotherapy) to $650.00–790.90/m² for the newer-dated reviews (Auburn Psychology, Auburn Medical). Older leases (Auburn Pathology from 2012, Essential Care Dental from 2012) sit on long original terms with periodic reviews rather than having been re-based to current market — worth testing at the next rent review. |
 | **Expiries** | A **12-month cluster**: 12RND Fitness and Auburn Medical together are 33.6% of NLA and 32.9% of income, both expiring within a year of the schedule date (§5.5). |
 | **Outgoings** | Six of eleven tenancies carry **no** outgoings recovery line at all (§5.3) — a recovery gap worth chasing at renewal, or evidence those leases are already gross. |
-| **Opportunities** | (1) Auburn Body Corporate's related-party tenancy (§5.5) — confirm arm's length. (2) The Great Site signage licence at $28,123 p.a. from a zero-area asset is exactly the ancillary-income playbook in [Part A §6.7](#/USB244/08-assessment-1-part-a-guide) — worth asking whether more signage, storage or car-park licensing capacity exists on a building with only 7 leasable bays and 1,491 sqm. (3) The imminent Auburn Medical and 12RND Fitness expiries are a renewal-or-reposition decision that should already be underway, not a Week-52 surprise. |
+| **Opportunities** | (1) Auburn Body Corporate's related-party tenancy (§5.5) — confirm arm's length. (2) The Great Site signage licence at $28,123 p.a. from a zero-area asset is exactly the ancillary-income playbook in [Part A §6.7](#/USB244/10-assessment-1-part-a-guide) — worth asking whether more signage, storage or car-park licensing capacity exists on a building with only 7 leasable bays and 1,491 sqm. (3) The imminent Auburn Medical and 12RND Fitness expiries are a renewal-or-reposition decision that should already be underway, not a Week-52 surprise. |
 
 ## 5.9 Summary
 

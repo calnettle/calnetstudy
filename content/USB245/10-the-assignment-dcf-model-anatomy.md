@@ -59,7 +59,7 @@ build the tabs now and populate them later.
 > your own market research is the whole information set. Anything the IM does
 > not disclose — tenancy areas, rent review dates, outgoings responsibility,
 > incentives already granted — has to be *assumed and justified*, not
-> obtained. Note 06 lists exactly what is missing.
+> obtained. Note 11 lists exactly what is missing.
 
 ## 4.2 Sheet 3 — Assumptions
 
@@ -113,7 +113,7 @@ The naive alternative:  7.5% / 12 = 0.625000%
 Check: (1.00625)^12 − 1 = 7.7633%           ✗ — 26bp too high
 ```
 
-See note 03, §3.9 for when each convention is right. The interest line in
+See note 06, §3.9 for when each convention is right. The interest line in
 this workbook deliberately uses the *other* one — `loan × rate / 12` —
 because a loan rate is quoted as a nominal annual rate.
 
@@ -154,7 +154,7 @@ pro-rata to occupied area**, and the owner wears outgoings on vacant space.
 > hundreds of thousands.** The teaching example assumes fully net leases and
 > recovers 100% of outgoings while fully occupied. 41 Park Road's IM shows
 > recovered outgoings of only **$13,386.76 against $97,364.40 of total
-> outgoings — 13.75%** (note 06, §5.5). If you copy the teaching example's
+> outgoings — 13.75%** (note 11, §5.5). If you copy the teaching example's
 > net-lease assumption onto 41 Park Road you will overstate NOI by roughly
 > $84,000 p.a., which at a 6.5% cap rate is about **$1.3 million** of
 > capital value. Model what the IM shows, and state the assumption.
@@ -614,7 +614,7 @@ At $9,000,000, on the general transfer duty scale:
 > table in the workbook is a starting point, not an authority.
 
 > **A stepped duty scale breaks the "maximum price payable" shortcut.**
-> Both `PV × (1 − acq%)` and `PV ÷ (1 + acq%)` (note 03, §3.8) assume
+> Both `PV × (1 − acq%)` and `PV ÷ (1 + acq%)` (note 03, §6.7) assume
 > acquisition costs are a constant *percentage*. With a stepped scale the
 > percentage itself moves with the price, so both are approximations. For an
 > exact answer use **Data → What-If Analysis → Goal Seek**: set the NPV cell

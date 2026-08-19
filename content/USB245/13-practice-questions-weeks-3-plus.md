@@ -1,12 +1,13 @@
 # PRACTICE QUESTIONS — WEEKS 3+
 
-Exam-style questions on the Week 3 and Week 4 material: cashflow
-components, the seven-step DCF, and deriving the discount rate. Answers
+Exam-style questions on the Week 3, 4 and 5 material: cashflow
+components, the seven-step DCF, deriving the discount rate, and return
+measurements (NPV and IRR). Answers
 are tap-to-reveal. Every figure was recomputed before it was written
 down — work them on paper first, then check.
 
 Weeks 1–2 and the assignment material are in
-[Practice Questions](#/USB245/10-practice-questions).
+[Practice Questions](#/USB245/12-practice-questions).
 
 ## Section G — Cashflow Components and the Seven-Step DCF
 
@@ -455,4 +456,250 @@ it year by year against the amortisation schedule), confirm the
 comparable's income basis before treating its cap rate as a discount
 rate, and re-weight the market evidence so the most comparable sale
 carries the most weight.
+</details>
+
+## Section I — Return Measurements, NPV and IRR
+
+Week 5 material: static ratios, NPV, IRR, and the conflicts between them.
+
+### I1
+
+A property is offered at $3,200,000. Effective gross income is $400,000,
+outgoings are $120,000. A buyer would contribute $700,000 of equity and
+borrow $2,500,000, with annual debt service of $210,000.
+
+(a) Compute the rate of return on gross income, the rate of return on net
+    income, the gross and net income multipliers, the cash-on-cash return,
+    the expense ratio, the break-even ratio and the profit margin.
+(b) Which of these are geared measures, and why does it matter?
+
+<details><summary>Answer</summary>
+
+**(a)** NOI = 400,000 − 120,000 = $280,000.
+BTCF = 280,000 − 210,000 = $70,000.
+
+```
+Gross rate        400,000 / 3,200,000            = 12.5%
+Net rate          280,000 / 3,200,000            = 8.75%
+GIM               3,200,000 / 400,000            = 8.00 years
+NIM               3,200,000 / 280,000            = 11.43 years
+Cash-on-cash      70,000 / 700,000               = 10.0%
+Expense ratio     120,000 / 400,000              = 0.30
+Break-even ratio  (120,000 + 210,000) / 400,000  = 82.5%
+Profit margin     70,000 / 400,000               = 17.5%
+```
+
+**(b)** Cash-on-cash, the cash multiplier, the break-even ratio and the
+profit margin all involve debt service or equity — they are **geared**
+measures and change with the financing package, not just the property.
+Comparing a geared 10% cash-on-cash against another property's ungeared
+8.75% net rate is not like-with-like: state the denominator and whether
+debt service is in the numerator every time.
+</details>
+
+### I2
+
+An income stream is forecast at $22,000, $25,000, $24,000 and $260,000
+(end of years 1–4). The required return is 12%.
+
+(a) What is the NPV at a price of $200,000? At $230,000?
+(b) What is the maximum price at which the 12% target is met?
+
+<details><summary>Answer</summary>
+
+**(a)**
+
+```
+Year   CF          PV @12%
+1      22,000      19,642.86
+2      25,000      19,929.85
+3      24,000      17,082.73
+4     260,000     165,234.70
+                  221,890.13
+
+NPV at 200,000:  221,890.13 − 200,000 = +$21,890.13   accept
+NPV at 230,000:  221,890.13 − 230,000 =  −$8,109.87   reject
+```
+
+**(b)** **$221,890.13** — the PV of the inflows *is* the maximum price
+(assuming no separate acquisition costs). NPV at any price is just this
+number minus the price; NPV = 0 exactly at it.
+</details>
+
+### I3
+
+You have computed a project's NPV at two rates: +$40,000 at 9% and
+−$10,000 at 11%. Without further calculation, what do you know about the
+IRR, and roughly what is it?
+
+<details><summary>Answer</summary>
+
+The NPV crosses zero between the two rates, so **9% < IRR < 11%** — and
+since the NPV is much closer to zero at 11%, the IRR sits nearer 11%.
+Linear interpolation:
+
+```
+IRR ≈ 9% + 40,000 / (40,000 + 10,000) × (11% − 9%) = 10.6%
+```
+
+(Interpolation slightly overstates the true rate because the NPV curve is
+convex, but at exam precision 10.6% is the expected answer.) This is
+exactly how the IRR works: it is the discount rate at which the NPV table
+changes sign.
+</details>
+
+### I4
+
+A student's five-year annual model has periods 0–5 across row 14, net
+cashflow in row 24 (period 0 in B24, a negative purchase outlay), a PV
+row in row 26, and the annual discount rate in C3. They write:
+
+```
+NPV:  =NPV(C3, B24:G24)
+IRR:  =IRR(C26:G26)
+```
+
+Find every error and write the correct formulas.
+
+<details><summary>Answer</summary>
+
+Three errors:
+
+1. **`NPV()` must not include period 0 in its range** — Excel discounts
+   the first cell as if it were one period away, so B24 gets discounted a
+   year it should not. Period 0 is added *outside* the bracket.
+2. **`IRR()` must include period 0** — without the negative outlay in the
+   range there is no sign change and the function errors (or finds
+   nonsense).
+3. **`IRR()` is pointed at the PV row (26), not the cashflow row (24)** —
+   never feed either function discounted values; `NPV` would
+   double-discount and `IRR` is meaningless on PVs.
+
+```
+NPV:  =NPV(C3, C24:G24) + B24
+IRR:  =IRR(B24:G24, C3)
+```
+
+(The discount rate as `guess` is good practice, and both ranges read the
+raw net cashflow row.)
+</details>
+
+### I5
+
+Two mutually exclusive investments, required return 10%:
+
+```
+Period      X          Y
+0        −1,000    −10,000
+1          +650     +6,000
+2          +650     +6,000
+```
+
+(a) Compute NPV and IRR for both.
+(b) The rankings conflict. Which cause of NPV–IRR conflict is this, which
+    investment do you choose, and why?
+
+<details><summary>Answer</summary>
+
+**(a)**
+
+```
+X:  NPV = 650×0.9091 + 650×0.8264 − 1,000  = +$128.10     IRR = 19.43%
+Y:  NPV = 6,000×0.9091 + 6,000×0.8264 − 10,000 = +$413.22  IRR = 13.07%
+```
+
+**(b)** This is the **scale** conflict: IRR ranks X first (a hotter rate
+on a tenth of the money), NPV ranks Y first (a bigger dollar surplus).
+Choose **Y**: NPV directly measures the increase in the investor's
+wealth at the investor's own opportunity cost of capital, so whenever NPV
+conflicts with any other decision rule, NPV gives the correct
+wealth-maximising signal. 19.43% of $1,000 builds less wealth than
+13.07% of $10,000.
+</details>
+
+### I6
+
+A monthly DCF produces an IRR of 0.62% per month; a six-monthly DCF
+produces 5.4% per half-year.
+
+(a) Annualise both under the unit's convention.
+(b) What would the effective annual rates be, and when does the
+    difference matter?
+
+<details><summary>Answer</summary>
+
+**(a)** The unit's convention is nominal annualisation — multiply by the
+number of periods per year: `0.62% × 12 = 7.44%` and `5.4% × 2 = 10.8%`.
+
+**(b)** Compounding instead:
+
+```
+(1.0062)¹² − 1 = 7.70%          (1.054)² − 1 = 11.09%
+```
+
+The gap grows with the periodic rate (26bp monthly, 29bp semi-annual
+here). It matters whenever the annualised IRR is compared against a
+hurdle quoted as an *effective* annual rate, or against another model
+with a different period structure — a 7.44%-by-convention IRR and a
+7.44% effective IRR are not the same investment. State which convention
+you used; the workbooks use ×12 and ×2.
+</details>
+
+### I7
+
+Your Week 3-style model reports a maximum purchase price. The tutor now
+asks for NPV and IRR at a quoted price instead. The PV of the future
+cashflows is $1,040,000 and acquisition costs are 5% of price.
+
+(a) What changes structurally in the model?
+(b) What is the NPV at a quoted price of $950,000, and the break-even
+    price?
+
+<details><summary>Answer</summary>
+
+**(a)** The conversion recipe: put the purchase price and acquisition
+costs into **period 0 as negatives** at the top of the cashflow; delete
+the old "less acquisition costs / maximum price" rows from the bottom;
+make sure period 0 flows into the **net cashflow** row (not net income);
+NPV = sum of all PVs including period 0; IRR off the net cashflow row
+including period 0.
+
+**(b)**
+
+```
+NPV = 1,040,000 − 1.05 × 950,000 = 1,040,000 − 997,500 = +$42,500
+Break-even price = 1,040,000 / 1.05 = $990,476.19
+```
+
+At any price below $990,476 the NPV is positive — maximum price payable
+and NPV are the same equation solved in different directions.
+</details>
+
+### I8
+
+An investment requires $500 today, returns $1,400 in year 1, then
+requires a $960 remediation outflow in year 2.
+
+(a) Why should you suspect this cashflow before computing anything?
+(b) Its NPV is −$20.66 at 10% and +$10.20 at 40%. What does that imply,
+    and what are the IRRs?
+(c) The investor's required return is 10%. Accept or reject, and on what
+    basis?
+
+<details><summary>Answer</summary>
+
+**(a)** The signs change **twice** (− + −): a non-conventional cashflow
+can have as many IRRs as sign changes. Any single "the IRR is X%" claim
+about it is suspect.
+
+**(b)** The NPV is negative at 10%, positive at 40% — so it crosses zero
+twice. This cashflow has **two IRRs: 20% and 60%** (check:
+`−500 + 1,400/1.2 − 960/1.2² = 0` and `−500 + 1,400/1.6 − 960/1.6² = 0`).
+Neither is "the" return on the investment.
+
+**(c)** **Reject — by NPV.** At the investor's own 10% hurdle the NPV is
+−$20.66, so the project destroys wealth at the rate that matters, even
+though both IRRs (20%, 60%) are above 10%. This is exactly why NPV is
+held superior: when IRR is ambiguous or conflicts with NPV, decide by
+NPV.
 </details>

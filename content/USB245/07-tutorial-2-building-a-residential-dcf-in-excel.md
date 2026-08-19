@@ -199,7 +199,7 @@ Gross-up:       933,320.72 / 1.04                =  $897,423.77
 
 > **The gap is $1,435.88, and the gross-up is the algebraically consistent
 > one.** Use the class method to match the tutor's figures in the lab; use
-> `price × (1 + T)` in A1, where note 08 §4.1 already sets it out that way,
+> `price × (1 + T)` in A1, where note 10 §4.1 already sets it out that way,
 > and state it in the assumptions sheet. Ask the tutor which the exam
 > expects — on an $8m purchase at 5.5% acquisition costs the same
 > disagreement is about **$24,200**, and
@@ -360,7 +360,7 @@ DCF                                               → adopt $41,000,000
 All four land within 5% of each other, which is what gives the conclusion its
 credibility. Its outgoings also reconcile exactly:
 `629,443 + 76,999.995 = $706,442.995`, an outgoings ratio of 20.9% of gross
-income — inside the plausible band from note 05 §3.1.
+income — inside the plausible band from note 06 §3.1.
 
 ### The trap inside the sample
 
@@ -405,7 +405,7 @@ Straight from the tutorial's final slide:
   work, and that must be documented in the file.**
 - **Each group member needs their own GenAI use statement.**
 
-Note 08 §4.8 covers the contributions and GenAI sheets in detail. The word
+Note 10 §4.8 covers the contributions and GenAI sheets in detail. The word
 "registered" is new here — forming a group is not the same as registering
 it, and the deadline applies to the second.
 

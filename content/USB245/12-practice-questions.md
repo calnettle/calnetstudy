@@ -4,7 +4,7 @@ Exam-style questions across Weeks 1–2 and the assignment material — Sections
 are tap-to-reveal. Every figure was recomputed before it was written down —
 work them on paper first, then check.
 
-Week 3 onward is in [Practice Questions — Weeks 3+](#/USB245/11-practice-questions-weeks-3-plus).
+Week 3 onward is in [Practice Questions — Weeks 3+](#/USB245/13-practice-questions-weeks-3-plus).
 
 ## Section A — Investment Principles
 
