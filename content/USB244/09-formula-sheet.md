@@ -534,3 +534,10 @@ and warehousing 44%, retail trade 19%.
 > Under five years means turnover, leasing cost and vacancy exposure to an
 > income investor, and a rent-reset/repositioning window to a value-add
 > buyer. An answer that only sees one side is half an answer.
+
+> **31. Attornment is the landlord changing; assignment is the tenant
+> changing.** When a tenanted building sells, the **notice of attornment**
+> tells each tenant to pay the new owner under the *existing* lease — the
+> lease survives unchanged, so the WALE and every review date are unaffected
+> by the sale. And the bank guarantees do not follow automatically: they name
+> the outgoing owner as beneficiary and must be reissued to the incoming one.

@@ -52,6 +52,7 @@ notes; this table is the one place they are all defined.
 | **Profit rent** | What a head tenant earns when sublease income exceeds their head rent: sublet at $360,000 against head rent of $300,000 → **$60,000** profit rent |
 | **Rental shortfall** | The reverse — passing rent below market (or sublease income below head rent); a purchaser prices the gap |
 | **Permitted use** | The clause limiting what business may operate — the mix-control lever in a shopping centre |
+| **Notice of attornment** | The written notice given to every tenant at settlement when a tenanted building sells: the property has a new owner, and rent under the **existing** lease is now payable to that owner (or their agent). The lease itself continues unchanged — see §4.3 |
 | **Recoverables / non-recoverables** | Outgoings the lease lets the owner pass on vs those it doesn't. Every non-recoverable dollar is a dollar off NI — $16.67 of value at a 6% cap rate |
 | **Ratchet clause** | Prevents rent falling at review — §4.4 |
 | **Cap and collar** | Bounds a review between a floor and a ceiling — §4.4 |
@@ -95,6 +96,49 @@ student with a tenancy schedule) interrogates a lease against.
 > sale depends on statute and notice. For the exam: registration (or a
 > registrable lease with protective clauses) is what secures the lessee's
 > interest against an incoming owner.
+
+### When the building sells — the notice of attornment
+
+An investment property is sold **subject to its tenancies** — the buyer is
+buying the income stream, so the leases survive settlement. What changes is
+who the rent is owed to, and the document that effects the change is the
+**notice of attornment**.
+
+```
+WHAT   Written notice to each tenant, issued at (or immediately after)
+       settlement, typically by the outgoing owner or jointly with the
+       incoming owner
+SAYS   1. The property has been sold — here is the new lessor
+       2. From the settlement date, pay rent and all other money due
+          under your lease to the new owner / their managing agent
+       3. Your lease otherwise continues on the same terms
+```
+
+"Attornment" is the tenant acknowledging the new owner as their landlord
+under the **existing** lease. Nothing is re-signed and no new lease is
+granted — the landlord's rights and obligations pass with the ownership
+(the covenants "run with the reversion"), and the tenancy simply carries
+on. The notice also protects the tenant: once received, paying the new
+owner is a good discharge of the rent obligation, and the tenant is no
+longer safe paying the old one.
+
+For the incoming property manager, the notice is the first item on a
+settlement-day checklist:
+
+| Settlement task | Why it matters |
+|---|---|
+| Issue notices of attornment to every tenant | Redirects the income stream from day one — a tenant who pays the old owner creates an arrears problem that isn't the tenant's fault |
+| Reissue / replace **bank guarantees** | A guarantee names the outgoing owner as beneficiary — it does **not** follow the sale automatically; until replaced, the new owner holds no security |
+| Transfer cash bonds and security deposits | Adjusted or handed over at settlement |
+| Settlement adjustments | Rent and outgoings paid in advance (or in arrears) are apportioned between the two owners at the settlement date |
+| Take over the critical-date diary | Reviews, options and expiries don't pause for a sale — a review missed during handover is permanent income loss |
+
+> **Attornment is the landlord changing; assignment is the tenant changing.**
+> The two get confused in exams. An **assignment** transfers the *lease* from
+> one tenant to another (with the lessor's consent). **Attornment** happens
+> when the *freehold* changes hands: same lease, same tenant, new landlord.
+> Neither one creates a new lease — which is why the WALE, the review dates
+> and every other lease term are unaffected by the sale.
 
 ## 4.4 Rent Reviews — the Income Growth Engine
 
@@ -254,6 +298,9 @@ can't meet the ratings lose an entire tenant class.
 - The lease characteristics list is a **due-diligence checklist**: term and
   options feed the WALE; outgoings clauses decide recoverability; make-good,
   default, demolition and registration clauses allocate the risks.
+- When the building sells, the leases survive: the **notice of attornment**
+  tells each tenant to pay the new owner under the existing lease, and the
+  bank guarantees must be reissued because they don't follow automatically.
 - Rent reviews are the income growth engine: fixed/CPI for certainty, market
   for repricing, modified by ratchets, floors, caps and collars — each
   modifier shifts risk between owner and tenant.
@@ -279,6 +326,10 @@ can't meet the ratings lose an entire tenant class.
    sustainability clause pasted in?
 6. Why does a market review with a ratchet behave differently in a Brisbane
    office tower and a Brisbane shopping centre?
+7. A 14-tenancy centre settles to a new owner on 30 September. Name the
+   notice the incoming manager issues that day, state the three things it
+   tells each tenant, and name the one security document that does *not*
+   follow the sale automatically.
 
 <details><summary>Answers</summary>
 
@@ -304,4 +355,10 @@ can't meet the ratings lose an entire tenant class.
    shopping centre the equivalent clause is generally ineffective under the
    Retail Shop Leases Act, so the review can go down. (Confirm the current
    provisions before quoting the Act in an assessment.)
+7. The **notice of attornment**. It tells each tenant that (1) the property
+   has been sold and who the new lessor is, (2) from settlement, rent and
+   all other money under the lease is payable to the new owner or their
+   agent, and (3) the lease otherwise continues unchanged. The **bank
+   guarantee** does not follow automatically — it names the outgoing owner
+   as beneficiary and must be reissued to the incoming owner.
 </details>

@@ -589,6 +589,12 @@ Explain the direction of the gap, and explain what kind of tenancy the
 schedule would need before the gap could run the Richlands way (area above
 income).
 
+**F10.** A fully leased centre settles to a new owner on 31 October. The
+outgoing manager hands over the files, but by December two tenants are
+still paying rent to the old owner and the new owner discovers it holds no
+security over any tenancy. Name the two settlement steps that were missed,
+and state what happens to the WALE as a result of the sale itself.
+
 <details><summary>Answers</summary>
 
 **F1.** CPI 5.1% exceeds the 4.5% cap, so the cap binds: $250,000 × 1.045 =
@@ -647,4 +653,15 @@ pattern needs an anchor-shaped tenancy — Woolworths there holds 69% of the
 area at a fraction of specialty rent on the longest lease. No anchor, no
 flip: the gap's direction is a structural fingerprint, not a dial the
 manager can turn from within this rent roll.
+
+**F10.** (1) **Notices of attornment were never issued** — until a tenant
+is told in writing that the property has sold and rent is payable to the
+new owner, paying the old owner remains a good discharge, so the arrears
+sit with the owners to sort out, not the tenants. (2) **The bank
+guarantees were never reissued** — a guarantee names the outgoing owner as
+beneficiary and does not transfer with the sale, so the incoming owner
+holds no enforceable security until each tenant's bank issues a
+replacement. The WALE is **unchanged**: the sale transfers the reversion,
+not the leases — same tenants, same terms, same expiry dates. Attornment
+changes who is paid, not what was promised.
 </details>
