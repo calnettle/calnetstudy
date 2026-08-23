@@ -386,7 +386,7 @@ At `r = +1.00` that locus would instead be a **straight line** — no bulge, no 
 w₁* = σ₂² / (σ₁² + σ₂²) = 0.0100 / (0.0049 + 0.0100) = 0.671
 ```
 
-→ 67.1% in Asset 1, 32.9% in Asset 2, giving σ_port = **5.74%** — lower than *either* asset alone, at a 13.29% expected return.
+→ 67.1% in Asset 1, 32.9% in Asset 2, giving σ_port = **5.73%** — lower than *either* asset alone, at a 13.29% expected return.
 
 ### Worked example on real data — two ASX stocks
 

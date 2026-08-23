@@ -261,12 +261,12 @@ New portfolio value  = 3,571 × $25 =  $89,275
 Less debt                          =  −$75,000
 Equity                             =   $14,275
 Less initial investment            =  −$50,000
-Loss                               =  −$35,695
+Loss                               =  −$35,725
 ```
 
-> **On rounding:** using **unrounded** shares (3,571.43) the answer is **±$35,714** — you'll see this figure in textbook solution manuals. Using whole shares (3,571) it's **±$35,710**. Either is acceptable if you state your assumption. The shortcut is `Profit = Shares × ΔPrice`.
+> **On rounding:** using **unrounded** shares (3,571.43) the answer is **±$35,714** — you'll see this figure in textbook solution manuals. Using whole shares (3,571), the shortcut `Profit = Shares × ΔPrice` gives **±$35,710**, and the equity method above gives +$35,695 / −$35,725 — the $15 asymmetry is because 3,571 × $35 = $124,985, not the $125,000 the $50,000 deposit was sized on. Any of these is acceptable if you state your assumption.
 
-> **The leverage point:** the stock moved ±28.6% ($35→$45 or $35→$25), but Lauren's equity moved **±71.4%** ($35,695 / $50,000). Amplification = 1/0.40 = **2.5×**, in both directions.
+> **The leverage point:** the stock moved ±28.6% ($35→$45 or $35→$25), but Lauren's equity moved **≈±71.4%** ($35,714 / $50,000). Amplification = 1/0.40 = **2.5×**, in both directions.
 
 ### (c) If the maintenance margin is 30 percent, to what price can Gentry Wine fall before Lauren will receive a margin call?
 
