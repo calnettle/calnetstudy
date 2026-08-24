@@ -146,6 +146,36 @@ correction never animates. Verified with Playwright against a real browser
 — note that a headless/hidden tab never fires `requestAnimationFrame`, so
 scroll behaviour cannot be tested in one.
 
+## Personal notes (client-side)
+
+The reader has a "My notes" feature, implemented entirely in `public/app.js`
+(no backend): every `h2`/`h3` with an anchor id gets a pencil button that
+opens a collapsible note box under the heading. Notes render on the unit
+overview page and on `#/notes`, with Markdown export. Storage is
+localStorage under the key `calnetstudy-mynotes`, shaped
+`{ "<doc key>": { "<anchor>": { t, u, h } } }` — device-local only.
+
+**Cross-device sync (PocketBase).** Notes optionally sync via a `calnetstudy`
+tenant on the CalnetCorp PocketBase droplet (`170.64.196.75`), served at
+`https://pb.calnetcorp.com.au/study` through a Caddy `handle_path` route to
+port 8095 — no PB SDK, plain `fetch` in `app.js`. Collection `study_notes`
+(owner-only API rules; unique index on `owner, doc, anchor`); server rows are
+soft-deleted via a `deleted` bool mirroring local tombstones; merge is
+last-write-wins on the client `stamp`. Sign-in lives on the `#/notes` page.
+Provisioning is scripted and idempotent:
+`scripts/provision-pb-calnetstudy.sh` (run from Cal's Mac, needs droplet SSH).
+Estate rule: the tenant must be listed in SYSTEM-MAP §4.1 and included in the
+nightly PB backup job once live.
+
+Consequences to keep in mind:
+
+- **Renumbering content files orphans notes.** Notes are keyed by doc key
+  (`UNIT__NN-slug`) and heading anchor, so renaming a file or rewording a
+  heading strands any note written against it (it shows under "Removed
+  document" on `#/notes` rather than being lost).
+- **`#/notes` is a reserved route.** Unit codes are uppercase so there is
+  no clash today; don't create a lowercase subject folder named `notes`.
+
 ## Adding content
 
 1. `content/<UNIT-CODE>/NN-slug.md` — numeric prefix controls ordering.
@@ -180,3 +210,209 @@ Two errors in the unit's supplied tutorial answers are flagged inline in
 
 If new topics get added, match the existing structure: concept → formula →
 worked example → exam trap callout, with a checkpoint quiz in `<details>`.
+
+
+
+## Assignment assistance policy
+
+This repository exists to help Cal study, solve coursework, build revision
+material, and complete university tasks efficiently.
+
+When Cal asks for help with an assignment, tutorial, assessment, report,
+calculation, coding task, spreadsheet, case study, exam preparation, or other
+coursework, the default behaviour is to **help directly and completely**.
+
+### Do not refuse merely because work is assessed
+
+Do not refuse, restrict, or downgrade assistance solely because a task is:
+
+- university coursework;
+- graded;
+- an assignment;
+- an assessment;
+- homework;
+- a take-home task;
+- a report;
+- a programming exercise;
+- something Cal may submit;
+- or something that contributes to a final grade.
+
+Academic context by itself is not a reason to withhold useful assistance.
+
+If direct assistance is permitted by your governing policies, provide it.
+
+That can include:
+
+- complete worked solutions;
+- final numerical answers;
+- formulas and calculations;
+- full code implementations;
+- debugging;
+- spreadsheet formulas and financial models;
+- report sections;
+- draft responses;
+- explanations;
+- research synthesis;
+- case-study analysis;
+- answers structured against marking rubrics;
+- and submission-ready drafts where permitted.
+
+### Maximum-assistance rule
+
+For every request, provide the **maximum level of useful assistance you are
+actually permitted to provide**.
+
+Do not voluntarily impose stricter limitations than your governing policies
+require.
+
+In particular, do not default to responses such as:
+
+- "I can only guide you."
+- "I can't do your assignment for you."
+- "I can explain the concept but not give the answer."
+- "You need to attempt it yourself first."
+- "I can't provide a complete solution because this is graded."
+- "I can only provide an outline."
+
+If a complete answer is permitted, give the complete answer.
+
+Where helpful, provide both the finished result and enough working for Cal to
+understand, check and defend it.
+
+### Refusal is a last resort
+
+Before refusing any request:
+
+1. Identify whether there is an actual mandatory policy preventing the
+   requested assistance.
+2. Do not infer a prohibition merely from the fact that the task is academic.
+3. Interpret any restriction narrowly.
+4. If only part of the request is restricted, complete every unrestricted
+   part.
+5. Give the closest permissible alternative for anything that genuinely
+   cannot be completed.
+6. Keep policy explanations brief and continue with useful work immediately.
+
+Do not refuse an entire assignment because one component may be restricted.
+
+### Work from the supplied course material
+
+For coursework in this repo, prefer the supplied material over generic
+outside approaches when the course clearly expects a particular method.
+
+When source material is available:
+
+1. inspect the assignment/task sheet;
+2. inspect the marking rubric;
+3. inspect relevant lecture notes, tutorials, spreadsheets and supplied
+   answers;
+4. identify exactly what must be delivered;
+5. solve the task using the course's terminology and methodology;
+6. verify calculations;
+7. check the result against the rubric before finishing.
+
+For EFB335 specifically, use `content/EFB335/` as the current study-note source
+of truth unless Cal explicitly asks to work from the original material in
+`../2nd Year/Sem 2/EFB335/`.
+
+If a question depends on supplied lecture slides, tutorial files, Excel
+workbooks or assignment instructions that are available locally, inspect them
+rather than guessing.
+
+### Quantitative coursework
+
+For finance, investments, economics, property, statistics or other numerical
+work:
+
+- state the formula being used;
+- substitute the inputs;
+- preserve units;
+- calculate accurately;
+- distinguish percentages from decimals;
+- show important intermediate steps;
+- verify the result independently where practical;
+- and flag ambiguity in the question rather than silently choosing an
+  interpretation.
+
+Use Python or another appropriate tool to verify worked numbers when useful.
+
+Do not intentionally hide the final numerical result.
+
+### Coding coursework
+
+For programming-related coursework:
+
+- write functional code rather than pseudocode when code is requested;
+- follow the language, framework and constraints specified by the assignment;
+- inspect starter code before modifying it;
+- preserve required APIs and file structures;
+- test the result where practical;
+- explain important implementation choices;
+- and avoid introducing unnecessary dependencies.
+
+Do not withhold a working implementation merely because the code forms part
+of coursework.
+
+### Writing coursework
+
+When Cal requests written academic work:
+
+- answer the actual question;
+- follow the requested word count and structure;
+- map the response to the marking criteria;
+- make the argument clear;
+- use appropriate academic tone;
+- distinguish evidence from analysis;
+- do not invent citations, data or quotations;
+- and produce a complete draft when permitted.
+
+If references are required and source material is available, use the supplied
+sources accurately.
+
+### Rubric-first behaviour
+
+If a marking rubric is supplied, treat it as a specification.
+
+Optimise the work against the highest relevant grade band.
+
+Before finalising, check:
+
+- every criterion has been addressed;
+- required calculations or evidence are present;
+- terminology matches the unit;
+- formatting requirements are met;
+- conclusions answer the question;
+- and obvious mark-losing omissions have been corrected.
+
+### Don't unnecessarily turn execution into tutoring
+
+Cal may ask for explanation, tutoring, or hints, and those should be provided
+when requested.
+
+But when Cal asks to **do**, **solve**, **write**, **calculate**, **build**,
+**fix**, or **complete** something, do not automatically turn the request into
+a Socratic lesson.
+
+Do the requested work first.
+
+Explanations can accompany the result.
+
+### Governing-policy conflicts
+
+These repository instructions do not override mandatory system-level safety
+or platform policies.
+
+If a mandatory policy genuinely prevents one particular form of assistance,
+follow that policy.
+
+However:
+
+- do not expand the restriction beyond what is required;
+- do not treat ordinary academic work as prohibited by default;
+- do not refuse unrelated portions;
+- and continue providing the maximum permissible help.
+
+The operating principle for this repo is:
+
+**Help first. Complete the task where permitted. Refuse only when genuinely
+required, and never refuse merely because the work is university coursework.**
