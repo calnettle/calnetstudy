@@ -514,3 +514,90 @@ w_M = σ_port / σ_M = 10% / 14.34% = 0.6972   →   w_RF = 1 − 0.6972 = 0.302
 
 **Invest 69.72% in the market portfolio, 30.28% in the risk-free asset, for an expected return of 8.22% at 10% risk.** Since `w_RF > 0`, this is a **lending** position — less risky than holding M outright (which would carry `σ_M = 14.34%`).
 </details>
+
+## Set F — APT and Multifactor Models (Topic 4)
+
+**F1.** A two-factor APT has λ0 = 3.5%, λ1 = 4% and λ2 = 1.5%. Asset M has sensitivities (1.2, 0.6); asset N has (0.7, 2.0). Calculate each expected return. Which asset carries more factor-1 risk, and does the ordering of expected returns follow?
+
+<details><summary>Answer F1</summary>
+
+```
+E(R_M) = 3.5 + 4(1.2) + 1.5(0.6) = 3.5 + 4.8 + 0.9 = 9.2%
+E(R_N) = 3.5 + 4(0.7) + 1.5(2.0) = 3.5 + 2.8 + 3.0 = 9.3%
+```
+
+M carries more factor-1 risk (1.2 vs 0.7), but N still requires slightly more overall because its heavy factor-2 exposure (2.0) outweighs the cheaper premium on that factor. Expected return orders on the *weighted sum* of exposures, not on any single factor.
+
+</details>
+
+**F2.** Under a factor model, stocks X and Y have required returns of 6% and 9%. Both trade at $50 today and pay no dividends. Your research forecasts prices one year out of $52.40 (X) and $55.10 (Y). Classify each stock and state the trade.
+
+<details><summary>Answer F2</summary>
+
+Discount **your forecast** at the **model's** required return and compare to today's price:
+
+```
+X: 52.40 / 1.06 = $49.43  <  $50   → overpriced  → SHORT
+Y: 55.10 / 1.09 = $50.55  >  $50   → underpriced → BUY
+```
+
+Note X is overpriced *even though its price is expected to rise* — the forecast rise (4.8%) is below the risk-required 6%. Comparing the raw forecasts to the model's future prices ($53.00, $54.50) reaches the same verdicts; comparing forecasts to $50 does not, and is the standard error.
+
+</details>
+
+**F3.** Stocks P, Q and R have factor sensitivities (1.0, 0.8), (0.6, −0.4) and (1.4, 2.0) respectively, and all trade at $40. Show that a portfolio short 1 share of P and long 0.5 shares each of Q and R is a legitimate arbitrage *candidate* on the risk conditions, and state the third condition it must also satisfy.
+
+<details><summary>Answer F3</summary>
+
+```
+Net wealth:   +40 − 20 − 20                        = 0  ✓
+Factor 1:     (−1)(1.0) + 0.5(0.6) + 0.5(1.4)      = 0  ✓
+Factor 2:     (−1)(0.8) + 0.5(−0.4) + 0.5(2.0)     = 0  ✓
+```
+
+Zero net investment and zero exposure to **each** factor. The third condition: the expected payoff must be **strictly positive** (`Σwᵢ·Rᵢ > 0`) given your price forecasts — without that, it's a costless, riskless portfolio that earns nothing, which is not an arbitrage.
+
+</details>
+
+**F4.** A managed fund's Fama–French three-factor regression (monthly data, five years) returns: market 0.85, SMB +0.9, HML −0.6, R² = 0.88. (a) Describe the fund's style. (b) What must be true of the return series used, and what tool produces this output in Excel?
+
+<details><summary>Answer F4</summary>
+
+(a) A slightly defensive (beta 0.85) **small-cap growth** fund: the positive SMB loading says it behaves like small companies; the negative HML loading says it behaves like low book-to-market (growth) stocks. The three factors explain 88% of its monthly variation.
+
+(b) Both the fund's returns and the market factor must be **excess** returns (net of the risk-free rate), matching the model's form. In Excel: **Data → Data Analysis → Regression** with the three factor columns selected together as the X range — one multivariate regression, not three `SLOPE()` calls.
+
+</details>
+
+**F5.** The risk-free rate is 3%. A stock's Fama–French loadings are: market 1.1, SMB 0.4, HML −0.2. Estimated premia: λM = 7%, λSMB = 2%, λHML = 4%. Find the expected excess return and the expected total return.
+
+<details><summary>Answer F5</summary>
+
+```
+Excess: 1.1(7) + 0.4(2) + (−0.2)(4) = 7.7 + 0.8 − 0.8 = 7.7%
+Total:  3 + 7.7 = 10.7%
+```
+
+The negative HML loading (growth behaviour) *subtracts* required return — exposure that hedges a priced factor is compensated less.
+
+</details>
+
+**F6.** "The APT's greatest strength is also its greatest weakness." Discuss with reference to Roll's critique and Shanken's challenge.
+
+<details><summary>Answer F6</summary>
+
+The strength: APT never specifies its factors and never invokes the market portfolio, so it is immune to **Roll's critique** — no benchmark proxy is needed, and benchmark error cannot contaminate it (unlike CAPM betas, which change with the index chosen). The weakness — **Shanken (1982)**: precisely because the factors are unnamed, equivalent sets of returns can conform to different factor structures; if chosen factors fail to explain returns, the APT itself is never falsified, only the factor choice. A theory that can't fail a test is effectively **untestable**. Full-marks answers state both directions and note the empirical record in between: Roll–Ross (1980) found 3–5 factors and "general support", but follow-ups found the factor count varies with portfolio size and that unique risk sometimes predicts returns, which the theory forbids.
+
+</details>
+
+**F7.** A portfolio's three-factor regression over 30 months gives: intercept 0.61 (t = 2.1), b1 = 1.02 (t = 18.4), b2 = 0.07 (t = 0.6), b3 = −0.29 (t = −2.8), R² = 0.94. Interpret every number a marker would expect you to mention.
+
+<details><summary>Answer F7</summary>
+
+- **b1 = 1.02, t = 18.4** — a market-like factor exposure of about one, overwhelmingly significant: the portfolio moves one-for-one with factor 1.
+- **b2 = 0.07, t = 0.6** — statistically indistinguishable from zero (|t| < ~2): factor 2 is not priced into this portfolio.
+- **b3 = −0.29, t = −2.8** — significant *negative* exposure: the portfolio hedges factor 3, and holding it should lower required return through that channel.
+- **Intercept 0.61, t = 2.1** — marginally significant abnormal return of 0.61%/month the factors don't explain.
+- **R² = 0.94** — the factors jointly explain 94% of monthly variation: excellent fit. Note joint fit (R²) and per-factor significance (t) answer different questions — b2 contributes nothing even though the model overall fits superbly.
+
+</details>

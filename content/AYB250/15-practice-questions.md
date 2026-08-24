@@ -1,6 +1,6 @@
 # AYB250 — Practice Questions
 
-Exam-style questions across Weeks 1 and 2 and the Part A technique. Answers
+Exam-style questions across Weeks 1 to 5 and the Part A technique. Answers
 are hidden — work each one out on paper first. Every numerical answer here
 was computed independently, not copied from the lecture.
 
@@ -878,12 +878,380 @@ tax-free threshold) cannot replicate.
 
 ---
 
+## Section F — Investments and portfolio theory (Week 4)
+
+### F1
+
+The cash rate is 5.1% and inflation is 3.2%. Calculate the real cash rate,
+and the real gain on $40,000 held for a year at the cash rate.
+
+<details><summary>Answer F1</summary>
+
+```
+Real rate = (1 + nominal)/(1 + inflation) − 1
+          = 1.051 / 1.032 − 1 = 1.84%
+
+Real gain = 40 000 × 0.0184 = $736.43 (using the unrounded rate)
+```
+
+Not `5.1 − 3.2 = 1.9%` — the ratio form is the formula, and the gap
+between the two grows with inflation.
+
+</details>
+
+### F2
+
+(a) A 90-day discount security with a face value of $25,000 sells for
+$24,600. Find the yield for the period and the annualised yield.
+(b) Price a 180-day bill with a face value of $50,000 to yield 7.2%.
+
+<details><summary>Answer F2</summary>
+
+```
+(a) Period yield = (25 000 − 24 600)/24 600 = 1.626%
+    Annualised   = 0.01626 × 365/90        = 6.59%
+
+(b) Price = 50 000 / [1 + 0.072 × 180/365]
+          = 50 000 / 1.035507 = $48 285.53
+```
+
+The yield's denominator is the **price paid**, not the face value; and a
+bill's price must always come out below face.
+
+</details>
+
+### F3
+
+A $20,000 bond has three years to run, pays an 8% coupon semi-annually,
+and the market requires 6% p.a. What is it worth, and why is the answer
+above or below face value?
+
+<details><summary>Answer F3</summary>
+
+```
+PMT = 20 000 × 0.08/2 = 800     i = 0.03     n = 6
+
+Price = 800 × [1 − (1.03)^(−6)]/0.03 + 20 000 × (1.03)^(−6)
+      = 4 333.75 + 16 749.69
+      = $21 083.44
+```
+
+**Above** face value — the coupon (8%) exceeds the required return (6%),
+so buyers bid the price up until the yield falls to the market rate. This
+is the mirror image of the lecture's $98,141.45 example (coupon 5%,
+required 6%, priced below face).
+
+</details>
+
+### F4
+
+You hold a fixed-rate government bond. Market interest rates rise 2%.
+What happens to (a) your coupons, (b) the bond's market value, and (c) your
+position if you simply hold to maturity?
+
+<details><summary>Answer F4</summary>
+
+(a) Nothing — the coupon is fixed at issue. (b) It **falls**: new bonds pay
+more, so yours must cheapen until its yield matches (the lecture's
+example: a $100,000 6% bond loses value because $75,000 of new 8% bonds
+buys the same income). (c) Unchanged in cash terms — all coupons and the
+full face value still arrive; the price fall only matters if you sell.
+
+</details>
+
+### F5
+
+A portfolio holds 40% Fund A (expected return 7%, SD 5%) and 60% Fund B
+(expected return 12%, SD 9%). (a) Calculate the portfolio's expected
+return. (b) A classmate calculates portfolio risk as
+`0.4 × 5 + 0.6 × 9 = 7.4%`. What's wrong, and when would they be right?
+
+<details><summary>Answer F5</summary>
+
+```
+(a) E(R) = 0.40 × 7% + 0.60 × 12% = 2.8% + 7.2% = 10.0%
+```
+
+(b) Portfolio risk depends on the **correlation** between the funds'
+returns — unless it is exactly +1, offsetting movements pull the portfolio
+SD *below* the weighted average. 7.4% is the ceiling (perfect positive
+correlation), not the answer. Expected **return** is a weighted average;
+risk is not.
+
+</details>
+
+### F6
+
+A share has a beta of 1.25. The risk-free rate is 3.5% and the expected
+market **return** is 9.5%. Find the CAPM required return.
+
+<details><summary>Answer F6</summary>
+
+This one gives the market *return*, so build the premium first:
+
+```
+Market risk premium = 9.5% − 3.5% = 6%
+Ri = 3.5% + 1.25 × 6% = 11.0%
+```
+
+Plugging 9.5% straight in as the premium gives 15.4% — the
+premium-vs-return misread is the standard CAPM trap. (The tutorial's
+version supplies the premium directly, so no subtraction there.)
+
+</details>
+
+### F7
+
+Fund X returned 11% with a standard deviation of 0.8; Fund Y returned 8%
+with a standard deviation of 0.35. The risk-free rate is 4%. Which fund
+performed better on a risk-adjusted basis?
+
+<details><summary>Answer F7</summary>
+
+```
+Sharpe X = (0.11 − 0.04)/0.80 = 0.0875  →  8.75
+Sharpe Y = (0.08 − 0.04)/0.35 = 0.1143  →  11.43
+```
+
+**Fund Y** — less than three-quarters of X's raw return, but much less
+risk per unit of excess return earned. Higher Sharpe wins.
+
+</details>
+
+### F8
+
+A company's shares trade at $18.00 with EPS of $1.50 and an annual
+dividend of $0.72. (a) Calculate the P/E ratio and dividend yield. (b) If
+next year's EPS is expected to be $1.80 and the P/E holds, what price does
+that imply? (c) Is this stock more likely to attract a growth or a value
+investor?
+
+<details><summary>Answer F8</summary>
+
+```
+(a) P/E = 18 / 1.50 = 12       Dividend yield = 0.72 / 18 = 4%
+(b) 12 × 1.80 = $21.60
+```
+
+(c) Arguably **value** territory — a modest P/E with a meaningful yield.
+Growth investors chase high-P/E, low-yield stocks with strong expected
+earnings growth; value investors want apparently under-priced earnings and
+dividends. (Full marks come from defining both, then applying.)
+
+</details>
+
+### F9
+
+A managed fund holds 10% cash, 30% fixed interest and 60% growth assets.
+Its PDS says investors should tolerate a decline in capital of up to 10%
+and invest for four to six years. Which investor classification does this
+fund target?
+
+<details><summary>Answer F9</summary>
+
+**Balanced** — the classification table maps exactly: 40% defensive
+(cash + fixed interest) / 60% growth, a tolerable decline of 10%, and a
+4–6 year timeframe. (Very conservative 90/10 defensive/growth → very
+aggressive 15/85; learn the five rows.)
+
+</details>
+
+### F10
+
+Name the behavioural-finance bias: (a) "I only buy bank shares — bank
+shares never fall." (b) Selling everything because the market fell 3% and
+the pain is unbearable, despite a 20-year horizon. (c) Buying a stock
+because it's all over social media. (d) Trading daily because you're sure
+you can out-pick the market.
+
+<details><summary>Answer F10</summary>
+
+(a) **Biased judgement** ("house prices never go down" pattern).
+(b) **Loss aversion** — prospect theory; losses hurt more than equal
+gains please. (c) **Herding**. (d) **Overconfidence** — which the deck
+notes leads to overtrading and more losses.
+
+</details>
+
+---
+
+## Section G — Property and leveraged investing (Week 5)
+
+### G1
+
+Two comparable units recently sold: one earns net income of $24,000 and
+sold for $320,000; the other earns $30,000 and sold for $390,000. Value a
+unit in the same block with net income of $27,300.
+
+<details><summary>Answer G1</summary>
+
+```
+Cap rates:  24 000/320 000 = 0.0750
+            30 000/390 000 = 0.0769
+Average = 0.0760
+
+Value = 27 300 / 0.0760 = $359 392  (≈ $359 000)
+```
+
+Net income divided by the average capitalisation rate of comparables —
+and it must be **net** income on both sides of the calculation.
+
+</details>
+
+### G2
+
+What are the monthly repayments on a $450,000 loan over 30 years at 5.95%
+compounded monthly, and how much interest is paid over the life of the
+loan?
+
+<details><summary>Answer G2</summary>
+
+```
+i = 0.0595/12 = 0.00495833     n = 360
+
+C = 450 000 / {[1 − (1.00495833)^(−360)]/0.00495833}
+  = $2 683.53 per month
+
+Total interest = 2 683.53 × 360 − 450 000 = $516 070
+```
+
+More interest than principal — the standard shape of a 30-year loan at
+~6%. Monthly discipline: i = j/12, n = years × 12.
+
+</details>
+
+### G3
+
+An investor on a $125,000 salary owns a rental (bought 2024) returning
+$600/week. Annual figures: loan interest $26,000, rates and insurance
+$6,500, depreciation $9,000, borrowing costs being written off $300.
+Calculate (a) the net rental result, (b) the tax saved, and (c) the
+after-tax cash effect of owning the property.
+
+<details><summary>Answer G3</summary>
+
+```
+(a) Rent = 600 × 52 = 31 200
+    Net rental = 31 200 − 26 000 − 6 500 − 9 000 − 300 = −$10 600
+
+(b) Salary 125 000 → 30% bracket + 2% Medicare = 32%
+    Tax saving = 10 600 × 0.32 = $3 392
+    (bought 2024 → old rules; the loss offsets salary)
+
+(c) Cash loss = 31 200 − 26 000 − 6 500 = −1 300  (depreciation and
+    borrowing-cost write-offs aren't cash)
+    After-tax cash effect = −1 300 + 3 392 = +$2 092 per year
+```
+
+A $10,600 paper loss that leaves the investor $2,092 cash-positive after
+tax — Sally's example in miniature. Check which of the three numbers the
+question wants.
+
+</details>
+
+### G4
+
+Four properties are negatively geared. Which regime applies to each
+2027-28 loss? (a) Existing house bought March 2026. (b) Existing house
+bought August 2026. (c) Newly built townhouse bought August 2026. (d) A
+share portfolio margin loan taken out August 2026.
+
+<details><summary>Answer G4</summary>
+
+(a) **Old rules** — bought before 7:30pm, 12 May 2026: loss offsets any
+income. (b) **New rules** — existing dwelling after the cutover: from
+1 July 2027 the loss only offsets other residential-property income,
+carried forward otherwise. (c) **Old rules** — new builds are excluded
+from the change. (d) **Old rules** — the quarantine is specific to
+residential property; geared shares still offset salary.
+
+</details>
+
+### G5
+
+An investor puts in $80,000 and borrows $120,000. Calculate the gearing
+ratio and the LVR, and state which one a margin lender's maximum refers
+to.
+
+<details><summary>Answer G5</summary>
+
+```
+Gearing ratio = 120 000 / 80 000  = 1.5
+LVR           = 120 000 / 200 000 = 60%
+```
+
+Same numerator, different denominator — gearing divides by the investor's
+own capital, LVR by the total investment value. Lenders' maximums are
+stated as **LVR**.
+
+</details>
+
+### G6
+
+A margin loan: $40,000 equity, $60,000 borrowed, maximum LVR 75% (ignore
+any buffer). The portfolio falls 25%. (a) Is there a margin call? (b) How
+much cash paid into the loan clears it, and what are the other two options?
+
+<details><summary>Answer G6</summary>
+
+```
+(a) Portfolio = 100 000 × 0.75 = 75 000
+    LVR = 60 000 / 75 000 = 80%  >  75%  →  margin call
+
+(b) (60 000 − x)/75 000 = 0.75  →  x = $3 750 into the loan
+    Check: 56 250 / 75 000 = 75% ✓
+```
+
+Alternatives: add new assets as security, or sell part of the portfolio to
+repay the loan. Deadline: **24 hours**.
+
+</details>
+
+### G7
+
+An investor on the 37% + 2% Medicare marginal rate buys shares with
+$20,000 equity plus a $20,000 loan at 8.5%. The portfolio yields 5% fully
+franked (large-company rate) and grows 6%; it is sold after 13 months.
+Find the after-tax return in dollars and as a percentage of equity, and
+compare it with the ungeared alternative ($20,000, no loan).
+
+<details><summary>Answer G7</summary>
+
+```
+GEARED (invested 40 000):
+  Dividends            40 000 × 5%          = 2 000.00
+  Franking credit      2 000 × 30/70        =   857.14
+  Interest             20 000 × 8.5%        = (1 700.00)
+  Capital gain         40 000 × 6% = 2 400 → 1 200 taxable (50% discount)
+  Taxable  2 000 + 857.14 − 1 700 + 1 200   = 2 357.14
+  Tax      2 357.14 × 0.39 − 857.14         =    62.14
+  Net      2 000 − 1 700 + 2 400 − 62.14    = $2 637.86  →  13.19%
+
+UNGEARED (invested 20 000):
+  Dividends 1 000 + credit 428.57; gain 1 200 → 600 taxable
+  Taxable = 2 028.57 → tax 791.14 − 428.57 = 362.57
+  Net     = 1 000 + 1 200 − 362.57          = $1 837.43  →  9.19%
+```
+
+Gearing lifts the return from 9.19% to 13.19% because the portfolio earns
+11% pre-tax against an 8.5% borrowing cost — and the franking credits and
+CGT discount improve the after-tax spread further. Reverse the market and
+the same leverage cuts the other way (Tutorial 5's Jason question runs
+both scenarios).
+
+</details>
+
+---
+
 ## Where these came from
 
 Sections A and B–C follow the Week 1 and Week 2 lecture material directly.
 Section D follows the technique required by Individual Project Part A, using
 the 2026-27 rates supplied in the assignment template. Section E follows
 the Week 3 lecture on taxation planning, using the same 2026-27 rates.
+Section F follows the Week 4 lecture on asset classes and portfolio theory,
+and Section G the Week 5 lecture on property and leveraged investing — both
+cross-checked against the Topic 4 and 5 tutorials (notes 12 and 13).
 No question here is taken from a past exam paper — **there is no past exam
 paper in the source material**, and nothing in the folder describes the
 exam's format.

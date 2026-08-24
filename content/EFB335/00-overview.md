@@ -3,7 +3,7 @@
 **QUT · Semester 2, 2026 · Unit Coordinator: Yatra Forudi**
 **Textbook: Reilly & Brown, *Investment Analysis and Portfolio Management***
 
-> Living document. Topics 1–3 complete, including Tutorials 1, 2 and 3, plus the Assessment 1 prep guide. Add new topics as lectures are released.
+> Living document. Topics 1–4 complete, including Tutorials 1–4, plus the Assessment 1 prep guide — the briefing's full coverage (Topics 1–4) is now on the site. Add new topics as lectures are released.
 
 ---
 
@@ -16,23 +16,26 @@
 | 02 | **Topic 2 — Portfolio Management** | *Measurement:* Markowitz, covariance and correlation, portfolio risk, the covariance matrix, the efficient frontier |
 | 03 | **Topic 2 (cont.) — Investor Utility and Investment Strategy** | *Preference and application:* the utility function, the risk tolerance questionnaire, strategy design and evaluation |
 | 04 | **Topic 3 — Capital Market Theory and CAPM** | The Capital Market Line, the market portfolio and the Separation Theorem, beta, the CAPM/SML, relaxing the assumptions, empirical tests, the benchmark error problem |
-| 05 | **Tutorial 1 — Full Worked Solutions** | Ch 1 Q6–Q7, Ch 1 P3 & P5, Ch 3 Q9, Ch 3 P2 & P4 |
-| 06 | **Tutorial 2 — Full Worked Solutions** | Ch 6 Q11 (variation), Ch 6 P1, P3, P4 and P7 |
-| 07 | **Tutorial 3 — Full Worked Solutions** | Ch 7 Q2 & Q5, Ch 7 P2, plus three non-textbook CML/CAPM/optimisation problems |
-| 08 | **Extra Practice Questions** | Sets A–E, closed-book, answers collapsed |
-| 09 | **Formula Sheet & Exam Traps** | Every formula in one place plus the checklist of traps |
-| 10 | **Assessment 1 — Investment Briefing Prep Guide** | The 14 calculations with exact Excel formulas, the briefing-note template, a two-hour time plan, sanity checks, and two flagged discrepancies in the unit's sample solution |
-| 11 | **Revision Pack 1 — Topic 1 + Tutorial 1** | From-scratch teaching of returns, risk, margin and short sales; Tutorial 1 fully worked; self-test; cheat sheet |
-| 12 | **Revision Pack 2 — Topic 2 + Tutorial 2** | From-scratch teaching of covariance, correlation, portfolio risk, the efficient frontier and utility; Tutorial 2 fully worked; self-test; cheat sheet |
-| 13 | **Revision Pack 3 — Topic 3 + Tutorial 3** | From-scratch teaching of the CML, beta, CAPM/SML and the critiques; Tutorial 3 fully worked; self-test; cheat sheet |
+| 05 | **Topic 4 — APT and Multifactor Models** | Arbitrage Pricing Theory, the three-stock arbitrage, empirical tests and Shanken's challenge, macro factor models (Chen–Roll–Ross), Fama–French three- and five-factor models, factor regressions in Excel |
+| 06 | **Tutorial 1 — Full Worked Solutions** | Ch 1 Q6–Q7, Ch 1 P3 & P5, Ch 3 Q9, Ch 3 P2 & P4 |
+| 07 | **Tutorial 2 — Full Worked Solutions** | Ch 6 Q11 (variation), Ch 6 P1, P3, P4 and P7 |
+| 08 | **Tutorial 3 — Full Worked Solutions** | Ch 7 Q2 & Q5, Ch 7 P2, plus three non-textbook CML/CAPM/optimisation problems |
+| 09 | **Tutorial 4 — Full Worked Solutions** | Ch 7 Q7 & Q9, Ch 7 P9, P13 and P14(a–b), including the full Exhibit 7.22 regressions |
+| 10 | **Extra Practice Questions** | Sets A–F, closed-book, answers collapsed |
+| 11 | **Formula Sheet & Exam Traps** | Every formula in one place plus the checklist of traps |
+| 12 | **Assessment 1 — Investment Briefing Prep Guide** | The 14 calculations with exact Excel formulas, the briefing-note template, a two-hour time plan, sanity checks, and two flagged discrepancies in the unit's sample solution |
+| 13 | **Revision Pack 1 — Topic 1 + Tutorial 1** | From-scratch teaching of returns, risk, margin and short sales; Tutorial 1 fully worked; self-test; cheat sheet |
+| 14 | **Revision Pack 2 — Topic 2 + Tutorial 2** | From-scratch teaching of covariance, correlation, portfolio risk, the efficient frontier and utility; Tutorial 2 fully worked; self-test; cheat sheet |
+| 15 | **Revision Pack 3 — Topic 3 + Tutorial 3** | From-scratch teaching of the CML, beta, CAPM/SML and the critiques; Tutorial 3 fully worked; self-test; cheat sheet |
+| 16 | **Revision Pack 4 — Topic 4 + Tutorial 4** | From-scratch teaching of APT, the arbitrage conditions, factor models and the Fama–French regressions; Tutorial 4 fully worked; self-test; cheat sheet |
 
-**Start with the revision packs (11–13)** if you're learning the material for the first time — they teach each topic from scratch and end with a cheat sheet. Docs 01–09 are the reference notes.
+**Start with the revision packs (13–16)** if you're learning the material for the first time — they teach each topic from scratch and end with a cheat sheet. Docs 01–11 are the reference notes.
 
 Topic 2 is split across **02** and **03**. Doc 02 covers everything that is objectively computable from a return series — two analysts must get the same answer. Doc 03 covers the parts that depend on the individual investor. Read them in order.
 
-**Two flagged corrections** live inline in doc 05 and should not be "corrected back": the Ch 3 Problem 2(c) margin call price is **\$30**, not \$20; and Ch 3 Problem 4's interest treatment is genuinely ambiguous, so all three readings are shown.
+**Two flagged corrections** live inline in doc 06 and should not be "corrected back": the Ch 3 Problem 2(c) margin call price is **\$30**, not \$20; and Ch 3 Problem 4's interest treatment is genuinely ambiguous, so all three readings are shown.
 
-**Doc 06 flags a third:** the supplied `Tutorial 2 SV-1.xlsx` is an **empty template**, not a solutions file — there are no official answers to check against, so every figure was computed from scratch.
+**Doc 07 flags a third:** the supplied `Tutorial 2 SV-1.xlsx` is an **empty template**, not a solutions file — there are no official answers to check against, so every figure was computed from scratch.
 
 **Doc 04 flags a fourth, in the supplied `Topic 3 JPM vs mkt-1.xlsx` workbook:** a date-misalignment bug pairs JPM returns from the wrong 15-year window against the S&P 500/MSCI World returns, producing implausible near-zero/negative cached betas. Corrected betas (realigned by calendar date) are given instead.
 
@@ -48,7 +51,7 @@ Topic 2 is split across **02** and **03**. Doc 02 covers everything that is obje
 
 ### Assessment 1 — Investment Briefing (20%)
 
-Covers **Topics 1–4**. You are given a spreadsheet of total return indices and asked for ~14 one-mark Excel calculations (returns, annualised mean and σ, Sharpe, correlation matrix, beta, cumulative and distribution charts, factor regression, CAPM expected return) plus a 6-mark briefing note for a client meeting. **All cells must be formulas — hard-coded numbers score zero.** Full prep guide in doc 10.
+Covers **Topics 1–4**. You are given a spreadsheet of total return indices and asked for ~14 one-mark Excel calculations (returns, annualised mean and σ, Sharpe, correlation matrix, beta, cumulative and distribution charts, factor regression, CAPM expected return) plus a 6-mark briefing note for a client meeting. **All cells must be formulas — hard-coded numbers score zero.** Full prep guide in doc 12; the factor-regression calculation is drilled in docs 05 and 16.
 
 ### Assessment 2 — Group Project (40%)
 
@@ -77,7 +80,7 @@ Marking: Q1–6 → 20 points (report), Q7 → 5 points (reflection), presentati
 | 1 | The Investment Background | Ch 1 + Ch 3 (§3.5 only) |
 | 2 | Portfolio Management | Ch 6 |
 | 3 | Asset Pricing Models I | Ch 7 (§7.1–7.3) |
-| 4 | Asset Pricing Models II | — |
+| 4 | Asset Pricing Models II | Ch 7 (§7.4–7.5) |
 | 5 | Market Efficiency | — |
 | 6 | Equity Portfolio Management Strategies | — |
 | 7 | Analysis of Bonds | Ch 13 (Ch 12 revision) — *video only, no live lecture wk 7* |

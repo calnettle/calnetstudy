@@ -1,6 +1,6 @@
 # Revision Pack 2 — Topic 2 (Portfolio Management) + Tutorial 2
 
-*(Reilly & Brown, Chapter 6. Built from the Topic 2 lecture deck, the Covariance Matrix and Potential Investment Strategies handouts, the seven Topic 2 workbooks, the Tutorial 2 question sheet, and the verified site notes in docs 02, 03, 06 and 09. Every number below was recomputed in Python.)*
+*(Reilly & Brown, Chapter 6. Built from the Topic 2 lecture deck, the Covariance Matrix and Potential Investment Strategies handouts, the seven Topic 2 workbooks, the Tutorial 2 question sheet, and the verified site notes in docs 02, 03, 07 and 11. Every number below was recomputed in Python.)*
 
 ## How to use this pack
 
@@ -635,7 +635,7 @@ A = 1 holds CAR alone; A = 4 and A = 7 hold max-Sharpe; A = 10 gets 0.06% from t
 | Mean reversion | Dividend yield |
 | Volume | |
 
-The handout's second example trades on dividend yield but is headed "Technical Analysis" — by its own table that is a fundamental strategy. Classify by the signal, not the heading. The handout also says **do not reuse either example** in the assignment.
+The Topic 2 handout's second example trades on dividend yield but is headed "Technical Analysis" — by its own table that is a fundamental strategy. (The reissue distributed with the A2 materials, `Potential Investment Strategies-5.docx`, corrects the heading to "Fundamental Analysis".) Classify by the signal, not the heading. The handout also says **do not reuse either example** in the assignment.
 
 **A strategy must be a decision rule with no gaps:**
 

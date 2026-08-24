@@ -224,7 +224,7 @@ Three things the skeleton forces you to be specific about, and each is a place m
 2. **The tie branch.** Signals hit the threshold exactly more often than you would expect, especially with rounded data. A rule with no tie branch is not replicable.
 3. **The timing.** The signal must be computable *before* the month it governs. A rule that uses this month's return to decide this month's position is not a strategy — it is hindsight, and it will produce spectacular back-tests that cannot be traded.
 
-> ⚠️ **The mislabelling in the source document.** Both worked examples are headed *"Example – Technical Analysis"*, but the second one trades on **dividend yield**, which the same document's own table lists under **Fundamental** strategies. Classify your own strategy by what it uses as a signal, not by which heading you happened to copy.
+> ⚠️ **The mislabelling in the source document — since fixed.** In the Topic 2 version of the handout both worked examples are headed *"Example – Technical Analysis"*, though the second trades on **dividend yield**, which the document's own table lists under **Fundamental** strategies. The reissued version distributed with the Assessment 2 materials (`Potential Investment Strategies-5.docx`) corrects the second heading to *"Example – Fundamental Analysis"* — work from that copy. The principle stands: classify your own strategy by what it uses as a signal, not by which heading you happened to copy.
 
 ### Constructing the strategy
 

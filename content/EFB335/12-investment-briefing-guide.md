@@ -153,6 +153,8 @@ Both p-values ≪ 0.05 → "statistically significant". The sample quotes these 
 
 > SMB = Small Minus Big, HML = High Minus Low (book-to-market). **Negative SMB = large-cap tilt; negative HML = growth tilt.** Get the sign story right — it's the whole of the interpretation mark for this item.
 
+The theory behind this calculation is Topic 4 (doc 05, §4.6–4.7; drilled in Revision Pack 4, doc 16). The unit's own rehearsal workbook is `Topic 4 Fama French Factors.xlsx` — the same regression on CSL/CBA/BHP/WBC daily data, including the in-sample vs out-of-sample `CORREL` check.
+
 ### Step 11 — Annualised expected return (calc 14)
 
 ```

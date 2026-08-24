@@ -105,6 +105,23 @@
 | Characteristic line (regression form) | `βᵢ = COVARIANCE.S(Rᵢ, R_M) / VAR.S(R_M)` |
 | Mispricing test | Estimated > required → **underpriced** (above SML). Estimated < required → **overpriced** (below SML). |
 
+## APT / Multifactor Models — Topic 4
+
+| Concept | Formula |
+|---|---|
+| **APT** | **`E(Rᵢ) = λ0 + λ1·bᵢ1 + λ2·bᵢ2 + … + λk·bᵢk`** |
+| λ0 | Return on an asset with zero systematic risk (the RFR's seat) |
+| λj / bᵢj | Premium on factor j / sensitivity of asset i to factor j |
+| Fair price today | Discount YOUR forecast price at the MODEL's E(R): `P₀ = forecast ÷ [1 + E(R)]`; below market price → overpriced → short |
+| Arbitrage portfolio | `Σwᵢ = 0` (no wealth) **and** `Σwᵢbᵢj = 0` per factor **and** `ΣwᵢRᵢ > 0` — all three simultaneously |
+| Multifactor model | `Rᵢt = aᵢ + b1F1t + … + bKFKt + eᵢt` — investor names the factors (APT doesn't) |
+| **Fama–French 3F** | **`(Rᵢ − RF) = a + b1(Rm − RF) + b2·SMB + b3·HML + e`** — both sides EXCESS returns |
+| SMB / HML signs | SMB: + small, − large. HML: + value, − growth |
+| FF 5-factor (2015) | + RMW (robust−weak profitability) + CMA (conservative−aggressive investment); **MOM excluded** (short-term). Carhart 4F = FF3 + MOM |
+| Expected return recipe | factors → premia λj → regress excess returns for bᵢj → `E(Rᵢ) − RF = Σ bᵢj·λj` |
+| Factor correlations | Theory: **0** (independent risks). Far from 0 → multicollinearity → unstable betas |
+| Significance / fit | `t = coefficient ÷ standard error`, priced if \|t\| ≳ 2 (df big) · R² = share of variation explained |
+
 ## Excel function map
 
 | Task | Sample (÷ n−1) | Population (÷ n) |
@@ -115,6 +132,8 @@
 | Correlation | `CORREL` — identical either way | |
 
 **Matrix work:** `=SUMPRODUCT(P, R)` for `E(R)`; `=MMULT(MMULT(wᵀ, Σ), w)` for `σ²_port`; `=TRANSPOSE()` to turn a weight row into a column. Data Analysis → Covariance returns only the **lower triangle** — mirror it into a full square before `MMULT`, or the blank cells are read as zeros and portfolio variance is understated.
+
+**Factor regressions (Topic 4):** **Data Analysis → Regression** with Y = the stock's *excess* return and X = **all factor columns selected as one block** (multivariate — never one `SLOPE()` per factor). Read coefficients, t-stats and R² from the SUMMARY OUTPUT; its pasted output is the exception to the every-cell-is-a-formula rule in the briefing. Single-factor equivalents for quick checks: `SLOPE(y, x)`, `INTERCEPT(y, x)`, `RSQ(y, x)`.
 
 ---
 
@@ -149,7 +168,13 @@
 27. **A negative beta still has a positive CAPM-required return in most exam numbers** — it's *lower than the RFR*, not negative itself, unless the premium × beta term exceeds the RFR.
 28. **Don't compare stocks' estimated returns to each other.** Compare each stock's own estimated return to its own CAPM-required return. The stock with the single highest forecast return is not automatically the best buy.
 29. **Changing the market proxy (S&P 500 vs a global index) changes beta and every downstream CAPM figure.** If a question changes the index used, expect the beta — and the mispricing verdict — to change too, even for the identical stock and time period.
+30. **APT valuation compares the DISCOUNTED forecast to today's price** — never the raw forecast to the model's future price. Get it backwards and every stock looks underpriced.
+31. **An arbitrage portfolio's factor exposures must cancel per factor**, not just in aggregate — check each λ's column separately. And a losing leg is fine: the profit is a portfolio property.
+32. **Fama–French regressions use EXCESS returns on both sides.** Regressing raw returns on the factors shifts the intercept and corrupts the loadings.
+33. **SMB/HML sign-reading:** negative SMB = *large*-cap behaviour, positive HML = *value* behaviour. Saying "negative SMB = small" reverses the classification.
+34. **High R² does not make every factor significant** (and vice versa). Joint fit is R²; per-factor pricing is the t-stat. Portfolio B in Tutorial 4: R² = 0.91 while Factor 2's t = 0.77.
+35. **Factor sensitivities come from ONE multivariate regression, not K univariate SLOPE() calls** — univariate slopes smuggle in the other factors' effects whenever factors are correlated (the Topic 4 workbook's own footnote concedes this).
 
 ---
 
-*Notes compiled from EFB335 Topic 1, Topic 2 and Topic 3 lecture slides, the Tutorial 1, Tutorial 2 and Tutorial 3 question sheets, and the Topic 1, Topic 2 and Topic 3 Excel workbooks. All numerical worked examples independently verified in Python.*
+*Notes compiled from EFB335 Topic 1–4 lecture slides, the Tutorial 1–4 question sheets, and the Topic 1–4 Excel workbooks. All numerical worked examples independently verified in Python.*

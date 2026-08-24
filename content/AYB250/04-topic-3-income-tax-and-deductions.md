@@ -249,8 +249,8 @@ income (net investment losses, personal deductible super contributions).
 | Tier 2 | $123,001 – $164,000 | $246,001 – $328,000 | 1.25% |
 | Tier 3 | $164,001+ | $328,001+ | 1.5% |
 
-This is the same table already used for the Part A case study (note 06) and
-the practice questions (note 07) — Week 3 is the first place it's actually
+This is the same table already used for the Part A case study (note 14) and
+the practice questions (note 15) — Week 3 is the first place it's actually
 *taught*, rather than just supplied as a rate card.
 
 > **MLS is applied to the whole income once you're over a tier threshold,
