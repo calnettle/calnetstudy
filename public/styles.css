@@ -91,6 +91,17 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor;
 .iconbtn.small { width: 34px; height: 34px; flex-basis: 34px; }
 .iconbtn.small svg { width: 18px; height: 18px; }
 
+.notesbtn { position: relative; color: var(--ink-2); }
+.notesbtn svg { width: 19px; height: 19px; }
+.notesbtn b {
+  position: absolute; top: 4px; right: 2px;
+  min-width: 15px; text-align: center;
+  font-size: .62rem; font-weight: 700; font-style: normal; line-height: 15px;
+  background: var(--purple); color: #fff;
+  border-radius: 99px; padding: 0 4px;
+}
+.notesbtn.active { background: var(--purple-soft); color: var(--purple-dark); }
+
 .textbtn {
   border: 0; background: transparent; color: var(--purple);
   font: inherit; font-size: .95rem; font-weight: 600;
@@ -143,22 +154,6 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor;
 }
 .nav a:active { background: var(--bg-2); }
 .nav a.active { background: var(--purple-soft); color: var(--purple-dark); font-weight: 650; }
-
-.nav-mynotes {
-  display: flex; align-items: center; gap: 9px;
-  margin: 2px 0 10px; padding: 10px 12px; border-radius: 9px;
-  color: var(--ink-2); text-decoration: none; font-size: .93rem;
-  font-weight: 650; border: 1px dashed var(--line);
-}
-.nav-mynotes svg { width: 16px; height: 16px; color: var(--purple); }
-.nav-mynotes b {
-  margin-left: auto; font-size: .72rem; font-weight: 700;
-  background: var(--purple-soft); color: var(--purple-dark);
-  border-radius: 99px; padding: 1px 8px;
-}
-.nav-mynotes:active { background: var(--bg-2); }
-.nav-mynotes.active { background: var(--purple-soft); color: var(--purple-dark);
-                      border-color: transparent; }
 
 .nav .sub { margin: 2px 0 8px 12px; padding-left: 10px;
             border-left: 2px solid var(--line); }
@@ -446,7 +441,7 @@ a.mynote-title:active { color: var(--purple-dark); }
 
   .topbar { padding-inline: 20px; }
   .brand { margin-inline: 0; }
-  .topbar #searchBtn { margin-left: auto; }
+  .topbar #navMyNotes { margin-left: auto; }
 
   .sidebar {
     transform: none; top: calc(var(--topbar-h) + env(safe-area-inset-top));

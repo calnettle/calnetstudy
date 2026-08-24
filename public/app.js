@@ -338,11 +338,7 @@
       return;
     }
 
-    var html =
-      '<a class="nav-mynotes" id="navMyNotes" href="#/notes">' +
-      '<svg viewBox="0 0 24 24" aria-hidden="true">' +
-      '<path d="M12 20h9M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z"/></svg>' +
-      '<span>My notes</span><b id="navMyNotesCount"></b></a>';
+    var html = '';
     manifest.subjects.forEach(function (s) {
       html += '<div class="nav-subject">';
       html += '<div class="code"><b>' + esc(s.code) + '</b><span>' + esc(s.name) + '</span></div>';
@@ -380,6 +376,8 @@
     Array.prototype.forEach.call(els.nav.querySelectorAll('a'), function (a) {
       a.classList.remove('active');
     });
+    var notesLink = document.getElementById('navMyNotes');
+    if (notesLink) notesLink.classList.remove('active');
     Array.prototype.forEach.call(els.nav.querySelectorAll('.sub'), function (d) {
       d.hidden = d.getAttribute('data-for') !== key;
     });
