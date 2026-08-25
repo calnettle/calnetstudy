@@ -746,6 +746,63 @@ personal communication and is **not** listed in the references.
 > revised mid-August 2026; the slides and some Canvas artefacts still describe
 > the superseded two-building version.
 
+## 6.12 What the two sample reports teach
+
+Two past student reports circulate as samples. Both answer **last year's
+two-building brief** (one site-visit building, one IM building), so their
+overall structure does not transfer — and their marks are unknown, so treat
+them as indicative, not as a gold standard. What *is* transferable:
+
+### Worth copying
+
+- **The per-tenant WALE appendix** (sample 2, Appendix 1). One table per
+  line of the schedule — level, tenant, area, % of area, lease start,
+  expiry, EOI date, years left, income, % of income — then a second table
+  showing each tenancy's *contribution* to each WALE, summing to the
+  totals. It makes the calculation auditable at a glance, and it handled
+  the edge cases in the schedule itself: two rooftop telco licences and a
+  531-bay parking operator carried as zero-area income lines.
+- **The outgoings benchmark with an explanation column** (sample 2,
+  Appendices 2–3). Statutory and operating expenses split into separate
+  tables, each line against the PCA benchmark with a variance figure *and*
+  a "why" — flood-zone insurance, government-tenant rate concessions,
+  NABERS-driven energy costs. That third column is what §6.8 means by "a
+  table of variances with no explanation is a statistics dump".
+- **Evidence-anchored manager claims** (sample 1). Its strongest passages
+  tie every management assertion to a named source — the site interview,
+  the IM, a market report — and quantify the impact ($1.5m HVAC upgrade →
+  NABERS 5.5 → incentives below market average). That is the
+  issue → action → skill → impact chain of §6.5 in practice.
+- **Using the WALE gap as analysis, not decoration.** Sample 1's IM
+  building had income WALE 5.07 vs area WALE 2.28 and spent a paragraph on
+  *why* the inversion existed and what leasing risk it implied. The
+  direction and cause of the gap is the analytical point (§6.6).
+
+### Mistakes to avoid repeating
+
+> **Sample 2 states three different WALEs for the same building** — 3.35 in
+> the executive summary, 3.93 in the body, 3.53 in the appendix total.
+> Recomputing from its own appendix data gives **3.93**, so the headline
+> number in its executive summary is wrong. This is exactly the
+> "cross-check figures that appear twice" trap: recompute every number once
+> at the end, from one source of truth, and make every restatement agree.
+
+- **Recommendations creep.** Both samples drift into "the manager should
+  review insurance policies / request a land valuation" territory. Under
+  the current brief that is Part B's question — the review is historical
+  (§6.5, trap 1).
+- **Unevidenced speculation.** Sample 2 fills evidence gaps with guesses
+  ("likely quarterly meetings", "the owner may hold multiple properties").
+  Where the IM is silent, say it is silent and state the assumption —
+  don't invent plausible detail.
+- **Statistics without a base or a verdict.** Sample 1's comparison tables
+  are efficient, but several cells assert ("misaligned pricing") without
+  the number that proves it. Every claim in a table still needs its
+  evidence somewhere in the body.
+- **Site-visit material is gone.** Both samples lean heavily on site
+  interviews and field notes as sources. The current brief is IM plus
+  market research; visits are optional enrichment only (§6.4).
+
 ## Checkpoint
 
 1. A group mate suggests you save time by using the Richlands Plaza IM from
