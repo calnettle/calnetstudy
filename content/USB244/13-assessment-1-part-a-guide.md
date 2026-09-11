@@ -39,7 +39,7 @@ The brief's eligibility rules, all of them hard:
 | Group rule | Different from your group members — a group of 4 needs **at least 3 different properties**, which become the Part B portfolio |
 
 Why those two bans: Richlands Plaza is this unit's own Tutorial 1 IM, walked
-through line by line in [Tutorial 1](#/USB244/05-tutorial-1-information-memorandum),
+through line by line in [Tutorial 1](#/USB244/07-tutorial-1-information-memorandum),
 and 41 Park Road Milton is USB245's assignment IM. Both are analysed to death
 in teaching material, so the ban stops recycled analysis. They remain
 perfectly good *worked examples of method* — which is exactly how these notes
@@ -301,7 +301,7 @@ from memory. The generic list to test against your property:
 You **must** include a WALE calculation, **as at the EOI date**, **by income
 and by area**. The full walk-through on a real schedule — every edge case,
 income and area, with a sensitivity — is
-[Tutorial 2: Auburn Quarter](#/USB244/06-tutorial-2-auburn-quarter).
+[Tutorial 2: Auburn Quarter](#/USB244/08-tutorial-2-auburn-quarter).
 
 ```
 WALE (income) = Σ (tenant gross income × remaining term in years) / Σ (tenant gross income)
@@ -632,7 +632,7 @@ Recoverable        147,349 + 345,032 = 492,381  →  $99.53/sqm
 > GLA is measured to the *outside* of external walls and is always the larger
 > number for the same envelope, so the same dollars produce a *lower* $/sqm on
 > GLA. Benchmark office on NLA and retail on GLA/GLAR, and say which you used.
-> Full measurement rules in [Formula Sheet & Exam Traps](#/USB244/09-formula-sheet).
+> Full measurement rules in [Formula Sheet & Exam Traps](#/USB244/12-formula-sheet).
 
 > **Non-recoverable outgoings are where the argument is.** Every dollar comes
 > straight off net income, and at a 6% cap rate each dollar destroys $16.67 of

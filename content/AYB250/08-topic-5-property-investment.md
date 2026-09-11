@@ -280,7 +280,7 @@ C = 500 000 / {[1 − (1.00545833)^(−360)] / 0.00545833}
 > hedges with "around", but if you reproduce the calculation in an exam,
 > show $3,176.80 — that is what the arithmetic yields (verified in
 > Python, and consistent with the Moneysmart calculator the slide links).
-> The tutorial's 25-year version of this calculation is worked in note 13.
+> The tutorial's 25-year version of this calculation is worked in note 17.
 
 ## Checkpoint
 

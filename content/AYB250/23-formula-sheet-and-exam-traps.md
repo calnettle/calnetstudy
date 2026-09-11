@@ -1,8 +1,8 @@
 # Formula Sheet and Exam Traps
 
-Everything from Weeks 1 to 5 and the Part A technique, on one page. Nothing
+Everything from Weeks 1 to 9 and the Part A technique, on one page. Nothing
 here is new — it is the reference version of notes 01 to 09 and the
-tutorial solutions in notes 10 to 13.
+tutorial solutions in notes 14 to 20.
 
 ## Personal financial statements
 
@@ -329,7 +329,7 @@ MARGIN LENDING
   pay cash into loan / add security / sell down
   Cash to restore LVR m:   x  where  (loan − x)/portfolio = m
 
-GEARED SHARES, AFTER TAX  (the Jason method — note 13)
+GEARED SHARES, AFTER TAX  (the Jason method — note 17)
   Taxable = dividends + franking credits − interest + gain × 50%*
   Tax     = taxable × marginal rate − franking credits (refundable)
   Net $   = dividends − interest + gain − tax
@@ -356,8 +356,185 @@ Geared unit: $30 000 equity, $270 000 at 8%        →  +97% or −10% ROC
 Matthew: 300 000 invested, 100 000 borrowed        →  gearing 0.5, LVR 33%
 Loretta: 50 000 + 75 000 loan (LVR 60%, max 80%)   →  call at −30%
         (LVR 85.7%); $5 000 into loan restores 80%
-Jason (note 13): 8%/6%f/4%: 8.45 → 12.02 → 40.57% as equity 100→50→10%
+Jason (note 17): 8%/6%f/4%: 8.45 → 12.02 → 40.57% as equity 100→50→10%
         9%/5%f/2%: 5.97 → 6.44 → 10.26% (tax-driven — pre-tax negative)
+```
+
+## Insurance (Week 6)
+
+```
+LIFE COVER
+  Multiple approach:  cover = annual income / expected return
+  Needs approach:     cover = (debts + future living costs + other needs)
+                              − (super + savings + existing cover)
+  Dependant-years table: $ per month × 12 × years to the end of dependency
+
+INCOME PROTECTION   (policies issued after 1 Oct 2021)
+  Monthly benefit = annual income / 12 × 70%    (up to 90% for first 6 months)
+  Waiting period 14 days – 2 years: longer wait = lower premium
+  Premiums deductible if held OUTSIDE super; claims are assessable
+
+TPD      "own occupation" (less restrictive)  →  HIGHER premium than "any occupation"
+TRAUMA   lump sum on listed events; often 90-day wait; under 55; $1m cap
+
+MEDICARE GAP
+  Medicare pays 85% of the scheduled fee (out of hospital)
+  Gap = fee charged − 0.85 × scheduled fee
+
+LIFETIME HEALTH COVER LOADING
+  Loading = 2% × (age when first taking hospital cover − 30), max 70%
+  Removed after 10 years of continuous cover
+
+DISCLOSURE
+  Non-disclosure / innocent misrepresentation → contract VOIDABLE
+  Fraudulent misrepresentation               → VOID from inception
+```
+
+### Reference values
+
+```
+Multiple: $120 000 / 6%                              →  $2 000 000
+James (needs): 385k + 780k + 100k − 265k             →  $1 000 000
+Turners (Tut 6): Chris +$1 846 000; Emma $749 500; multiple $1 666 667 / $250 000
+Isamu IP on $90 000: 70% → $5 250/month (slide's 75% → $5 625)
+Gap: scheduled $100, charged $120                    →  Medicare $85, gap $35
+LHC first cover at 36                                →  12% loading
+```
+
+## Superannuation (Week 7)
+
+```
+CONCESSIONAL   (deductible: SG + salary sacrifice + personal deductible)
+  Taxed 15% on entry; cap $32,500 including SG
+  "Including super" package: salary = package / 1.12
+  Salary sacrifice saving = amount × (marginal rate incl. Medicare − 15%)
+  Carry-forward: unused cap, 5 years, if total super balance < $500,000
+  Division 293: income + concessional contributions > $250,000 → extra 15%
+
+NON-CONCESSIONAL   (after-tax)
+  Not taxed on entry; $130,000 a year or $390,000 bring-forward
+  Not available once total super balance ≥ $2.1m (transfer balance cap)
+
+CO-CONTRIBUTION      50% of NCC, max $500 (at $1,000 NCC)
+  = 500 − (income − 49 293) × 0.03333        nil at $64,293+
+SPOUSE OFFSET        18% × lesser of [NCC, 3 000 − (spouse income − 37 000)]
+  max $540; nil at spouse income $40,000+
+
+FUND TAX
+  Taxable = concessional contributions + interest + rent
+          + dividends + franking credits + capital gains × 2/3 (held > 1 yr)
+          − deductions                 (NCC NOT assessable)
+  Tax = taxable × 15% − franking credits        (no Medicare levy)
+  Rates: complying 15%; non-complying 45%; no-TFN contributions 47%
+
+DIVISION 296   (from 1 July 2026, realised earnings, levied on the individual)
+  Share = (TSB − $3m) / TSB  → extra 15% on that share of earnings
+  Above $10m: a further 10%   (40% total)
+```
+
+| 2026-27 super thresholds | Value |
+|---|---|
+| Super guarantee | 12% |
+| Concessional cap | $32,500 |
+| Non-concessional cap | $130,000 ($390,000 bring-forward) |
+| General transfer balance cap | $2.1 million |
+| Carry-forward eligibility | Total super balance under $500,000 |
+| Co-contribution thresholds | $49,293 (full) / $64,293 (nil) |
+| Spouse offset thresholds | $37,000 (full) / $40,000 (nil) |
+| Division 293 threshold | $250,000 |
+| Division 296 thresholds | $3 million / $10 million |
+| FHSSS | $15,000 a year, $50,000 total, per person |
+| Downsizer | Age 55+, $300,000 each, home owned 10+ years |
+| Small business retirement exemption / 15-year cap | $500,000 lifetime / $1,935,000 |
+| SMSF members | Maximum 6 |
+| In-house assets | Maximum 5% |
+
+### Reference values
+
+```
+Chris ($150k, $32,500 personal deductible)          →  net worth +$6 575
+Chitra ($200k, $32,500)                             →  net saving $8 600
+Jordan/Jane $1,000: co-contribution $500 vs spouse offset $180  →  +$320
+Troy: $10 400 saving − $940 CGT                     →  $9 460
+Fund example (slides 43–45)                         →  taxable $115 714, net tax $6 643
+Williams SMSF (Tut 7)                               →  taxable $63 108, net tax $8 566
+Raymond & Evelyn: $150k gain × 2/3 × 15%            →  $15 000 CGT
+Div 296: $4m balance, $200k earnings                →  25% × 15% = $7 500
+```
+
+## Retirement planning (Week 8)
+
+```
+RETIREMENT TARGET
+  PV = PMT × [1 − (1 + r)^(−n)] / r        r = REAL rate, n = years in retirement
+  Real rate = (1 + nominal)/(1 + inflation) − 1       (not nominal − inflation)
+
+TAX COMPONENTS
+  Tax-free = non-concessional contributions + pre-July-1983 crystallised
+  Taxable  = total − tax-free    (taxed element / untaxed element)
+  Proportioning: every benefit carries each component pro rata
+
+TAXED ELEMENT      60+: lump sum AND income stream tax free
+                   under preservation age: lump sum 20%; stream marginal, no offset
+UNTAXED ELEMENT    60+: lump sum 15% to $1,935,000 then 45%; stream marginal less 10%
+                   under preservation age: lump sum 30% to $1,935,000 then 45%
+Preservation age = 60 for everyone (from 1 July 2024)
+
+ACCOUNT-BASED PENSION MINIMUMS
+  <65 4% · 65–74 5% · 75–79 6% · 80–84 7% · 85–89 9% · 90–94 11% · 95+ 14%
+  Capped at the $2.1m transfer balance cap; earnings tax free
+TTR   preservation age; drawdown 4% min, 10% max; earnings taxed 15%
+RE-CONTRIBUTION   withdraw (condition of release) → NCC back in, ≤ $130k / $390k
+
+ETPs   genuine redundancy tax-free = $13,598 + $6,801 × complete years
+       concessional to $270,000: 15% (60+) / 30% (under 60), + Medicare; 45% above
+```
+
+### Reference values
+
+```
+Robyn: $50 000 × 26 yrs at 3.88% (deck)             →  $809 690
+       at exact real rate 3.767%                    →  $819 820
+Jennifer (Tut 8): $60 000 × 20 yrs at 4%            →  $815 420
+Carol: $250k lump sum, 12.5% tax-free               →  $31 250 / $218 750; tax $32 813 + $4 375
+Michael: $2.1m ABP at 60                            →  minimum $84 000
+John TTR: net income $77 480 → $76 280; super +$10 200 → −$19 880
+Jane TTR: total $87 680 → $91 165 (+$3 485)
+Chuck re-contribution $390k                         →  tax-free 25% → 61.56%
+ASFA comfortable (home owners, Mar 2026)            →  single $55 923 / couple $78 566
+```
+
+## Estate planning (Week 9)
+
+```
+QUEENSLAND INTESTACY
+  Spouse, no children: all to spouse
+  Spouse + children:   spouse $150,000 + household goods, then of the balance
+                       one child: 50/50;  two or more: 1/3 spouse, 2/3 children
+
+CGT ON INHERITED ASSETS (current rules)
+  Main residence: exempt if sold within 2 years (or becomes beneficiary's home)
+  Pre-CGT (before 20 Sep 1985): cost base = market value at death
+  Post-CGT: beneficiary inherits the original cost base
+  From 1 July 2027: indexation + 30% minimum on gains accruing after that date
+
+SUPER DEATH BENEFITS
+  SIS dependant (can receive):  spouse, child of ANY age, interdependant
+  Tax dependant (tax free):     spouse/former spouse, child UNDER 18 or financially
+                                dependent, interdependant
+  Lump sum to a non-dependant:  taxed element 15% + Medicare; untaxed 30% + Medicare
+  Death benefit pensions: tax dependants only
+
+TESTAMENTARY TRUST: income to minors taxed at ADULT rates (tax-free threshold applies)
+```
+
+### Reference values
+
+```
+Mira (adult child, $125 000 taxed element)          →  tax $21 250, net $103 750
+Sam's shares: ($150 000 − $45 000) × 50%            →  $52 500 taxable
+Michael's trust: $30 000 to two minors              →  $9 600 a year saved
+$600 000 intestate, spouse + 2 children             →  spouse $300 000, children $150 000 each
 ```
 
 ## Week 1 in one table
@@ -446,7 +623,7 @@ comparing.
 
 Two-stage savings problems: the first annuity's FV lands at the end of stage
 one and must be compounded forward as a lump sum before it can be added to
-the second. Skipping that step in the worked example in note 15 costs
+the second. Skipping that step in the worked example in note 22 costs
 $3,813 on a $34,817 answer.
 
 ### 7. Annuity timing
@@ -555,7 +732,7 @@ triggers are always LVR.
 
 ### 22. Three different "returns" on one property
 
-Nerida's unit (note 13): 5% gross yield, 3.85% net of costs, 2.35% after
+Nerida's unit (note 17): 5% gross yield, 3.85% net of costs, 2.35% after
 tax — negative once geared. All four describe the same property in the
 same year. Name the base and the stage, or the marker can't tell you knew
 the difference.
@@ -569,6 +746,89 @@ keep offsetting salary entirely. Applying the quarantine to a share
 question — or missing it on a post-cutover property question — flips the
 whole answer. Two dates, two jobs: 12 May 2026 decides *which* properties;
 1 July 2027 decides *when* it starts.
+
+### 24. Voidable is not void
+
+Non-disclosure or innocent misrepresentation makes an insurance contract
+**voidable** (the insurer may avoid it or cut the claim). Only **fraud**
+makes it **void from inception**. And a condition first diagnosed *after*
+the policy starts is a claim, not a disclosure problem (Tutorial 6 Q7e).
+
+### 25. The easier cover is to claim, the more it costs
+
+"Own occupation" TPD pays in more situations than "any occupation", so it
+has the **higher** premium. Longer waiting periods and bigger excesses
+work the other way: they cut the premium.
+
+### 26. Income protection is 70%, and the source disagrees with itself
+
+The Week 6 lecture: 70% of pre-tax income for policies issued after
+1 October 2021 (up to 90% for six months). The Topic 6 tutorial slide
+uses 75%. Show the lecture figure, note the slide's, and confirm with
+your tutor.
+
+### 27. MLS and the LHC loading are different mechanisms
+
+The MLS (Topic 3) is a levy on **income** that stops for any year you
+hold hospital cover. The LHC loading (Topic 6) is a surcharge on the
+**premium**, set by the age you first took cover and removed only after
+10 continuous years. Extras-only cover avoids neither.
+
+### 28. "Including super" means divide by 1.12
+
+A $134,400 package including 12% SG is a $120,000 salary with $14,400 of
+SG. Taking 12% of the package ($16,128) overstates the contribution.
+
+### 29. Co-contribution and spouse offset test different people's income
+
+The co-contribution tests the **member's own** income and pays into their
+super; the spouse offset tests the **receiving spouse's** income and cuts
+the **contributor's** tax. Both need a **non-concessional** contribution.
+
+### 30. Non-concessional contributions aren't fund income
+
+In a fund tax calculation, concessional contributions (including personal
+deductible ones) are assessable; non-concessional contributions are not.
+Franking credits go **in** as income and come **out** as an offset. The
+Williams SMSF (Tutorial 7) tests all three at once.
+
+### 31. Real rate by division, not subtraction
+
+`(1 + nominal)/(1 + inflation) − 1`. The Week 8 slide's Robyn example
+subtracts (6.88% − 3% = 3.88%) and understates her target by $10,130. Use
+a given "adjusted rate" as given; if you're given nominal and inflation,
+divide.
+
+### 32. "Taxable component" doesn't mean taxed
+
+Components are labels that follow the money. A 60-year-old's taxed-element
+pension is tax free even though its taxable component is $20,000
+(Carolyn, Tutorial 8 Q5). Check age **and** element before applying any
+rate, since an untaxed element at 60+ is still taxed (Carol).
+
+### 33. The proportioning rule: no cherry-picking
+
+Every withdrawal carries tax-free and taxable components in the balance's
+proportions. You can't take the tax-free money first. That's why
+re-contribution only lifts Chuck's tax-free share to 61.56%, not 100%.
+
+### 34. An adult child can receive super but pays tax on it
+
+A child of any age is a **SIS** dependant (the trustee can pay them); only
+a child **under 18** (or financially dependent) is a **tax** dependant.
+Mira, 28, loses $21,250 of a $125,000 benefit.
+
+### 35. Intestacy: the $150,000 comes off the top
+
+In Queensland the spouse takes the first $150,000 plus household goods,
+**then** the fractional share of the **balance**. Applying the fraction to
+the whole estate short-changes the spouse.
+
+### 36. Marriage revokes a will; divorce doesn't (automatically)
+
+The direction matters. A newly married client with an old will may die
+effectively intestate; a divorced client may still leave everything to the
+ex-spouse.
 
 ## Reconciliation checks to run on any answer
 
@@ -586,9 +846,9 @@ whole answer. Two dates, two jobs: 12 May 2026 decides *which* properties;
 ## Errors in the source material
 
 Four things in the Week 2 deck, three in the Week 3 deck, one in the Week
-5 deck and two in the Tutorial 2 answer slides do not survive checking.
-All are detailed in notes 02, 03, 04, 05, 08 and 10; confirm each with
-your tutor.
+5 deck, one in the Week 8 deck, two in the Tutorial 2 answer slides and one
+in the Topic 6 tutorial slides do not survive checking. All are detailed in
+notes 02, 03, 04, 05, 08, 12, 14 and 18; confirm each with your tutor.
 
 | Slide | Says | Should be |
 |---|---|---|
@@ -602,6 +862,8 @@ your tutor.
 | Wk5, 30 | $500,000 / 30 yr / 6.55% monthly = "around $3,174" per month | The formula the slide itself quotes gives **$3,176.80** |
 | Tut2 slides, 7 | Casey's expense list shows "Car expenses $855"; total expenses "$58,950" | Car expenses are **$650** per the question data (855 is the petrol figure, listed twice); the correct total is **$58,960**. The slide's own surplus, $8,395, is only consistent with the corrected figures |
 | Tut2 workbook | Option 2's NPV formulas reference Option 1's rate cell (`$B$8`), not Option 2's own (`$B$17`) | Right answer only because both cells hold 10% — repoint before changing either rate |
+| Wk8, 16 | Robyn's adjusted rate "3.88% (6.88% less inflation of 3%)"; PV $809,690 | The ratio form gives **3.767%** and **PV $819,819.91** (shortfall $219,820). The slide's PV is right for the rate it states |
+| Tut6 slides, 13 | Isamu's income protection: "Maximum is 75% of income" = $5,625 | Week 6 lecture slide 33: **70%** for policies issued after 1 Oct 2021 = **$5,250** (up to 90% for the first 6 months) |
 
 Not an error, though it looks like one: the fourth row of the HECS-HELP
 table ($186,050 / 10% / "Total income") is a genuine **cap**, and the
@@ -609,10 +871,7 @@ crossover arithmetic above proves it.
 
 ## What this sheet does not cover
 
-Weeks 6 onwards. Weeks 4 and 5 (investments, portfolio theory, property
-and leverage) are now covered in notes 06–09 and their tutorials in notes
-12–13. Insurance, superannuation, social security, estate planning and
-plan construction are all in the Week 1 list of what a planner must know,
-and none of them have been lectured yet — Week 5's own closing slide says
-the next topic is **risk management and insurance**. Add to this sheet as
-those weeks land.
+Week 10 onward: social security (Week 10, after the mid-semester break)
+and plan construction. Topic 9 (estate planning) has no tutorial sheet in
+the source folder yet, and the Topic 8 tutorial has no answer slides, so
+note 20 is worked from scratch. Add to this sheet as those land.

@@ -1,6 +1,6 @@
 # AYB250 — Practice Questions
 
-Exam-style questions across Weeks 1 to 5 and the Part A technique. Answers
+Exam-style questions across Weeks 1 to 9 and the Part A technique. Answers
 are hidden — work each one out on paper first. Every numerical answer here
 was computed independently, not copied from the lecture.
 
@@ -1241,6 +1241,421 @@ both scenarios).
 
 </details>
 
+## Section H — Risk management and insurance (Week 6)
+
+### H1
+
+A client earning $110,000 has a mortgage and other debts of $420,000. Their
+family would need $900,000 for future living costs and $120,000 for
+education. They hold $180,000 in super, $60,000 in savings and $150,000 of
+existing life cover. Calculate the cover needed under (a) the needs
+approach and (b) the multiple approach at a 5.5% return. Which would you
+recommend, and why?
+
+<details><summary>Answer H1</summary>
+
+```
+(a) Needs      420 000 + 900 000 + 120 000 = 1 440 000
+    Resources  180 000 +  60 000 + 150 000 = 390 000
+    Cover                                    $1,050,000
+
+(b) Multiple   110 000 / 0.055             = $2,000,000
+```
+
+The **needs approach**: it uses the family's actual debts, costs and
+resources, where the multiple approach only replaces income forever and
+ignores the $390,000 already available. Mention inflation and the other
+costs the needs figure leaves out (funeral, emergency fund).
+
+</details>
+
+### H2
+
+A client earns $102,000. What monthly income protection benefit applies
+under the post-October 2021 rule, and what might be paid in the first six
+months? Where must the policy be held for the premium to be deductible, and
+how are benefits taxed?
+
+<details><summary>Answer H2</summary>
+
+```
+70%:  102 000 / 12 × 0.70 = $5,950 a month
+90%:  102 000 / 12 × 0.90 = $7,650 a month (first 6 months, if the policy allows)
+```
+
+Held **outside super** for the premium to be deductible; benefits received
+are **assessable income**.
+
+</details>
+
+### H3
+
+A 42-year-old takes out hospital cover for the first time. What Lifetime
+Health Cover loading applies, and when is it removed? How does it differ
+from the Medicare levy surcharge?
+
+<details><summary>Answer H3</summary>
+
+```
+Loading = 2% × (42 − 30) = 24%   on the hospital premium
+Removed after 10 years of continuous cover (age 52)
+```
+
+The LHC loading is a surcharge on the **premium**, fixed by the age cover
+starts. The MLS is a levy on **income** for high earners without hospital
+cover, and it stops for any year cover is held.
+
+</details>
+
+### H4
+
+A specialist charges $130 for a service with a scheduled fee of $90. What
+does Medicare pay, and what is the gap?
+
+<details><summary>Answer H4</summary>
+
+```
+Medicare = 90 × 0.85 = $76.50
+Gap      = 130 − 76.50 = $53.50
+```
+
+</details>
+
+### H5
+
+(a) An applicant deliberately hides a heart condition; another genuinely
+forgets a minor past illness. What happens to each contract? (b) A client
+owns a car worth $4,000. Which motor policy would you recommend?
+
+<details><summary>Answer H5</summary>
+
+(a) Deliberate concealment is **fraudulent** misrepresentation: the
+contract is **void from inception**. Innocent misrepresentation makes it
+**voidable**: the insurer may avoid it or reduce a claim.
+
+(b) **Third party property** (fire, theft and third party property if theft
+is a real risk). The large exposure is damaging someone else's property;
+comprehensive cover mostly insures a car that is cheap to replace. CTP is
+compulsory through registration.
+
+</details>
+
+## Section I — Superannuation (Week 7)
+
+### I1
+
+An employee earns $110,000 plus 12% SG and wants to salary-sacrifice the
+rest of their concessional cap. How much can they sacrifice, what does it
+cost in take-home pay, what arrives in super, and what is the tax saving?
+(Marginal rate 30% + Medicare.)
+
+<details><summary>Answer I1</summary>
+
+```
+SG                 110 000 × 12%         = 13 200
+Room under cap     32 500 − 13 200         = $19,300
+Take-home cost     19 300 × 0.68          = $13,124
+Into super         19 300 × 0.85          = $16,405
+Tax saving         19 300 × (0.32 − 0.15) = $3,281
+```
+
+Taxable income falls to $90,700, still inside the 30% bracket, so the flat
+32% is valid.
+
+</details>
+
+### I2
+
+A self-employed client earns $160,000 and makes a $32,500 personal
+deductible contribution. Calculate the net tax saving, and check Division
+293.
+
+<details><summary>Answer I2</summary>
+
+```
+Tax at 160 000:  31 020 + 0.37 × 25 000 = 40 270;  Medicare 3 200
+Tax at 127 500:   4 020 + 0.30 × 82 500 = 28 770;  Medicare 2 550
+Personal tax + Medicare saved           = 12 150
+Less contributions tax 32 500 × 15%     = (4 875)
+Net saving                              = $7,275
+
+Division 293 income = 127 500 + 32 500 = 160 000 < 250 000  → 15% applies
+```
+
+The deduction spans two brackets, so work before-and-after rather than
+multiplying $32,500 by one rate.
+
+</details>
+
+### I3
+
+A member earning $52,000 makes a $1,000 non-concessional contribution.
+What co-contribution do they receive?
+
+<details><summary>Answer I3</summary>
+
+```
+500 − (52 000 − 49 293) × 0.03333 = $409.78
+```
+
+Partial, because income is between $49,293 and $64,293.
+
+</details>
+
+### I4
+
+You contribute $3,000 to your de facto partner's super. They earn $39,000.
+What is your tax offset?
+
+<details><summary>Answer I4</summary>
+
+```
+Base   = 3 000 − (39 000 − 37 000) = 1 000
+Offset = 18% × lesser of (3 000, 1 000) = $180
+```
+
+</details>
+
+### I5
+
+An SMSF in accumulation phase receives concessional contributions of
+$40,000, non-concessional contributions of $50,000, interest of $3,000 and
+a fully franked dividend of $7,000; realises an $18,000 gain on shares held
+two years; and pays $2,500 of deductible expenses. Calculate taxable income
+and net tax payable.
+
+<details><summary>Answer I5</summary>
+
+```
+Concessional contributions            40 000
+Non-concessional (not assessable)          —
+Interest                               3 000
+Dividend                               7 000
+Franking credit  7 000 × 30/70         3 000
+Capital gain     18 000 × 2/3         12 000
+Less expenses                         (2 500)
+                                     --------
+Taxable income                        62 500
+Tax at 15%                             9 375
+Less franking offset                  (3 000)
+Net tax payable                       $6,375
+```
+
+</details>
+
+### I6
+
+A member's total super balance is $5 million and the fund realises
+$300,000 of earnings attributable to them this year. What Division 296 tax
+applies, and who pays it?
+
+<details><summary>Answer I6</summary>
+
+```
+Share above $3m = (5m − 3m) / 5m = 40%
+Division 296    = 300 000 × 40% × 15% = $18,000
+```
+
+Levied on the **individual**, not the fund. (Below the $10 million tier,
+so no further 10%.)
+
+</details>
+
+### I7
+
+For each SMSF decision, state whether it complies: (a) buying a holiday
+unit the members use; (b) lending $50,000 to a member at a commercial rate;
+(c) 3% of assets in shares of a company the members own; (d) buying ASX
+shares from a member at market value.
+
+<details><summary>Answer I7</summary>
+
+(a) **No**, sole purpose test. (b) **No**, no loans to members, commercial
+terms or not. (c) **Yes**, in-house assets are within the 5% limit.
+(d) **Yes**, listed securities can be acquired from a related party at
+market value.
+
+</details>
+
+## Section J — Retirement planning (Week 8)
+
+### J1
+
+A client wants $70,000 a year for 25 years of retirement. At a 3% real
+return, what lump sum is needed?
+
+<details><summary>Answer J1</summary>
+
+```
+PV = 70 000 × [1 − 1.03^(−25)] / 0.03 = 70 000 × 17.4131 = $1,218,920
+```
+
+</details>
+
+### J2
+
+Nominal return 6.5%, inflation 2.5%. Calculate the exact real rate and the
+PV of $50,000 a year for 25 years at that rate. How far out is the
+"subtract inflation" shortcut?
+
+<details><summary>Answer J2</summary>
+
+```
+Exact real rate = 1.065 / 1.025 − 1 = 3.9024%
+PV at exact rate   = $789,221
+PV at 6.5% − 2.5% = 4% = $781,104
+Shortcut understates the target by $8,117
+```
+
+</details>
+
+### J3
+
+A 62-year-old retiree has $500,000 in super: $125,000 tax-free and
+$375,000 taxable (taxed element). They take an $80,000 lump sum. What are
+the components, and what tax is payable?
+
+<details><summary>Answer J3</summary>
+
+```
+Tax-free share  125 000 / 500 000 = 25%  →  $20,000
+Taxable share                     75%  →  $60,000
+```
+
+**No tax**: the member is 60+ and the taxable part is the taxed element.
+
+</details>
+
+### J4
+
+A 72-year-old starts an account-based pension with $640,000. What is the
+minimum annual payment? What would it be at 77?
+
+<details><summary>Answer J4</summary>
+
+```
+Age 72 (65–74, 5%):  640 000 × 5% = $32,000
+Age 77 (75–79, 6%):  640 000 × 6% = $38,400   (on the same balance)
+```
+
+</details>
+
+### J5
+
+An employee receives a genuine redundancy payment after 12 complete years
+of service. What is the tax-free amount?
+
+<details><summary>Answer J5</summary>
+
+```
+13 598 + 6 801 × 12 = $95,210
+```
+
+Amounts above that are an ETP, concessionally taxed up to $270,000.
+
+</details>
+
+### J6
+
+Explain two different ways a transition to retirement pension can be used,
+and why the pension payments are tax free in both.
+
+<details><summary>Answer J6</summary>
+
+(1) **Work less, keep income:** reduce hours and use the pension to top up
+lower pay (Week 8's John; super falls). (2) **Stay at work and boost
+super:** salary-sacrifice up to the cap and replace the cash with pension
+payments (Jane; super grows and total wealth rises). Payments are tax free
+because both are **60 or older** and drawing the taxed element, not because
+of anything special to TTR. TTR fund earnings are still taxed at 15%.
+
+</details>
+
+## Section K — Estate planning (Week 9)
+
+### K1
+
+A Queensland resident dies intestate with a $900,000 estate (excluding
+household goods), survived by a spouse and three children. How is it
+distributed?
+
+<details><summary>Answer K1</summary>
+
+```
+Spouse:    150 000 + (900 000 − 150 000) × 1/3 = $400,000
+Children:  750 000 × 2/3 = 500 000  →  $166,666.67 each
+```
+
+</details>
+
+### K2
+
+A member dies with $400,000 in super: $80,000 tax-free and $320,000 taxable
+(taxed element). It is paid as a lump sum to their 30-year-old
+self-supporting daughter. Tax payable and net benefit?
+
+<details><summary>Answer K2</summary>
+
+The daughter is a SIS dependant (the trustee can pay her) but **not** a tax
+dependant.
+
+```
+Tax-free component         80 000  →  tax free
+Taxable (taxed element)   320 000 × (15% + 2%) = $54,400
+Net benefit               400 000 − 54 400 = $345,600
+```
+
+</details>
+
+### K3
+
+A beneficiary inherits shares the deceased bought in 2010 for $30,000.
+They sell them for $95,000 (current rules, held over 12 months in total).
+What capital gain is taxable?
+
+<details><summary>Answer K3</summary>
+
+Post-CGT asset: the original cost base carries over.
+
+```
+(95 000 − 30 000) × 50% = $32,500
+```
+
+</details>
+
+### K4
+
+A testamentary trust earns $36,000 and distributes $12,000 to each of three
+minor grandchildren with no other income. Their parent earns $150,000. What
+tax is saved compared with the parent receiving the income?
+
+<details><summary>Answer K4</summary>
+
+Each child's $12,000 is taxed at **adult** rates and sits below the $18,200
+threshold: nil tax. The parent's $36,000 would fall entirely in the 37%
+bracket ($150,000 → $186,000):
+
+```
+36 000 × 37% + 36 000 × 2% = $14,040 saved
+```
+
+</details>
+
+### K5
+
+Which of these pass under a will: (a) a home held as joint tenants; (b) a
+half share of a unit held as tenants in common; (c) super with a binding
+nomination; (d) a share portfolio in the deceased's name; (e) life cover
+naming a beneficiary?
+
+<details><summary>Answer K5</summary>
+
+Only **(b)** and **(d)**. Joint tenancy passes by survivorship; super
+follows the BDBN or trustee; nominated life cover is paid direct to the
+beneficiary.
+
+</details>
+
 ---
 
 ## Where these came from
@@ -1251,7 +1666,11 @@ the 2026-27 rates supplied in the assignment template. Section E follows
 the Week 3 lecture on taxation planning, using the same 2026-27 rates.
 Section F follows the Week 4 lecture on asset classes and portfolio theory,
 and Section G the Week 5 lecture on property and leveraged investing — both
-cross-checked against the Topic 4 and 5 tutorials (notes 12 and 13).
+cross-checked against the Topic 4 and 5 tutorials (notes 16 and 17).
+Sections H–K follow the Week 6–9 lectures on insurance, superannuation,
+retirement planning and estate planning, cross-checked against Tutorials 6–8
+(notes 18–20). Every answer in H–K was generated from a Python calculation,
+not typed in.
 No question here is taken from a past exam paper — **there is no past exam
 paper in the source material**, and nothing in the folder describes the
 exam's format.

@@ -176,7 +176,7 @@ Both verified. **Choose the 4.8% annual deposit** — marginally better
 either way.
 
 > **Convert before you compare — but notice this example lands the
-> opposite way to the lecture's.** In note 03, 15% daily *beat* 16% annual
+> opposite way to the lecture's.** In note 03, 22% daily *beat* 16% annual
 > once converted. Here the quarterly option loses anyway: 4.65% quarterly
 > is only 4.73% effective, still short of 4.80%. The rule isn't "more
 > frequent compounding wins"; it's "only effective rates are comparable".

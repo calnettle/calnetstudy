@@ -53,8 +53,8 @@ at least three of those become the group's Part B portfolio.
 The chain is: source an eligible IM → review it individually → pool at least
 three properties into a group forecast, SAM plan and scenario analysis.
 
-Full guides: [Part A](#/USB244/10-assessment-1-part-a-guide) ·
-[Part B](#/USB244/11-assessment-1-part-b-sam-plan).
+Full guides: [Part A](#/USB244/13-assessment-1-part-a-guide) ·
+[Part B](#/USB244/14-assessment-1-part-b-sam-plan).
 
 | | Part A | Part B |
 |---|---|---|

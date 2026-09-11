@@ -2,13 +2,11 @@
 
 QUT · 2nd Year, Semester 2 · **Personal Financial Planning**
 
-> **These notes cover Weeks 1 to 5, plus worked solutions for Tutorials 2
-> to 5.** The unit is running right now — Semester 2 2026. Everything from
-> Week 6 onwards (the Week 5 closing slide names risk management and
-> insurance next, followed by superannuation, social security, estate
-> planning, and the Statement of Advice) is **not written yet**, because
-> there is nothing to write it from. Don't read a gap here as "not
-> examinable".
+> **These notes cover Weeks 1 to 9, plus worked solutions for Tutorials 2
+> to 8.** The unit is running right now — Semester 2 2026. Week 10 onward
+> (social security, after the mid-semester break, then plan construction)
+> is **not written yet**, because there is nothing to write it from. Don't
+> read a gap here as "not examinable".
 
 ## What is actually in the source
 
@@ -20,10 +18,18 @@ QUT · 2nd Year, Semester 2 · **Personal Financial Planning**
 | `Lecture/AYB250 Week 4.pptx` | 65 slides — asset classes, fixed-interest and bond pricing, shares and valuation, managed funds, risk and diversification, MPT, CAPM, Sharpe ratio, investor profiles, behavioural finance |
 | `Lecture/AYB250 Week 5.pptx` | 47 slides — property investment and its taxation (full negative-gearing case study), property valuation, home ownership, mortgages, leveraged investing, margin lending |
 | `Lecture/AYB250 Tutorial Questions Topic 2 (1).docx` | Tutorial 2 questions (statements, TVM, NPV) |
-| `Lecture/AYB250 Topic 2 Tutorial Slides.pptx` + `AYB250 Tutorial 2.xlsx` | Tutorial 2 answer slides and NPV workbook — **contains errors, see note 10** |
+| `Lecture/AYB250 Topic 2 Tutorial Slides.pptx` + `AYB250 Tutorial 2.xlsx` | Tutorial 2 answer slides and NPV workbook — **contains errors, see note 14** |
 | `Lecture/AYB250 Tutorial Questions Topic 3.docx` | Tutorial 3 questions (taxation) — **no answer sheet supplied** |
 | `Lecture/AYB250 Tutorial Questions Topic 4.docx` + `AYB250 Topic 4 Tutorial Slides.pptx` | Tutorial 4 questions and answer slides (investments) |
 | `Lecture/AYB250 Tutorial Questions Topic 5 updated.docx` | Tutorial 5 questions (property and leverage) — **no answer sheet supplied** |
+| `Lecture/AYB250 Week 6.pptx` | 56 slides — risk management and insurance: pure vs speculative risk, the five-step process, utmost good faith and disclosure, life cover (multiple and needs approaches), TPD, trauma, income protection, Medicare and private health, home, motor and liability cover |
+| `Lecture/AYB250 Week 7.pptx` | 52 slides — superannuation and SMSFs: fund types, concessional and non-concessional contributions and caps, co-contribution, spouse offset, FHSSS, downsizer, investment restrictions, conditions of release, fund tax, Division 296, SMSFs |
+| `Lecture/AYB250 Week 8.pptx` | 58 slides — retirement planning: ASFA standard, PV approach to a retirement target, tax components and the proportioning rule, account-based and non-account-based income streams, TTR, re-contribution, ETPs, housing and aged care — **one real-rate slip, see note 12** |
+| `Lecture/AYB250 Week 9.pptx` | 51 slides — estate planning: wills, executors and probate, estate vs non-estate assets, Queensland intestacy, CGT on inherited assets (current and from 1 July 2027), testamentary trusts, super death benefits, powers of attorney |
+| `Lecture/AYB250 Tutorial Questions Topic 6.docx` + `AYB250 Topic 6 Tutorial Slides.pptx` | Tutorial 6 questions and answer slides (insurance) — **one disagreement with the lecture, see note 18** |
+| `Lecture/AYB250 Tutorial Questions Topic 7.docx` + `AYB250 Topic 7 Tutorial Slides.pptx` | Tutorial 7 questions and answer slides (super and SMSFs) |
+| `Lecture/AYB250 Tutorial Questions Topic 8.docx` | Tutorial 8 questions (retirement planning) — **no answer sheet supplied** |
+| `AYB250 Part B Individual Project.docx` | The Part B brief (personal financial report, due Week 9). An assessment, so it has no note on this site |
 | `AYB250 Part A Individual Project.docx` | The full Part A brief: case study, the eight sheets to complete, integrity rules |
 | `AYB250_PartA_StudentNumber_Surname.xlsx` | The blank Excel template — 11 sheets, pre-populated case data and 2026-27 rates |
 
@@ -43,13 +49,20 @@ folder.
 | 07 | Topic 4 — Risk, return and portfolio theory | Week 4, second half. Risk as standard deviation, diversification and correlation, MPT and the efficient frontier, CAPM, Sharpe ratio, investor classification, behavioural finance |
 | 08 | Topic 5 — Property investment | Week 5, first half. Property forms and characteristics, taxation of a rental (Sally case study), the capitalisation approach, rent vs buy, mortgages |
 | 09 | Topic 5 — Leveraged investing | Week 5, second half. Gearing both ways, positive/negative gearing, gearing ratio vs LVR, margin lending and margin calls (Loretta case study) |
-| 10 | Tutorial 2 solutions | Statements, TVM, deposits, NPV — checked against the unit's answer slides, **two errors in them flagged** |
-| 11 | Tutorial 3 solutions | Taxation — worked from scratch (no answer sheet exists), verified in Python |
-| 12 | Tutorial 4 solutions | Investments — checked against the answer slides, including the two slide-only questions |
-| 13 | Tutorial 5 solutions | Property and leverage — worked from scratch (no answer sheet exists), including the full Jason gearing tables |
-| 14 | Individual Project Part A | The case study worked end to end, with every figure verified |
-| 15 | Practice questions | Exam-style, answers hidden — Sections A–G now span Weeks 1–5 |
-| 16 | Formula sheet and exam traps | Everything on one page — 23 numbered traps |
+| 10 | Topic 6 — Risk management and insurance | Week 6. The risk management process, utmost good faith, multiple and needs approaches, TPD/trauma/income protection, Medicare, private health and the LHC loading, home, motor and liability cover |
+| 11 | Topic 7 — Superannuation and SMSFs | Week 7. Fund types, contribution types and caps, co-contribution, spouse offset, FHSSS, downsizer, investment restrictions, conditions of release, fund tax, Division 296, SMSFs |
+| 12 | Topic 8 — Retirement planning | Week 8. ASFA standard, PV retirement target, tax components and proportioning, income streams, TTR, re-contribution, ETPs, housing and aged care |
+| 13 | Topic 9 — Estate planning | Week 9. Wills, probate, estate vs non-estate assets, Queensland intestacy, CGT on inherited assets, testamentary trusts, super death benefits, powers of attorney |
+| 14 | Tutorial 2 solutions | Statements, TVM, deposits, NPV — checked against the unit's answer slides, **two errors in them flagged** |
+| 15 | Tutorial 3 solutions | Taxation — worked from scratch (no answer sheet exists), verified in Python |
+| 16 | Tutorial 4 solutions | Investments — checked against the answer slides, including the two slide-only questions |
+| 17 | Tutorial 5 solutions | Property and leverage — worked from scratch (no answer sheet exists), including the full Jason gearing tables |
+| 18 | Tutorial 6 solutions | Insurance — checked against the answer slides; the Turner needs-approach tables reconcile, **income protection percentage disagrees with the lecture** |
+| 19 | Tutorial 7 solutions | Super and SMSFs — checked against the answer slides, plus Division 293 checks and the Q6 cash shortfall the slides miss |
+| 20 | Tutorial 8 solutions | Retirement planning — worked from scratch (no answer sheet exists), verified in Python |
+| 21 | Individual Project Part A | The case study worked end to end, with every figure verified |
+| 22 | Practice questions | Exam-style, answers hidden — Sections A–K now span Weeks 1–9 |
+| 23 | Formula sheet and exam traps | Everything on one page — 36 numbered traps |
 
 ## Assessment
 
@@ -82,13 +95,17 @@ needs a formal online extension.
 
 ## Textbook
 
-*Financial Planning Essentials*, 2nd edition (Wiley). The lecturer's note is
+*Financial Planning Essentials*, 2nd edition, by Warren McKeown, Marc
+Olynyk, Lisa Ciancio and Diem La (John Wiley & Sons Australia, July 2024,
+ISBN 9781394286164). The lecturer's note is
 worth repeating exactly: earlier editions have similar content, but **many
 rates and thresholds will be out of date**, and updated rates are given in
 lectures. The Week 2 slides are screenshots straight out of the 2nd-edition
 Chapter 2, so the textbook's worked examples and the lecture's worked
 examples are the same numbers. Week 3's reading is **Chapter 3**; Weeks 4
-and 5 both list **Chapters 4 and 5** (Week 5 adds Chapter 6).
+and 5 both list **Chapters 4 and 5** (Week 5 adds Chapter 6); Week 6 is
+**Chapter 7**, Week 7 **Chapter 8**, Week 8 **Chapter 9** and Week 9
+**Chapter 11**.
 
 E-book access through the library is limited to three simultaneous users, per
 the speaker notes on the textbook slide.
@@ -97,8 +114,9 @@ the speaker notes on the textbook slide.
 
 Lecturer and Unit Coordinator: Laura de Zwaan. Four tutors are listed on
 the teaching-team slide. Tutorial question sheets now live in the source
-folder for Topics 2–5; answer slides exist only for Topics 2 and 4 (and
-Topic 2's contain errors — note 10).
+folder for Topics 2–8; answer slides exist for Topics 2, 4, 6 and 7 (Topic
+2's contain errors — note 14; Topic 6's disagree with the lecture on income
+protection — note 18).
 
 ## Learning objectives, verbatim
 
@@ -156,8 +174,54 @@ Topic 2's contain errors — note 10).
 - Explain the concept of leveraged investing
 - Explain the benefits and risks of margin lending
 
-Each week's closing slide has correctly named the next week's topic so
-far; Week 5's says the next topic is **risk management and insurance**.
+**Week 6** (reading: Chapter 7)
+
+- Explain how risk can be classified and describe the risk management
+  process
+- Explain the key concepts which underpin insurance
+- Identify and evaluate the risks to which individuals, property, and
+  businesses are exposed
+- Understand the different types of insurance and how they can be used in
+  risk management
+- Explain the need for an ongoing review process
+
+**Week 7** (reading: Chapter 8)
+
+- Have a broad understanding of the regulation of superannuation and its
+  different forms
+- Understand the phases of superannuation
+- Differentiate between concessional and non-concessional contributions
+- Discuss the main investment constraints of superannuation
+- Demonstrate how superannuation is taxed
+- Understand how superannuation is divided in the case of a relationship
+  breakdown
+- Outline the various fees and charges which apply to superannuation
+- Model how much a person might accumulate in superannuation
+- Understand the basic characteristics of self managed superannuation funds
+
+**Week 8** (reading: Chapter 9)
+
+- Explain the importance of retirement planning
+- Understand the different strategies that exist to save for retirement
+- Understand retirement adequacy and calculate a savings goal for retirement
+- Understand the different income stream products that are available
+- Determine the taxation impact for an account-based pension
+- Understand the importance of housing in retirement
+- Have a general understanding of aged care funding
+
+**Week 9** (reading: Chapter 11)
+
+- Understand the importance of estate planning
+- Explain the role of a valid will and the consequences of dying without one
+- Analyse the impact of taxation on distributions from deceased estates
+- Understand the role and benefits of testamentary trusts
+- Apply the rules applicable to superannuation death benefits
+
+Each week's closing slide has correctly named the next week's topic: Week 5
+→ insurance, Week 6 → superannuation and SMSFs, Week 7 → retirement
+planning, Week 8 → estate planning, and Week 9 → the mid-semester break,
+then **Week 10, social security**. (The Week 5 deck's forward list put
+social security before estate planning; the actual order swapped them.)
 
 ## The AI rule for Part A
 
@@ -202,17 +266,25 @@ each detailed in its note:
 > 9. **Tutorial 2 answer slide 7** — Casey's expense list shows car
 >    expenses $855 (the question says **$650**; 855 is petrol) and a total
 >    of $58,950 (correct: **$58,960**). The slide's own surplus, $8,395,
->    only reconciles with the corrected figures. (Note 10)
+>    only reconciles with the corrected figures. (Note 14)
 > 10. **Tutorial 2 workbook** — Option 2's NPV formulas point at Option
 >     1's discount-rate cell; right answer only while both rates are 10%.
->     (Note 10)
+>     (Note 14)
+> 11. **Week 8 slide 16** — Robyn's real rate is taken as 6.88% − 3% =
+>     3.88%. The ratio form the unit teaches in Week 4 gives **3.767%**, so
+>     the PV is **$819,820**, not $809,690, and the shortfall $219,820.
+>     (Note 12)
+> 12. **Topic 6 tutorial slide 13** — Isamu's income protection is capped
+>     at "75% of income" ($5,625 a month). The Week 6 lecture's rule for
+>     policies issued after 1 October 2021 is **70%** ($5,250), up to 90%
+>     for the first six months. (Note 18)
 >
 > Confirm each with your tutor before relying on it in an exam answer.
 
 One thing that is *not* an error but reads like one: the HECS-HELP table in
 the Excel template has a third row at $186,050 with a 10% rate and the note
 "Total income". That is a genuine cap, not a typo — the arithmetic behind it
-is shown in note 14.
+is shown in note 21.
 
 ## Source hygiene note
 
@@ -224,19 +296,19 @@ the textbook figures themselves.
 
 ## What is missing, plainly
 
-- No Week 6+ lecture material — insurance, super, social security, estate
-  planning, plan construction.
+- No Week 10+ lecture material — social security, plan construction.
+- No tutorial questions for Topic 9 (estate planning).
 - No tutorial questions for Topic 1.
-- No answer sheets for Tutorials 3 and 5 — notes 11 and 13 are worked
+- No answer sheets for Tutorials 3, 5 and 8 — notes 15, 17 and 20 are worked
   from scratch and verified, but there is nothing official to reconcile
   them against yet.
 - No exam paper, sample exam, or exam specification.
-- No Part B brief.
 - No unit outline / CRA rubric, so the mark allocation *within* Part A's
   eight sheets is unknown.
 - The Week 3 deck doesn't give a worked FBT example or the actual gross-up
   rate — only the three-step process (taxable value → gross-up → 47%). Note
   05 says so rather than inventing a number.
 
-When new lecture material lands, insert new topic notes after 09 and
-before 10 (the tutorial solutions), renumbering 10 onward as needed.
+When new lecture material lands, insert new topic notes after 13 and
+before 14 (the tutorial solutions), and new tutorial solutions after 20,
+renumbering the project, practice and formula notes (21–23) as needed.

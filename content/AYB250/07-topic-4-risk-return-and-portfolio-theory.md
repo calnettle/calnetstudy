@@ -71,7 +71,7 @@ standard deviation of only **12.3**. Same return, half the risk. That gap
 is diversification.
 
 > **"Why can't we just weight-average the risks?" is a standing tutorial
-> question (note 12).** Because unless correlation is exactly +1, some of
+> question (note 16).** Because unless correlation is exactly +1, some of
 > each share's movement cancels against the others'. The weighted average
 > is the *ceiling* on portfolio risk, reached only with perfect positive
 > correlation; any correlation below +1 pulls actual portfolio risk below
@@ -135,7 +135,7 @@ and **overvalued** ones (offering less).
 > instead you are given the market *return* Rm, subtract Rf first. With
 > Rf = 4% and premium = 6%, the market return is 10% — plugging 10%
 > straight in as the premium gives 12% for A Ltd instead of 8.8%. The
-> tutorial (note 12) words it as "the risk premium is 4%", so no
+> tutorial (note 16) words it as "the risk premium is 4%", so no
 > subtraction is needed there.
 
 ## The Sharpe ratio
@@ -151,7 +151,7 @@ S  =  -----------        (the unit uses × 100 and quotes it as %)
 
 The higher the Sharpe ratio, the better the risk-*adjusted* performance —
 a fund with a lower raw return can still win once volatility is accounted
-for. The tutorial's Fund A vs Fund B comparison (note 12) is the worked
+for. The tutorial's Fund A vs Fund B comparison (note 16) is the worked
 example: B's raw return of 22.2% adjusts down to 19.1% per unit of risk,
 still beating A's 8.3%.
 
@@ -174,7 +174,7 @@ The deck's five-way classification:
 
 > **Read the mixes as defensive % vs growth %.** Cash + fixed interest is
 > the defensive allocation; everything else is growth. The tutorial's
-> managed-fund question (note 12) describes a fund that is 60% cash/fixed
+> managed-fund question (note 16) describes a fund that is 60% cash/fixed
 > interest and 40% growth — which maps onto the *conservative* row (20+40
 > defensive / 40 growth), not the balanced one.
 
@@ -207,7 +207,7 @@ challenges this: people sometimes behave irrationally, in patterned ways:
 
 These four labels are the marking vocabulary for any "what behaviour is
 this investor exhibiting?" question — the tutorial's Slick Oil scenario
-(note 12) is exactly that.
+(note 16) is exactly that.
 
 ## Checkpoint
 

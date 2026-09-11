@@ -58,7 +58,7 @@ Verified — 1.996% as stated on the slide.
 
 > **The real rate is a ratio, not a subtraction.** `4.75% − 2.7% = 2.05%`
 > is the approximation, not the formula. The division gives 1.996%. Small
-> gap here, but the gap grows with inflation, and the tutorial (note 12)
+> gap here, but the gap grows with inflation, and the tutorial (note 16)
 > uses the ratio form — marks follow the formula.
 
 ## Fixed interest
@@ -136,7 +136,7 @@ Price  =  ------------------------------------
 ```
 
 The tutorial's $100,000 90-day bill at 6.6% prices at **$98,398.66** this
-way — worked fully in note 12.
+way — worked fully in note 16.
 
 > **The yield's denominator is the purchase price, not the face value.**
 > `200/10 000 = 2.00%` is wrong; the return is measured on what you paid

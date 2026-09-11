@@ -10,7 +10,7 @@ week's thesis.
 > **The lecture's assignment diagram still shows the superseded two-building
 > Part A** (Building 1 site visit / Building 2 IM feeding a portfolio). The
 > current brief is one IM property — see the
-> [Part A guide](#/USB244/10-assessment-1-part-a-guide). The lease content
+> [Part A guide](#/USB244/13-assessment-1-part-a-guide). The lease content
 > itself is current.
 
 ## 4.1 What a Lease Is — and Lease vs Licence

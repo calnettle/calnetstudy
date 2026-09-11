@@ -308,7 +308,7 @@ department-store anchor.
 > **A property with no supermarket or department store doesn't fit any row**,
 > no matter its size — classify it by **configuration** instead (strip /
 > mall / cluster). Auburn Quarter (1,491 sqm, no anchor) is the worked
-> example in [Tutorial 2](#/USB244/06-tutorial-2-auburn-quarter).
+> example in [Tutorial 2](#/USB244/08-tutorial-2-auburn-quarter).
 
 ## WALE From a Tenancy Schedule — No EOI Date
 
@@ -326,7 +326,7 @@ rolling/casual licence) is included in the income WALE exactly like a
 rooftop telco lease, and is mathematically neutral in the area WALE — 0 sqm
 contributes 0 to both the numerator and the denominator regardless of
 inclusion. Worked at length, including the sensitivity of dropping it, in
-[Tutorial 2](#/USB244/06-tutorial-2-auburn-quarter).
+[Tutorial 2](#/USB244/08-tutorial-2-auburn-quarter).
 
 > **A tenancy schedule gives you Gross income, not Net income.** It shows
 > what is billed and recovered from tenants — not what the landlord actually

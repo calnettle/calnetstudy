@@ -4,7 +4,7 @@ Week 5 tutorial. The shortest deck of the unit so far, because the heavy
 lifting already happened: the in-class activity is *"using the tenancy
 schedule provided from week 3, populate the tenancy details and calculate
 the WALE on income and area"* — the Auburn Quarter schedule, worked line by
-line in [Tutorial 2](#/USB244/06-tutorial-2-auburn-quarter). What this
+line in [Tutorial 2](#/USB244/08-tutorial-2-auburn-quarter). What this
 tutorial adds is the **interpretation layer**: what WALE means, the 5-year
 threshold, and the WALE → cap rate → value chain.
 
@@ -32,8 +32,8 @@ remaining term (years) = (lease expiry − calculation date) / 365.25
 The calculation date is the **EOI date** in Assessment Part A, or the
 tenancy schedule's own date when there is no EOI — the convention, the
 fallback and every edge case (vacant, holdover, car parking, signage,
-options) are tabled in the [Formula Sheet](#/USB244/09-formula-sheet) and
-the [Part A guide](#/USB244/10-assessment-1-part-a-guide).
+options) are tabled in the [Formula Sheet](#/USB244/12-formula-sheet) and
+the [Part A guide](#/USB244/13-assessment-1-part-a-guide).
 
 ## 7.2 What the Number Means — the 5-Year Threshold
 
@@ -80,14 +80,14 @@ The deck's checklist, which doubles as the columns of your Part A working:
 - Other income sources — car parking, signage, storage
 
 Note what's *absent* from a tenancy schedule: outgoings detail sufficient to
-compute **net** income — the point [Tutorial 2 §5.7](#/USB244/06-tutorial-2-auburn-quarter)
+compute **net** income — the point [Tutorial 2 §5.7](#/USB244/08-tutorial-2-auburn-quarter)
 makes at length. A schedule gives gross income and expiry structure; the
 financial pack gives the rest.
 
 ## 7.5 The Activity, Solved — Auburn Quarter
 
 The full per-tenant working (all eleven lines, both WALEs, every edge case
-reasoned) is in [Tutorial 2 §5.6](#/USB244/06-tutorial-2-auburn-quarter);
+reasoned) is in [Tutorial 2 §5.6](#/USB244/08-tutorial-2-auburn-quarter);
 the results, computed at the schedule's own date of 27 July 2026 with
 options assumed not exercised:
 
