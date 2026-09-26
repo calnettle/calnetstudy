@@ -3,7 +3,9 @@
 Four exams in five days, 9–13 November. This is the control page: the
 dates, the constraint that actually shapes the plan, and the order to do
 things in. The day-by-day schedule is note 01; the per-unit triage is
-note 02; the exam-week plan is note 03.
+note 02; the exam-week plan is note 03; the **topic-by-topic checklists
+are notes 04–07**, one per unit, and they are what you actually work
+from.
 
 **Built 26 September 2026.** Re-read the assumptions in §0.4 before you
 follow it — three of them will change.
@@ -35,10 +37,17 @@ unit each:
 
 | Due | Item | Weight |
 |---|---|---|
-| **Wed 7 Oct** | **USB244 Part B** — group SAM plan, 5,000 words | **30%** |
-| **Week 11–12** (w/c 7 Oct, then presentation) | **EFB335 A2** — group project report and 8-minute presentation | **30% of the 40%** |
+| **Wed 7 Oct** | **USB244 A2 (Part B)** — group SAM plan, 5,000 words | **30%** |
+| **Wed 7 Oct** | **EFB335 A2** — group project **report** | **30%** |
+| **Tue 13 Oct** | **EFB335 A2** — group **presentation** | *(part of A2)* |
 | **Wed 21 Oct** | **USB245 A2** — 2,500-word report + DCF annexures | **30%** |
 | **Wed 21 Oct** | **EFB335 A2** peer evaluation | 5% |
+
+> **Wednesday 7 October is a double deadline.** USB244's Part B and
+> EFB335's A2 report land on the same day, and the EFB335 presentation
+> follows six days later. That week is the tightest of the semester —
+> the schedule in [note 01](#/REVISION/01-week-by-week-schedule) front-
+> loads both so neither is written on the 6th.
 
 Plus new teaching material still landing in three of the four units
 (§0.3).
@@ -48,8 +57,9 @@ Plus new teaching material still landing in three of the four units
    │              │              │             │         │
    │  ASSESSMENT  │  ASSESSMENT  │   CLEAR     │        EXAMS
    │   11 days    │   13 days    │  17 days    │
-   │  USB244 PtB  │  EFB335 A2   │  revision   │
-   │              │  USB245 A2   │   runway    │
+   │  USB244 A2   │  EFB335 pres │  revision   │
+   │  EFB335 A2   │   (13 Oct)   │   runway    │
+   │   (both)     │  USB245 A2   │             │
 ```
 
 > **Real revision starts 22 October. You have 17 clear days, then the
@@ -169,6 +179,13 @@ Third pass   → practice questions closed book, then the trap list
 Night before → formula sheet + the unit's quick-reference blocks only
 ```
 
+**Run every pass against the unit's checklist** — [USB244](#/REVISION/04-topics-usb244),
+[USB245](#/REVISION/05-topics-usb245), [AYB250](#/REVISION/06-topics-ayb250),
+[EFB335](#/REVISION/07-topics-efb335). Each row names a sub-topic and the
+closed-book output that proves you hold it. A row you cannot produce is a
+revision task with a name, which is worth far more than a vague sense
+that a topic "needs more work".
+
 > **The tutorial solutions are the highest-value material per minute,
 > and the practice questions are second.** Reading a topic note feels
 > productive and generates almost no retention; working a problem cold
@@ -210,3 +227,12 @@ Five, and they are the plan as much as the calendar is.
 | 01 | Week-by-Week Schedule | 28 September to 8 November, block by block |
 | 02 | Unit Triage | Per unit: what is high-yield, what to skim, the traps that repeat |
 | 03 | The Exam Week | 7–13 November, day by day, including the gap-day plan |
+| 04 | **Topic Checklist — USB244** | Every topic, sub-topic by sub-topic, with what to be able to produce |
+| 05 | **Topic Checklist — USB245** | As above, plus the seven-step DCF and the four discount-rate methods |
+| 06 | **Topic Checklist — AYB250** | As above, across all nine topics and the 36 traps |
+| 07 | **Topic Checklist — EFB335** | As above, with every formula group |
+
+> **Notes 04–07 are the working documents.** Notes 00–03 tell you *when*
+> to study; 04–07 tell you *what*. Every block in the week-by-week
+> schedule names the topics it covers, and those topic names are rows in
+> the checklists — tick a row only when you can produce it closed book.

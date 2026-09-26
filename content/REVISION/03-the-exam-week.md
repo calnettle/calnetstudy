@@ -44,6 +44,11 @@ Four things to have done by Friday 6 November:
    §12.2.
 4. **Print or download the four formula sheets** so nothing depends on
    wifi.
+5. **Walk the four checklists** ([04](#/REVISION/04-topics-usb244),
+   [05](#/REVISION/05-topics-usb245), [06](#/REVISION/06-topics-ayb250),
+   [07](#/REVISION/07-topics-efb335)) and mark every row you still
+   cannot produce. That list — and nothing else — is what the last four
+   days are for.
 
 ---
 
@@ -64,7 +69,7 @@ six topics.
 | Block | Do |
 |---|---|
 | Morning | **Closed-book recall** of the full USB244 formula sheet. Write it out. Check. Repeat what you missed |
-| Midday | The PCA measurement table, the WALE method both ways, `CV = NI / CR` in both directions |
+| Midday | The PCA measurement table, the WALE method both ways, `CV = NI / CR` in both directions, face vs effective rent, the three outgoings recovery structures |
 | Afternoon | Quick-reference blocks only — Richlands Plaza, Auburn Quarter, Kallangur Fair figures |
 | **Evening** | **Stop by 7pm.** Logistics: venue, time, ID, calculator, water. Sleep |
 
@@ -96,7 +101,7 @@ six topics.
 |---|---|
 | **Exam** | **USB245** |
 | Immediately after | 30 minutes off |
-| Afternoon | AYB250 [note 24](#/AYB250/24-formula-sheet-and-exam-traps) — all 36 traps |
+| Afternoon | AYB250 [note 24](#/AYB250/24-formula-sheet-and-exam-traps) — all 36 traps, and the [checklist](#/REVISION/06-topics-ayb250) rows you never ticked |
 | Late afternoon | Tutorials [18–21](#/AYB250/21-tutorial-8-solutions) re-worked (property, insurance, super, retirement) |
 | **Evening** | TVM and the tax ladder: deductions vs offsets, marginal rates, the proportioning rule. **Stop by 8pm** |
 
@@ -129,7 +134,7 @@ The most valuable day of the fortnight. One unit, no competition.
 | **Morning 1** | [Note 13](#/EFB335/13-revision-pack-topic-1-and-tutorial-1) and [note 14](#/EFB335/14-revision-pack-topic-2-and-tutorial-2) — revision packs, Topics 1 and 2 |
 | **Morning 2** | [Note 15](#/EFB335/15-revision-pack-topic-3-and-tutorial-3) — CAPM and capital market theory |
 | Lunch | Off |
-| **Afternoon 1** | [Note 16](#/EFB335/16-revision-pack-topic-4-and-tutorial-4) — APT and multifactor · **plus any Topic 5+ material** |
+| **Afternoon 1** | [Note 16](#/EFB335/16-revision-pack-topic-4-and-tutorial-4) — APT, the three-stock arbitrage, Fama–French · **plus any Topic 5+ material** |
 | **Afternoon 2** | [Note 10](#/EFB335/10-practice-questions) — closed book, timed |
 | **Evening** | [Note 11](#/EFB335/11-formula-sheet) — closed-book recall. **Stop by 8pm** |
 

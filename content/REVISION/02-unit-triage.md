@@ -3,6 +3,13 @@
 What is high-yield in each unit, what to skim, and the traps that keep
 recurring. Use this to decide *within* a block what to spend the time on.
 
+**This page ranks; the checklists enumerate.** For the full topic-by-topic
+list of what to be able to produce, go to
+[USB244](#/REVISION/04-topics-usb244) ·
+[USB245](#/REVISION/05-topics-usb245) ·
+[AYB250](#/REVISION/06-topics-ayb250) ·
+[EFB335](#/REVISION/07-topics-efb335).
+
 Ordered by revision priority, which is [note
 00](#/REVISION/00-exam-plan-overview)'s order, not exam order.
 
@@ -13,6 +20,8 @@ Ordered by revision priority, which is [note
 **25 notes, ~59,000 words.** The highest-stakes paper in the block and
 the only one with no assessment left to cushion it — Parts A and B are
 already banked.
+
+**Topic checklist: [note 06](#/REVISION/06-topics-ayb250).**
 
 ### Shape of the unit
 
@@ -75,6 +84,8 @@ Chase it.
 
 **15 notes, ~50,000 words.** Second on weight, first in exam order — so
 it is revised *last* in Phase 3, where being recent helps.
+
+**Topic checklist: [note 04](#/REVISION/04-topics-usb244).**
 
 ### Shape of the unit
 
@@ -139,6 +150,8 @@ largest teaching gap of the four units and its exam is first.
 the one with the most unknown content. Its Friday slot plus the free
 Thursday is the best position in the block.
 
+**Topic checklist: [note 07](#/REVISION/07-topics-efb335).**
+
 ### Shape of the unit
 
 Topics 1–4 are covered: investment background, portfolio management,
@@ -198,6 +211,8 @@ material again** as is currently written.
 
 **23 notes, ~67,000 words** — the largest volume, and the lowest
 priority, because A2 forces you through most of it in October.
+
+**Topic checklist: [note 05](#/REVISION/05-topics-usb245).**
 
 ### Shape of the unit
 
