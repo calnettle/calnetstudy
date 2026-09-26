@@ -452,6 +452,220 @@ Cost base = acquisition outlay + capital expenditure − Div 43 already claimed
 Gain      = net sale proceeds − cost base
 ```
 
+## The Financial Calculator (Week 6)
+
+Sharp EL-738XTB. Setup first, every time:
+
+```
+Erase all memory      2ndF  M-CLR  1  =
+Clear entry/memory    2ndF  M-CLR  0  0
+Two decimal places    SET UP  0  2
+Delete all cash flow  2ndF  CA
+```
+
+**TVM solver — equal, regular cash flows. Five keys:**
+
+```
+N      periods (not years).  20 2ndF ×P/Y N  → N = 240 if P/Y = 12
+I/Y    ANNUAL rate as a percent:  enter 5.5, not 0.055
+PV     present value        money received is POSITIVE
+PMT    payment per period   money paid is NEGATIVE
+FV     future value
+COMP + <key>  computes the missing one
+```
+
+**Cash flow mode — uneven cash flows:**
+
+```
+<value>  DATA                    one entry per period; period 0 ALWAYS entered
+2ndF  CASH                       begin DCF analysis
+RATE(I/Y)  <rate>  ENT  ▼  COMP  → NET_PV  (the NPV)
+COMP on RATE(I/Y)                → IRR
+CFi then ▲ / ▼                   browse entered data
+2ndF CLR-D / 2ndF INS-D          delete / insert a data set
+```
+
+`RATE(I/Y)` is **shared** with the TVM solver — a stale rate silently
+poisons the next NPV.
+
+## Property Finance and Leverage (Week 7)
+
+```
+Leverage ratio       LR  = V/E = (D + E)/E = D/E + 1
+Loan-to-value ratio  LVR = outstanding loan balance / property value
+Equity value         E   = V − D
+Return on equity     ROE = $ return after finance / equity invested
+
+Levered return       rE  = rD + LR(rP − rD)
+```
+
+| | Condition | More debt … |
+|---|---|---|
+| **Positive leverage** | `rP > rD` | increases `rE` |
+| **Negative leverage** | `rP < rD` | **decreases** `rE` |
+| Neutral | `rP = rD` | does nothing |
+
+`LR` from `LVR`: `LR = 1 / (1 − LVR)`. A 60% LVR is an LR of 2.5.
+
+**Lender tests — compute both, take the lower loan:**
+
+```
+Debt service coverage ratio   DCR = NOI / debt service      (income test)
+      max debt service = NOI / minimum DCR    (buffer, typically > 1.2)
+      max loan (interest-only) = max debt service / interest rate
+
+Loan to value ratio           LVR = loan / value            (value test)
+      max loan = LVR cap × value     (60–65% commercial)
+```
+
+DCR is the lender's **primary** question; LVR is the cap.
+
+**Capital stack:** senior debt (0–60% LVR, ~8%, secured, repaid first) →
+mezzanine (60–80%, ~15%+) → equity (top ~20%, 25%+, unsecured, repaid
+last).
+
+## Mortgage Mathematics (Week 7)
+
+```
+PMTt   = INTt + AMORTt              always
+INTt   = OBt−1 × rt                 interest on LAST period's closing balance
+
+Interest only:
+    PMTt = INTt,   OBt = Loan for all t,   PMTT = INTT + OB0
+
+Fully amortising (constant payment mortgage):
+                Loan × r
+    PMT = ──────────────────────
+                      1
+             1 −  ──────────
+                  (1 + r)^T
+```
+
+| | Interest only | Fully amortising |
+|---|---|---|
+| Balance | Constant | Declines |
+| Term | 3–5 years | 15–30 years |
+| Exit | **Balloon** payment | Nothing owing |
+| Typical use | **Commercial** | **Residential** |
+| Deductible | All of it | **Interest only** |
+
+**Recalculate `PMT` when the rate changes** using the *new* rate, the
+*remaining* term and the *current* balance — all three.
+
+## Property Taxation (Weeks 8–9)
+
+```
+    Assessable income          (rental income + capital gain)
+  − deductions
+  = Taxable income
+  × marginal tax rate
+  = Basic tax payable
+  − tax offsets
+  = Tax payable
+```
+
+Deductions reduce *taxable income* (worth the marginal rate). Offsets
+reduce *tax payable* (worth face value). Different rungs.
+
+**Rates:** individuals — marginal scale; companies — **30%**, or **25%**
+for base rate entities (turnover below threshold **and** ≤80% passive
+income; **rent is passive**, so most property companies pay 30%).
+
+**Cost base and capital gain:**
+
+```
+   Acquisition price
+ + acquisition costs            (stamp duty, settlement, inspection)
+ + capital expenditure
+ − building allowances          (if acquired after 13 May 1997)
+ = CGT cost base
+
+   Resale price − selling costs − cost base  =  Capital gain
+ − indexation or discount
+ = Taxable gain, added to other taxable income in the year realised
+```
+
+Only the **building allowance** reduces the cost base. Plant does not —
+plant gets a **balancing adjustment** on disposal.
+
+| Entity | CGT discount | Pass through losses |
+|---|---|---|
+| Individual | **50%** | ✓ |
+| Partnership | **50%** | ✓ |
+| Trust | **50%** | ✗ |
+| Complying super fund | **33⅓%** | — |
+| **Company** | **Nil** | ✗ |
+
+Discount requires holding **more than** 12 months (exactly one year is not
+enough) and a CGT event after 11.45am ACT time, 21 September 1999. Assets
+acquired before **20 September 1985**: no CGT at all.
+
+**Depreciation:**
+
+```
+Straight line (prime cost)  = cost × 1/effective life       on ORIGINAL cost
+Diminishing value           = WDV × 2/effective life        on WRITTEN-DOWN value
+
+Building allowance    ALWAYS straight line, 2.5% p.a. of CONSTRUCTION cost
+                      (4% for July 1985 – Sept 1987); transfers to new owners
+Plant and equipment   either method — LOCKED once chosen
+Low value pool        ALWAYS diminishing value: 18.75% yr 1, then 37.5%
+Assets under $300     immediate deduction
+Prime cost rate       = 100 / effective life
+```
+
+**Deductions:** interest (borrowed to produce assessable income); repairs
+and maintenance — but **not** renewals/improvements, **not** initial
+repairs, **not** sinking fund payments until spent, **not** capex;
+depreciation; statutory charges, insurance, management fees. Borrowing
+**expenses** (not interest) are deductible over the shorter of the loan
+term or **five years**.
+
+**Losses:** revenue losses carry forward against future taxable income of
+any kind. **Capital** losses offset **capital gains only**, current year
+or carried forward indefinitely.
+
+**May 2026 Budget — announced, not enacted, from 1 July 2027:** negative
+gearing limited to new builds; 50% discount replaced by cost base
+indexation; 30% minimum tax on gains accruing after that date, no
+grandfathering.
+
+## The After-Tax, After-Finance DCF (Week 9)
+
+The two bottom lines. Every line belongs to exactly one of them.
+
+```
+TAXABLE INCOME                        CASH FLOW TO EQUITY
+  Net income (EBIT)                     Net income (EBIT)
+− interest          (IPMT)            − interest          (IPMT)
+− building depreciation               − principal         (PPMT)
+− plant depreciation                  − tax payable
++ capital gain  (final year)          + sale − selling costs − loan repaid
+```
+
+| Line | Taxable income | Cash flow |
+|---|---|---|
+| Net income (EBIT) | ✓ | ✓ |
+| Interest | ✓ | ✓ |
+| **Principal** | **✗** not deductible | **✓** you pay it |
+| **Depreciation** | **✓** deductible | **✗** no cash moves |
+
+```
+Period 0 (after finance) = purchase price + acquisition costs − loan received
+                           i.e. YOUR EQUITY, not the deposit
+Loan repaid at exit      = original loan − cumulative PPMT   (the OUTSTANDING
+                           balance, not the original advance)
+Tax in the final year    = (accumulated carried-forward losses + final year
+                           taxable income) × rate       — losses FIRST
+```
+
+The four quadrants:
+
+| | Property (before finance) | Equity (after finance) |
+|---|---|---|
+| **Before tax** | 1. Net rent + resale proceeds | 2. Less loan payments; resale less outstanding loan |
+| **After tax** | 3. *Skip unless unlevered* | **4. The one A2 wants** |
+
 ## Excel Function Map
 
 The Week 3 solution's whole model, as formulas. Each row is copied across;
@@ -867,3 +1081,195 @@ $825,000; and the workbook carries two contradictory "Week 3 solutions"
 (3%-CPI expenses with the class acquisition method vs 7% expenses with
 the gross-up), whose maximum prices differ by ~$30k — confirm with the
 tutor which variant the exam expects.
+
+### Week 6 — The Financial Calculator
+
+- **`PV` and `PMT` must have opposite signs.** Same sign = error or
+  nonsense. Borrow positive, repay negative.
+- **`N` is periods, not years.** `I/Y` is an **annual** percent on the
+  Sharp, a **periodic** decimal in Excel. Two opposite conventions.
+- **Period 0 is always entered in cash flow mode**, even when it is `$0`.
+- **No negative cash flow, no IRR.** IRR needs a sign change; a pure
+  income stream has a value, not a rate of return.
+- **`RATE(I/Y)` is shared between cash flow mode and the TVM solver.** A
+  leftover rate from the last question gives a wrong NPV with no warning.
+- **Excel's `NPV()` excludes period 0; the calculator's cash flow mode
+  includes it.** `IRR()` includes it in both. Get this backwards and the
+  outlay is discounted a period too many, or not at all.
+- **Year `n` of a sale carries two cash flows** — that year's net income
+  **and** the sale price. One entry, combined.
+
+### Week 7 — Property Finance and Leverage
+
+- **`LR` and `LVR` are different numbers.** `LR` = value/equity, runs
+  from 1 up. `LVR` = debt/value, runs 0 to 1. 60% LVR = LR of 2.5.
+- **Leverage magnifies a spread; it does not create return.** No spread
+  (`rP = rD`), no effect, at any gearing.
+- **More equity = more dollars, worse percentage return.** Judge on
+  return, not profit.
+- **Compute *both* lender tests.** DCR (income) and LVR (value); the loan
+  is the lower of the two. DCR is primary but LVR often binds.
+- **Acquisition costs come out of equity, not the loan.** Period 0 is
+  price + costs − loan, which is more than the deposit.
+- **Only interest is deductible; principal never is.** In cashflow you pay
+  `PMT`; in tax you deduct `IPMT`. Two different numbers.
+- **The outstanding balance at exit is not the original loan** — subtract
+  cumulative `PPMT`.
+- **Recalculate `PMT` on a rate change** with the new rate, the
+  **remaining** term and the **current** balance.
+- **Check the periods-per-year.** A quarterly loan is `rate/4`,
+  `years × 4`. Dividing by 12 out of habit breaks everything.
+- **Slide errors to ignore** (all verified): the Week 7 deck writes
+  `0.0583` where it means **`0.005833`**; it writes `$10,000` in the 7%
+  interest-only example, which belongs to the 12% example; and it labels
+  the last rows of the 25-year schedule **358/359/360** when they are
+  months **298/299/300**. The deck's Exercise 2 uses **18%** while the
+  workbook uses **12%** — read the rate off the question.
+- **Exercise 5(d) is ambiguous.** The workbook computes `loan = value /
+  0.95` → $717,281.55 and PMT $5,263.16; the LVR definition gives `loan =
+  value × 0.95` → $647,346.60 and PMT $4,750.00. A loan above the value
+  is a 105% LVR. Reproduce the workbook if marked against it, but say so.
+
+### Weeks 8–9 — Property Taxation
+
+- **Deductions ≠ offsets.** Deduction × marginal rate; offset at face
+  value. Different rungs of the ladder.
+- **"Initial repairs" are not deductible** — a defect that existed at
+  purchase is capital, however small the job. The *same* repair three
+  years later is deductible.
+- **Building allowance uses the cost of *construction*, not the purchase
+  price.** Land is never depreciable.
+- **Straight line divides by effective life; diminishing value divides
+  *2* by effective life.** A 12-year DV asset is 16.67%, not 8.33%.
+- **Plant's depreciation method is locked once chosen.**
+- **Only building allowances reduce the cost base.** Plant is handled by a
+  balancing adjustment on disposal — which most teaching models omit.
+- **Depreciation is a deduction with no cash outflow; principal is a cash
+  outflow with no deduction.** Each appears in exactly one of the two
+  bottom lines. Never both.
+- **Apply carried-forward losses before taxing the final year.** In the
+  Week 9 model this is worth $37,595.
+- **The workbook's carried-forward-losses row is a plain running sum** and
+  is only correct when *every* year is a loss. Rebuild it with an explicit
+  offset step if any year is profitable.
+- **Companies get no CGT discount.** 30% on the whole gain, against 47% on
+  half a gain for a top-rate individual — the company often pays more.
+- **A negatively geared company is the worst structure** for that fact
+  pattern: losses trapped, no discount.
+- **Capital losses offset capital gains only.** Revenue losses carry
+  forward against anything.
+- **"More than 12 months" means more than.** Exactly one year does not
+  qualify for the discount.
+- **The May 2026 reforms are announced, not law.** Use current rules;
+  mention the reform, don't apply it.
+- **Skip the after-tax, before-finance quadrant** unless the purchase is
+  genuinely unlevered — it denies the investor their largest deduction.
+
+### Quick Reference — the Week 7 and 9 Models
+
+Same $850,000 house, carried through three stages. All verified in Python
+against the supplied workbooks.
+
+```
+Assumptions
+  PP $850,000    r 10%    rent $775/wk    g 7%    n 5 years
+  expenses $7,405 (CPI 3%)   vacancy 5%   acquisition costs 4%
+  terminal yield 3.5%    selling costs 3%
+  deposit $50,000   loan $800,000 @ 7% over 25 years (LVR 94.1%)
+  building cost $200,000 @ 2.5% SL   plant $50,000 @ 2/12 DV   tax 30%
+
+Period 0 equity outlay          −$84,000     ( = 850,000 + 34,000 − 800,000 )
+
+Net income (EBIT)  y1–y6   30,880 / 33,338 / 35,977 / 38,809 / 41,849 / 45,112
+Interest           y1–y5   56,000 / 55,115 / 54,167 / 53,154 / 52,069
+Principal          y1–y5   12,648 / 13,534 / 14,481 / 15,495 / 16,579
+   constant total debt service  $68,648.41 p.a.
+
+Sale price      $1,288,921.96   ( = year-6 NI ÷ 3.5% )
+Selling costs      −$38,667.66
+Loan repaid       −$727,262.27  ( = 800,000 − 72,737.73 cumulative PPMT )
+
+Depreciation   building $5,000 p.a.
+               plant  8,333.33 / 6,944.45 / 5,787.04 / 4,822.53 / 4,018.78
+Cost base       $859,000        ( = 850,000 + 34,000 − 25,000 building only )
+Gross gain      $391,254.30     ( 50% discounted = $195,627.15, unused:
+                                  the model assumes a company )
+Carried-forward losses to y5   $125,319.31
+Year-5 tax        −$74,009.02   ( = (372,016.03 − 125,319.31) × 30% )
+
+              AFTER FINANCE, BEFORE TAX      AFTER FINANCE AND TAX
+  NPV @ 10%        $115,652.09                    $69,698.32
+  Equity IRR           24.39%                        19.35%
+                                  tax costs 5.04 points, all in the exit year
+```
+
+Three cautions on reusing these numbers: the model is geared to **94%**
+(the AREIT wants 65%), it is **cash-flow negative in every operating
+year**, and essentially the whole return rests on a **3.5% terminal
+yield** five years out. It is a teaching model, not a template.
+
+### Quick Reference — the Four Cashflow Definitions
+
+One property ($850,000 house), four returns. Three verified exactly; the
+fourth is disputed.
+
+```
+                        Property          Equity / Finance
+   Before tax        (1) 10.72%  ✓        (2) 24.39%  ✓
+   After tax         (3)  ~8.0%  ⚠        (4) 19.35%  ✓
+
+(1) NPV @10%  +$27,456.24     period 0 = −$884,000
+(2) NPV @10% +$115,652.09     period 0 =  −$84,000  (loan +$800,000)
+(4) NPV @10%  +$69,698.32
+
+(3) The Week 9 deck says 6.9%. No version of the supplied workbook
+    reproduces it:
+      workbook as written .................... 7.97%   NPV −$76,630
+      corrected, gross gain (company) ........ 8.01%   NPV −$73,247
+      corrected, 50% discount (individual) ... 9.02%   NPV −$36,807
+    Three errors in `Week 9 Solution AT` rows 53–64: depreciation rows
+    use absolute $K$3/$L$3 in every year; row 59 adds tax to TAXABLE
+    INCOME instead of to the cash flow in years 1–4; row 57 uses the
+    discounted gain where the adjacent cashflow uses the gross gain.
+    Confirm with the tutor.
+
+Reading the grid:
+   across  = what the loan added      (13.7 pts before tax)
+   down    = what tax cost            (5.0 pts on equity, ~2.7 on property)
+   tax costs the GEARED investor more points — smaller equity base
+```
+
+**Quadrants 2 and 4 should also carry mortgage duty and loan
+establishment fees** in period 0. The teaching models omit both.
+
+**Discount an after-tax cashflow at an after-tax required return.** The
+model's single 10% across all four is a teaching simplification so the
+cashflows stay comparable.
+
+### Criticisms of After-Tax Models (examinable list)
+
+1. The **prediction of other sources of income** — the benefit of a loss
+   depends on income not yet earned, at an unknown marginal rate.
+2. **Equality of tax losses and before-tax receipts** — a $1 loss is
+   worth $1 × marginal rate, and only if there is income to offset.
+3. **Solvency ignored** — the model discounts a cashflow the investor may
+   not be able to fund.
+4. **The timing of tax payments** — modelled as incurred, paid on
+   assessment.
+5. **The complexity of calculations** — more assumptions, more error, and
+   spurious precision.
+
+### Presenting a Cash Flow Analysis
+
+- Refer to the **brief**: the investor's aims and circumstances, and the
+  framework for the analysis.
+- **Identify and justify** every estimate, projection and assumption.
+- Give an **annual summary** table — *can a marker replicate it on a
+  calculator?*
+- **Explain** the discount rate and the other measures.
+- **Answer the brief** in the recommendation.
+
+**A2: due Wednesday 21 October 2026.** 2,500 words, annual cashflow in
+the discussion, DCF tabs as readable PDF annexures, GenAI statements,
+peer review. Marks: **85% before finance and tax**, 5% finance, 10%
+taxation.

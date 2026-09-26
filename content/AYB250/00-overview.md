@@ -2,7 +2,7 @@
 
 QUT · 2nd Year, Semester 2 · **Personal Financial Planning**
 
-> **These notes cover Weeks 1 to 9, plus worked solutions for Tutorials 2
+> **These notes cover Weeks 1 to 9, plus worked solutions for Tutorials 1
 > to 8.** The unit is running right now — Semester 2 2026. Week 10 onward
 > (social security, after the mid-semester break, then plan construction)
 > is **not written yet**, because there is nothing to write it from. Don't
@@ -17,6 +17,7 @@ QUT · 2nd Year, Semester 2 · **Personal Financial Planning**
 | `Lecture/AYB250 Week 3.pptx` | 77 slides — taxation planning: the tax system, deductions, offsets, Medicare/MLS/HECS, investment income, CGT (current rules and the 1 July 2027 changes), tax structures, negative gearing, salary packaging, FBT, GST |
 | `Lecture/AYB250 Week 4.pptx` | 65 slides — asset classes, fixed-interest and bond pricing, shares and valuation, managed funds, risk and diversification, MPT, CAPM, Sharpe ratio, investor profiles, behavioural finance |
 | `Lecture/AYB250 Week 5.pptx` | 47 slides — property investment and its taxation (full negative-gearing case study), property valuation, home ownership, mortgages, leveraged investing, margin lending |
+| `Tutorials/AYB250 Tutorial Questions Topic 1 (1).docx` + `AYB250 Topic 1 Tutorial Slides.pptx` | Tutorial 1 questions and answer slides (introduction) |
 | `Lecture/AYB250 Tutorial Questions Topic 2 (1).docx` | Tutorial 2 questions (statements, TVM, NPV) |
 | `Lecture/AYB250 Topic 2 Tutorial Slides.pptx` + `AYB250 Tutorial 2.xlsx` | Tutorial 2 answer slides and NPV workbook — **contains errors, see note 14** |
 | `Lecture/AYB250 Tutorial Questions Topic 3.docx` | Tutorial 3 questions (taxation) — **no answer sheet supplied** |
@@ -28,7 +29,7 @@ QUT · 2nd Year, Semester 2 · **Personal Financial Planning**
 | `Lecture/AYB250 Week 9.pptx` | 51 slides — estate planning: wills, executors and probate, estate vs non-estate assets, Queensland intestacy, CGT on inherited assets (current and from 1 July 2027), testamentary trusts, super death benefits, powers of attorney |
 | `Lecture/AYB250 Tutorial Questions Topic 6.docx` + `AYB250 Topic 6 Tutorial Slides.pptx` | Tutorial 6 questions and answer slides (insurance) — **one disagreement with the lecture, see note 18** |
 | `Lecture/AYB250 Tutorial Questions Topic 7.docx` + `AYB250 Topic 7 Tutorial Slides.pptx` | Tutorial 7 questions and answer slides (super and SMSFs) |
-| `Lecture/AYB250 Tutorial Questions Topic 8.docx` | Tutorial 8 questions (retirement planning) — **no answer sheet supplied** |
+| `Lecture/AYB250 Tutorial Questions Topic 8.docx` + `Tutorials/AYB250 Topic 8 Tutorial Slides.pptx` | Tutorial 8 questions and answer slides (retirement planning) — slides released 26 Sep 2026; **three slips flagged in note 21** |
 | `AYB250 Part B Individual Project.docx` | The Part B brief (personal financial report, due Week 9). An assessment, so it has no note on this site |
 | `AYB250 Part A Individual Project.docx` | The full Part A brief: case study, the eight sheets to complete, integrity rules |
 | `AYB250_PartA_StudentNumber_Surname.xlsx` | The blank Excel template — 11 sheets, pre-populated case data and 2026-27 rates |
@@ -53,16 +54,17 @@ folder.
 | 11 | Topic 7 — Superannuation and SMSFs | Week 7. Fund types, contribution types and caps, co-contribution, spouse offset, FHSSS, downsizer, investment restrictions, conditions of release, fund tax, Division 296, SMSFs |
 | 12 | Topic 8 — Retirement planning | Week 8. ASFA standard, PV retirement target, tax components and proportioning, income streams, TTR, re-contribution, ETPs, housing and aged care |
 | 13 | Topic 9 — Estate planning | Week 9. Wills, probate, estate vs non-estate assets, Queensland intestacy, CGT on inherited assets, testamentary trusts, super death benefits, powers of attorney |
-| 14 | Tutorial 2 solutions | Statements, TVM, deposits, NPV — checked against the unit's answer slides, **two errors in them flagged** |
-| 15 | Tutorial 3 solutions | Taxation — worked from scratch (no answer sheet exists), verified in Python |
-| 16 | Tutorial 4 solutions | Investments — checked against the answer slides, including the two slide-only questions |
-| 17 | Tutorial 5 solutions | Property and leverage — worked from scratch (no answer sheet exists), including the full Jason gearing tables |
-| 18 | Tutorial 6 solutions | Insurance — checked against the answer slides; the Turner needs-approach tables reconcile, **income protection percentage disagrees with the lecture** |
-| 19 | Tutorial 7 solutions | Super and SMSFs — checked against the answer slides, plus Division 293 checks and the Q6 cash shortfall the slides miss |
-| 20 | Tutorial 8 solutions | Retirement planning — worked from scratch (no answer sheet exists), verified in Python |
-| 21 | Individual Project Part A | The case study worked end to end, with every figure verified |
-| 22 | Practice questions | Exam-style, answers hidden — Sections A–K now span Weeks 1–9 |
-| 23 | Formula sheet and exam traps | Everything on one page — 36 numbered traps |
+| 14 | Tutorial 1 solutions | Introduction to financial planning — the AFSL chain, the regulators, commissions, and the Tanya case study fully quantified; **the slides' sub-question labels are off by one** |
+| 15 | Tutorial 2 solutions | Statements, TVM, deposits, NPV — checked against the unit's answer slides, **two errors in them flagged** |
+| 16 | Tutorial 3 solutions | Taxation — worked from scratch (no answer sheet exists), verified in Python |
+| 17 | Tutorial 4 solutions | Investments — checked against the answer slides, including the two slide-only questions |
+| 18 | Tutorial 5 solutions | Property and leverage — worked from scratch (no answer sheet exists), including the full Jason gearing tables |
+| 19 | Tutorial 6 solutions | Insurance — checked against the answer slides; the Turner needs-approach tables reconcile, **income protection percentage disagrees with the lecture** |
+| 20 | Tutorial 7 solutions | Super and SMSFs — checked against the answer slides, plus Division 293 checks and the Q6 cash shortfall the slides miss |
+| 21 | Tutorial 8 solutions | Retirement planning — worked from scratch, and now **reconciled against the answer slides released 26 Sep 2026**; three slips in them flagged |
+| 22 | Individual Project Part A | The case study worked end to end, with every figure verified |
+| 23 | Practice questions | Exam-style, answers hidden — Sections A–K now span Weeks 1–9 |
+| 24 | Formula sheet and exam traps | Everything on one page — 36 numbered traps |
 
 ## Assessment
 
@@ -113,7 +115,7 @@ the speaker notes on the textbook slide.
 ## Teaching
 
 Lecturer and Unit Coordinator: Laura de Zwaan. Four tutors are listed on
-the teaching-team slide. Tutorial question sheets now live in the source
+the teaching-team slide. Tutorial slides for Topics 1, 3 and 5 and the Topic 5 workbook appeared in a new `Tutorials/` subfolder in late September 2026. Tutorial question sheets now live in the source
 folder for Topics 2–8; answer slides exist for Topics 2, 4, 6 and 7 (Topic
 2's contain errors — note 14; Topic 6's disagree with the lecture on income
 protection — note 18).

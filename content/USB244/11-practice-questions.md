@@ -665,3 +665,157 @@ replacement. The WALE is **unchanged**: the sale transfers the reversion,
 not the leases — same tenants, same terms, same expiry dates. Attornment
 changes who is paid, not what was promised.
 </details>
+
+## Section G — Outgoings
+
+**G1.** A neighbourhood centre's manager proposes to recover the
+following from tenants. Which are legitimate outgoings, and why?
+(a) replacing a failed rooftop chiller, $210,000; (b) quarterly HVAC
+servicing, $9,400; (c) the owner's mortgage interest, $340,000;
+(d) contribution to the centre marketing fund, $28,000; (e) common-area
+cleaning, $162,000; (f) a sinking fund contribution for future car park
+resurfacing, $15,000.
+
+<details><summary>Answer</summary>
+
+| | Recoverable? | Why |
+|---|---|---|
+| (a) Chiller replacement | **No** | **Capital expenditure** — replacing plant, not maintaining it |
+| (b) HVAC servicing | **Yes** | Operating cost of the premises |
+| (c) Mortgage interest | **No** | The **landlord's financing** — nothing to do with operating the building |
+| (d) Marketing fund | **No** | Explicitly excluded; governed separately by the lease |
+| (e) Common-area cleaning | **Yes** | Classic shared-area operating cost |
+| (f) Sinking fund | **No** | Excluded **until spent** — it is a provision, not an incurred cost |
+
+The principle behind every "no": **capital, financing or promotional**.
+</details>
+
+**G2.** A Queensland neighbourhood centre has GLA of 6,200 m² and total
+outgoings of $840,000, of which $74,000 is land tax. A specialty tenant
+occupies 180 m² under a retail shop lease. What is the maximum the
+landlord can recover from that tenant on a pro-rata basis?
+
+<details><summary>Answer</summary>
+
+```
+Recoverable pool = 840,000 − 74,000 = $766,000
+   (land tax is NOT recoverable under a QLD retail shop lease)
+
+Tenant's pro-rata share = 180 / 6,200 × 766,000 = $22,238
+```
+
+Recovering the tenant's pro-rata share of the **full** $840,000 would be
+$24,387 — **$2,149 too much**, and not permitted. The land tax carve-out
+is worth checking on every Queensland retail analysis.
+</details>
+
+**G3.** A centre recovers $210,000 against total outgoings of $690,000 —
+a 30.4% recovery rate. The anchor occupies 64% of GLA on a lease with no
+outgoings recovery. Is the manager underperforming?
+
+<details><summary>Answer</summary>
+
+**Not on that figure.** Decompose it first.
+
+```
+Specialty area = 36% of GLA
+Specialties' pro-rata share = 0.36 × 690,000 = $248,400
+Recovered                                     $210,000
+                                → recovering    84.5%
+```
+
+The headline 30.4% is driven by the **anchor's zero recovery across 64%
+of the area**, which is a normal commercial outcome — anchors are paid
+for in covenant strength, foot traffic and turnover rent, not outgoings.
+
+The number that *does* reflect management performance is the **84.5%**,
+and it leaves about $38,400 a year on the table. Always quote the ratio
+**and** its structural cause.
+</details>
+
+**G4.** Specialty tenants across 1,465 m² are charged outgoings at
+$118.37/m² while actual expenditure runs at $132.69/m². Quantify the
+annual leakage and its effect on value at a 6.5% capitalisation rate.
+
+<details><summary>Answer</summary>
+
+```
+Shortfall per m²   = 132.69 − 118.37          = $14.32
+Annual leakage     = 14.32 × 1,465            ≈ $20,979 p.a.
+Value impact       = 20,979 / 0.065           ≈ $322,750
+```
+
+A recovery rate that has not kept pace with cost is a **$323,000**
+problem, fixable at the next annual reconciliation. This is what
+"outgoings management is a value discipline" means in practice.
+</details>
+
+**G5.** An asset manager identifies $63,300 p.a. of recurring management
+cost savings. The property is valued on a 6.0% capitalisation rate.
+Quantify the benefit, and state the two assumptions the number depends
+on.
+
+<details><summary>Answer</summary>
+
+```
+Value uplift = 63,300 / 0.06 = $1,055,000
+```
+
+Two assumptions:
+
+1. **The saving is recurring, not one-off.** `CV = NI / CR` capitalises
+   a *perpetual* income stream. A one-year saving is worth $63,300, not
+   $1.055m.
+2. **The capitalisation rate does not move.** If the market re-rates the
+   asset to 6.5% the same saving is worth $974,000; at 5.5%, $1.15m. The
+   uplift is as sensitive to the cap rate as the value itself.
+
+A third worth stating: the saving must not degrade service and therefore
+tenant retention — a cleaning cut that raises vacancy destroys more value
+than it creates.
+</details>
+
+**G6.** You are given an outgoings schedule headed "Outgoings Estimate"
+with a single Budget column, and a note that legals, leasing fees and
+promotion fund contributions have been excluded as non-recurring. Your
+task is to review performance against budget. What do you report?
+
+<details><summary>Answer</summary>
+
+**That the review cannot be performed on the document supplied, and what
+you need.** A budget-versus-actual review requires:
+
+- an **actuals** column for the period,
+- a **prior-year** comparative, and
+- the annual **reconciliation statement** issued to tenants.
+
+You should also report that the schedule **understates the true cost of
+running the asset**, because legals, leasing fees and promotion fund
+contributions have been stripped out. Leasing fees in particular recur
+every time a lease expires — with a WALE under five years they are a
+permanent feature, not a one-off. Add them back before modelling NOI.
+
+Stating the limitation is the correct professional answer. Inventing a
+variance from a single column is not.
+</details>
+
+**G7.** A centre's outgoings schedule shows electricity of $49,764 as an
+expense. The income schedule shows "electricity profit" of $67,333. What
+is going on, and what is the net position?
+
+<details><summary>Answer</summary>
+
+The landlord **buys electricity in bulk and on-charges tenants at
+retail**, through an embedded network. The purchase cost sits in
+outgoings; the margin on the on-charge is booked as **other income**.
+
+```
+Net position = 67,333 − 49,764 = +$17,569 to the landlord
+```
+
+Read the expense line in isolation and you would treat electricity as a
+$49,764 cost. It is actually a **profit centre** — one of several
+ancillary income streams (with vending, casual mall leasing and media)
+that together make up a material share of gross income. Always read the
+outgoings schedule and the other-income schedule together.
+</details>

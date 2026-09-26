@@ -1,0 +1,212 @@
+# Exam Revision Plan — Semester 2, 2026
+
+Four exams in five days, 9–13 November. This is the control page: the
+dates, the constraint that actually shapes the plan, and the order to do
+things in. The day-by-day schedule is note 01; the per-unit triage is
+note 02; the exam-week plan is note 03.
+
+**Built 26 September 2026.** Re-read the assumptions in §0.4 before you
+follow it — three of them will change.
+
+## 0.1 The Timetable
+
+| Date | Day | Unit | Exam weight | Unit's exam material |
+|---|---|---|---|---|
+| **9 Nov** | **Monday** | **USB244** Property and Asset Management | **50%** | 15 notes · ~50,000 words |
+| **10 Nov** | **Tuesday** | **USB245** Property Investment Analysis | **40%** | 23 notes · ~67,000 words |
+| **11 Nov** | **Wednesday** | **AYB250** Personal Financial Planning | **60%** | 25 notes · ~59,000 words |
+| **13 Nov** | **Friday** | **EFB335** Investments | **40%** | 17 notes · ~55,000 words |
+
+Thursday 12 November is free. It is the single most valuable day in the
+block — it belongs to EFB335 and nothing else.
+
+> **The brief for this plan said "just over two weeks from today until
+> the last exam". It is not.** From 26 September to 13 November is **48
+> days**, and to the first exam **44 days**. That is good news, but it
+> changes the plan completely: this is not a cram, it is a seven-week
+> campaign with a hard cram at the end. The genuinely tight window is
+> the one in §0.2.
+
+## 0.2 The Constraint That Actually Shapes This
+
+You do not have 44 days of revision time. You have **three assessment
+deadlines** in front of the exams, and two of them are worth 30% of a
+unit each:
+
+| Due | Item | Weight |
+|---|---|---|
+| **Wed 7 Oct** | **USB244 Part B** — group SAM plan, 5,000 words | **30%** |
+| **Week 11–12** (w/c 7 Oct, then presentation) | **EFB335 A2** — group project report and 8-minute presentation | **30% of the 40%** |
+| **Wed 21 Oct** | **USB245 A2** — 2,500-word report + DCF annexures | **30%** |
+| **Wed 21 Oct** | **EFB335 A2** peer evaluation | 5% |
+
+Plus new teaching material still landing in three of the four units
+(§0.3).
+
+```
+26 Sep ─────── 7 Oct ─────── 21 Oct ─────── 8 Nov ─── 9–13 Nov
+   │              │              │             │         │
+   │  ASSESSMENT  │  ASSESSMENT  │   CLEAR     │        EXAMS
+   │   11 days    │   13 days    │  17 days    │
+   │  USB244 PtB  │  EFB335 A2   │  revision   │
+   │              │  USB245 A2   │   runway    │
+```
+
+> **Real revision starts 22 October. You have 17 clear days, then the
+> exam block.** Everything before 22 October is assessment work plus
+> *maintenance* — keeping the material warm so that 17 days is enough.
+> Plan against 17 days, not 44, and the schedule in note 01 will hold
+> even when something slips.
+
+> **Two of those assessments are also revision, if you let them be.**
+> USB245 A2 *is* the DCF, the discount rate and the after-tax model —
+> the same content as roughly 60% of that exam. USB244 Part B *is*
+> WALE, outgoings, portfolio metrics and scenario analysis. Write them
+> with the formula sheet open beside you and you are revising while you
+> earn the marks. EFB335 A2 is the weakest overlap — portfolio theory
+> and the efficient frontier, but heavily Excel-mechanical.
+
+## 0.3 What Is Still To Be Taught
+
+Three units have material that does not exist yet. Do not treat the
+current notes as the whole exam.
+
+| Unit | Covered now | Still coming |
+|---|---|---|
+| **USB244** | Weeks 1–7 (Topics 1–6, Tutorials 1–4) | Weeks 8–13 |
+| **USB245** | Weeks 1–9 (Topics 1–9, Tutorials 1–7) | **Week 10 sensitivity analysis**, Weeks 11–12 studio, Week 13 exam prep |
+| **AYB250** | Weeks 1–9 (Topics 1–9, Tutorials 1–8) | **Week 10 social security**, then plan construction |
+| **EFB335** | Topics 1–4, Tutorials 1–4 | **Topics 5+** — market efficiency, anomalies, bonds, derivatives, performance evaluation |
+
+> **EFB335 is the biggest unknown and its exam is last.** Four topics
+> are covered; the unit description promises market efficiency, bonds,
+> derivatives and performance evaluation as well. That is potentially
+> more material still to come than is currently written. Its exam being
+> on the Friday is fortunate — but do not read "only 17 notes" as "small
+> unit".
+
+> **A gap in these notes is not a gap in the exam.** Every unit page
+> says this and it is worth repeating here. Chase new decks into the
+> notes as they drop — the whole system only works if the notes stay the
+> single source.
+
+## 0.4 Assumptions — Check These First
+
+Four things this plan asserts that you should verify on Canvas before
+relying on them:
+
+1. **The exam dates and times.** The dates came from the brief, not from
+   a QUT timetable. 9, 10, 11 and 13 November 2026 are a Monday,
+   Tuesday, Wednesday and Friday — internally consistent — but **get the
+   start times and venues**, because a 9am exam and a 2pm exam produce
+   completely different night-before plans.
+2. **The week numbering.** Teaching weeks here are inferred from lecture
+   release dates (Week 1 from 20 July, Week 4 containing the 14 August
+   census date, a break around 31 August, and this week — 21–27
+   September — as Week 9). The **calendar dates** in note 01 are
+   certain; the **week numbers** are not.
+3. **Whether all four exams are open book.** This changes what the
+   formula sheets are *for*. If closed book, they become memorisation
+   targets and you need an extra pass. If open book, they become
+   navigation tools and you should tab them.
+4. **USB244 Part B's rubric**, which the unit overview records as not
+   supplied. Get it off Canvas before 7 October.
+
+## 0.5 The Priority Order
+
+Two things decide what gets time: **how many marks are at stake**, and
+**how much of the unit you already hold**.
+
+| Unit | Exam weight | Volume | Difficulty for you | Priority |
+|---|---|---|---|---|
+| **AYB250** | **60%** | 59k words, 25 notes | Broad but mostly discrete topics; heavy on rules and rates | **1st** |
+| **USB244** | **50%** | 50k words, 15 notes | Conceptual and definitional; least calculation | **2nd** |
+| **EFB335** | 40% | 55k words, 17 notes | Most mathematically demanding; most unknown content | **3rd** |
+| **USB245** | 40% | 67k words, 23 notes | Largest volume, but A2 revises 60% of it for you | **4th** |
+
+> **AYB250 is the highest-stakes exam in the block by a clear margin.**
+> Sixty per cent of a unit in one sitting, and it is the only one of the
+> four with no assessment left to prop the mark up — Parts A and B are
+> already banked. Whatever mark you are carrying, the exam can move it
+> more than any other paper this fortnight. It also has the **most
+> notes** (25) and the **most traps** (36 numbered ones in its formula
+> sheet). It gets the first and the largest block.
+
+> **USB244 is second on weight but it is first in the exam order.** That
+> tension is resolved in note 01 by front-loading AYB250 in the clear
+> runway and pushing USB244 to the final week, where being *most recent*
+> matters because it sits on Monday. Order of revision ≠ order of
+> exams.
+
+> **Do not let USB245's volume frighten you into over-weighting it.** It
+> is the biggest word count and the *lowest* priority, because A2 forces
+> you through the DCF, the discount rate and the after-tax model in
+> October anyway, and because its exam is worth 40% against AYB250's
+> 60%. Volume is not the same as workload.
+
+## 0.6 How To Use These Notes
+
+The site is already structured for revision. Per unit, in this order:
+
+1. **The formula sheet and exam traps** — read it first, not last. It
+   tells you what the unit thinks is important and where the marks get
+   lost. Then come back to it after each topic.
+2. **Topic notes** — concept → formula → worked example → trap. Skim the
+   prose, work the examples with a pen.
+3. **Tutorial solutions** — these are the closest thing to exam
+   questions that exists, and every number in them has been verified
+   independently. Several contain errors found in the unit's own
+   supplied answers; those are flagged inline and are worth knowing.
+4. **Practice questions** — tap-to-reveal. Do them *closed book*, then
+   mark yourself.
+5. **Checkpoints** inside each topic note — quick recall, use them as
+   spaced repetition.
+
+```
+First pass   → formula sheet, then topic notes, working the examples
+Second pass  → tutorial solutions, rebuilt rather than read
+Third pass   → practice questions closed book, then the trap list
+Night before → formula sheet + the unit's quick-reference blocks only
+```
+
+> **The tutorial solutions are the highest-value material per minute,
+> and the practice questions are second.** Reading a topic note feels
+> productive and generates almost no retention; working a problem cold
+> generates a lot. If a day gets compressed, drop the reading and keep
+> the questions.
+
+> **Never revise from the raw slides when a note exists.** The notes
+> exist precisely because the decks contain errors — a decimal point out
+> by a factor of ten in USB245's Week 7, mislabelled amortisation rows,
+> an unreproducible IRR in the Week 9 summary, wrong answer keys in
+> AYB250, EFB222, EFB231, USB144 and EFB210. Every number on the site
+> was recomputed independently. Revise from the notes; open the deck
+> only when the note tells you to look at a chart.
+
+## 0.7 The Rules
+
+Five, and they are the plan as much as the calendar is.
+
+1. **One unit per block, minimum two hours.** Switching costs are real
+   and these four units share just enough vocabulary (yield, NPV, IRR,
+   gearing, CGT) to actively interfere with each other.
+2. **Every session ends with a closed-book output** — a worked problem,
+   a recalled formula list, a trap recited. If you finish a session with
+   nothing written, you did not revise.
+3. **Protect the assessment deadlines absolutely.** A 30% report is
+   worth more than any revision session that could displace it. Revision
+   yields to assessment until 22 October, and never after.
+4. **The day before each exam belongs to that exam.** Non-negotiable.
+   See note 03.
+5. **Re-plan weekly, not daily.** Sunday evening, 20 minutes: what
+   slipped, what new material landed, what moves. Do not re-plan when
+   you are tired at 11pm.
+
+## What's In This Plan
+
+| # | Note | Covers |
+|---|---|---|
+| 00 | Exam Plan Overview | This page — timetable, constraints, priorities, rules |
+| 01 | Week-by-Week Schedule | 28 September to 8 November, block by block |
+| 02 | Unit Triage | Per unit: what is high-yield, what to skim, the traps that repeat |
+| 03 | The Exam Week | 7–13 November, day by day, including the gap-day plan |

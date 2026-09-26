@@ -541,3 +541,100 @@ and warehousing 44%, retail trade 19%.
 > lease survives unchanged, so the WALE and every review date are unaffected
 > by the sale. And the bank guarantees do not follow automatically: they name
 > the outgoing owner as beneficiary and must be reissued to the incoming one.
+
+## Outgoings (Week 7)
+
+```
+Outgoings            = the landlord's RECOVERABLE operating costs of the
+                       premises, charged in addition to base rent
+
+Recovery rate        = total recoveries / total expenditure
+Expense ratio        = total expenditure / gross passing income
+Cost per m²          = total expenditure / GLA
+Pro-rata share       = tenant area / GLA × total expenditure
+Under-recovery       = (cost per m² − recovery rate per m²) × area
+Value of a saving    = annual saving / cap rate
+```
+
+| ✅ In | ❌ Out |
+|---|---|
+| Council rates (general, water, sewerage) | Capital expenditure |
+| Land tax — **except QLD retail shop leases** | Depreciation and sinking funds |
+| Building insurance | Landlord's interest and loan charges |
+| Common-area utilities | Insurance excesses, loss-of-profits cover |
+| Shared-area repairs, maintenance, compliance | Marketing funds, merchant association |
+| Cleaning, gardening, waste, pest | |
+| Fire testing, security, HVAC servicing | |
+| Property management fees | |
+
+The exclusion principle: **capital, financing, or promotional → not an
+outgoing.** A tenant pays to *operate* the premises, not to *own* or
+*improve* them.
+
+| Structure | Tenant pays | Escalation risk |
+|---|---|---|
+| **Gross** | One amount, outgoings built into rent | **Landlord** |
+| **Net** | Rent **plus** outgoings, budgeted and reconciled | Tenant |
+| **Direct recovery** | Landlord pays, then invoices the tenant | Tenant |
+
+### Quick Reference — Kallangur Fair Outgoings
+
+```
+GLA 4,714 m²   ·   budget year to 30 June 2026   ·   17 tenancies
+
+Statutory charges              $157,435    $33.40/m²    25.2%
+Operating expenses             $460,579    $97.70/m²    73.6%
+Other (non-recoverable)          $7,500     $1.59/m²     1.2%
+Total expenditure              $625,513   $132.69/m²     100%
+   cleaning $162,119 (25.9%) + management $156,916 (25.1%) = 51%
+   management fee = 6.80% of total gross rent
+   land tax $59,225 = 9.5%, NOT recoverable from QLD retail shop leases
+
+Recoveries                     $173,377   =  27.72% of expenditure
+   major (68.9% of GLA)              $0   —  effectively a gross lease
+   specialties (31.1%)         $173,377   =  flat $118.37/m²
+   specialties' pro-rata share  $194,395   →  recovering 89.2%
+   under-recovery  ($132.69 − $118.37) × 1,465 m² ≈ $20,979 p.a.
+
+Base rent                    $2,132,942
++ recoveries                   $173,377
+= Total passing rental       $2,306,319
++ other income                 $180,979   (vending, casual mall, electricity
++ reviews to 31 Oct 2026        $42,497    profit, media, misc.)
+= Gross passing income       $2,529,795
+− total expenditure           ($625,513)
+= Passing NOI                $1,904,282
++ vacant other income           $42,000
+= Fully leased NOI           $1,946,282
+
+Expense ratio                     24.73%   ( expenditure / gross income )
+Recoveries + other income         14.0%    of gross passing income
+Identified management savings    $63,300 p.a.  →  $1,055,000 at a 6.0% cap
+```
+
+### EXAM TRAPS — Outgoings
+
+- **Land tax is recoverable — except under a Queensland retail shop
+  lease.** A neighbourhood centre is full of them.
+- **Capital, financing and promotional costs are never outgoings.** Servicing
+  the lift is; replacing it is not.
+- **A low recovery rate is not automatically bad management.** Check what
+  share of the GLA sits with a zero-recovery anchor before you judge it.
+  Quote the ratio *and* its structural cause.
+- **A gross lease has not abolished outgoings** — it has priced them in and
+  fixed them, with the landlord carrying the escalation risk. Face rents
+  across structures are not comparable until adjusted.
+- **Check the denominator on any $/m² figure.** GLA, NLA and occupied area
+  give three different answers, and only one matches the PCA benchmark.
+- **"Budget" is not "actual".** A budget-versus-actual review needs both
+  columns plus the reconciliation. If the file only has a budget, say so —
+  do not invent a variance.
+- **Non-recurring exclusions still cost money.** Legals, leasing fees and
+  promotion fund contributions are routinely excluded from an outgoings
+  estimate; add them back before you model NOI.
+- **Read the expense line against the income line.** Kallangur's $49,764
+  electricity expense sits opposite $67,333 of "electricity profit" in
+  other income — a net gain, not a cost.
+- **Every recurring dollar of unrecovered outgoing is `1/cap rate` dollars
+  of value.** At 6% that is $16.67. This is the argument for treating
+  recovery rates as a value lever.

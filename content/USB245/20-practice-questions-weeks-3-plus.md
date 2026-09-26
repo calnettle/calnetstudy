@@ -7,7 +7,7 @@ are tap-to-reveal. Every figure was recomputed before it was written
 down — work them on paper first, then check.
 
 Weeks 1–2 and the assignment material are in
-[Practice Questions](#/USB245/12-practice-questions).
+[Practice Questions](#/USB245/19-practice-questions).
 
 ## Section G — Cashflow Components and the Seven-Step DCF
 

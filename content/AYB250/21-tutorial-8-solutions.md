@@ -3,11 +3,34 @@
 Worked solutions for `AYB250 Tutorial Questions Topic 8.docx`. Topic note:
 12.
 
-> **No answer slides for Topic 8 are in the source folder.** These
-> solutions are worked from scratch against the Week 8 and Week 7 lectures
-> and verified in Python, with nothing official to reconcile against yet.
-> Where a question is open to more than one reading (Q6), each reading is
+> **The answer slides arrived on 26 September 2026, and these solutions
+> agree with them.** `AYB250 Topic 8 Tutorial Slides.pptx` now sits in the
+> new `Tutorials/` subfolder. These solutions were worked from scratch
+> before it appeared and reconcile to the cent on every number: Jennifer's
+> $815,420 and the $215,420 / $115,420 shortfalls; Carolyn's $30,000
+> minimum and its $10,000 / $20,000 split; Chuck's $80,000 TRIS cap, the
+> $20,000 / $60,000 proportioning, and the 32.5% / 67.5% result after
+> re-contribution; and Jacqui's $32,500 / $130,000 / $390,000 caps. Where
+> a question is open to more than one reading (Q6), each reading is
 > answered.
+>
+> **Three things on the slides are worth correcting as you revise from
+> them:**
+>
+> 1. **Q2(b) ignores growth on the existing balance.** The slides compare
+>    a $600,000 balance plus $100,000 of contributions against the
+>    $815,420 target and report a $115,420 shortfall. But Jennifer works
+>    **another two years** — at the same 4% real return the $600,000
+>    becomes **$648,960**, so the real shortfall is about **$66,460**, not
+>    $115,420. The slides' three levers (retire later, contribute more,
+>    take less income) are right; the gap they have to close is smaller.
+> 2. **Q5(b) writes the taxable proportion as "66.6%".** It is **66.67%**
+>    (two-thirds). The dollar answers ($10,000 tax free, $20,000 taxable)
+>    are exact thirds and are correct.
+> 3. **Q6 slide 23 labels the 75% component "tax free".** It is the
+>    **taxable** proportion — 25% tax free, 75% taxable. The arithmetic
+>    that follows ($20,000 and $60,000) uses it correctly, so it is a
+>    label slip, not a calculation error.
 
 ## Question 1 — why a minimum pension?
 
