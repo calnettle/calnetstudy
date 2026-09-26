@@ -4,7 +4,8 @@
     "institution": "QUT",
     "term": "2nd Year · Sem 2 · Exams 9–13 Nov",
     "colour": "#B45309",
-    "description": "The plan for the November 2026 exam block — timetable, week-by-week schedule, per-unit triage and the exam week itself, across USB244, USB245, AYB250 and EFB335."
+    "description": "The plan for the November 2026 exam block — timetable, week-by-week schedule, per-unit triage and the exam week itself, across USB244, USB245, AYB250 and EFB335.",
+    "pinned": true
   },
   "BSB106": {
     "name": "Dynamic Markets",

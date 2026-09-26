@@ -338,6 +338,7 @@ function build() {
       term: info.term || '',
       colour: info.colour || '#903BD4',
       description: info.description || '',
+      pinned: info.pinned === true,
       docs: []
     };
 
@@ -382,6 +383,13 @@ function build() {
 
     manifest.subjects.push(subject);
   }
+
+  // Pinned subjects ("pinned": true in subjects.json) sit at the top of the
+  // home page; everything else stays in code order. Used for the exam
+  // revision plan, which is useless buried between EFB335 and USB141.
+  manifest.subjects.sort((a, b) =>
+    a.pinned === b.pinned ? a.code.localeCompare(b.code) : (a.pinned ? -1 : 1)
+  );
 
   fs.writeFileSync(path.join(OUT, 'manifest.json'), JSON.stringify(manifest));
   fs.writeFileSync(path.join(OUT, 'search.json'), JSON.stringify(searchIndex));
