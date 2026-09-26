@@ -127,14 +127,26 @@ relying on them:
 Two things decide what gets time: **how many marks are at stake**, and
 **how much of the unit you already hold**.
 
-| Unit | Exam weight | Volume | Difficulty for you | Priority |
-|---|---|---|---|---|
-| **AYB250** | **60%** | 59k words, 25 notes | Broad but mostly discrete topics; heavy on rules and rates | **1st** |
-| **USB244** | **50%** | 50k words, 15 notes | Conceptual and definitional; least calculation | **2nd** |
-| **EFB335** | 40% | 55k words, 17 notes | Most mathematically demanding; most unknown content | **3rd** |
-| **USB245** | 40% | 67k words, 23 notes | Largest volume, but A2 revises 60% of it for you | **4th** |
+Since 26 September there is a third, and it outranks both: **whether you
+have met the content at all.**
 
-> **AYB250 is the highest-stakes exam in the block by a clear margin.**
+| Unit | Exam weight | Attendance | What the work actually is | Priority |
+|---|---|---|---|---|
+| **AYB250** | **60%** | **None** — no lectures, no tutorials | **First teaching.** Nine topics from zero, on the highest-weighted paper in the block | **1st** |
+| **EFB335** | 40% | **None** — no lectures, no tutorials | **First teaching.** The most mathematically demanding unit, plus the most unreleased content | **2nd** |
+| **USB244** | **50%** | Every lecture and tutorial | **Refresh.** Definitional, least calculation, and you sat through all of it | **3rd** |
+| **USB245** | 40% | Every lecture and tutorial | **Refresh.** Largest volume, but attended, and A2 rebuilt 60% of it in October | **4th** |
+
+> **This reorders the plan from the version built on 26 September.**
+> That version ranked by weight and volume and started revision on 22
+> October. It was wrong for your situation: you cannot revise EFB335 and
+> AYB250, because you have not learned them yet. Teaching starts **28
+> September**, and the property units — where you have banked every
+> lecture and tutorial — wait until 26 October. See
+> [note 01](#/REVISION/01-week-by-week-schedule).
+
+> **AYB250 is the highest-stakes exam in the block by a clear margin,
+> and it is one of the two you have not attended.**
 > Sixty per cent of a unit in one sitting, and it is the only one of the
 > four with no assessment left to prop the mark up — Parts A and B are
 > already banked. Whatever mark you are carrying, the exam can move it
@@ -142,17 +154,19 @@ Two things decide what gets time: **how many marks are at stake**, and
 > notes** (25) and the **most traps** (36 numbered ones in its formula
 > sheet). It gets the first and the largest block.
 
-> **USB244 is second on weight but it is first in the exam order.** That
-> tension is resolved in note 01 by front-loading AYB250 in the clear
-> runway and pushing USB244 to the final week, where being *most recent*
-> matters because it sits on Monday. Order of revision ≠ order of
-> exams.
+> **USB244 is second on weight but third on priority, and it is first in
+> the exam order.** Attendance is why it can afford to wait: a refresh of
+> content you sat through is a fraction of the work of meeting it for the
+> first time. It is pushed to 29–30 October and then the final two days
+> before the exam, where being *most recent* matters because it sits on
+> Monday. Order of study ≠ order of exams.
 
 > **Do not let USB245's volume frighten you into over-weighting it.** It
-> is the biggest word count and the *lowest* priority, because A2 forces
-> you through the DCF, the discount rate and the after-tax model in
-> October anyway, and because its exam is worth 40% against AYB250's
-> 60%. Volume is not the same as workload.
+> is the biggest word count and the *lowest* priority: you attended all
+> of it, A2 forces you through the DCF, the discount rate and the
+> after-tax model in October anyway, and its exam is worth 40% against
+> AYB250's 60%. Volume is not the same as workload, and **attended
+> volume is not workload at all** — it is re-activation.
 
 ## 0.6 How To Use These Notes
 
@@ -202,7 +216,13 @@ that a topic "needs more work".
 
 ## 0.7 The Rules
 
-Five, and they are the plan as much as the calendar is.
+Six, and they are the plan as much as the calendar is.
+
+0. **The first block of every day in Phase 1 is a learning block, and it
+   happens before the assessment work.** Assessment expands to fill
+   whatever it is given. EFB335 and AYB250 are being taught from zero in
+   the same weeks four assessments are due — the only way that works is
+   if the teaching goes first, every day.
 
 1. **One unit per block, minimum two hours.** Switching costs are real
    and these four units share just enough vocabulary (yield, NPV, IRR,

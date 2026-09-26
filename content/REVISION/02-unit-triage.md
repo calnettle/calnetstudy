@@ -10,8 +10,15 @@ list of what to be able to produce, go to
 [AYB250](#/REVISION/06-topics-ayb250) ·
 [EFB335](#/REVISION/07-topics-efb335).
 
-Ordered by revision priority, which is [note
+Ordered by priority, which is [note
 00](#/REVISION/00-exam-plan-overview)'s order, not exam order.
+
+> **Two of these units are being taught from scratch, not revised.**
+> AYB250 and EFB335 have had no lectures or tutorials attended, so their
+> "skimmable" rows below mean *skim on the second pass* — on the first
+> pass, in October, nothing in those two units is skimmable. USB244 and
+> USB245 are the reverse: every lecture and tutorial attended, so the
+> triage below is exactly what it says, and they are a refresh.
 
 ---
 
@@ -21,7 +28,10 @@ Ordered by revision priority, which is [note
 the only one with no assessment left to cushion it — Parts A and B are
 already banked.
 
-**Topic checklist: [note 06](#/REVISION/06-topics-ayb250).**
+**Topic checklist: [note 06](#/REVISION/06-topics-ayb250).** **Not
+attended — first teaching, from 3 October.** Topics 1–5 in Phase 1,
+Topics 6–9 on 22–24 October. Pair every topic note with its tutorial the
+same day.
 
 ### Shape of the unit
 
@@ -85,7 +95,9 @@ Chase it.
 **15 notes, ~50,000 words.** Second on weight, first in exam order — so
 it is revised *last* in Phase 3, where being recent helps.
 
-**Topic checklist: [note 04](#/REVISION/04-topics-usb244).**
+**Topic checklist: [note 04](#/REVISION/04-topics-usb244).** **Every
+lecture and tutorial attended — this is a refresh**, scheduled for 29–30
+October and then the two days before the exam.
 
 ### Shape of the unit
 
@@ -150,7 +162,10 @@ largest teaching gap of the four units and its exam is first.
 the one with the most unknown content. Its Friday slot plus the free
 Thursday is the best position in the block.
 
-**Topic checklist: [note 07](#/REVISION/07-topics-efb335).**
+**Topic checklist: [note 07](#/REVISION/07-topics-efb335).** **Not
+attended — first teaching, from 28 September.** Use the four revision
+packs as a taught course: each has a Part A that teaches the concept from
+scratch. Topics 1–2 come first because A2 is built on them.
 
 ### Shape of the unit
 
@@ -212,7 +227,9 @@ material again** as is currently written.
 **23 notes, ~67,000 words** — the largest volume, and the lowest
 priority, because A2 forces you through most of it in October.
 
-**Topic checklist: [note 05](#/REVISION/05-topics-usb245).**
+**Topic checklist: [note 05](#/REVISION/05-topics-usb245).** **Every
+lecture and tutorial attended, plus A2 — this is a refresh**, scheduled
+for 26–28 October. Go fast and stop only at what does not come back.
 
 ### Shape of the unit
 
