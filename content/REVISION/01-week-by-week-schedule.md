@@ -25,7 +25,7 @@ EXAMS      9 Nov – 13 Nov   See note 03
 **For the day-by-day version of everything below — high priority vs
 droppable, inside a 3-hour daily budget — go to
 [note 08, the daily plan](#/REVISION/08-daily-plan).** This note is the
-reasoning; note 08 is the list you work from.
+reasoning; [note 08](#/REVISION/08-daily-plan) is the list you work from.
 
 Blocks are **2 hours** — and in Phases 1 and 2 a learning block is **15
 minutes of closed-book retrieval, then 1 hour 45 of new material** (see
@@ -49,7 +49,7 @@ can produce that row's output closed book, not when the clock runs out.
 The site is built for this, but the reading order is different from a
 revision order.
 
-**EFB335 — use the four revision packs and nothing else, at first.**
+**EFB335 — use the four [revision packs](#/EFB335/13-revision-pack-topic-1-and-tutorial-1) and nothing else, at first.**
 [Notes 13–16](#/EFB335/13-revision-pack-topic-1-and-tutorial-1) each have
 a **Part A that teaches the concept from scratch**, a Part B that works
 the tutorial line by line, a Part C self-test and a Part D cheat sheet.
@@ -173,9 +173,9 @@ easier; skip them and you are doing A2 blind on a 40% assessment.
 | Day | **Learning block (first)** | Assessment blocks |
 |---|---|---|
 | **Mon 28** | **EFB 1** — [Pack 1 Part A](#/EFB335/13-revision-pack-topic-1-and-tutorial-1): what an investment is, HPR/HPY, **AM vs GM**, `E(R) = ΣPᵢRᵢ`, variance and σ, **Sharpe** | USB244 A2 — portfolio, Task 1 proptech/GenAI |
-| **Tue 29** | **EFB 2** — Pack 1 Parts B–C: Tutorial 1 worked · then **order types and margin transactions**, long and short | USB244 A2 — Task 2, three timeframes |
+| **Tue 29** | **EFB 2** — [Pack 1 Parts B–C](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/part-b-tutorial-1-fully-worked): [Tutorial 1](#/USB244/07-tutorial-1-information-memorandum) worked · then **order types and margin transactions**, long and short | USB244 A2 — Task 2, three timeframes |
 | **Wed 30** | **EFB 3** — [Pack 2 Part A](#/EFB335/14-revision-pack-topic-2-and-tutorial-2): Markowitz assumptions, **covariance and correlation**, **two-asset portfolio variance** ← *this is A2 Q1* | EFB335 A2 — monthly returns, σ, annualising |
-| **Thu 1 Oct** | **EFB 4** — Pack 2 Parts B–C: Tutorial 2 worked · `n(n−1)/2` covariances · min-variance weight | EFB335 A2 — strategy statement, stock selection |
+| **Thu 1 Oct** | **EFB 4** — [Pack 2 Parts B–C](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/part-b-tutorial-2-fully-worked): [Tutorial 2](#/EFB335/07-tutorial-2-solutions) worked · `n(n−1)/2` covariances · min-variance weight | EFB335 A2 — strategy statement, stock selection |
 | **Fri 2** | **EFB 5** — [Topic 2b](#/EFB335/03-topic-2-utility-and-strategy): **the efficient frontier**, utility `U = E(r) − 0.5Aσ²`, indifference curves, the tangency portfolio ← *this is A2 Q3–Q5* | USB244 A2 — draft consolidation |
 | **Sat 3** | **AYB 1** — [T1 regulation](#/AYB250/01-topic-1-financial-planning-and-regulation): **the five regulators**, nine Acts, Corporations Act section numbers, FSG/SOA/PDS, **s 961B** · then [Tutorial 1](#/AYB250/14-tutorial-1-solutions) | USB244 A2 full draft · EFB335 A2 results |
 | **Sun 4** | **AYB 2** — [T2a statements](#/AYB250/02-topic-2-personal-financial-statements-and-ratios): cash flow budget, balance sheet, **the four ratios** and the definitions that decide them · [Tutorial 2](#/AYB250/15-tutorial-2-solutions) Q1–Q2 | USB244 A2 figures and referencing · EFB335 A2 write-up |
@@ -191,13 +191,13 @@ easier; skip them and you are doing A2 blind on a 40% assessment.
 
 | Day | **Learning block (first)** | Assessment blocks |
 |---|---|---|
-| **Mon 5** | **AYB 3** — [T2b TVM part 1](#/AYB250/03-topic-2-time-value-of-money-and-investment-maths): simple vs compound, **nominal vs effective**, annuities ordinary and due · Tutorial 2 Q3–Q5 | USB244 A2 final pass · EFB335 A2 final numbers |
+| **Mon 5** | **AYB 3** — [T2b TVM part 1](#/AYB250/03-topic-2-time-value-of-money-and-investment-maths): simple vs compound, **nominal vs effective**, annuities ordinary and due · [Tutorial 2](#/USB244/08-tutorial-2-auburn-quarter) Q3–Q5 | USB244 A2 final pass · EFB335 A2 final numbers |
 | **Tue 6** | **AYB 4** — T2b TVM part 2: **NPV and IRR on the calculator**, credit cards, **tax and inflation on returns** (real rate by *division*) | Proof and submit-ready, both |
 | **Wed 7** | **SUBMIT USB244 A2 + EFB335 A2 report** | Evening off. Genuinely |
 | **Thu 8** | **AYB 5** — [T3a income tax](#/AYB250/04-topic-3-income-tax-and-deductions): **the net-tax-payable ladder**, 2026-27 rates, deductions, Medicare, MLS, HECS, **offsets vs deductions** | EFB335 — presentation deck |
 | **Fri 9** | **AYB 6** — [T3b investment tax](#/AYB250/05-topic-3-investment-tax-and-planning): **franking credits**, **CGT netting order**, salary packaging, FBT · [Tutorial 3](#/AYB250/16-tutorial-3-solutions) | EFB335 — rehearsal |
 | **Sat 10** | **EFB 6** — [Pack 3 Part A](#/EFB335/15-revision-pack-topic-3-and-tutorial-3): **the CML**, diversification, **CAPM and the SML**, **beta two ways** | USB245 A2 — start the report · EFB335 rehearsal, timed |
-| **Sun 11** | **EFB 7** — Pack 3 Parts B–C: Tutorial 3 worked · over/undervalued from the SML · **benchmark error** | USB245 A2 — the DCF model |
+| **Sun 11** | **EFB 7** — [Pack 3 Parts B–C](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/part-b-tutorial-3-fully-worked): [Tutorial 3](#/USB245/11-tutorial-3-deriving-the-discount-rate) worked · over/undervalued from the SML · **benchmark error** | USB245 A2 — the DCF model |
 
 > **The net-tax-payable ladder (AYB 5) is the most reusable hour in this
 > phase.** It reappears inside investment tax, property, gearing, super,
@@ -208,12 +208,12 @@ easier; skip them and you are doing A2 blind on a 40% assessment.
 
 | Day | **Learning block (first)** | Assessment blocks |
 |---|---|---|
-| **Mon 12** | *Light* — re-read Pack 3 Part D cheat sheet only (20 min) | **EFB335 final rehearsal, timing, Q&A prep** |
+| **Mon 12** | *Light* — re-read [Pack 3 Part D](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/part-d-cheat-sheet-memorise-this) cheat sheet only (20 min) | **EFB335 final rehearsal, timing, Q&A prep** |
 | **Tue 13** | — | **EFB335 A2 PRESENTATION** · then USB245 A2 |
 | **Wed 14** | **AYB 7** — [T4a asset classes](#/AYB250/06-topic-4-asset-classes-and-investments): cash, **fixed interest** (discount securities, bond pricing), shares and valuation, managed funds | USB245 A2 — the DCF model |
 | **Thu 15** | **AYB 8** — [T4b risk and portfolio theory](#/AYB250/07-topic-4-risk-return-and-portfolio-theory): portfolio return vs portfolio risk, **CAPM**, **Sharpe**, risk profiling, behavioural finance · [Tutorial 4](#/AYB250/17-tutorial-4-solutions) | USB245 A2 — the DCF model |
 | **Fri 16** | **EFB 8** — [Pack 4 Part A](#/EFB335/16-revision-pack-topic-4-and-tutorial-4): why CAPM needed a successor, **the APT**, the two-factor example | USB245 A2 — discussion and recommendation |
-| **Sat 17** | **EFB 9** — Pack 4 Parts B–C: **the three-stock arbitrage**, Fama–French coefficients, the factor regressions | USB245 A2 × 2 blocks |
+| **Sat 17** | **EFB 9** — [Pack 4 Parts B–C](#/EFB335/16-revision-pack-topic-4-and-tutorial-4/part-b-tutorial-4-fully-worked): **the three-stock arbitrage**, Fama–French coefficients, the factor regressions | USB245 A2 × 2 blocks |
 | **Sun 18** | **AYB 9** — [T5a property](#/AYB250/08-topic-5-property-investment): the asset class, **taxation of an investment property**, valuation, **three different returns**, rent vs buy | USB245 A2 × 2 blocks |
 
 > **AYB 8 is a free ride off EFB335.** Portfolio return, portfolio risk,
@@ -234,7 +234,7 @@ easier; skip them and you are doing A2 blind on a 40% assessment.
 > AYB250 Topics 1–5. It is the day the assessments stop competing.
 
 **Where Phase 1 leaves you:** EFB335 Topics 1–4 taught and tutorials
-worked · AYB250 Topics 1–5 taught, Tutorials 1–5 worked · USB244 and
+worked · AYB250 Topics 1–5 taught, [Tutorials 1–5](#/USB244/07-tutorial-1-information-memorandum) worked · USB244 and
 USB245 untouched since their assessments, which is fine.
 
 ---
@@ -288,7 +288,7 @@ does not come back immediately.
 
 > **By 31 October every topic in all four units should have been *met*
 > at least once.** If that is not true, Phase 3 cannot do its job —
-> practice questions on content you have never read are just a slower
+> [practice questions](#/EFB335/10-practice-questions) on content you have never read are just a slower
 > way of reading it. Cut the USB refresh before you cut AYB250's back
 > half.
 
@@ -303,14 +303,14 @@ recently-learned content decays fastest.
 
 | Day | Block 1 | Block 2 | Block 3 |
 |---|---|---|---|
-| **Sun 1 Nov** | AYB250 practice questions, remaining sections — closed book | AYB250 **tutorials 1–4 re-worked** | AYB250 traps 1–18 |
+| **Sun 1 Nov** | AYB250 [practice questions](#/AYB250/23-practice-questions), remaining sections — closed book | AYB250 **tutorials 1–4 re-worked** | AYB250 traps 1–18 |
 | **Mon 2** | AYB250 traps 19–36 | AYB250 **tutorials 5–8 re-worked** — property, insurance, super, retirement | The checklist: every row you cannot produce |
 | **Tue 3** | EFB335 practice Sets A–F, closed book, timed | EFB335 tutorials 1–4 re-worked | EFB335 Topic 5+ material |
-| **Wed 4** | EFB335 **derivations again**, cold | EFB335 formula sheet, closed-book recall | AYB250 — 45 min of traps, to keep it warm |
+| **Wed 4** | EFB335 **derivations again**, cold | EFB335 [formula sheet](#/AYB250/24-formula-sheet-and-exam-traps), closed-book recall | AYB250 — 45 min of traps, to keep it warm |
 | **Thu 5** | USB245 practice Sets G–N | USB245 tutorials 5–7 re-worked | **Calculator drills**: cash-flow mode, `PMT`/`IPMT`/`PPMT` |
-| **Fri 6** | USB245 quick-reference blocks + the seven traps | AYB250 practice questions, second pass | — |
-| **Sat 7** | USB244 practice Sections A–G — closed book | USB244 tutorials re-worked — IM, tenancy schedule, **WALE**, outgoings | USB244 traps + formula sheet |
-| **Sun 8** | **USB244 closed-book recall: the full formula sheet** | **The PCA measurement table · WALE both ways · `CV = NI / CR` both directions** | Light: exam logistics, sleep early |
+| **Fri 6** | USB245 quick-reference blocks + the seven traps | AYB250 [practice questions](#/USB245/19-practice-questions), second pass | — |
+| **Sat 7** | USB244 practice Sections A–G — closed book | USB244 tutorials re-worked — IM, tenancy schedule, **WALE**, outgoings | USB244 traps + [formula sheet](#/USB244/12-formula-sheet) |
+| **Sun 8** | **USB244 closed-book recall: the full [formula sheet](#/USB244/12-formula-sheet)** | **The PCA measurement table · WALE both ways · `CV = NI / CR` both directions** | Light: exam logistics, sleep early |
 
 > **Phase 3's rule is "produce, don't consume".** Every block generates
 > written output — a solved question, a recalled formula list, a trap
@@ -349,7 +349,7 @@ Four questions:
 |---|---|
 | **USB244's Phase 2 refresh day** | You attended all of it and it gets two full days on 7–8 Nov |
 | **USB245's third refresh block** | A2 rebuilt most of it in October |
-| EFB335's separate topic notes | The revision packs already contain them |
+| EFB335's separate topic notes | The [revision packs](#/EFB335/13-revision-pack-topic-1-and-tutorial-1) already contain them |
 | Second reading of anything | Lowest retention per minute |
 
 | Never cut | Why |

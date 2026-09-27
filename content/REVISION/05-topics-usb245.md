@@ -85,7 +85,7 @@ examinable core**
 | 1 | **Risk premium (build-up)** | Risk-free + premiums, stacked, with a justification per layer |
 | 2 | **Market approach** | Weighting comparable sales evidence — see [Tutorial 3 Ex 4](#/USB245/11-tutorial-3-deriving-the-discount-rate) |
 | 3 | **Benchmark against alternatives** | Position property against bonds, equities, cash |
-| 4 | **WACC** | Forward, and **in reverse** — Tutorial 3 Exercise 5 solves for a component |
+| 4 | **WACC** | Forward, and **in reverse** — [Tutorial 3](#/USB245/11-tutorial-3-deriving-the-discount-rate) Exercise 5 solves for a component |
 
 Plus: **§8.6 cap rate vs discount rate** — same arithmetic, different job.
 A cap rate prices one year in perpetuity; a discount rate prices a
@@ -249,5 +249,5 @@ Full list and the four quick-reference blocks with every verified answer:
 
 **Week 10 sensitivity analysis**, Weeks 11–12 studio, **Week 13 exam
 preparation** — attend that one, it is explicitly exam prep. Sensitivity
-is the gap that matters most: Tutorials 2 and 4 both touch it, but the
+is the gap that matters most: [Tutorials 2](#/USB245/10-tutorial-2-building-a-residential-dcf-in-excel) and 4 both touch it, but the
 Week 10 treatment is the examinable one.

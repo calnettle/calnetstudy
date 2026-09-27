@@ -2,9 +2,9 @@
 
 Four exams in five days, 9–13 November. This is the control page: the
 dates, the constraint that actually shapes the plan, and the order to do
-things in. The day-by-day schedule is note 01; the per-unit triage is
-note 02; the exam-week plan is note 03; the **topic-by-topic checklists
-are notes 04–07**, one per unit, and they are what you actually work
+things in. The day-by-day schedule is [note 01](#/REVISION/01-week-by-week-schedule); the per-unit triage is
+[note 02](#/REVISION/02-unit-triage); the exam-week plan is [note 03](#/REVISION/03-the-exam-week); the **topic-by-topic checklists
+are [notes 04–07](#/REVISION/04-topics-usb244)**, one per unit, and they are what you actually work
 from.
 
 **Built 26 September 2026.** Re-read the assumptions in §0.4 before you
@@ -65,7 +65,7 @@ Plus new teaching material still landing in three of the four units
 > **Real revision starts 22 October. You have 17 clear days, then the
 > exam block.** Everything before 22 October is assessment work plus
 > *maintenance* — keeping the material warm so that 17 days is enough.
-> Plan against 17 days, not 44, and the schedule in note 01 will hold
+> Plan against 17 days, not 44, and the schedule in [note 01](#/REVISION/01-week-by-week-schedule) will hold
 > even when something slips.
 
 > **Two of those assessments are also revision, if you let them be.**
@@ -83,10 +83,10 @@ current notes as the whole exam.
 
 | Unit | Covered now | Still coming |
 |---|---|---|
-| **USB244** | Weeks 1–7 (Topics 1–6, Tutorials 1–4) | Weeks 8–13 |
-| **USB245** | Weeks 1–9 (Topics 1–9, Tutorials 1–7) | **Week 10 sensitivity analysis**, Weeks 11–12 studio, Week 13 exam prep |
-| **AYB250** | Weeks 1–9 (Topics 1–9, Tutorials 1–8) | **Week 10 social security**, then plan construction |
-| **EFB335** | Topics 1–4, Tutorials 1–4 | **Topics 5+** — market efficiency, anomalies, bonds, derivatives, performance evaluation |
+| **USB244** | Weeks 1–7 (Topics 1–6, [Tutorials 1–4](#/USB244/07-tutorial-1-information-memorandum)) | Weeks 8–13 |
+| **USB245** | Weeks 1–9 (Topics 1–9, [Tutorials 1–7](#/USB245/09-tutorial-1-financial-maths-and-your-first-dcf)) | **Week 10 sensitivity analysis**, Weeks 11–12 studio, Week 13 exam prep |
+| **AYB250** | Weeks 1–9 (Topics 1–9, [Tutorials 1–8](#/AYB250/14-tutorial-1-solutions)) | **Week 10 social security**, then plan construction |
+| **EFB335** | Topics 1–4, [Tutorials 1–4](#/EFB335/06-tutorial-1-solutions) | **Topics 5+** — market efficiency, anomalies, bonds, derivatives, performance evaluation |
 
 > **EFB335 is the biggest unknown and its exam is last.** Four topics
 > are covered; the unit description promises market efficiency, bonds,
@@ -113,7 +113,7 @@ relying on them:
 2. **The week numbering.** Teaching weeks here are inferred from lecture
    release dates (Week 1 from 20 July, Week 4 containing the 14 August
    census date, a break around 31 August, and this week — 21–27
-   September — as Week 9). The **calendar dates** in note 01 are
+   September — as Week 9). The **calendar dates** in [note 01](#/REVISION/01-week-by-week-schedule) are
    certain; the **week numbers** are not.
 3. **Whether all four exams are open book.** This changes what the
    formula sheets are *for*. If closed book, they become memorisation
@@ -234,7 +234,7 @@ Six, and they are the plan as much as the calendar is.
    worth more than any revision session that could displace it. Revision
    yields to assessment until 22 October, and never after.
 4. **The day before each exam belongs to that exam.** Non-negotiable.
-   See note 03.
+   See [note 03](#/REVISION/03-the-exam-week).
 5. **Re-plan weekly, not daily.** Sunday evening, 20 minutes: what
    slipped, what new material landed, what moves. Do not re-plan when
    you are tired at 11pm.
@@ -259,7 +259,7 @@ Six, and they are the plan as much as the calendar is.
 > additional block that only ever revisits completed material and can be
 > missed without cost.
 
-> **Notes 04–07 are the working documents.** Notes 00–03 tell you *when*
+> **[Notes 04–07](#/REVISION/04-topics-usb244) are the working documents.** [Notes 00–03](#/REVISION/00-exam-plan-overview) tell you *when*
 > to study; 04–07 tell you *what*. Every block in the week-by-week
 > schedule names the topics it covers, and those topic names are rows in
 > the checklists — tick a row only when you can produce it closed book.

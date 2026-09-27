@@ -68,7 +68,7 @@ six topics.
 
 | Block | Do |
 |---|---|
-| Morning | **Closed-book recall** of the full USB244 formula sheet. Write it out. Check. Repeat what you missed |
+| Morning | **Closed-book recall** of the full USB244 [formula sheet](#/USB244/12-formula-sheet). Write it out. Check. Repeat what you missed |
 | Midday | The PCA measurement table, the WALE method both ways, `CV = NI / CR` in both directions, face vs effective rent, the three outgoings recovery structures |
 | Afternoon | Quick-reference blocks only — Richlands Plaza, Auburn Quarter, Kallangur Fair figures |
 | **Evening** | **Stop by 7pm.** Logistics: venue, time, ID, calculator, water. Sleep |
@@ -142,7 +142,7 @@ The most valuable day of the fortnight. One unit, no competition.
 > unit where "I read it" and "I can do it" diverge most — portfolio
 > variance, the efficient frontier, beta two ways, the CAPM expected
 > return, a factor regression. Work each one on paper this morning
-> while you are fresh. The afternoon's practice questions will tell you
+> while you are fresh. The afternoon's [practice questions](#/EFB335/10-practice-questions) will tell you
 > honestly which ones you own.
 
 > **Budget an explicit slot for Topics 5+.** If market efficiency,
@@ -169,7 +169,7 @@ The most valuable day of the fortnight. One unit, no competition.
 3. **The evening after an exam belongs to the next exam** — as a
    top-up, not a rescue. Anything not already revised by Monday morning
    will not get revised.
-4. **Formula sheets and practice questions only from 8 November.** No
+4. **Formula sheets and [practice questions](#/EFB335/10-practice-questions) only from 8 November.** No
    topic notes, no new reading.
 5. **Eat and move.** Three exams in three days is a physical event. A
    twenty-minute walk after each paper is not time lost.

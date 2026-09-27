@@ -45,18 +45,18 @@ dropping one drops those marks entirely.
 
 | Priority | What | Why |
 |---|---|---|
-| **1** | **Note 24 — formula sheet and 36 numbered traps** | The whole unit compressed, and the trap list is a tickable checklist |
-| **1** | **Notes 14–21 — tutorial solutions, all eight** | Closest thing to exam questions. Several were worked from scratch because the unit supplied no answer key; three had errors in the supplied answers |
-| **2** | **Note 03 — TVM and investment maths** | The calculation spine. Annuities, NPV/IRR, real vs nominal, tax and inflation on returns. Feeds Topics 5, 7 and 8 |
-| **2** | **Notes 04–05 — income tax, investment tax** | Marginal rates, Medicare, MLS, HECS, CGT, negative gearing, salary packaging. Densest rule-set in the unit and it recurs inside other topics |
-| **2** | **Note 11 — superannuation and SMSFs** | Caps, contribution types, Division 293, preservation, conditions of release. Most numerous discrete rules |
-| **3** | **Notes 12–13 — retirement and estate planning** | Minimum drawdowns, proportioning rule, re-contribution, intestacy, super death benefits |
+| **1** | **[Note 24](#/AYB250/24-formula-sheet-and-exam-traps) — formula sheet and 36 numbered traps** | The whole unit compressed, and the trap list is a tickable checklist |
+| **1** | **[Notes 14–21](#/AYB250/14-tutorial-1-solutions) — tutorial solutions, all eight** | Closest thing to exam questions. Several were worked from scratch because the unit supplied no answer key; three had errors in the supplied answers |
+| **2** | **[Note 03](#/AYB250/03-topic-2-time-value-of-money-and-investment-maths) — TVM and investment maths** | The calculation spine. Annuities, NPV/IRR, real vs nominal, tax and inflation on returns. Feeds Topics 5, 7 and 8 |
+| **2** | **[Notes 04–05](#/AYB250/04-topic-3-income-tax-and-deductions) — income tax, investment tax** | Marginal rates, Medicare, MLS, HECS, CGT, negative gearing, salary packaging. Densest rule-set in the unit and it recurs inside other topics |
+| **2** | **[Note 11](#/AYB250/11-topic-7-superannuation-and-smsfs) — superannuation and SMSFs** | Caps, contribution types, Division 293, preservation, conditions of release. Most numerous discrete rules |
+| **3** | **[Notes 12–13](#/AYB250/12-topic-8-retirement-planning) — retirement and estate planning** | Minimum drawdowns, proportioning rule, re-contribution, intestacy, super death benefits |
 
 ### Skimmable
 
-Note 01 (regulation) and note 10 (insurance) are the most narrative
-topics — read once properly, then revise from the formula sheet and
-tutorial solutions rather than re-reading. Note 22 (Part A project) is
+[Note 01](#/AYB250/01-topic-1-financial-planning-and-regulation) (regulation) and [note 10](#/AYB250/10-topic-6-risk-management-and-insurance) (insurance) are the most narrative
+topics — read once properly, then revise from the [formula sheet](#/AYB250/24-formula-sheet-and-exam-traps) and
+tutorial solutions rather than re-reading. [Note 22](#/AYB250/22-individual-project-part-a) (Part A project) is
 already-submitted work; read it only if a calculation from it recurs.
 
 ### Traps that repeat
@@ -72,12 +72,12 @@ already-submitted work; read it only if a calculation from it recurs.
   *real* rate and then ask for a nominal income, or vice versa.
 - **Household operating leverage** — an 8% income cut produces a 45%
   cut in savings capacity, because expenses are fixed and savings are
-  the residual (note 14, Tanya).
+  the residual ([note 14](#/AYB250/14-tutorial-1-solutions), Tanya).
 
 > **Three of AYB250's supplied answer sets contain errors, and the notes
-> flag each one.** Tutorial 2's answer slides have two arithmetic
-> errors; Tutorial 6's income-protection percentage disagrees with the
-> lecture; Tutorial 8's newly released slides ignore growth on an
+> flag each one.** [Tutorial 2](#/AYB250/15-tutorial-2-solutions)'s answer slides have two arithmetic
+> errors; [Tutorial 6](#/AYB250/19-tutorial-6-solutions)'s income-protection percentage disagrees with the
+> lecture; [Tutorial 8](#/AYB250/21-tutorial-8-solutions)'s newly released slides ignore growth on an
 > existing balance, mislabel a taxable proportion as tax-free, and write
 > 66.6% for two-thirds. **Revise from the notes.** If a tutor's answer
 > and a note disagree, the note shows its algebra — take it to the tutor
@@ -111,18 +111,18 @@ classify-and-explain.
 
 | Priority | What | Why |
 |---|---|---|
-| **1** | **Note 12 — formula sheet and traps** | Small unit, dense sheet. Includes the PCA measurement table described as "the one table to memorise" |
-| **1** | **Notes 07–10 — the four tutorials** | Reading an IM, reading a tenancy schedule, WALE calculation, outgoings. All four are *document interpretation*, which is what the exam tests |
-| **2** | **Note 09 — WALE** | The unit's signature calculation. Two versions (by income, by area), the 5-year threshold, and the WALE → cap rate → value chain |
-| **2** | **Note 10 — outgoings** | Newest note. What is and is not recoverable, the three recovery structures, and a fully reconciled real budget |
-| **2** | **Note 02 — PCA measurement and building grades** | NLA/GLA/GLAR. Purely definitional and therefore purely gettable |
-| **3** | **Notes 04–05 — leases, taxation** | Lease anatomy as a checklist; the three-layer tax stack sorted by who can recover it |
+| **1** | **[Note 12](#/USB244/12-formula-sheet) — formula sheet and traps** | Small unit, dense sheet. Includes the PCA measurement table described as "the one table to memorise" |
+| **1** | **[Notes 07–10](#/USB244/07-tutorial-1-information-memorandum) — the four tutorials** | Reading an IM, reading a tenancy schedule, WALE calculation, outgoings. All four are *document interpretation*, which is what the exam tests |
+| **2** | **[Note 09](#/USB244/09-tutorial-3-wale-calculation) — WALE** | The unit's signature calculation. Two versions (by income, by area), the 5-year threshold, and the WALE → cap rate → value chain |
+| **2** | **[Note 10](#/USB244/10-tutorial-4-outgoings) — outgoings** | Newest note. What is and is not recoverable, the three recovery structures, and a fully reconciled real budget |
+| **2** | **[Note 02](#/USB244/02-topic-2-office-and-industrial) — PCA measurement and building grades** | NLA/GLA/GLAR. Purely definitional and therefore purely gettable |
+| **3** | **[Notes 04–05](#/USB244/04-topic-4-commercial-and-green-leases) — leases, taxation** | Lease anatomy as a checklist; the three-layer tax stack sorted by who can recover it |
 
 ### Skimmable
 
-Notes 13–14 (the two assessment guides) are written for the reports, not
-the exam — but note 14's scenario analysis and portfolio metrics are
-examinable, so skim its quantified sections. Note 03 (retail history and
+[Notes 13–14](#/USB244/13-assessment-1-part-a-guide) (the two assessment guides) are written for the reports, not
+the exam — but [note 14](#/USB244/14-assessment-1-part-b-sam-plan)'s scenario analysis and portfolio metrics are
+examinable, so skim its quantified sections. [Note 03](#/USB244/03-topic-3-retail) (retail history and
 classification) is the most narrative topic.
 
 ### Traps that repeat
@@ -178,15 +178,15 @@ Everything is quantitative.
 
 | Priority | What | Why |
 |---|---|---|
-| **1** | **Notes 13–16 — the four revision packs** | 22,000 words that already fold each topic together with its tutorial. This is what a first pass should look like; use these, not the topic notes |
-| **1** | **Note 11 — formula sheet and traps** | The formula density here is the highest of the four units |
-| **2** | **Note 10 — practice questions** | Closed book, twice |
-| **2** | **Notes 06–09 — tutorial solutions** | Where the mechanics live. Tutorial 2's supplied file is an empty template, so note 07 is worked from scratch |
-| **3** | **Note 12 — investment briefing guide** | Written for A1 (already sat), but its 14 Excel calculations are exactly the unit's examinable computations |
+| **1** | **[Notes 13–16](#/EFB335/13-revision-pack-topic-1-and-tutorial-1) — the four revision packs** | 22,000 words that already fold each topic together with its tutorial. This is what a first pass should look like; use these, not the topic notes |
+| **1** | **[Note 11](#/EFB335/11-formula-sheet) — formula sheet and traps** | The formula density here is the highest of the four units |
+| **2** | **[Note 10](#/EFB335/10-practice-questions) — practice questions** | Closed book, twice |
+| **2** | **[Notes 06–09](#/EFB335/06-tutorial-1-solutions) — tutorial solutions** | Where the mechanics live. [Tutorial 2](#/EFB335/07-tutorial-2-solutions)'s supplied file is an empty template, so note 07 is worked from scratch |
+| **3** | **[Note 12](#/EFB335/12-investment-briefing-guide) — investment briefing guide** | Written for A1 (already sat), but its 14 Excel calculations are exactly the unit's examinable computations |
 
 ### Skimmable
 
-Notes 01–05 (the topic notes) *if* you are using the revision packs —
+[Notes 01–05](#/EFB335/01-topic-1-investment-background) (the topic notes) *if* you are using the [revision packs](#/EFB335/13-revision-pack-topic-1-and-tutorial-1) —
 they overlap heavily by design. Drop back to the topic note only when a
 pack exposes a gap.
 
@@ -243,17 +243,17 @@ model incrementally.
 
 | Priority | What | Why |
 |---|---|---|
-| **1** | **Note 22 — formula sheet and traps** | 5,400 words, and it includes four "quick reference" blocks with every worked model's verified answers |
-| **1** | **Note 06 — the financial calculator** | Do this *with the calculator in hand*. Every NPV/IRR question in the exam is a calculator question and Excel is not available |
-| **1** | **Notes 13–15 — the finance, depreciation and after-tax tutorials** | The newest material and the most mechanical. Verified end to end |
-| **2** | **Notes 03–05 — cashflow components, discount rate, return measurements** | The examinable core: the seven-step DCF, four discount-rate methods, NPV/IRR decision rules and the three ranking conflicts |
-| **2** | **Note 16 — Topic 9's four-IRR comparison** | One property, four cashflow definitions, and the interpretation checklist. Excellent exam framing |
-| **3** | **Notes 09–12 — tutorials 1–4** | Already exercised heavily by A1 and A2 |
-| **3** | **Note 18 — the 41 Park Road IM** | A2 material; skim unless document interpretation is examinable |
+| **1** | **[Note 22](#/USB245/22-formula-sheet) — formula sheet and traps** | 5,400 words, and it includes four "quick reference" blocks with every worked model's verified answers |
+| **1** | **[Note 06](#/USB245/06-topic-6-the-financial-calculator) — the financial calculator** | Do this *with the calculator in hand*. Every NPV/IRR question in the exam is a calculator question and Excel is not available |
+| **1** | **[Notes 13–15](#/USB245/13-tutorial-5-mortgages-and-the-after-finance-dcf) — the finance, depreciation and after-tax tutorials** | The newest material and the most mechanical. Verified end to end |
+| **2** | **[Notes 03–05](#/USB245/03-topic-3-dcf-and-cashflow-components) — cashflow components, discount rate, return measurements** | The examinable core: the seven-step DCF, four discount-rate methods, NPV/IRR decision rules and the three ranking conflicts |
+| **2** | **[Note 16](#/USB245/16-topic-9-discounting-after-tax-cashflows) — Topic 9's four-IRR comparison** | One property, four cashflow definitions, and the interpretation checklist. Excellent exam framing |
+| **3** | **[Notes 09–12](#/USB245/09-tutorial-1-financial-maths-and-your-first-dcf) — tutorials 1–4** | Already exercised heavily by A1 and A2 |
+| **3** | **[Note 18](#/USB245/18-reading-the-41-park-road-im) — the 41 Park Road IM** | A2 material; skim unless document interpretation is examinable |
 
 ### Skimmable
 
-Notes 01–02 (principles and asset class) are the most narrative. Note 17
+[Notes 01–02](#/USB245/01-topic-1-investment-principles) (principles and asset class) are the most narrative. [Note 17](#/USB245/17-the-assignment-dcf-model-anatomy)
 (assignment model anatomy) is a build guide — its formula map is useful,
 its sheet-by-sheet walkthrough is not, once A2 is submitted.
 
@@ -284,7 +284,7 @@ its sheet-by-sheet walkthrough is not, once A2 is submitted.
 > supplied workbook reproduces** (the corrected figure is 8.0% for a
 > company, 9.0% for an individual); and a carried-forward-losses formula
 > that silently breaks if any year is profitable. All five are worked
-> out in notes 07, 13, 15 and 16. **Two of them are worth raising with
+> out in [notes 07](#/USB245/07-topic-7-property-finance-and-leverage), 13, 15 and 16. **Two of them are worth raising with
 > Lyndall before the exam** — the 6.9% and Exercise 5(d) — because you
 > need to know which answer will be marked correct.
 
@@ -303,7 +303,7 @@ These four units share more than the timetable suggests. Exploit it.
 | Concept | Appears in | Watch for |
 |---|---|---|
 | **NPV and IRR** | USB245, AYB250, EFB335 | Same maths; USB245 and AYB250 use annual property/personal cashflows, EFB335 uses returns series |
-| **Time value of money** | USB245, AYB250 | AYB250's note 03 and USB245's note 09 cover the same annuity maths |
+| **Time value of money** | USB245, AYB250 | AYB250's [note 03](#/USB245/03-topic-3-dcf-and-cashflow-components) and USB245's [note 09](#/USB245/09-tutorial-1-financial-maths-and-your-first-dcf) cover the same annuity maths |
 | **CGT and the cost base** | USB245 (Topic 8), AYB250 (Topic 3), USB244 (Topic 5) | **The 50% discount, the 12-month rule and the building-allowance reduction are identical across all three.** Learn once |
 | **Negative gearing** | USB245, AYB250 | AYB250 has the full personal case study; USB245 has it inside the DCF |
 | **Depreciation** | USB245 (Tutorial 6), AYB250, USB244 | Straight line vs diminishing value, 2.5% building allowance — identical rules |

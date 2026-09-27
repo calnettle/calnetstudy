@@ -38,7 +38,7 @@ what this page is for.
 |---|---|
 | The cash flow budget | Build one, and project it forward |
 | The personal balance sheet | Assets at market value, and what is **not** on it |
-| **Statement classification** | Which statement each item belongs on — Tutorial 2 Q1 is exactly this |
+| **Statement classification** | Which statement each item belongs on — [Tutorial 2](#/AYB250/15-tutorial-2-solutions) Q1 is exactly this |
 | **The four planning ratios** | All four from memory, with the direction of "good" |
 
 ```
@@ -262,8 +262,8 @@ applying a marginal rate to the whole income · nominal ranking ≠
 effective ranking · adding future values struck at different dates.
 
 > **Three of AYB250's supplied answer sets contain errors and the notes
-> flag each.** Tutorial 2 has two arithmetic errors; Tutorial 6's
-> income-protection percentage disagrees with the lecture; Tutorial 8's
+> flag each.** [Tutorial 2](#/AYB250/15-tutorial-2-solutions) has two arithmetic errors; [Tutorial 6](#/AYB250/19-tutorial-6-solutions)'s
+> income-protection percentage disagrees with the lecture; [Tutorial 8](#/AYB250/21-tutorial-8-solutions)'s
 > slides ignore growth on an existing balance, mislabel a taxable
 > proportion as tax-free, and write 66.6% for two-thirds. **Revise from
 > the notes** — they show their algebra. Take a disagreement to the

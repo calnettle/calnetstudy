@@ -8,7 +8,7 @@ performance evaluation are promised and not yet here.
 Its Friday slot plus the free Thursday is the best position in the block.
 Use it.
 
-> **Revise from the four revision packs, not the topic notes.** [Notes
+> **Revise from the four [revision packs](#/EFB335/13-revision-pack-topic-1-and-tutorial-1), not the topic notes.** [Notes
 > 13–16](#/EFB335/13-revision-pack-topic-1-and-tutorial-1) already fold
 > each topic together with its tutorial and end with a self-test and a
 > cheat sheet — which is exactly the shape a revision pass should have.
