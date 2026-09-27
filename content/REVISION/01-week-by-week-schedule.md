@@ -22,6 +22,11 @@ PHASE 3    1 Nov –  8 Nov   Practice questions and traps, exam-ordered
 EXAMS      9 Nov – 13 Nov   See note 03
 ```
 
+**For the day-by-day version of everything below — high priority vs
+droppable, inside a 3-hour daily budget — go to
+[note 08, the daily plan](#/REVISION/08-daily-plan).** This note is the
+reasoning; note 08 is the list you work from.
+
 Blocks are **2 hours** — and in Phases 1 and 2 a learning block is **15
 minutes of closed-book retrieval, then 1 hour 45 of new material** (see
 the retrieval ladder below). In Phase 1 the **first block of every day is

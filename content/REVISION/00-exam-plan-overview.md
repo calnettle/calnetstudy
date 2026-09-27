@@ -251,6 +251,13 @@ Six, and they are the plan as much as the calendar is.
 | 05 | **Topic Checklist — USB245** | As above, plus the seven-step DCF and the four discount-rate methods |
 | 06 | **Topic Checklist — AYB250** | As above, across all nine topics and the 36 traps |
 | 07 | **Topic Checklist — EFB335** | As above, with every formula group |
+| 08 | **The Daily Plan** | **Every day, 28 Sep – 8 Nov: 2 h high priority + 1 h droppable revision** |
+
+> **[Note 08](#/REVISION/08-daily-plan) is the one to open each
+> morning.** It turns everything below into a two-column list per day: a
+> 2-hour high-priority block that happens no matter what, and a 1-hour
+> additional block that only ever revisits completed material and can be
+> missed without cost.
 
 > **Notes 04–07 are the working documents.** Notes 00–03 tell you *when*
 > to study; 04–07 tell you *what*. Every block in the week-by-week
