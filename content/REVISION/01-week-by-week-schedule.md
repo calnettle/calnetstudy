@@ -22,8 +22,10 @@ PHASE 3    1 Nov –  8 Nov   Practice questions and traps, exam-ordered
 EXAMS      9 Nov – 13 Nov   See note 03
 ```
 
-Blocks are **2 hours**. In Phase 1 the **first block of every day is a
-learning block** and it is not negotiable — it goes before the
+Blocks are **2 hours** — and in Phases 1 and 2 a learning block is **15
+minutes of closed-book retrieval, then 1 hour 45 of new material** (see
+the retrieval ladder below). In Phase 1 the **first block of every day is
+a learning block** and it is not negotiable — it goes before the
 assessment work, not after it, because assessment expands to fill
 whatever it is given. A weekday carries that learning block plus one
 assessment block; a weekend day carries the learning block plus two.
@@ -60,6 +62,93 @@ pairing is what makes it stick.
 > day.** Reading a topic note you have never seen before generates
 > almost no retention on its own. The tutorial immediately afterwards is
 > what converts it, and the closed-book output is what proves it.
+
+### Where EFB335 splits across two days — and why that is still fine
+
+The EFB335 packs are ~5,500 words each. A 2-hour block cannot teach Part
+A *and* work Part B from a standing start, so the schedule splits them
+across consecutive days: concepts one day, the tutorial the next. That
+does not break the rule, **provided the concept day produces its own
+output** — and it has one built in.
+
+| Day | Do | Output that closes the day |
+|---|---|---|
+| Concept day | Pack **Part A**, worked with a pen | Pack **Part C self-test**, closed book, 15 min |
+| Tutorial day | Pack **Part B**, every question re-worked | Pack **Part D cheat sheet**, written out from memory |
+
+> **Never end a concept day on Part A alone.** Part A read without Part
+> C is the exact failure mode this plan exists to prevent — it feels
+> like four hours of study and produces a day of retention. The self-test
+> is already written and it takes fifteen minutes.
+
+AYB250 does not have this problem: each topic note ends with a
+**Checkpoint**, and the matching tutorial fits inside the same block.
+
+---
+
+## The Retrieval Ladder — the part that actually decides the exam
+
+One pass is not enough, and the schedule as first drafted had a real
+hole in it. Counted honestly, from first teaching to next contact:
+
+| Learned | Topic | Next touch (as first drafted) | Gap |
+|---|---|---|---|
+| 28 Sep | EFB Topic 1 | 31 Oct consolidation | **33 days** |
+| 30 Sep | EFB Topic 2 | 31 Oct | **31 days** |
+| 3 Oct | AYB Topic 1 | 24 Oct | 21 days |
+| 5 Oct | AYB TVM | 24 Oct | 19 days |
+| 10 Oct | EFB Topic 3 | 31 Oct | 21 days |
+
+**A month with no retrieval loses most of it**, and it loses the
+*earliest* material hardest — which here is EFB335 Topics 1 and 2, the
+foundation everything else in that unit is built on. Learning Topic 3's
+CAPM in late October on top of a Topic 2 you last saw on 30 September
+does not work: you end up re-learning covariance inside the CAPM block
+and losing both.
+
+So every topic gets **four touches**, and no topic goes more than about
+ten days without one.
+
+| Touch | When | What it is | How long |
+|---|---|---|---|
+| **1 — Learn** | Phase 1 or 2 | Topic + tutorial + output, same day | 2 h |
+| **2 — Warm-up** | 1–3 days later | Reproduce yesterday's output from memory, cold | 15 min |
+| **3 — Sweep** | The following Sunday, then a fortnight later | Every checklist row from the last two weeks, closed book | 45 min |
+| **4 — Practice** | Phase 3 | Practice questions and traps, closed book, timed | 2 h |
+
+### The daily warm-up — 15 minutes, inside the block
+
+**Every learning block in Phases 1 and 2 is 15 minutes of retrieval, then
+1 hour 45 of new material.** Not before the block, not optional, and
+always closed book:
+
+- **5 min — yesterday.** Reproduce yesterday's output from memory. The
+  formula, the ladder, the checkpoint answer.
+- **10 min — one block from roughly a week ago**, chosen by the rule
+  *whatever you feel least sure of*. Open [the checklist](#/REVISION/06-topics-ayb250),
+  read a row, produce it, then check.
+
+> **If you cannot produce it, that is the point.** A failed retrieval
+> followed by looking it up is worth several times a re-read, and it is
+> the single cheapest thing in this plan. Fifteen minutes a day across
+> Phase 1 is about six hours total — and it is the six hours that
+> decides whether October's teaching is still there in November.
+
+### The Sunday sweep — 45 minutes
+
+Added to the Sunday re-plan, every week from 4 October:
+
+| Sunday | Sweep |
+|---|---|
+| **4 Oct** | EFB Topics 1–2: HPR/HPY, AM vs GM, Sharpe, margin calls both ways, covariance, two-asset variance |
+| **11 Oct** | EFB Topic 2 again + AYB T1 regulation, the four ratios, TVM · *EFB Topics 1–2 second sweep* |
+| **18 Oct** | AYB tax ladder, franking, CGT netting · EFB CML/CAPM/SML, beta two ways |
+| **25 Oct** | **Everything from Phase 1**, driven by the checklists — this is the audit day |
+| **1 Nov** | Rolls into Phase 3, which is sweeping by design |
+
+**With the ladder in place, the real gaps become:** EFB Topic 1 — 28 Sep
+learned, touched 29 Sep, 4 Oct, 11 Oct, 25 Oct, 31 Oct, 3 Nov. Seven
+contacts instead of two, for fifteen minutes a day.
 
 ---
 
@@ -228,7 +317,11 @@ recently-learned content decays fastest.
 
 ## The Weekly Re-Plan
 
-Twenty minutes, Sunday evening. Four questions:
+**The 45-minute Sunday sweep, then twenty minutes of planning.** Do the
+sweep first — it answers question 3 for you, honestly, instead of from
+memory of how the week felt.
+
+Four questions:
 
 1. **Did every learning block happen?** In Phase 1 this is the only
    metric that matters. An assessment that ate three learning blocks has
@@ -236,8 +329,10 @@ Twenty minutes, Sunday evening. Four questions:
 2. **What new material landed?** Into the notes, and **add its rows to
    the checklist**. Matters most for EFB335 (Topics 5+), AYB250 (Week 10
    social security), USB244 (Weeks 8–13), USB245 (Week 10 sensitivity).
-3. **What did the closed-book output show?** If you could not produce
-   something, it goes back into next week at a *specific* time.
+3. **What did the sweep show?** Every row you could not produce goes
+   into next week's daily warm-ups at a *specific* time — not "revisit
+   super", but "Tuesday's 10 minutes: the three conditions-of-release
+   tests".
 4. **Do the phase boundaries still hold?** The three that matter: **7
    October** (two assessments gone), **21 October** (all assessments
    gone, EFB335 Topics 1–4 and AYB250 Topics 1–5 held), **31 October**
@@ -255,6 +350,7 @@ Twenty minutes, Sunday evening. Four questions:
 | Never cut | Why |
 |---|---|
 | **A Phase 1 learning block** | It is the only time EFB335 and AYB250 get taught at all |
+| **The 15-minute daily warm-up** | Cheapest retention in the plan by a wide margin. Cut the *new* material before you cut the retrieval |
 | **AYB250's Topics 6–9 block** | Four dense topics, 60% paper, no assessment left to prop it up |
 | **Any closed-book practice set** | The only activity that reliably predicts exam performance |
 | **The day before each exam** | See [note 03](#/REVISION/03-the-exam-week) |
