@@ -86,14 +86,14 @@ current notes as the whole exam.
 | **USB244** | Weeks 1–7 (Topics 1–6, [Tutorials 1–4](#/USB244/07-tutorial-1-information-memorandum)) | Weeks 8–13 |
 | **USB245** | Weeks 1–9 (Topics 1–9, [Tutorials 1–7](#/USB245/09-tutorial-1-financial-maths-and-your-first-dcf)) | **Week 10 sensitivity analysis**, Weeks 11–12 studio, Week 13 exam prep |
 | **AYB250** | Weeks 1–9 (Topics 1–9, [Tutorials 1–8](#/AYB250/14-tutorial-1-solutions)) | **Week 10 social security**, then plan construction |
-| **EFB335** | Topics 1–4, [Tutorials 1–4](#/EFB335/06-tutorial-1-solutions) | **Topics 5+** — market efficiency, anomalies, bonds, derivatives, performance evaluation |
+| **EFB335** | Topics 1–4, [Tutorials 1–4](#/EFB335/06-tutorial-1-solutions) | **Topics 5–10 — released 26 Sep, not yet written up**: market efficiency, equity portfolio management, bond portfolio management, derivatives, hedge funds, performance evaluation |
 
-> **EFB335 is the biggest unknown and its exam is last.** Four topics
-> are covered; the unit description promises market efficiency, bonds,
-> derivatives and performance evaluation as well. That is potentially
-> more material still to come than is currently written. Its exam being
-> on the Friday is fortunate — but do not read "only 17 notes" as "small
-> unit".
+> **EFB335 is ten topics, not four — and they are all out.** The decks
+> and Tutorials 5–10 landed on 26 September; the [official exam formula
+> sheet](#/EFB335/17-official-exam-formula-sheet) (29 September) takes
+> most of its lines from Topics 6, 8 and 10. The site covers Topics 1–4
+> only, and the schedule gives Topics 5–10 a single block. **That is the
+> biggest gap in this plan** and it is the next thing being fixed.
 
 > **A gap in these notes is not a gap in the exam.** Every unit page
 > says this and it is worth repeating here. Chase new decks into the

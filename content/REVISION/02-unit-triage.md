@@ -208,17 +208,25 @@ pack exposes a gap.
 > do it" diverge furthest — a portfolio variance derivation reads as
 > obvious and then will not come out under time pressure. Work them.
 
-### Still to come — the big unknown
+### Topics 5–10 — released 26 September, not yet on the site
 
-Topics 1–4 exist. The unit description also promises **market
-efficiency, bonds, derivatives and performance evaluation**, and A2's
-brief references "Topic 6 anomalies". That is potentially **as much
-material again** as is currently written.
+Not an unknown any more. Six more topics are out, with Tutorials 5–10,
+and the [official exam formula sheet](#/EFB335/17-official-exam-formula-sheet)
+takes more of its lines from Topics 6, 8 and 10 than from Topics 1–4.
 
-> **Check on Sunday 25 October what EFB335 material actually exists, and
-> re-plan from there.** This is the one genuine risk to the whole
-> schedule. If four more topics have landed, EFB335 needs a second slot
-> in Phase 2 and USB245's allocation is where it comes from.
+| Topic | Title | Formulas on the exam sheet | Tutorial |
+|---|---|---|---|
+| **5** | Market efficiency — weak, semi-strong and strong form, and how each is tested | None — conceptual | 5 (questions + solutions) |
+| **6** | Equity portfolio management — passive vs active, index construction, tracking error, fundamental/technical/factor strategies, style analysis, asset allocation, **tax efficiency** | **PT, TCR** | 6 (questions + solutions) |
+| **7** | Bond portfolio management — passive and active strategies, **duration, convexity**, term structure, matched funding and immunisation | **None** — memorise | 7 (questions + solutions) |
+| **8** | Derivatives — futures and option payoffs, hedging with futures and puts, collars, straddles, strangles, strips and straps, range forwards | **Call/put payoffs** | 8 (questions only) |
+| **9** | Hedge funds and alternatives — private equity, hedge fund strategies, performance | None — conceptual | 9 (questions only) |
+| **10** | Performance evaluation — Sharpe, Treynor, Jensen, information ratio, Sortino, tracking measures, fund returns, **attribution** | **Most of the sheet** | 10 (questions + workbook) |
+
+> **This is now the biggest risk in the whole plan.** EFB335 is ten
+> topics learned from zero, and the plan currently gives the last six a
+> single block. Writing them up and re-cutting the schedule is the next
+> job.
 
 ---
 

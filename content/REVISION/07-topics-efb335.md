@@ -159,18 +159,29 @@ Full list: [note 11](#/EFB335/11-formula-sheet).
 
 ---
 
-## Still To Be Taught — the plan's biggest single risk
+## Topics 5–10 — Released, Not Yet Written Up
 
-Topics 1–4 exist. The unit description also promises **market
-efficiency, anomalies, bonds, derivatives and performance evaluation**,
-and A2's brief references "Topic 6 anomalies". That is potentially **as
-much material again** as is currently written.
+**This section used to call Topics 5+ "the big unknown". It is not
+unknown.** All six decks and Tutorials 5–10 have been in the EFB335
+folder since **26 September**, and the [official exam formula
+sheet](#/EFB335/17-official-exam-formula-sheet) (released 29 September)
+draws half its lines from them.
 
-> **Audit this on Sunday 25 October and re-plan from there.** If four
-> more topics have landed, EFB335 needs a second slot in Phase 2 and
-> USB245's allocation is where it comes from. Leaving that audit until
-> November is how a 40% paper goes wrong.
+| Topic | Title | Formulas on the exam sheet | Tutorial |
+|---|---|---|---|
+| **5** | Market efficiency — weak, semi-strong and strong form, and how each is tested | None — conceptual | 5 (questions + solutions) |
+| **6** | Equity portfolio management — passive vs active, index construction, tracking error, fundamental/technical/factor strategies, style analysis, asset allocation, **tax efficiency** | **PT, TCR** | 6 (questions + solutions) |
+| **7** | Bond portfolio management — passive and active strategies, **duration, convexity**, term structure, matched funding and immunisation | **None** — memorise | 7 (questions + solutions) |
+| **8** | Derivatives — futures and option payoffs, hedging with futures and puts, collars, straddles, strangles, strips and straps, range forwards | **Call/put payoffs** | 8 (questions only) |
+| **9** | Hedge funds and alternatives — private equity, hedge fund strategies, performance | None — conceptual | 9 (questions only) |
+| **10** | Performance evaluation — Sharpe, Treynor, Jensen, information ratio, Sortino, tracking measures, fund returns, **attribution** | **Most of the sheet** | 10 (questions + workbook) |
 
-When new topics land, add them here in the same shape — sub-topic, "own
-it", formulas — and the Thursday 12 November plan in [note
-03](#/REVISION/03-the-exam-week) gets an explicit block for them.
+> **EFB335 is a ten-topic exam, and you are learning all ten from zero.**
+> The revision plan was built around four. Topics 5–10 need notes on this
+> site, tutorial solutions, and their own learning blocks — the single
+> "EFB Topic 5+" block on 28 October is nowhere near enough. The plan is
+> being re-cut; until it is, treat this table as the list of what is
+> missing.
+
+Once the notes exist, each topic gets the same shape as Topics 1–4
+above — sub-topic, "own it", formulas.

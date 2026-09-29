@@ -1,5 +1,13 @@
 # The Daily Plan — 28 September to 8 November
 
+> **⚠ EFB335 correction, 29 September.** EFB335 Topics 5–10 were
+> released on 26 September and this plan gives them only one block (Wed
+> 28 Oct). They are being written up and the EFB335 blocks re-cut — see
+> the [official exam formula sheet](#/EFB335/17-official-exam-formula-sheet)
+> for what they cover. **Until then, keep following the plan as written**:
+> Topics 1–4 come first regardless, because everything after them builds
+> on them.
+
 Every day, two lists.
 
 **HIGH PRIORITY — 2 hours. This happens no matter what.** If the day

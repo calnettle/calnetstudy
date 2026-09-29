@@ -28,6 +28,14 @@
 | 14 | **Revision Pack 2 — Topic 2 + Tutorial 2** | From-scratch teaching of covariance, correlation, portfolio risk, the efficient frontier and utility; Tutorial 2 fully worked; self-test; cheat sheet |
 | 15 | **Revision Pack 3 — Topic 3 + Tutorial 3** | From-scratch teaching of the CML, beta, CAPM/SML and the critiques; Tutorial 3 fully worked; self-test; cheat sheet |
 | 16 | **Revision Pack 4 — Topic 4 + Tutorial 4** | From-scratch teaching of APT, the arbitrage conditions, factor models and the Fama–French regressions; Tutorial 4 fully worked; self-test; cheat sheet |
+| 17 | **[The Official Exam Formula Sheet](#/EFB335/17-official-exam-formula-sheet)** | The one-page sheet you get in the final exam, line by line and mapped to topics · the garbled fund-return formula reconstructed · **what is NOT on it and must be memorised** (the CAPM among them) · the attribution-formula difference from the textbook |
+
+> **Topics 5–10 are released but not yet written up here.** Market
+> efficiency, equity portfolio management, bond portfolio management,
+> derivatives, hedge funds and performance evaluation — decks and
+> Tutorials 5–10 have been in the source folder since 26 September. The
+> exam covers all ten. [Doc 17](#/EFB335/17-official-exam-formula-sheet)
+> lists exactly what each one contributes to the formula sheet.
 
 **Start with the revision packs (13–16)** if you're learning the material for the first time — they teach each topic from scratch and end with a cheat sheet. Docs 01–11 are the reference notes.
 
