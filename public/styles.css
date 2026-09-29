@@ -472,3 +472,39 @@ a.mynote-title:active { color: var(--purple-dark); }
   .prose details { border: 0; }
   .prose details > *:not(summary) { display: block !important; }
 }
+
+/* ------------------------------------------------------------ notation key */
+
+/* the in-note box: same shape as practice answers, tinted so it reads as reference */
+.prose details.notation { background: var(--purple-soft); border-color: #e3d2f7; }
+.prose details.notation[open] { background: var(--bg); }
+.prose details.notation td:first-child { white-space: nowrap; }
+
+/* floating Σ button + panel, available anywhere in a note */
+.np-fab {
+  position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom));
+  z-index: 40; width: 46px; height: 46px; border: 0; border-radius: 50%;
+  background: var(--purple); color: #fff; font-size: 1.35rem; font-weight: 700;
+  box-shadow: 0 4px 14px rgba(116, 41, 184, .35); cursor: pointer;
+}
+.np-fab:active { transform: scale(.94); }
+.np-panel {
+  position: fixed; right: 12px; bottom: calc(72px + env(safe-area-inset-bottom));
+  z-index: 41; width: min(440px, calc(100vw - 24px)); max-height: 62vh;
+  display: flex; flex-direction: column;
+  background: var(--bg); border: 1px solid var(--line); border-radius: 14px;
+  box-shadow: 0 12px 36px rgba(20, 10, 40, .22);
+}
+.np-panel[hidden] { display: none; }
+.np-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 14px; border-bottom: 1px solid var(--line); color: var(--purple-dark);
+}
+.np-close { border: 0; background: none; font-size: 1.4rem; line-height: 1;
+            color: var(--muted); cursor: pointer; padding: 0 4px; }
+.np-body { overflow: auto; padding: 6px 14px 10px; font-size: .88rem; }
+.np-body table { width: 100%; border-collapse: collapse; }
+.np-body th, .np-body td { text-align: left; vertical-align: top;
+                           padding: 6px 6px 6px 0; border-bottom: 1px solid var(--line); }
+.np-body td:first-child { white-space: nowrap; padding-right: 10px; }
+.np-body p { margin: 10px 0 2px; }

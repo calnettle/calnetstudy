@@ -542,6 +542,7 @@
       });
 
       decorateHeadings(key);
+      mountNotationKey();
       requestAnimationFrame(function () { scrollToAnchor(anchor); });
     }
 
@@ -554,6 +555,46 @@
         els.main.innerHTML = '<div class="empty"><b>Could not load this note.</b><br>' +
                              esc(err.message) + '</div>';
       });
+  }
+
+  // A floating "Σ" button that opens this note's notation key from anywhere
+  // on the page. Built from the note's own <details class="notation"> box,
+  // and mounted inside els.main so navigating away removes it.
+  function mountNotationKey() {
+    var src = els.main.querySelector('.prose details.notation');
+    var table = src && src.querySelector('table');
+    if (!table) return;
+
+    var panel = document.createElement('div');
+    panel.className = 'np-panel';
+    panel.hidden = true;
+    panel.innerHTML =
+      '<div class="np-head"><b>Notation key</b>' +
+      '<button type="button" class="np-close" aria-label="Close">×</button></div>' +
+      '<div class="np-body"></div>';
+    var body = panel.querySelector('.np-body');
+    body.appendChild(table.cloneNode(true));
+    var full = src.querySelector('a[href^="#/"]');
+    if (full) {
+      var p = document.createElement('p');
+      p.appendChild(full.cloneNode(true));
+      body.appendChild(p);
+    }
+
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'np-fab';
+    btn.setAttribute('aria-label', 'Notation key');
+    btn.textContent = 'Σ';
+
+    btn.addEventListener('click', function () { panel.hidden = !panel.hidden; });
+    panel.querySelector('.np-close').addEventListener('click', function () { panel.hidden = true; });
+    body.addEventListener('click', function (e) {
+      if (e.target.closest('a')) panel.hidden = true;
+    });
+
+    els.main.appendChild(panel);
+    els.main.appendChild(btn);
   }
 
   // ------------------------------------------------- my notes: doc panel
