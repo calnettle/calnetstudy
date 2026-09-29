@@ -2,7 +2,9 @@
 
 > **⚠ EFB335 correction, 29 September.** EFB335 Topics 5–10 were
 > released on 26 September and this plan gives them only one block (Wed
-> 28 Oct). They are being written up and the EFB335 blocks re-cut — see
+> 28 Oct). **The [sample final exam](#/EFB335/18-sample-final-exam) takes
+> 36 of its 40 marks from Topics 5–10**, and 28 of 40 marks are written
+> answers. They are being written up and the EFB335 blocks re-cut — see
 > the [official exam formula sheet](#/EFB335/17-official-exam-formula-sheet)
 > for what they cover. **Until then, keep following the plan as written**:
 > Topics 1–4 come first regardless, because everything after them builds

@@ -29,6 +29,7 @@
 | 15 | **Revision Pack 3 — Topic 3 + Tutorial 3** | From-scratch teaching of the CML, beta, CAPM/SML and the critiques; Tutorial 3 fully worked; self-test; cheat sheet |
 | 16 | **Revision Pack 4 — Topic 4 + Tutorial 4** | From-scratch teaching of APT, the arbitrage conditions, factor models and the Fama–French regressions; Tutorial 4 fully worked; self-test; cheat sheet |
 | 17 | **[The Official Exam Formula Sheet](#/EFB335/17-official-exam-formula-sheet)** | The one-page sheet you get in the final exam, line by line and mapped to topics · the garbled fund-return formula reconstructed · **what is NOT on it and must be memorised** (the CAPM among them) · the attribution-formula difference from the textbook |
+| 18 | **[The Sample Final Exam](#/EFB335/18-sample-final-exam)** | The unit's own sample paper, all ten questions worked · **36 of 40 marks come from Topics 5–10** · 28 of 40 marks are written answers, not calculations |
 
 > **Topics 5–10 are released but not yet written up here.** Market
 > efficiency, equity portfolio management, bond portfolio management,

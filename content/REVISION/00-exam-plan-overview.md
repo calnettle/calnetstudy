@@ -91,7 +91,9 @@ current notes as the whole exam.
 > **EFB335 is ten topics, not four — and they are all out.** The decks
 > and Tutorials 5–10 landed on 26 September; the [official exam formula
 > sheet](#/EFB335/17-official-exam-formula-sheet) (29 September) takes
-> most of its lines from Topics 6, 8 and 10. The site covers Topics 1–4
+> most of its lines from Topics 6, 8 and 10, and the [sample final
+> exam](#/EFB335/18-sample-final-exam) takes **36 of its 40 marks** from
+> Topics 5–10. The site covers Topics 1–4
 > only, and the schedule gives Topics 5–10 a single block. **That is the
 > biggest gap in this plan** and it is the next thing being fixed.
 

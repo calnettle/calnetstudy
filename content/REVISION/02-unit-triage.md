@@ -223,6 +223,11 @@ takes more of its lines from Topics 6, 8 and 10 than from Topics 1–4.
 | **9** | Hedge funds and alternatives — private equity, hedge fund strategies, performance | None — conceptual | 9 (questions only) |
 | **10** | Performance evaluation — Sharpe, Treynor, Jensen, information ratio, Sortino, tracking measures, fund returns, **attribution** | **Most of the sheet** | 10 (questions + workbook) |
 
+> **The [sample final exam](#/EFB335/18-sample-final-exam) makes the
+> weighting concrete: 36 of its 40 marks come from Topics 5–10**, and
+> only 4 from Topics 1–4 (one CAPM question). 28 of the 40 marks are
+> written answers — describe, discuss, explain.
+
 > **This is now the biggest risk in the whole plan.** EFB335 is ten
 > topics learned from zero, and the plan currently gives the last six a
 > single block. Writing them up and re-cutting the schedule is the next
