@@ -1,5 +1,25 @@
 # Tutorial 4 Solutions — Investment Fundamentals
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return |
+| `R_f` | Risk-free rate |
+| `R_m` | Return on the market |
+| `R_p` | Return on the portfolio |
+| `σ (sigma)` | Standard deviation — how much returns swing; the usual measure of risk |
+| `β (beta)` | Beta — sensitivity to the market; systematic risk |
+| `CAPM` | Capital asset pricing model — E(R) = R_f + β(R_m − R_f) |
+| `EPS` | Earnings per share |
+| `P/E` | Price-to-earnings ratio — share price ÷ EPS |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Worked solutions for `AYB250 Tutorial Questions Topic 4.docx`, checked
 against the unit's answer slides (`AYB250 Topic 4 Tutorial Slides.pptx`).
 Topic notes: 06 (asset classes and investments) and 07 (risk, return and

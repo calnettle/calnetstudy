@@ -1,5 +1,22 @@
 # Topic 1 — Financial Planning and Regulation
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `SMSF` | Self-managed super fund |
+| `ASIC` | Australian Securities and Investments Commission |
+| `APRA` | Australian Prudential Regulation Authority |
+| `ATO` | Australian Taxation Office |
+| `FSG` | Financial services guide — who the adviser is and how they are paid |
+| `PDS` | Product disclosure statement — the facts about a financial product |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 1. Source: `AYB250 Week 1.pptx` / `.pdf`, 41 slides.
 
 This is the vocabulary week. Almost nothing here is arithmetic, and that is

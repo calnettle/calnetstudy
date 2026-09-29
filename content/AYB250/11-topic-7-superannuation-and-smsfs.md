@@ -1,5 +1,23 @@
 # Topic 7 — Superannuation and SMSFs
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CGT` | Capital gains tax |
+| `SG` | Superannuation guarantee — the compulsory employer contribution |
+| `NCC` | Non-concessional contribution — after-tax money put into super |
+| `SMSF` | Self-managed super fund |
+| `APRA` | Australian Prudential Regulation Authority |
+| `ATO` | Australian Taxation Office |
+| `PDS` | Product disclosure statement — the facts about a financial product |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 7. Source: `AYB250 Week 7.pptx`, slides 1–52. Reading: Chapter 8.
 Tutorial solutions: note 19.
 

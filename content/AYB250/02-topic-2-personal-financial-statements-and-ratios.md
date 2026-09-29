@@ -1,5 +1,19 @@
 # Topic 2 — Personal Financial Statements and Ratios
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `HECS-HELP` | The student loan, repaid through the tax system once income passes a threshold |
+| `SG` | Superannuation guarantee — the compulsory employer contribution |
+| `ASIC` | Australian Securities and Investments Commission |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 2, first half. Source: `AYB250 Week 2.pptx`, slides 4–22.
 
 Every number in the worked examples below was recomputed before it was

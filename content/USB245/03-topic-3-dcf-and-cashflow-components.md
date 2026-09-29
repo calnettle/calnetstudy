@@ -1,5 +1,30 @@
 # TOPIC 3 — DCF and Cashflow Components
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `PP` | Purchase price |
+| `CPI` | Consumer price index — the inflation measure used for rent reviews |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `DF` | Discount factor — 1 ÷ (1 + r)ᵗ, what $1 at time t is worth today |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `g` | Growth rate (e.g. of rent) |
+| `t` | The period number (year 1, 2, 3 …) |
+| `n` | Number of periods — the holding period; n+1 is the year after it (used for the terminal value) |
+| `r_f` | Risk-free rate |
+| `T` | Acquisition (transaction) cost rate, as a % of price |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 3 is where the unit stops describing property and starts modelling it.
 Weeks 1 and 2 gave you the seven steps as a list; this week fills each step
 with the actual line items, and works one complete residential DCF from a

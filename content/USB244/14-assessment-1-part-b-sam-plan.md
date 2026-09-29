@@ -1,5 +1,25 @@
 # Assessment 1 Part B — Strategic Asset Management Plan
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `MAT` | Moving annual turnover — a tenant's sales over the last 12 months |
+| `GOCR` | Gross occupancy cost ratio — a tenant's total occupancy cost ÷ its MAT |
+| `CPI` | Consumer price index — the inflation measure used in rent reviews |
+| `Σ` | "Add them all up" — a sum across every tenant |
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+| `EOI` | Expressions of interest — the campaign date the WALE is measured from |
+| `PCA` | Property Council of Australia — sets the measurement, grading and classification standards |
+| `sqm, m²` | Square metres |
+| `NABERS` | National Australian Built Environment Rating System — rates measured performance |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 **30% · Group of 4 · Due 7 Oct 2026, 11:59pm · 5,000 words max**
 
 Part A looked backwards at one building. Part B looks forward at a

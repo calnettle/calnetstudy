@@ -1,5 +1,19 @@
 # TOPIC 8 — Property Taxation
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CPI` | Consumer price index — the inflation measure used for rent reviews |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `CGT` | Capital gains tax |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 The last layer. Weeks 2–6 built a **before-tax, before-finance** cashflow;
 Week 7 added finance; Weeks 8 and 9 add tax. The lecture's own grid says it
 best:

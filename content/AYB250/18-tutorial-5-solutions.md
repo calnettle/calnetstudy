@@ -1,5 +1,22 @@
 # Tutorial 5 Solutions — Property and Leveraged Strategies
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `PV` | Present value — what a future amount is worth today |
+| `i` | Effective interest rate per period |
+| `n` | Number of periods |
+| `LVR` | Loan-to-value ratio — loan ÷ value of the asset securing it |
+| `CGT` | Capital gains tax |
+| `GST` | Goods and services tax |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Worked solutions for `AYB250 Tutorial Questions Topic 5 updated.docx`.
 **No answer slides were supplied for this tutorial** — every solution is
 worked from scratch and verified in Python. Topic notes: 08 (property

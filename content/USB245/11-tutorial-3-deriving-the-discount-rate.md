@@ -1,5 +1,28 @@
 # TUTORIAL 3 — Deriving the Discount Rate, and a Multi-Tenanted Commercial DCF
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `CPI` | Consumer price index — the inflation measure used for rent reviews |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `t` | The period number (year 1, 2, 3 …) |
+| `n` | Number of periods — the holding period; n+1 is the year after it (used for the terminal value) |
+| `WACC` | Weighted average cost of capital — the blended cost of debt and equity |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+| `rE` | Return on equity (the investor's geared return) |
+| `rD` | Cost of debt — the interest rate on the loan |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 The Week 4 lab has three parts: two short discount-rate exercises that
 apply Topic 4's methods directly, a concept check, and — the bulk of the
 lab — building a five-tenancy commercial DCF from scratch, extending the

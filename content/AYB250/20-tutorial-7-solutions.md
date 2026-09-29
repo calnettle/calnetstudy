@@ -1,5 +1,21 @@
 # Tutorial 7 Solutions — Superannuation and SMSFs
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CGT` | Capital gains tax |
+| `SG` | Superannuation guarantee — the compulsory employer contribution |
+| `SMSF` | Self-managed super fund |
+| `APRA` | Australian Prudential Regulation Authority |
+| `ATO` | Australian Taxation Office |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Worked solutions for `AYB250 Tutorial Questions Topic 7.docx`, checked
 against the unit's answer slides (`AYB250 Topic 7 Tutorial Slides.pptx`).
 Topic note: 11.

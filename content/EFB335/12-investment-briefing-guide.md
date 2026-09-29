@@ -1,5 +1,34 @@
 # Assessment 1 — Investment Briefing Prep Guide
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Rᵢ, R_p` | A return — Rᵢ on asset i, R_p on the portfolio. The subscript says whose return it is |
+| `RFR, R_f` | Risk-free rate — the return on a riskless asset such as a government bill |
+| `R_M, R_m` | Market return — the return on the whole market (e.g. the ASX 200 as a proxy) |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `σ²` | Variance — standard deviation squared. Same information as σ in squared units; σ = √σ² |
+| `σ_p, σ_port` | Standard deviation of the whole portfolio |
+| `σ_M` | Standard deviation of the market |
+| `P₀, P₁` | Price — P₀ at the start of the period, P₁ at the end |
+| `r(i,j), ρ` | Correlation — covariance rescaled to −1 … +1. +1 moves perfectly together, −1 perfectly opposite, 0 unrelated |
+| `β (beta)` | Beta — how sensitive an asset is to market moves; its systematic risk. β = 1 moves with the market |
+| `CML` | Capital market line — the best mixes of the risk-free asset and the market portfolio, priced on total risk σ |
+| `SML` | Security market line — the CAPM as a line: required return against beta |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+| `SMB` | Small Minus Big — the Fama–French size factor (small firms' return minus big firms') |
+| `HML` | High Minus Low — the Fama–French value factor (high book-to-market minus low) |
+| `X` | Strike (exercise) price of the option |
+| `SI (Sharpe)` | Sharpe index — (R_p − R_f) ÷ σ_p: excess return per unit of total risk |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 **Wednesday 2 September 2026 · opens 9:00am, files in by 11:00am Brisbane time · 20% · Topics 1–4 · Firefox only**
 
 This guide is reverse-engineered from the sample briefing the unit supplied (`EFB335 Sample Investment Briefing` — Instructions, Data, and the Solutions workbook and note). Every number in the sample solution was recomputed independently in Python; two discrepancies are flagged in §6.

@@ -1,5 +1,21 @@
 # TOPIC 3 — Retail Property and Asset Management
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `GLAR` | Gross lettable area retail — the PCA measure for shops |
+| `GLA` | Gross lettable area — whole-building measure (industrial, retail centres) |
+| `NLA` | Net lettable area — the PCA measure for offices |
+| `PCA` | Property Council of Australia — sets the measurement, grading and classification standards |
+| `sqm, m²` | Square metres |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 4. The retail/shopping-centre equivalent of Topic 2: history, the PCA
 classification ladder, the PCA measurement rules (GLAR this time, not
 NLA/GLA), and the design and development issues specific to a centre. The

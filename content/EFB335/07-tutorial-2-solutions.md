@@ -1,5 +1,27 @@
 # TUTORIAL 2 — Full Worked Solutions
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Rᵢ, R_p` | A return — Rᵢ on asset i, R_p on the portfolio. The subscript says whose return it is |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `σ²` | Variance — standard deviation squared. Same information as σ in squared units; σ = √σ² |
+| `σ₁, σᵢ` | Standard deviation of one asset (asset 1, asset i …) |
+| `σ_p, σ_port` | Standard deviation of the whole portfolio |
+| `n` | Number of items — observations, periods or assets, depending on the formula |
+| `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
+| `w, wᵢ` | Weight — the fraction of the portfolio held in asset i. Weights add up to 1 |
+| `Cov(i,j)` | Covariance — do two assets move together (+) or in opposite directions (−)? Cov(i,i) is just σᵢ² |
+| `r(i,j), ρ` | Correlation — covariance rescaled to −1 … +1. +1 moves perfectly together, −1 perfectly opposite, 0 unrelated |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 *(Reilly & Brown, Chapter 6 — portfolio return, risk, covariance and correlation)*
 
 > ⚠️ **Read this before you compare answers.** The file supplied as `Tutorial 2 SV-1.xlsx` is **not a solutions file** — it is an empty template. Every sheet contains column headings and blank result cells; the only formulas present are placeholders (`=sumproduct()` and `=mmult(transpose(),)` with no arguments). There are no numbers in it to check against. Every figure below was therefore computed from scratch and independently re-verified in Python. Two defects in the template itself are flagged at the end.

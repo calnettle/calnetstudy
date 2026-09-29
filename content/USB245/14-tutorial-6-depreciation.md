@@ -1,5 +1,23 @@
 # Tutorial 6 — Depreciation
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `IPMT, INTₜ` | Interest part of a loan payment (the tax-deductible part) |
+| `PPMT, AMORTₜ` | Principal part of a loan payment (reduces the balance; not deductible) |
+| `CGT` | Capital gains tax |
+| `WDV` | Written-down value — cost less depreciation claimed so far |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 The **Week 8 lab**. Source: `Week 08 Tutorial Depreciation.xlsx`, four
 sheets. Short, mechanical, and worth easy exam marks — depreciation
 questions are the most formulaic thing in the unit, provided you pick the

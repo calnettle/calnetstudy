@@ -1,5 +1,24 @@
 # TUTORIAL 3 — WALE Calculation
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CV` | Capital value — what the property is worth |
+| `NI` | Net income — gross income minus outgoings |
+| `CR` | Cap rate — the capitalisation rate, a risk weighting. CV = NI ÷ CR |
+| `Σ` | "Add them all up" — a sum across every tenant |
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+| `EOI` | Expressions of interest — the campaign date the WALE is measured from |
+| `NLA` | Net lettable area — the PCA measure for offices |
+| `PCA` | Property Council of Australia — sets the measurement, grading and classification standards |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 5 tutorial. The shortest deck of the unit so far, because the heavy
 lifting already happened: the in-class activity is *"using the tenancy
 schedule provided from week 3, populate the tenancy details and calculate

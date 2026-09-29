@@ -1,5 +1,22 @@
 # Topic 5 — Property Investment
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `PV` | Present value — what a future amount is worth today |
+| `i` | Effective interest rate per period |
+| `n` | Number of periods |
+| `NPV` | Net present value — PV of all inflows minus PV of all outflows. Positive = worth doing |
+| `CGT` | Capital gains tax |
+| `ATO` | Australian Taxation Office |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 5, first half. Source: `AYB250 Week 5.pptx`, slides 3–30. Reading:
 Chapters 5 and 6. The leveraged-investing half of the same deck is note 09.
 

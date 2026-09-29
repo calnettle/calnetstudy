@@ -1,5 +1,37 @@
 # TOPIC 4 — Deriving the Discount Rate
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `CV` | Capital value — what the property is worth |
+| `V` | Value of the property |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `CF₀, CFₜ` | Cash flow — at time 0 (the purchase) and at period t |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `g` | Growth rate (e.g. of rent) |
+| `t` | The period number (year 1, 2, 3 …) |
+| `n` | Number of periods — the holding period; n+1 is the year after it (used for the terminal value) |
+| `r_f` | Risk-free rate |
+| `rV` | Real (pure time-value) return |
+| `π (pi)` | Inflation rate |
+| `rP` | Risk premium in the discount-rate build-up · in the leverage formula, the property's own (unlevered) return |
+| `WACC` | Weighted average cost of capital — the blended cost of debt and equity |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+| `E, Eq` | Equity — the investor's own money in the deal |
+| `rE` | Return on equity (the investor's geared return) |
+| `rD` | Cost of debt — the interest rate on the loan |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Every DCF so far has been handed a discount rate — 10% for the $930,000
 house, 8% for the Week 4 commercial workbook. This week supplies the part
 that was always missing: where that number actually comes from, and why

@@ -1,5 +1,23 @@
 # Topic 4 — Asset Classes and Investments
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `FV` | Future value — what an amount grows to |
+| `PMT` | Payment — the regular amount paid or received each period (an annuity) |
+| `i` | Effective interest rate per period |
+| `n` | Number of periods |
+| `EPS` | Earnings per share |
+| `P/E` | Price-to-earnings ratio — share price ÷ EPS |
+| `CGT` | Capital gains tax |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 4, first half. Source: `AYB250 Week 4.pptx` — the asset-class and
 valuation slides (roughly slides 3–26 and 43–58). Reading: Chapters 4
 and 5. The risk/portfolio-theory half of the same deck is note 07.

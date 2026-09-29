@@ -1,5 +1,20 @@
 # Topic 3 — Investment Tax and Planning
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CGT` | Capital gains tax |
+| `FBT` | Fringe benefits tax |
+| `GST` | Goods and services tax |
+| `ATO` | Australian Taxation Office |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 3, second half. Source: `AYB250 Week 3.pptx`, slides 34–77. Reading:
 Chapter 3.
 

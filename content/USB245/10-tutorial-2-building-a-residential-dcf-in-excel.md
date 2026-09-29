@@ -1,5 +1,26 @@
 # TUTORIAL 2 — Building a Residential DCF in Excel
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `CPI` | Consumer price index — the inflation measure used for rent reviews |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `DF` | Discount factor — 1 ÷ (1 + r)ᵗ, what $1 at time t is worth today |
+| `t` | The period number (year 1, 2, 3 …) |
+| `n` | Number of periods — the holding period; n+1 is the year after it (used for the terminal value) |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 The Week 3 lab has three items:
 
 1. **See what a real DCF looks like** — open `DCF_Sample.xls`.

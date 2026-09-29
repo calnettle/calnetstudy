@@ -1,5 +1,19 @@
 # Individual Project — Part A
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `MLS` | Medicare levy surcharge — extra levy on higher earners without private hospital cover |
+| `HECS-HELP` | The student loan, repaid through the tax system once income passes a threshold |
+| `ATO` | Australian Taxation Office |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 20% of the unit. Due **Friday 21 August 2026** (Week 5), online via Canvas.
 Source: `AYB250 Part A Individual Project.docx` and the blank template
 `AYB250_PartA_StudentNumber_Surname.xlsx`.

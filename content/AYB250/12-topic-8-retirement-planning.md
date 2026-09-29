@@ -1,5 +1,26 @@
 # Topic 8 — Retirement Planning
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `PV` | Present value — what a future amount is worth today |
+| `PMT` | Payment — the regular amount paid or received each period (an annuity) |
+| `n` | Number of periods |
+| `r` | Rate of return / interest per period (a real rate where the note says so) |
+| `CGT` | Capital gains tax |
+| `SG` | Superannuation guarantee — the compulsory employer contribution |
+| `NCC` | Non-concessional contribution — after-tax money put into super |
+| `TTR / TRIS` | Transition to retirement (income stream) — drawing a pension while still working |
+| `SMSF` | Self-managed super fund |
+| `ETP` | Employment termination payment |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 8. Source: `AYB250 Week 8.pptx`, slides 1–58. Reading: Chapter 9.
 Tutorial solutions: note 20.
 

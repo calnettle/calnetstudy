@@ -1,5 +1,26 @@
 # TUTORIAL 4 — NPV and IRR in Excel
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `PP` | Purchase price |
+| `CPI` | Consumer price index — the inflation measure used for rent reviews |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `CF₀, CFₜ` | Cash flow — at time 0 (the purchase) and at period t |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `g` | Growth rate (e.g. of rent) |
+| `t` | The period number (year 1, 2, 3 …) |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 The Week 5 lab puts Topic 5's two dynamic measures into the spreadsheet:
 first on the lecture's simple streams, then on the Week 3 residential model
 at three test prices, then two sensitivity tables, a six-monthly variant,

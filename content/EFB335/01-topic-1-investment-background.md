@@ -1,5 +1,40 @@
 # TOPIC 1 — The Investment Background
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Rᵢ, R_p` | A return — Rᵢ on asset i, R_p on the portfolio. The subscript says whose return it is |
+| `RFR, R_f` | Risk-free rate — the return on a riskless asset such as a government bill |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `σ²` | Variance — standard deviation squared. Same information as σ in squared units; σ = √σ² |
+| `σ_p, σ_port` | Standard deviation of the whole portfolio |
+| `CV` | Coefficient of variation — σ ÷ E(R), risk per unit of expected return. Lower is better |
+| `HPR` | Holding period return — ending value ÷ beginning value. 1.10 means +10% |
+| `HPY` | Holding period yield — HPR − 1, the return as a percentage |
+| `AM` | Arithmetic mean — the simple average of the period returns |
+| `GM` | Geometric mean — the compound average return per period. Always ≤ AM |
+| `P₀, P₁` | Price — P₀ at the start of the period, P₁ at the end |
+| `D₁` | Dividend received during the period |
+| `m` | Periods per year — 12 monthly, 52 weekly, 252 trading days |
+| `n` | Number of items — observations, periods or assets, depending on the formula |
+| `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
+| `Π` | "Multiply them all together" — a product over every period |
+| `w, wᵢ` | Weight — the fraction of the portfolio held in asset i. Weights add up to 1 |
+| `r(i,j), ρ` | Correlation — covariance rescaled to −1 … +1. +1 moves perfectly together, −1 perfectly opposite, 0 unrelated |
+| `IM` | Initial margin — the % of the purchase paid with your own money |
+| `MM` | Maintenance margin — the minimum equity % before the broker makes a margin call |
+| `N` | Number of shares bought, or sold short |
+| `P*` | Margin-call price — the share price that triggers a margin call |
+| `SI (Sharpe)` | Sharpe index — (R_p − R_f) ÷ σ_p: excess return per unit of total risk |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 ## 1.1 What Is an Investment?
 
 An investment is **a current commitment of dollars for a period of time in order to derive future payments** that compensate the investor for three things:

@@ -1,5 +1,20 @@
 # EFB335 — Unit Overview
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CML` | Capital market line — the best mixes of the risk-free asset and the market portfolio, priced on total risk σ |
+| `SML` | Security market line — the CAPM as a line: required return against beta |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+| `APT` | Arbitrage pricing theory — expected return explained by several risk factors, not just the market |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 **QUT · Semester 2, 2026 · Unit Coordinator: Yatra Forudi**
 **Textbook: Reilly & Brown, *Investment Analysis and Portfolio Management***
 

@@ -1,5 +1,37 @@
 # Topic Checklist — USB244 Property and Asset Management
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CV` | Capital value — what the property is worth |
+| `NI` | Net income — gross income minus outgoings |
+| `CR` | Cap rate — the capitalisation rate, a risk weighting. CV = NI ÷ CR |
+| `MAT` | Moving annual turnover — a tenant's sales over the last 12 months |
+| `GOCR` | Gross occupancy cost ratio — a tenant's total occupancy cost ÷ its MAT |
+| `CPI` | Consumer price index — the inflation measure used in rent reviews |
+| `NPV` | Net present value |
+| `Σ` | "Add them all up" — a sum across every tenant |
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+| `EOI` | Expressions of interest — the campaign date the WALE is measured from |
+| `GLAR` | Gross lettable area retail — the PCA measure for shops |
+| `GLA` | Gross lettable area — whole-building measure (industrial, retail centres) |
+| `NLA` | Net lettable area — the PCA measure for offices |
+| `PCA` | Property Council of Australia — sets the measurement, grading and classification standards |
+| `NABERS` | National Australian Built Environment Rating System — rates measured performance |
+| `BEEC` | Building energy efficiency certificate — mandatory disclosure |
+| `CBDS` | Commercial Building Disclosure scheme |
+| `GST` | Goods and services tax |
+| `CGT` | Capital gains tax |
+| `OPEX` | Operating expenditure — day-to-day running costs |
+| `CAPEX` | Capital expenditure — spending that improves or replaces the asset |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 **Exam Monday 9 November · 50% of the unit.**
 
 Every examinable topic currently on the site, in teaching order, with what

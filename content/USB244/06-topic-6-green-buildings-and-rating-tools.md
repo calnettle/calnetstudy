@@ -1,5 +1,24 @@
 # TOPIC 6 — Green Buildings, Rating Tools and Mandatory Disclosure
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CV` | Capital value — what the property is worth |
+| `NI` | Net income — gross income minus outgoings |
+| `CR` | Cap rate — the capitalisation rate, a risk weighting. CV = NI ÷ CR |
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+| `PCA` | Property Council of Australia — sets the measurement, grading and classification standards |
+| `sqm, m²` | Square metres |
+| `NABERS` | National Australian Built Environment Rating System — rates measured performance |
+| `BEEC` | Building energy efficiency certificate — mandatory disclosure |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 7 lecture. Topic 4 ended with green leases — the *contract* that binds
 an owner and a tenant to environmental targets. This week supplies the
 *targets*: what a green building is, why the industry cares (40% of energy,

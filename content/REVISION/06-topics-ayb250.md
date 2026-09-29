@@ -1,5 +1,42 @@
 # Topic Checklist — AYB250 Personal Financial Planning
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `i` | Effective interest rate per period |
+| `n` | Number of periods |
+| `NPV` | Net present value — PV of all inflows minus PV of all outflows. Positive = worth doing |
+| `IRR` | Internal rate of return — the rate that makes NPV = 0 |
+| `E(R)` | Expected return |
+| `R_f` | Risk-free rate |
+| `R_m` | Return on the market |
+| `β (beta)` | Beta — sensitivity to the market; systematic risk |
+| `CAPM` | Capital asset pricing model — E(R) = R_f + β(R_m − R_f) |
+| `P/E` | Price-to-earnings ratio — share price ÷ EPS |
+| `LVR` | Loan-to-value ratio — loan ÷ value of the asset securing it |
+| `CGT` | Capital gains tax |
+| `MLS` | Medicare levy surcharge — extra levy on higher earners without private hospital cover |
+| `LHC` | Lifetime health cover loading — higher premiums for joining private hospital cover late |
+| `HECS-HELP` | The student loan, repaid through the tax system once income passes a threshold |
+| `FBT` | Fringe benefits tax |
+| `GST` | Goods and services tax |
+| `TTR / TRIS` | Transition to retirement (income stream) — drawing a pension while still working |
+| `SMSF` | Self-managed super fund |
+| `ETP` | Employment termination payment |
+| `TPD` | Total and permanent disability (insurance) |
+| `APRA` | Australian Prudential Regulation Authority |
+| `ATO` | Australian Taxation Office |
+| `FSG` | Financial services guide — who the adviser is and how they are paid |
+| `SOA` | Statement of advice — the written advice given to a client |
+| `PDS` | Product disclosure statement — the facts about a financial product |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 **Exam Wednesday 11 November · 60% of the unit — the highest-stakes paper
 in the block**, and the only one with no assessment left to cushion it.
 Parts A and B are banked; this exam is the whole remaining mark.

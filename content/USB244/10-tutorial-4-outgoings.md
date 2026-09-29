@@ -1,5 +1,24 @@
 # Tutorial 4 — Commercial Property Outgoings
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CV` | Capital value — what the property is worth |
+| `NI` | Net income — gross income minus outgoings |
+| `CR` | Cap rate — the capitalisation rate, a risk weighting. CV = NI ÷ CR |
+| `NOI` | Net operating income |
+| `GLA` | Gross lettable area — whole-building measure (industrial, retail centres) |
+| `NLA` | Net lettable area — the PCA measure for offices |
+| `PCA` | Property Council of Australia — sets the measurement, grading and classification standards |
+| `sqm, m²` | Square metres |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 The Week 7 tutorial, and the one that finally puts numbers under the
 `CV = NI / CR` chain. Outgoings are the gap between **gross** income and
 **net** income, and net income is what gets capitalised — so every dollar

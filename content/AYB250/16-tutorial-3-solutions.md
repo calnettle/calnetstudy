@@ -1,5 +1,22 @@
 # Tutorial 3 Solutions — Taxation Planning
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `n` | Number of periods |
+| `CGT` | Capital gains tax |
+| `MLS` | Medicare levy surcharge — extra levy on higher earners without private hospital cover |
+| `HECS-HELP` | The student loan, repaid through the tax system once income passes a threshold |
+| `LITO` | Low income tax offset |
+| `ATO` | Australian Taxation Office |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Worked solutions for `AYB250 Tutorial Questions Topic 3.docx`. **No answer
 sheet was supplied for this tutorial** — every solution below is worked
 from scratch on the 2026-27 rates and verified in Python. Topic notes: 04

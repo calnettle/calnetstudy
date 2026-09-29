@@ -1,5 +1,26 @@
 # Tutorial 8 Solutions — Retirement Planning
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `PV` | Present value — what a future amount is worth today |
+| `PMT` | Payment — the regular amount paid or received each period (an annuity) |
+| `n` | Number of periods |
+| `CGT` | Capital gains tax |
+| `SG` | Superannuation guarantee — the compulsory employer contribution |
+| `TTR / TRIS` | Transition to retirement (income stream) — drawing a pension while still working |
+| `SMSF` | Self-managed super fund |
+| `TPD` | Total and permanent disability (insurance) |
+| `APRA` | Australian Prudential Regulation Authority |
+| `ATO` | Australian Taxation Office |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Worked solutions for `AYB250 Tutorial Questions Topic 8.docx`. Topic note:
 12.
 

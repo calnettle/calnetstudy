@@ -1,5 +1,34 @@
 # TUTORIAL 3 — Full Worked Solutions
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Rᵢ, R_p` | A return — Rᵢ on asset i, R_p on the portfolio. The subscript says whose return it is |
+| `RFR, R_f` | Risk-free rate — the return on a riskless asset such as a government bill |
+| `R_M, R_m` | Market return — the return on the whole market (e.g. the ASX 200 as a proxy) |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `σ²` | Variance — standard deviation squared. Same information as σ in squared units; σ = √σ² |
+| `σ₁, σᵢ` | Standard deviation of one asset (asset 1, asset i …) |
+| `σ_p, σ_port` | Standard deviation of the whole portfolio |
+| `σ_M` | Standard deviation of the market |
+| `P₀, P₁` | Price — P₀ at the start of the period, P₁ at the end |
+| `w, wᵢ` | Weight — the fraction of the portfolio held in asset i. Weights add up to 1 |
+| `Cov(i,j)` | Covariance — do two assets move together (+) or in opposite directions (−)? Cov(i,i) is just σᵢ² |
+| `r(i,j), ρ` | Correlation — covariance rescaled to −1 … +1. +1 moves perfectly together, −1 perfectly opposite, 0 unrelated |
+| `N` | Number of shares bought, or sold short |
+| `β (beta)` | Beta — how sensitive an asset is to market moves; its systematic risk. β = 1 moves with the market |
+| `CML` | Capital market line — the best mixes of the risk-free asset and the market portfolio, priced on total risk σ |
+| `SML` | Security market line — the CAPM as a line: required return against beta |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 *(Reilly & Brown, Chapter 7 — Capital Market Theory, CML, CAPM/SML)*
 
 No solutions workbook was supplied for this tutorial (no `Tutorial 3 SV` file exists in the unit's material, unlike Tutorials 1 and 2). Every figure below was computed from scratch and independently re-verified in Python.

@@ -1,5 +1,27 @@
 # Tutorial 7 — CGT and the After-Tax DCF
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `CPI` | Consumer price index — the inflation measure used for rent reviews |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+| `E, Eq` | Equity — the investor's own money in the deal |
+| `IPMT, INTₜ` | Interest part of a loan payment (the tax-deductible part) |
+| `PPMT, AMORTₜ` | Principal part of a loan payment (reduces the balance; not deductible) |
+| `CGT` | Capital gains tax |
+| `WDV` | Written-down value — cost less depreciation claimed so far |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 The **Week 9 lab**, and the capstone of the whole modelling sequence:
 *"Taxation part 2 — CGT calculations, and add taxation to our Week 6 and 8
 DCF."* Source: `Week 09_tax_solution_v1 (1).xlsx`, six sheets.

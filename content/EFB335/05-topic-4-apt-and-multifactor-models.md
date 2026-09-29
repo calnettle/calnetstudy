@@ -1,5 +1,32 @@
 # TOPIC 4 — Asset Pricing Models II: APT and Multifactor Models
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Rᵢ, R_p` | A return — Rᵢ on asset i, R_p on the portfolio. The subscript says whose return it is |
+| `RFR, R_f` | Risk-free rate — the return on a riskless asset such as a government bill |
+| `R_M, R_m` | Market return — the return on the whole market (e.g. the ASX 200 as a proxy) |
+| `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
+| `r(i,j), ρ` | Correlation — covariance rescaled to −1 … +1. +1 moves perfectly together, −1 perfectly opposite, 0 unrelated |
+| `A` | Risk-aversion coefficient — how much the investor dislikes risk (≈7 conservative, ≈1 aggressive) |
+| `β (beta)` | Beta — how sensitive an asset is to market moves; its systematic risk. β = 1 moves with the market |
+| `SML` | Security market line — the CAPM as a line: required return against beta |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+| `APT` | Arbitrage pricing theory — expected return explained by several risk factors, not just the market |
+| `λ (lambda)` | Factor risk premium — the extra return paid for exposure to one factor (APT) |
+| `bᵢⱼ` | Factor sensitivity — how much asset i responds to factor j (a separate "beta" for each factor) |
+| `ε` | Error term — the part of the return the model does not explain (firm-specific) |
+| `SMB` | Small Minus Big — the Fama–French size factor (small firms' return minus big firms') |
+| `HML` | High Minus Low — the Fama–French value factor (high book-to-market minus low) |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 *(Reilly & Brown, Chapter 7, §7.4–7.5)*
 
 Topic 3 priced every asset with **one** risk factor — beta against the market portfolio — and closed by listing what the CAPM cannot explain. Topic 4 is the response: **Arbitrage Pricing Theory** (Ross, 1976) generalises the linear risk–return relationship to **K factors**, and the multifactor models built on it (Chen–Roll–Ross's macro factors, Fama–French's SMB and HML) are the tools the industry actually runs. This is the last topic inside the 2 September briefing's coverage, and the briefing's factor-regression calculation comes straight from here.

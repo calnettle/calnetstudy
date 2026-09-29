@@ -1,5 +1,31 @@
 # THE ASSIGNMENT DCF — Model Anatomy
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NOI` | Net operating income — the same idea: income after operating costs, before finance and tax |
+| `CPI` | Consumer price index — the inflation measure used for rent reviews |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `g` | Growth rate (e.g. of rent) |
+| `n` | Number of periods — the holding period; n+1 is the year after it (used for the terminal value) |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+| `E, Eq` | Equity — the investor's own money in the deal |
+| `IPMT, INTₜ` | Interest part of a loan payment (the tax-deductible part) |
+| `CGT` | Capital gains tax |
+| `WDV` | Written-down value — cost less depreciation claimed so far |
+| `DV` | Diminishing value — depreciation as a % of the remaining (written-down) value |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 A1 is a monthly discounted cash flow workbook. This note walks the
 teaching example sheet by sheet and formula by formula, because the
 *structure* is the thing being assessed and it is much easier to learn from

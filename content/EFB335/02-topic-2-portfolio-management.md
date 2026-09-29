@@ -1,5 +1,32 @@
 # TOPIC 2 — Portfolio Management
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Rᵢ, R_p` | A return — Rᵢ on asset i, R_p on the portfolio. The subscript says whose return it is |
+| `RFR, R_f` | Risk-free rate — the return on a riskless asset such as a government bill |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `σ²` | Variance — standard deviation squared. Same information as σ in squared units; σ = √σ² |
+| `σ₁, σᵢ` | Standard deviation of one asset (asset 1, asset i …) |
+| `σ_p, σ_port` | Standard deviation of the whole portfolio |
+| `m` | Periods per year — 12 monthly, 52 weekly, 252 trading days |
+| `n` | Number of items — observations, periods or assets, depending on the formula |
+| `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
+| `w, wᵢ` | Weight — the fraction of the portfolio held in asset i. Weights add up to 1 |
+| `Cov(i,j)` | Covariance — do two assets move together (+) or in opposite directions (−)? Cov(i,i) is just σᵢ² |
+| `r(i,j), ρ` | Correlation — covariance rescaled to −1 … +1. +1 moves perfectly together, −1 perfectly opposite, 0 unrelated |
+| `A` | Risk-aversion coefficient — how much the investor dislikes risk (≈7 conservative, ≈1 aggressive) |
+| `β (beta)` | Beta — how sensitive an asset is to market moves; its systematic risk. β = 1 moves with the market |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 *(Reilly & Brown, Chapter 6)*
 
 ## 2.1 Background Assumptions

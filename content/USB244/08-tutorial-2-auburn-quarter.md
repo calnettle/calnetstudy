@@ -1,5 +1,24 @@
 # TUTORIAL 2 — Reading a Tenancy Schedule: Auburn Quarter
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `Σ` | "Add them all up" — a sum across every tenant |
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+| `EOI` | Expressions of interest — the campaign date the WALE is measured from |
+| `GLAR` | Gross lettable area retail — the PCA measure for shops |
+| `NLA` | Net lettable area — the PCA measure for offices |
+| `PCA` | Property Council of Australia — sets the measurement, grading and classification standards |
+| `sqm, m²` | Square metres |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 3 tutorial. The skill being taught is reading a **tenancy schedule** —
 the primary source behind every WALE calculation in this unit, and the
 document Assessment 1 Part A requires you to annex if you use your own IM.

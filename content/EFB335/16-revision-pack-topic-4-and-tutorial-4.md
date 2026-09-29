@@ -1,5 +1,34 @@
 # Revision Pack 4 — Topic 4 (APT and Multifactor Models) + Tutorial 4
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Rᵢ, R_p` | A return — Rᵢ on asset i, R_p on the portfolio. The subscript says whose return it is |
+| `RFR, R_f` | Risk-free rate — the return on a riskless asset such as a government bill |
+| `R_M, R_m` | Market return — the return on the whole market (e.g. the ASX 200 as a proxy) |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
+| `r(i,j), ρ` | Correlation — covariance rescaled to −1 … +1. +1 moves perfectly together, −1 perfectly opposite, 0 unrelated |
+| `R²` | R-squared — the share of the variation a regression explains (0 to 1) |
+| `A` | Risk-aversion coefficient — how much the investor dislikes risk (≈7 conservative, ≈1 aggressive) |
+| `β (beta)` | Beta — how sensitive an asset is to market moves; its systematic risk. β = 1 moves with the market |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+| `APT` | Arbitrage pricing theory — expected return explained by several risk factors, not just the market |
+| `λ (lambda)` | Factor risk premium — the extra return paid for exposure to one factor (APT) |
+| `bᵢⱼ` | Factor sensitivity — how much asset i responds to factor j (a separate "beta" for each factor) |
+| `ε` | Error term — the part of the return the model does not explain (firm-specific) |
+| `SMB` | Small Minus Big — the Fama–French size factor (small firms' return minus big firms') |
+| `HML` | High Minus Low — the Fama–French value factor (high book-to-market minus low) |
+| `X` | Strike (exercise) price of the option |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 *(Reilly & Brown, Chapter 7, §7.4–7.5. Built from the Topic 4 slides, the four Topic 4 workbooks — Factor Models, Fama French Factors, PCA, CPI and GDP — and the Tutorial 4 question sheet, including the Exhibit 7.22 data table extracted from it. Every number recomputed in Python.)*
 
 ## How to use this pack

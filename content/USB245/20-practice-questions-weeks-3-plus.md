@@ -1,5 +1,38 @@
 # PRACTICE QUESTIONS — WEEKS 3+
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `NOI` | Net operating income — the same idea: income after operating costs, before finance and tax |
+| `V` | Value of the property |
+| `GIM, NIM` | Gross / net income multiplier — value ÷ income |
+| `CPI` | Consumer price index — the inflation measure used for rent reviews |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `CF₀, CFₜ` | Cash flow — at time 0 (the purchase) and at period t |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `t` | The period number (year 1, 2, 3 …) |
+| `rV` | Real (pure time-value) return |
+| `π (pi)` | Inflation rate |
+| `rP` | Risk premium in the discount-rate build-up · in the leverage formula, the property's own (unlevered) return |
+| `WACC` | Weighted average cost of capital — the blended cost of debt and equity |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+| `rE` | Return on equity (the investor's geared return) |
+| `rD` | Cost of debt — the interest rate on the loan |
+| `PMT` | Loan payment each period (interest + principal) |
+| `BTCF` | Before-tax cash flow to equity |
+| `N` | Calculator key — number of periods |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Exam-style questions on the Week 3, 4 and 5 material: cashflow
 components, the seven-step DCF, deriving the discount rate, and return
 measurements (NPV and IRR). Answers

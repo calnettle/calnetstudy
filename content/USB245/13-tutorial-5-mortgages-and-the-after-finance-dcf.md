@@ -1,5 +1,32 @@
 # Tutorial 5 — Mortgages and the After-Finance DCF
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `PP` | Purchase price |
+| `CPI` | Consumer price index — the inflation measure used for rent reviews |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `FV` | Future value |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `g` | Growth rate (e.g. of rent) |
+| `t` | The period number (year 1, 2, 3 …) |
+| `n` | Number of periods — the holding period; n+1 is the year after it (used for the terminal value) |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+| `PMT` | Loan payment each period (interest + principal) |
+| `IPMT, INTₜ` | Interest part of a loan payment (the tax-deductible part) |
+| `PPMT, AMORTₜ` | Principal part of a loan payment (reduces the balance; not deductible) |
+| `OBₜ` | Outstanding balance of the loan after period t |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 The **Week 7 lab**. Source: `Week 07 Tutorial-3 (1).xlsx`, seven sheets.
 Two halves: the mortgage arithmetic (Exercises 1–5, worked in Topic 7), and
 then the payoff — bolting a loan onto the Week 3 residential DCF and

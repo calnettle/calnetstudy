@@ -1,5 +1,28 @@
 # TOPIC 6 — The Financial Calculator
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `FV` | Future value |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `CF₀, CFₜ` | Cash flow — at time 0 (the purchase) and at period t |
+| `t` | The period number (year 1, 2, 3 …) |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+| `PMT` | Loan payment each period (interest + principal) |
+| `I/Y` | Calculator key — interest rate per year |
+| `N` | Calculator key — number of periods |
+| `CA` | Calculator — "clear all" cash-flow data |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 6 is the one week of the unit with no new theory. It is a **tools**
 week: the same TVM and DCF maths you have done in Excel since Week 1, done
 on a handheld financial calculator instead. The recommended machine is the

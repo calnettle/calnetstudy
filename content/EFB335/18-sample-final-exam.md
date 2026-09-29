@@ -1,5 +1,31 @@
 # The Sample Final Exam — Every Question, Worked
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Rᵢ, R_p` | A return — Rᵢ on asset i, R_p on the portfolio. The subscript says whose return it is |
+| `RFR, R_f` | Risk-free rate — the return on a riskless asset such as a government bill |
+| `R_M, R_m` | Market return — the return on the whole market (e.g. the ASX 200 as a proxy) |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `P₀, P₁` | Price — P₀ at the start of the period, P₁ at the end |
+| `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
+| `β (beta)` | Beta — how sensitive an asset is to market moves; its systematic risk. β = 1 moves with the market |
+| `α (alpha)` | Alpha — the return above (or below) what the CAPM says the risk deserves |
+| `SML` | Security market line — the CAPM as a line: required return against beta |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+| `APT` | Arbitrage pricing theory — expected return explained by several risk factors, not just the market |
+| `IR` | Information ratio — active return ÷ tracking error |
+| `W_pi, W_bi` | Weight in segment i — portfolio (p) vs benchmark (b) |
+| `R_pi, R_bi` | Return in segment i — portfolio (p) vs benchmark (b) |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 **The unit's own sample paper** (`EFB335 Sample Final Exam-1.docx`,
 released 29 September 2026). Ten questions, **4 marks each, 40 marks** —
 which matches the exam's 40% weight. Every question is reproduced below

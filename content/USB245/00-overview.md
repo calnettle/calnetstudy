@@ -1,5 +1,32 @@
 # USB245 — Unit Overview
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `NOI` | Net operating income — the same idea: income after operating costs, before finance and tax |
+| `CV` | Capital value — what the property is worth |
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `rP` | Risk premium in the discount-rate build-up · in the leverage formula, the property's own (unlevered) return |
+| `WACC` | Weighted average cost of capital — the blended cost of debt and equity |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+| `E, Eq` | Equity — the investor's own money in the deal |
+| `rE` | Return on equity (the investor's geared return) |
+| `rD` | Cost of debt — the interest rate on the loan |
+| `LR` | Leverage ratio — debt ÷ equity |
+| `DCR` | Debt coverage ratio — NOI ÷ annual debt service |
+| `CGT` | Capital gains tax |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 QUT · Semester 2, 2026 · **Property Investment Analysis**
 
 **Live document.** Cal is sitting this unit *now*. Coverage runs **Weeks 1

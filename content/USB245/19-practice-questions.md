@@ -1,5 +1,37 @@
 # PRACTICE QUESTIONS
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `NOI` | Net operating income — the same idea: income after operating costs, before finance and tax |
+| `CV` | Capital value — what the property is worth |
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `FV` | Future value |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `DF` | Discount factor — 1 ÷ (1 + r)ᵗ, what $1 at time t is worth today |
+| `CF₀, CFₜ` | Cash flow — at time 0 (the purchase) and at period t |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `g` | Growth rate (e.g. of rent) |
+| `t` | The period number (year 1, 2, 3 …) |
+| `n` | Number of periods — the holding period; n+1 is the year after it (used for the terminal value) |
+| `TV` | Terminal value — the sale price at the end of the holding period |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+| `E, Eq` | Equity — the investor's own money in the deal |
+| `PMT` | Loan payment each period (interest + principal) |
+| `I/Y` | Calculator key — interest rate per year |
+| `CGT` | Capital gains tax |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Exam-style questions across Weeks 1–2 and the assignment material — Sections A–F. Answers
 are tap-to-reveal. Every figure was recomputed before it was written down —
 work them on paper first, then check.

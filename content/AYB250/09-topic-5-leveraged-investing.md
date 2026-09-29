@@ -1,5 +1,19 @@
 # Topic 5 — Leveraged Investing and Margin Lending
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `i` | Effective interest rate per period |
+| `LVR` | Loan-to-value ratio — loan ÷ value of the asset securing it |
+| `ATO` | Australian Taxation Office |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 5, second half. Source: `AYB250 Week 5.pptx`, slides 31–46. Reading:
 Chapters 5 and 6. The property half of the deck is note 08.
 

@@ -1,5 +1,37 @@
 # TOPIC 7 — Property Finance and Leverage
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NOI` | Net operating income — the same idea: income after operating costs, before finance and tax |
+| `V` | Value of the property |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `t` | The period number (year 1, 2, 3 …) |
+| `n` | Number of periods — the holding period; n+1 is the year after it (used for the terminal value) |
+| `rP` | Risk premium in the discount-rate build-up · in the leverage formula, the property's own (unlevered) return |
+| `WACC` | Weighted average cost of capital — the blended cost of debt and equity |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+| `L` | Loan amount |
+| `E, Eq` | Equity — the investor's own money in the deal |
+| `rE` | Return on equity (the investor's geared return) |
+| `rD` | Cost of debt — the interest rate on the loan |
+| `LR` | Leverage ratio — debt ÷ equity |
+| `PMT` | Loan payment each period (interest + principal) |
+| `IPMT, INTₜ` | Interest part of a loan payment (the tax-deductible part) |
+| `PPMT, AMORTₜ` | Principal part of a loan payment (reduces the balance; not deductible) |
+| `OBₜ` | Outstanding balance of the loan after period t |
+| `DCR` | Debt coverage ratio — NOI ÷ annual debt service |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Everything up to Week 6 was an **unlevered** cashflow: the property's own
 income and the property's own return, as if you paid cash. Week 7 adds
 **debt**. The cashflow stops being about the property and starts being

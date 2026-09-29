@@ -1,5 +1,34 @@
 # TOPIC 5 — Return Measurements
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `NOI` | Net operating income — the same idea: income after operating costs, before finance and tax |
+| `GI` | Gross income |
+| `Og` | Outgoings — the property's operating expenses |
+| `CV` | Capital value — what the property is worth |
+| `Y` | Yield — net income ÷ value (a cap rate) |
+| `PP` | Purchase price |
+| `CPI` | Consumer price index — the inflation measure used for rent reviews |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `CF₀, CFₜ` | Cash flow — at time 0 (the purchase) and at period t |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `t` | The period number (year 1, 2, 3 …) |
+| `n` | Number of periods — the holding period; n+1 is the year after it (used for the terminal value) |
+| `PMT` | Loan payment each period (interest + principal) |
+| `BTCF` | Before-tax cash flow to equity |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 5 closes the loop the unit has been building since Week 1: you can now
 construct a property cashflow (Weeks 3–4) — this week is about **judging**
 it. Two families of measures: **static** ratios you can compute from a

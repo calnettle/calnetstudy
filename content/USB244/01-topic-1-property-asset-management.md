@@ -1,5 +1,20 @@
 # TOPIC 1 — Property and Asset Management
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CV` | Capital value — what the property is worth |
+| `NI` | Net income — gross income minus outgoings |
+| `CR` | Cap rate — the capitalisation rate, a risk weighting. CV = NI ÷ CR |
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 1. What property and asset management actually is, who the property
 manager answers to, and the single equation the whole unit hangs off.
 

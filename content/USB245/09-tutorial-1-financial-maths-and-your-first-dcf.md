@@ -1,5 +1,33 @@
 # TUTORIAL — Financial Maths and Your First DCF
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `NOI` | Net operating income — the same idea: income after operating costs, before finance and tax |
+| `CV` | Capital value — what the property is worth |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `FV` | Future value |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `DF` | Discount factor — 1 ÷ (1 + r)ᵗ, what $1 at time t is worth today |
+| `CF₀, CFₜ` | Cash flow — at time 0 (the purchase) and at period t |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `g` | Growth rate (e.g. of rent) |
+| `t` | The period number (year 1, 2, 3 …) |
+| `n` | Number of periods — the holding period; n+1 is the year after it (used for the terminal value) |
+| `WACC` | Weighted average cost of capital — the blended cost of debt and equity |
+| `PMT` | Loan payment each period (interest + principal) |
+| `I/Y` | Calculator key — interest rate per year |
+| `N` | Calculator key — number of periods |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 The Week 1 tutorial is an optional recap: capitalisation, time value of
 money, and one genuinely useful monthly DCF. The Week 2 tutorial builds the
 first Excel DCF. Everything below is worked end to end and every figure was

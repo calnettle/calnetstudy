@@ -1,5 +1,36 @@
 # AYB250 — Unit Overview
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `j` | Nominal annual interest rate (before compounding) |
+| `m` | Compounding periods per year |
+| `NPV` | Net present value — PV of all inflows minus PV of all outflows. Positive = worth doing |
+| `IRR` | Internal rate of return — the rate that makes NPV = 0 |
+| `CAPM` | Capital asset pricing model — E(R) = R_f + β(R_m − R_f) |
+| `P/E` | Price-to-earnings ratio — share price ÷ EPS |
+| `LVR` | Loan-to-value ratio — loan ÷ value of the asset securing it |
+| `CGT` | Capital gains tax |
+| `MLS` | Medicare levy surcharge — extra levy on higher earners without private hospital cover |
+| `LHC` | Lifetime health cover loading — higher premiums for joining private hospital cover late |
+| `HECS-HELP` | The student loan, repaid through the tax system once income passes a threshold |
+| `LITO` | Low income tax offset |
+| `FBT` | Fringe benefits tax |
+| `GST` | Goods and services tax |
+| `TTR / TRIS` | Transition to retirement (income stream) — drawing a pension while still working |
+| `SMSF` | Self-managed super fund |
+| `ETP` | Employment termination payment |
+| `TPD` | Total and permanent disability (insurance) |
+| `FSG` | Financial services guide — who the adviser is and how they are paid |
+| `PDS` | Product disclosure statement — the facts about a financial product |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 QUT · 2nd Year, Semester 2 · **Personal Financial Planning**
 
 > **These notes cover Weeks 1 to 9, plus worked solutions for Tutorials 1

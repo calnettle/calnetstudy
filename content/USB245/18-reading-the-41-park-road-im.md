@@ -1,5 +1,20 @@
 # READING THE 41 PARK ROAD IM
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+| `CPI` | Consumer price index — the inflation measure used for rent reviews |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 The information memorandum for **41 Park Road, Milton QLD 4064** is the only
 property-specific information you are permitted to use in A1 and A2 — the
 brief bans contact with the agent, owners and tenants. So everything the

@@ -1,5 +1,48 @@
 # Extra Practice Questions
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Rᵢ, R_p` | A return — Rᵢ on asset i, R_p on the portfolio. The subscript says whose return it is |
+| `RFR, R_f` | Risk-free rate — the return on a riskless asset such as a government bill |
+| `R_M, R_m` | Market return — the return on the whole market (e.g. the ASX 200 as a proxy) |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `σ²` | Variance — standard deviation squared. Same information as σ in squared units; σ = √σ² |
+| `σ₁, σᵢ` | Standard deviation of one asset (asset 1, asset i …) |
+| `σ_p, σ_port` | Standard deviation of the whole portfolio |
+| `σ_M` | Standard deviation of the market |
+| `CV` | Coefficient of variation — σ ÷ E(R), risk per unit of expected return. Lower is better |
+| `HPR` | Holding period return — ending value ÷ beginning value. 1.10 means +10% |
+| `HPY` | Holding period yield — HPR − 1, the return as a percentage |
+| `AM` | Arithmetic mean — the simple average of the period returns |
+| `GM` | Geometric mean — the compound average return per period. Always ≤ AM |
+| `n` | Number of items — observations, periods or assets, depending on the formula |
+| `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
+| `w, wᵢ` | Weight — the fraction of the portfolio held in asset i. Weights add up to 1 |
+| `Cov(i,j)` | Covariance — do two assets move together (+) or in opposite directions (−)? Cov(i,i) is just σᵢ² |
+| `U` | Utility — an investor's satisfaction score for a portfolio. Higher is better |
+| `A` | Risk-aversion coefficient — how much the investor dislikes risk (≈7 conservative, ≈1 aggressive) |
+| `MM` | Maintenance margin — the minimum equity % before the broker makes a margin call |
+| `N` | Number of shares bought, or sold short |
+| `P*` | Margin-call price — the share price that triggers a margin call |
+| `β (beta)` | Beta — how sensitive an asset is to market moves; its systematic risk. β = 1 moves with the market |
+| `CML` | Capital market line — the best mixes of the risk-free asset and the market portfolio, priced on total risk σ |
+| `SML` | Security market line — the CAPM as a line: required return against beta |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+| `APT` | Arbitrage pricing theory — expected return explained by several risk factors, not just the market |
+| `SMB` | Small Minus Big — the Fama–French size factor (small firms' return minus big firms') |
+| `HML` | High Minus Low — the Fama–French value factor (high book-to-market minus low) |
+| `X` | Strike (exercise) price of the option |
+| `SI (Sharpe)` | Sharpe index — (R_p − R_f) ÷ σ_p: excess return per unit of total risk |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 > Attempt these closed-book, then check. Answers are collapsed.
 
 ## Set A — Returns and Risk (Topic 1)

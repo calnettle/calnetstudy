@@ -1,5 +1,21 @@
 # Tutorial 2 Solutions — Financial Planning Skills
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `PV` | Present value — what a future amount is worth today |
+| `FV` | Future value — what an amount grows to |
+| `i` | Effective interest rate per period |
+| `n` | Number of periods |
+| `NPV` | Net present value — PV of all inflows minus PV of all outflows. Positive = worth doing |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Worked solutions for `AYB250 Tutorial Questions Topic 2 (1).docx`, checked
 against the unit's own answer slides (`AYB250 Topic 2 Tutorial Slides.pptx`)
 and the supplied workbook (`AYB250 Tutorial 2.xlsx`). Topic notes: 02

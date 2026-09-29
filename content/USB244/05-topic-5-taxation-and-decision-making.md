@@ -1,5 +1,33 @@
 # TOPIC 5 — Taxation and Decision-Making Tools
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CV` | Capital value — what the property is worth |
+| `NI` | Net income — gross income minus outgoings |
+| `CR` | Cap rate — the capitalisation rate, a risk weighting. CV = NI ÷ CR |
+| `PV` | Present value |
+| `NPV` | Net present value |
+| `BCR` | Benefit–cost ratio — PV of benefits ÷ PV of costs |
+| `LCC` | Life cycle cost — total cost of an asset over its whole life |
+| `Ca` | Cost of acquisition |
+| `Cia` | Cost of installation and commissioning |
+| `Co` | Cost of operation (per year) |
+| `Cm` | Cost of maintenance (per year) |
+| `R` | Residual (end-of-life) value |
+| `NABERS` | National Australian Built Environment Rating System — rates measured performance |
+| `GST` | Goods and services tax |
+| `CGT` | Capital gains tax |
+| `OPEX` | Operating expenditure — day-to-day running costs |
+| `CAPEX` | Capital expenditure — spending that improves or replaces the asset |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 6 lecture. Two halves: how the Australian tax system reaches into a
 property's net income (and therefore into `CV = NI / CR`), and the five
 formal techniques a manager uses to decide between competing uses of

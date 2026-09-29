@@ -1,5 +1,54 @@
 # The Official Exam Formula Sheet — What You Get, and What You Don't
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Rᵢ, R_p` | A return — Rᵢ on asset i, R_p on the portfolio. The subscript says whose return it is |
+| `RFR, R_f` | Risk-free rate — the return on a riskless asset such as a government bill |
+| `R_M, R_m` | Market return — the return on the whole market (e.g. the ASX 200 as a proxy) |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `σ²` | Variance — standard deviation squared. Same information as σ in squared units; σ = √σ² |
+| `σ₁, σᵢ` | Standard deviation of one asset (asset 1, asset i …) |
+| `σ_p, σ_port` | Standard deviation of the whole portfolio |
+| `σ_M` | Standard deviation of the market |
+| `m` | Periods per year — 12 monthly, 52 weekly, 252 trading days |
+| `n` | Number of items — observations, periods or assets, depending on the formula |
+| `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
+| `w, wᵢ` | Weight — the fraction of the portfolio held in asset i. Weights add up to 1 |
+| `Cov(i,j)` | Covariance — do two assets move together (+) or in opposite directions (−)? Cov(i,i) is just σᵢ² |
+| `U` | Utility — an investor's satisfaction score for a portfolio. Higher is better |
+| `β (beta)` | Beta — how sensitive an asset is to market moves; its systematic risk. β = 1 moves with the market |
+| `α (alpha)` | Alpha — the return above (or below) what the CAPM says the risk deserves |
+| `CML` | Capital market line — the best mixes of the risk-free asset and the market portfolio, priced on total risk σ |
+| `SML` | Security market line — the CAPM as a line: required return against beta |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+| `APT` | Arbitrage pricing theory — expected return explained by several risk factors, not just the market |
+| `PT` | Portfolio turnover — securities sold ÷ assets under management |
+| `SS` | Total dollar value of securities sold in the year |
+| `AUM` | Assets under management — the (average) dollar size of the fund |
+| `TCR` | Tax cost ratio — the share of return lost to tax |
+| `TAR` | Tax-adjusted return — the return after tax |
+| `PTR` | Pre-tax return |
+| `S_T` | Share price at expiry (time T) |
+| `X` | Strike (exercise) price of the option |
+| `ATP` | Average tracking performance — average of (portfolio − benchmark) returns |
+| `AATP` | Average absolute tracking performance — the same, ignoring sign |
+| `σ(TP)` | Tracking error — standard deviation of (portfolio − benchmark) returns |
+| `R_pt, R_Bt` | Portfolio and benchmark return in period t |
+| `SI (Sharpe)` | Sharpe index — (R_p − R_f) ÷ σ_p: excess return per unit of total risk |
+| `TI (Treynor)` | Treynor index — (R_p − R_f) ÷ β_p: excess return per unit of systematic risk |
+| `W_pi, W_bi` | Weight in segment i — portfolio (p) vs benchmark (b) |
+| `R_pi, R_bi` | Return in segment i — portfolio (p) vs benchmark (b) |
+| `EP, BP, Div, Cap.Dist` | Fund return inputs — ending price, beginning price, dividends paid, capital-gain distributions |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 **This is the formula sheet you will be handed in the final exam**
 (`EFB335 Final Exam Formula Sheet-6.docx`, released 29 September 2026).
 It is one page. Everything on it is reproduced below exactly, mapped to

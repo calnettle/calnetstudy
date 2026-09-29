@@ -1,5 +1,37 @@
 # TOPIC 1 — Investment Principles
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NI` | Net income — gross income minus outgoings |
+| `NOI` | Net operating income — the same idea: income after operating costs, before finance and tax |
+| `CV` | Capital value — what the property is worth |
+| `Ri` | Income return — income ÷ purchase price |
+| `Rc` | Capital return — (sale price − purchase price) ÷ purchase price |
+| `Rt` | Total return — income return + capital return |
+| `PV` | Present value — a future amount expressed in today's dollars |
+| `FV` | Future value |
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `DF` | Discount factor — 1 ÷ (1 + r)ᵗ, what $1 at time t is worth today |
+| `CF₀, CFₜ` | Cash flow — at time 0 (the purchase) and at period t |
+| `r` | Discount rate — the required return used to discount future cashflows |
+| `g` | Growth rate (e.g. of rent) |
+| `t` | The period number (year 1, 2, 3 …) |
+| `n` | Number of periods — the holding period; n+1 is the year after it (used for the terminal value) |
+| `LVR` | Loan-to-value ratio — loan ÷ property value |
+| `PMT` | Loan payment each period (interest + principal) |
+| `N` | Calculator key — number of periods |
+| `CGT` | Capital gains tax |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 1 lecture, Part 2. The definitions, the risk/return trade-off, the six
 things every investor must decide, the asset-class map, and the assumed
 knowledge the unit expects you to already have from USB142 and USB144:

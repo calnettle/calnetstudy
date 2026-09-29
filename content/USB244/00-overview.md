@@ -1,5 +1,28 @@
 # USB244 — Unit Overview
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CV` | Capital value — what the property is worth |
+| `NI` | Net income — gross income minus outgoings |
+| `CR` | Cap rate — the capitalisation rate, a risk weighting. CV = NI ÷ CR |
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+| `EOI` | Expressions of interest — the campaign date the WALE is measured from |
+| `GLAR` | Gross lettable area retail — the PCA measure for shops |
+| `GLA` | Gross lettable area — whole-building measure (industrial, retail centres) |
+| `NLA` | Net lettable area — the PCA measure for offices |
+| `PCA` | Property Council of Australia — sets the measurement, grading and classification standards |
+| `NABERS` | National Australian Built Environment Rating System — rates measured performance |
+| `GST` | Goods and services tax |
+| `CGT` | Capital gains tax |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 QUT · Semester 2, 2026 · **Property and Asset Management**
 
 Living document. **Weeks 1–7 complete** — every lecture and tutorial

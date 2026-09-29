@@ -1,5 +1,20 @@
 # Tutorial 1 Solutions — Introduction to Financial Planning
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `SMSF` | Self-managed super fund |
+| `ASIC` | Australian Securities and Investments Commission |
+| `APRA` | Australian Prudential Regulation Authority |
+| `ATO` | Australian Taxation Office |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Worked solutions for `AYB250 Tutorial Questions Topic 1 (1).docx`, checked
 against the unit's answer slides (`AYB250 Topic 1 Tutorial Slides.pptx`).
 Topic note: [01 — Financial Planning and

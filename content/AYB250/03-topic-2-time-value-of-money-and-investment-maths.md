@@ -1,5 +1,26 @@
 # Topic 2 — Time Value of Money and Investment Maths
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `PV` | Present value — what a future amount is worth today |
+| `FV` | Future value — what an amount grows to |
+| `PMT` | Payment — the regular amount paid or received each period (an annuity) |
+| `i` | Effective interest rate per period |
+| `j` | Nominal annual interest rate (before compounding) |
+| `m` | Compounding periods per year |
+| `n` | Number of periods |
+| `r` | Rate of return / interest per period (a real rate where the note says so) |
+| `NPV` | Net present value — PV of all inflows minus PV of all outflows. Positive = worth doing |
+| `IRR` | Internal rate of return — the rate that makes NPV = 0 |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 2, second half. Source: `AYB250 Week 2.pptx`, slides 23–59.
 
 Every worked figure below was recomputed. Three of the lecture's numbers

@@ -1,5 +1,31 @@
 # TUTORIAL 1 — Full Worked Solutions
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Rᵢ, R_p` | A return — Rᵢ on asset i, R_p on the portfolio. The subscript says whose return it is |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `σ²` | Variance — standard deviation squared. Same information as σ in squared units; σ = √σ² |
+| `CV` | Coefficient of variation — σ ÷ E(R), risk per unit of expected return. Lower is better |
+| `HPR` | Holding period return — ending value ÷ beginning value. 1.10 means +10% |
+| `HPY` | Holding period yield — HPR − 1, the return as a percentage |
+| `GM` | Geometric mean — the compound average return per period. Always ≤ AM |
+| `P₀, P₁` | Price — P₀ at the start of the period, P₁ at the end |
+| `n` | Number of items — observations, periods or assets, depending on the formula |
+| `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
+| `Π` | "Multiply them all together" — a product over every period |
+| `MM` | Maintenance margin — the minimum equity % before the broker makes a margin call |
+| `N` | Number of shares bought, or sold short |
+| `P*` | Margin-call price — the share price that triggers a margin call |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 ## Chapter 1, Question 6
 
 > *Some financial theorists consider the variance of the distribution of expected rates of return to be a good measure of uncertainty. Discuss the reasoning behind this measure of risk and its purpose.*

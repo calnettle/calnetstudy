@@ -1,5 +1,25 @@
 # Topic 4 — Risk, Return and Portfolio Theory
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `i` | Effective interest rate per period |
+| `E(R)` | Expected return |
+| `R_f` | Risk-free rate |
+| `R_m` | Return on the market |
+| `R_p` | Return on the portfolio |
+| `σ (sigma)` | Standard deviation — how much returns swing; the usual measure of risk |
+| `β (beta)` | Beta — sensitivity to the market; systematic risk |
+| `w` | Weight — the fraction of the portfolio in each asset |
+| `CAPM` | Capital asset pricing model — E(R) = R_f + β(R_m − R_f) |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 4, second half. Source: `AYB250 Week 4.pptx` — the risk, diversification,
 CAPM and investor-profile slides (roughly slides 27–42 and 59–64). Reading:
 Chapters 4 and 5. The asset-class and valuation half of the deck is note 06.

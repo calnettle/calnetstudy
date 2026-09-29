@@ -1,5 +1,24 @@
 # TUTORIAL 1 — Reading an Information Memorandum
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `MAT` | Moving annual turnover — a tenant's sales over the last 12 months |
+| `GOCR` | Gross occupancy cost ratio — a tenant's total occupancy cost ÷ its MAT |
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+| `EOI` | Expressions of interest — the campaign date the WALE is measured from |
+| `GLA` | Gross lettable area — whole-building measure (industrial, retail centres) |
+| `PCA` | Property Council of Australia — sets the measurement, grading and classification standards |
+| `sqm, m²` | Square metres |
+| `GST` | Goods and services tax |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 2 tutorial. The skill being taught is reading an IM critically, because
 Part A is built on one. Worked end to end on the tutorial's own example:
 **Richlands Plaza, 511 Archerfield Rd, Richlands QLD**, marketed by JLL.

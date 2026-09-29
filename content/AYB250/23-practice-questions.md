@@ -1,5 +1,42 @@
 # AYB250 — Practice Questions
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `PV` | Present value — what a future amount is worth today |
+| `FV` | Future value — what an amount grows to |
+| `PMT` | Payment — the regular amount paid or received each period (an annuity) |
+| `i` | Effective interest rate per period |
+| `n` | Number of periods |
+| `NPV` | Net present value — PV of all inflows minus PV of all outflows. Positive = worth doing |
+| `IRR` | Internal rate of return — the rate that makes NPV = 0 |
+| `E(R)` | Expected return |
+| `CAPM` | Capital asset pricing model — E(R) = R_f + β(R_m − R_f) |
+| `EPS` | Earnings per share |
+| `P/E` | Price-to-earnings ratio — share price ÷ EPS |
+| `LVR` | Loan-to-value ratio — loan ÷ value of the asset securing it |
+| `CGT` | Capital gains tax |
+| `MLS` | Medicare levy surcharge — extra levy on higher earners without private hospital cover |
+| `LHC` | Lifetime health cover loading — higher premiums for joining private hospital cover late |
+| `HECS-HELP` | The student loan, repaid through the tax system once income passes a threshold |
+| `LITO` | Low income tax offset |
+| `SG` | Superannuation guarantee — the compulsory employer contribution |
+| `TTR / TRIS` | Transition to retirement (income stream) — drawing a pension while still working |
+| `SMSF` | Self-managed super fund |
+| `ETP` | Employment termination payment |
+| `ASIC` | Australian Securities and Investments Commission |
+| `APRA` | Australian Prudential Regulation Authority |
+| `ATO` | Australian Taxation Office |
+| `FSG` | Financial services guide — who the adviser is and how they are paid |
+| `PDS` | Product disclosure statement — the facts about a financial product |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Exam-style questions across Weeks 1 to 9 and the Part A technique. Answers
 are hidden — work each one out on paper first. Every numerical answer here
 was computed independently, not copied from the lecture.

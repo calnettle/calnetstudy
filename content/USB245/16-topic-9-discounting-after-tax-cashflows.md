@@ -1,5 +1,22 @@
 # TOPIC 9 — Discounting After-Tax Cashflows
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `NPV` | Net present value — PV of everything in minus everything out. Positive = accept |
+| `IRR` | Internal rate of return — the discount rate that makes NPV = 0 |
+| `DCF` | Discounted cash flow — the model: forecast the cashflows, discount them to today |
+| `IPMT, INTₜ` | Interest part of a loan payment (the tax-deductible part) |
+| `PPMT, AMORTₜ` | Principal part of a loan payment (reduces the balance; not deductible) |
+| `CGT` | Capital gains tax |
+
+[Full USB245 notation key →](#/USB245/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 The Week 9 lecture, released **26 September 2026**. It adds little new
 mechanics — Topics 7 and 8 did that — and instead does the thing the unit
 has been building toward: **runs one property through all four cashflow

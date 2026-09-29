@@ -1,5 +1,21 @@
 # Topic 6 — Risk Management and Insurance
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `MLS` | Medicare levy surcharge — extra levy on higher earners without private hospital cover |
+| `LHC` | Lifetime health cover loading — higher premiums for joining private hospital cover late |
+| `TPD` | Total and permanent disability (insurance) |
+| `ASIC` | Australian Securities and Investments Commission |
+| `APRA` | Australian Prudential Regulation Authority |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 6. Source: `AYB250 Week 6.pptx`, slides 1–56. Reading: Chapter 7.
 Tutorial solutions: note 18.
 

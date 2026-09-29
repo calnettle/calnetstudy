@@ -1,5 +1,23 @@
 # Topic 3 — Income Tax and Deductions
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CGT` | Capital gains tax |
+| `MLS` | Medicare levy surcharge — extra levy on higher earners without private hospital cover |
+| `HECS-HELP` | The student loan, repaid through the tax system once income passes a threshold |
+| `LITO` | Low income tax offset |
+| `FBT` | Fringe benefits tax |
+| `GST` | Goods and services tax |
+| `ATO` | Australian Taxation Office |
+
+[Full AYB250 notation key →](#/AYB250/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 Week 3, first half. Source: `AYB250 Week 3.pptx`, slides 1–33. Reading:
 Chapter 3.
 

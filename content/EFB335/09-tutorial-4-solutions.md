@@ -1,5 +1,26 @@
 # TUTORIAL 4 — Full Worked Solutions
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
+| `R²` | R-squared — the share of the variation a regression explains (0 to 1) |
+| `A` | Risk-aversion coefficient — how much the investor dislikes risk (≈7 conservative, ≈1 aggressive) |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+| `APT` | Arbitrage pricing theory — expected return explained by several risk factors, not just the market |
+| `λ (lambda)` | Factor risk premium — the extra return paid for exposure to one factor (APT) |
+| `bᵢⱼ` | Factor sensitivity — how much asset i responds to factor j (a separate "beta" for each factor) |
+| `SMB` | Small Minus Big — the Fama–French size factor (small firms' return minus big firms') |
+| `HML` | High Minus Low — the Fama–French value factor (high book-to-market minus low) |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 *(Source: `Tutorial 4 Questions-2 (1).docx` — Reilly & Brown Chapter 7: Question 7, Question 9, Problem 9, Problem 13, Problem 14(a–b). No solution sheet was supplied; every solution below is worked from scratch. The Problem 13/14 data table — Exhibit 7.22, 30 months of excess returns for two portfolios and three factors — is embedded in the question sheet as an image; the numbers were extracted from it and every calculation, including the regressions, was verified in Python.)*
 
 ---

@@ -1,5 +1,24 @@
 # TOPIC 2 (continued) — Investor Utility and Investment Strategy
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `σ²` | Variance — standard deviation squared. Same information as σ in squared units; σ = √σ² |
+| `σ₁, σᵢ` | Standard deviation of one asset (asset 1, asset i …) |
+| `n` | Number of items — observations, periods or assets, depending on the formula |
+| `U` | Utility — an investor's satisfaction score for a portfolio. Higher is better |
+| `A` | Risk-aversion coefficient — how much the investor dislikes risk (≈7 conservative, ≈1 aggressive) |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 *(Reilly & Brown, Chapter 6 — second half)*
 
 The first half of Topic 2 (**doc 02**) is entirely about **measurement**: how to compute a portfolio's expected return and risk, how covariance and correlation govern the diversification benefit, and how the efficient frontier falls out of those calculations. Every result there is objective — two analysts with the same return series must get the same frontier.
