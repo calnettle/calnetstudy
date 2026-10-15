@@ -111,6 +111,7 @@ classify-and-explain.
 
 | Priority | What | Why |
 |---|---|---|
+| **1** | **[Note 15](#/USB244/15-final-exam-guide) — Final Exam Guide** and **[Note 16](#/USB244/16-final-exam-drill) — drill** | The lecturer's own exam content list, worked item by item, plus Weeks 8–11. Paper: 30 MCQ + 7 short answers in notes |
 | **1** | **[Note 12](#/USB244/12-formula-sheet) — formula sheet and traps** | Small unit, dense sheet. Includes the PCA measurement table described as "the one table to memorise" |
 | **1** | **[Notes 07–10](#/USB244/07-tutorial-1-information-memorandum) — the four tutorials** | Reading an IM, reading a tenancy schedule, WALE calculation, outgoings. All four are *document interpretation*, which is what the exam tests |
 | **2** | **[Note 09](#/USB244/09-tutorial-3-wale-calculation) — WALE** | The unit's signature calculation. Two versions (by income, by area), the 5-year threshold, and the WALE → cap rate → value chain |

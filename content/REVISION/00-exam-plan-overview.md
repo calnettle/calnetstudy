@@ -1,5 +1,10 @@
 # Exam Revision Plan — Semester 2, 2026
 
+> **Rebuilt 15 October.** The day-by-day plan from today is
+> [note 08](#/REVISION/08-daily-plan): three one-hour blocks a day,
+> EFB335 and AYB250 first. Where this page's dates disagree with note 08,
+> note 08 wins.
+
 Four exams in five days, 9–13 November. This is the control page: the
 dates, the constraint that actually shapes the plan, and the order to do
 things in. The day-by-day schedule is [note 01](#/REVISION/01-week-by-week-schedule); the per-unit triage is
@@ -83,7 +88,7 @@ current notes as the whole exam.
 
 | Unit | Covered now | Still coming |
 |---|---|---|
-| **USB244** | Weeks 1–7 (Topics 1–6, [Tutorials 1–4](#/USB244/07-tutorial-1-information-memorandum)) | Weeks 8–13 |
+| **USB244** | Weeks 1–11 (Topics 1–6, [Tutorials 1–4](#/USB244/07-tutorial-1-information-memorandum), Weeks 8–11 in the [Final Exam Guide](#/USB244/15-final-exam-guide)) | Weeks 12–13 (studio and exam prep). **Exam content list released: 30 MCQ + 7 short answers** |
 | **USB245** | Weeks 1–9 (Topics 1–9, [Tutorials 1–7](#/USB245/09-tutorial-1-financial-maths-and-your-first-dcf)) | **Week 10 sensitivity analysis**, Weeks 11–12 studio, Week 13 exam prep |
 | **AYB250** | Weeks 1–9 (Topics 1–9, [Tutorials 1–8](#/AYB250/14-tutorial-1-solutions)) | **Week 10 social security**, then plan construction |
 | **EFB335** | Topics 1–4, [Tutorials 1–4](#/EFB335/06-tutorial-1-solutions) | **Topics 5–10 — released 26 Sep, not yet written up**: market efficiency, equity portfolio management, bond portfolio management, derivatives, hedge funds, performance evaluation |
@@ -253,13 +258,15 @@ Six, and they are the plan as much as the calendar is.
 | 05 | **Topic Checklist — USB245** | As above, plus the seven-step DCF and the four discount-rate methods |
 | 06 | **Topic Checklist — AYB250** | As above, across all nine topics and the 36 traps |
 | 07 | **Topic Checklist — EFB335** | As above, with every formula group |
-| 08 | **The Daily Plan** | **Every day, 28 Sep – 8 Nov: 2 h high priority + 1 h droppable revision** |
+| 08 | **The Daily Plan** | **Every day, 15 Oct – 13 Nov: three one-hour blocks, EFB335 and AYB250 first** |
 
 > **[Note 08](#/REVISION/08-daily-plan) is the one to open each
-> morning.** It turns everything below into a two-column list per day: a
-> 2-hour high-priority block that happens no matter what, and a 1-hour
-> additional block that only ever revisits completed material and can be
-> missed without cost.
+> morning.** Rebuilt on 15 October: three one-hour blocks a day from 15
+> October to the last exam. EFB335 gets 30 blocks (including Topics
+> 5–10 from the lecture decks), AYB250 27, USB245 13 and USB244 11. Each
+> block names the material and a closed-book output. It replaces the 28
+> September version (2 h high priority + 1 h droppable), and note 01's
+> calendar is superseded from 15 October.
 
 > **[Notes 04–07](#/REVISION/04-topics-usb244) are the working documents.** [Notes 00–03](#/REVISION/00-exam-plan-overview) tell you *when*
 > to study; 04–07 tell you *what*. Every block in the week-by-week

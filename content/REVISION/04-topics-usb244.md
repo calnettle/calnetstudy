@@ -32,11 +32,15 @@
 </details>
 <!-- notation:end -->
 
-**Exam Monday 9 November · 50% of the unit.**
+**Exam Monday 9 November · 50% of the unit · 30 multiple choice (30
+points) + 7 short answers (70 points), notes accepted.**
 
-Every examinable topic currently on the site, in teaching order, with what
-you have to be able to *do* with each one. Tick a row only when you can
-produce it closed book. Weeks 8–13 are not yet taught — leave room.
+The lecturer has released the exam content list, so **the
+[Final Exam Guide](#/USB244/15-final-exam-guide) is now the main revision
+document**: it works the list item by item, in order, including Weeks
+8–11. The [Final Exam Drill](#/USB244/16-final-exam-drill) tests it (30
+MCQs + 7 short answers). This page stays as the topic-by-topic checklist
+for Weeks 1–7. Tick a row only when you can produce it closed book.
 
 How to read the columns: **Own it** is the closed-book output that proves
 you know it. **Where** is the note to revise from.
@@ -162,8 +166,10 @@ then say what that class implies for its GOCR and tenancy mix.
 
 ## The Four Tutorials — the highest-yield material in the unit
 
-USB244's exam is **document interpretation**. Re-work these rather than
-re-read the topics.
+The paper is 30 MCQs and 7 short answers on the content list, so the
+tutorials feed the calculation items (financial performance, gross vs
+net, WALE) rather than the whole exam. Re-work these rather than re-read
+the topics.
 
 | Tutorial | What it trains | Own it |
 |---|---|---|
@@ -215,9 +221,19 @@ Full list: [note 12, formula sheet and traps](#/USB244/12-formula-sheet).
 
 ---
 
-## Still To Be Taught
+## Exam Content List and Weeks 8–11
 
-**Weeks 8–13.** The largest teaching gap of the four units, and this exam
-is first. Capture each deck into the notes as it lands and add its topic
-to this checklist — an untracked week is the most likely source of an
-unpleasant surprise on 9 November.
+The lecturer released the exam content list (30 multiple choice + 7 short
+answers, notes accepted). Every item on it is worked point by point, with
+the Week 8–11 material (corporate real estate, the Kessels Road lease
+answered, SAM strategies, scenario analysis, AI and proptech), in the
+[Final Exam Guide](#/USB244/15-final-exam-guide). Test yourself with the
+[Final Exam Drill](#/USB244/16-final-exam-drill).
+
+| Week | Topic | Own it |
+|---|---|---|
+| 8 | **Corporate real estate** | The five types and the own/control test for each; core 70–80 / flexible 15–20 / serviced 5–10; efficiency vs effectiveness |
+| 8 | **Reading a lease** (Kessels Road) | The 11 tutorial questions answered with clause numbers |
+| 9 | **SAM strategies** | The four families (gross income, outgoings, cap rate, capital value) with the slide's list under each, sorted short / medium / long |
+| 10 | **Scenario analysis** | Definition, bookending best vs worst case, the three Part B scenarios and their effect on value |
+| 11 | **AI and proptech** | Five uses, four challenges, three case studies with their numbers |

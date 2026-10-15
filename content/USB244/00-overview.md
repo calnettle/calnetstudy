@@ -25,8 +25,8 @@
 
 QUT · Semester 2, 2026 · **Property and Asset Management**
 
-Living document. **Weeks 1–7 complete** — every lecture and tutorial
-released to date is covered.
+Living document. **Weeks 1–11 covered**: Weeks 1–7 in the topic and
+tutorial notes, Weeks 8–11 in the [Final Exam Guide](#/USB244/15-final-exam-guide).
 
 ## Unit Map
 
@@ -46,6 +46,8 @@ released to date is covered.
 | 12 | Formula Sheet & Exam Traps | Everything you need on one page |
 | 13 | Assessment 1 Part A — Property Manager Performance | Choosing an eligible IM, the rubric's 10-mark manager review, WALE at the EOI date with every FAQ edge case decided, ancillary and non-space income, PCA outgoings benchmarking |
 | 14 | Assessment 1 Part B — Strategic Asset Management Plan | Portfolio WALE and concentration, ancillary income at portfolio scale, the three timeframes, proptech and AI, anchors / 2.5% cash rate / lease-concession scenarios quantified |
+| 15 | Final Exam Guide — the Exam Content List | The lecturer's exam content list point by point (30 MCQ + 7 short answers), including Weeks 8–11: corporate real estate, the Kessels Road lease answered, SAM strategies, scenario analysis, AI and proptech |
+| 16 | Final Exam Drill | 30 multiple-choice questions and 7 mock short answers, in the content list's order, answers tap-to-reveal |
 
 ## Learning outcomes
 

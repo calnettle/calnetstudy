@@ -1,5 +1,9 @@
 # Week-by-Week Schedule
 
+> **Superseded from 15 October.** Follow [note 08, the daily plan](#/REVISION/08-daily-plan):
+> three one-hour blocks a day from 15 October to 13 November. This page
+> stays as the record of the 28 September plan and its reasoning.
+
 28 September to 8 November. Six weeks, four phases. The exam week itself
 is [note 03](#/REVISION/03-the-exam-week).
 
@@ -278,7 +282,7 @@ does not come back immediately.
 | Day | Block 1 | Block 2 |
 |---|---|---|
 | **Thu 29** | [Formula sheet](#/USB244/12-formula-sheet) · **T1** PAM vs PM, stakeholders, SAM, `CV = NI / CR` · **T2** risk matrix, PCA grades, **the measurement table** · **T3** centre classifications, GLAR | **T4** lease vs licence, lease anatomy, rent reviews, **face vs effective rent** · **T5** the tax stack, negative gearing, CGT, GST · **T6** 40/40/20, **Green Star vs NABERS**, mandatory disclosure |
-| **Fri 30** | The four tutorials re-worked: IM · tenancy schedule · **WALE both ways** · outgoings recovery | **Any Weeks 8–13 material released since September** — this is the unit's biggest gap and its exam is first |
+| **Fri 30** | The four tutorials re-worked: IM · tenancy schedule · **WALE both ways** · outgoings recovery | **Weeks 8–11 from the [Final Exam Guide](#/USB244/15-final-exam-guide)**: corporate real estate, the Kessels Road lease, SAM strategies, scenarios, AI and proptech |
 
 ### Sat 31 Oct — EFB335 consolidation
 
@@ -309,7 +313,7 @@ recently-learned content decays fastest.
 | **Wed 4** | EFB335 **derivations again**, cold | EFB335 [formula sheet](#/AYB250/24-formula-sheet-and-exam-traps), closed-book recall | AYB250 — 45 min of traps, to keep it warm |
 | **Thu 5** | USB245 practice Sets G–N | USB245 tutorials 5–7 re-worked | **Calculator drills**: cash-flow mode, `PMT`/`IPMT`/`PPMT` |
 | **Fri 6** | USB245 quick-reference blocks + the seven traps | AYB250 [practice questions](#/USB245/19-practice-questions), second pass | — |
-| **Sat 7** | USB244 practice Sections A–G — closed book | USB244 tutorials re-worked — IM, tenancy schedule, **WALE**, outgoings | USB244 traps + [formula sheet](#/USB244/12-formula-sheet) |
+| **Sat 7** | USB244 [Final Exam Drill](#/USB244/16-final-exam-drill) — 30 MCQs + 7 short answers, closed book | Misses back to the [Final Exam Guide](#/USB244/15-final-exam-guide) · WALE and outgoings tutorials re-worked | USB244 traps + [formula sheet](#/USB244/12-formula-sheet) |
 | **Sun 8** | **USB244 closed-book recall: the full [formula sheet](#/USB244/12-formula-sheet)** | **The PCA measurement table · WALE both ways · `CV = NI / CR` both directions** | Light: exam logistics, sleep early |
 
 > **Phase 3's rule is "produce, don't consume".** Every block generates

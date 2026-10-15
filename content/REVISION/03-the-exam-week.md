@@ -1,5 +1,11 @@
 # The Exam Week — 7 to 13 November
 
+> **The block-by-block version is in [note 08](#/REVISION/08-daily-plan/exam-week-mon-9-to-fri-13-nov).**
+> It fits this week into three one-hour blocks a day, around the exam
+> times in your calendar: USB244 Mon 1:30pm, USB245 Tue 1:30pm, AYB250
+> Wed 8:30am, EFB335 Fri 8:30am. The rules and the what-if table below
+> still apply.
+
 Four exams, five days, one free day in the middle. This is the highest
 -leverage week of the semester and the one most easily wasted by
 improvising.
@@ -56,20 +62,20 @@ Four things to have done by Friday 6 November:
 
 | Block | Do |
 |---|---|
-| Morning | [Note 11](#/USB244/11-practice-questions) practice questions — **closed book**, then mark |
-| Afternoon | Tutorials re-worked: [07 IM](#/USB244/07-tutorial-1-information-memorandum), [08 tenancy schedule](#/USB244/08-tutorial-2-auburn-quarter), [09 WALE](#/USB244/09-tutorial-3-wale-calculation), [10 outgoings](#/USB244/10-tutorial-4-outgoings) |
+| Morning | [Final Exam Drill](#/USB244/16-final-exam-drill) Part A (30 MCQs, 30 min) and Part B (7 short answers as notes) — **closed book**, then mark |
+| Afternoon | Every miss: back to its item in the [Final Exam Guide](#/USB244/15-final-exam-guide). Then [Note 11](#/USB244/11-practice-questions) and the [09 WALE](#/USB244/09-tutorial-3-wale-calculation) and [10 outgoings](#/USB244/10-tutorial-4-outgoings) tutorials |
 | Evening | [Note 12](#/USB244/12-formula-sheet) — traps, read slowly |
 
-USB244's exam is the most **document-interpretation** heavy of the
-four. Re-working the four tutorials is worth more than re-reading the
-six topics.
+USB244's paper is **30 multiple choice + 7 short answers** on the
+lecturer's content list, and notes are accepted in the short answers. The
+guide follows that list in order, so it is the spine of both days.
 
 ## Sunday 8 November — the day before USB244
 
 | Block | Do |
 |---|---|
 | Morning | **Closed-book recall** of the full USB244 [formula sheet](#/USB244/12-formula-sheet). Write it out. Check. Repeat what you missed |
-| Midday | The PCA measurement table, the WALE method both ways, `CV = NI / CR` in both directions, face vs effective rent, the three outgoings recovery structures |
+| Midday | The PCA measurement table, the WALE method both ways, `CV = NI / CR` in both directions, face vs effective rent, the three outgoings recovery structures · the guide's [last-minute checklist](#/USB244/15-final-exam-guide) |
 | Afternoon | Quick-reference blocks only — Richlands Plaza, Auburn Quarter, Kallangur Fair figures |
 | **Evening** | **Stop by 7pm.** Logistics: venue, time, ID, calculator, water. Sleep |
 

@@ -385,9 +385,9 @@ But a centre that has lost its anchor also re-rates for risk:
 Combined effect                            -57.7% of capital value
 ```
 
-> **The cap rate is the bigger half of the loss.** The income fall costs
-> $17.2m; the re-rate from 6.00% to 7.50% costs a further $3.9m — and it
-> compounds, because a shorter WALE, a weaker covenant and a vacancy overhang
+> **The cap rate is the half groups leave out.** The income fall costs
+> $17.2m (47.1% of value); the re-rate from 6.00% to 7.50% costs a further
+> $3.9m (another 10.6%) — and it compounds, because a shorter WALE, a weaker covenant and a vacancy overhang
 > are exactly what a purchaser prices. Groups that model only the lost rent
 > understate the damage.
 

@@ -570,6 +570,32 @@ and warehousing 44%, retail trade 19%.
 > by the sale. And the bank guarantees do not follow automatically: they name
 > the outgoing owner as beneficiary and must be reissued to the incoming one.
 
+**Weeks 8–11 traps** (from the [Final Exam Guide](#/USB244/15-final-exam-guide)):
+
+> **32. The CBD disclosure threshold is 1,000 m² of office, not 2,000 m².**
+> It was 2,000 m² until 1 July 2017. The exam content list says 2,000, so
+> write "1,000 m² or more (2,000 m² before 2017)" and take the mark either
+> way. Office only: a shopping centre needs no BEEC.
+
+> **33. The Retail Shop Leases Act excludes premises of 1,000 m² or more,
+> whoever the tenant is** (since November 2016). Inside the Act: no land
+> tax recovery, no ratchet on a market review, an audited outgoings
+> statement within 3 months of year end.
+
+> **34. "Core" means two different things in Week 8.** Core *property* is
+> one of the five types (strategic, landmark, core, peripheral, surplus).
+> Core *space* is 70–80% of the space portfolio, beside flexible 15–20% and
+> serviced 5–10%.
+
+> **35. The four SAM strategy families are gross income, outgoings, cap
+> rate and capital value.** They map onto `CV = NI / CR`. The cap rate
+> range is market-driven; the manager controls the asset's quality
+> (WALE, tenants, arrears, disputes, maintenance).
+
+> **36. The slide's OPEX test says "condition at purchase"; tax practice
+> treats fixing pre-existing defects as capital (initial repairs).** Give
+> the slide's test, then the exception.
+
 ## Outgoings (Week 7)
 
 ```
