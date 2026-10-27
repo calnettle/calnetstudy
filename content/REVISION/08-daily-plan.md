@@ -35,7 +35,7 @@ replaces every earlier version of the plan.
 
 | Unit | Blocks | Share | How they're used |
 |---|---|---|---|
-| **EFB335** | 34 | 37% | Every topic taught from the [plain-English notes](#/EFB335/20-plain-english-start-here) by Wed 4 Nov, then the sample exam, calculations, written answers and jargon, then Wed 11 afternoon and all of Thu 12 |
+| **EFB335** | 34 | 37% | Every topic taught in depth by Thu 5 Nov: the [plain-English note](#/EFB335/20-plain-english-start-here) as the way in, then the revision packs and tutorials (Topics 1–4) or the lecture slides (Topics 5–10). Then the formula sheet, the sample exam, written answers and jargon, then Wed 11 afternoon and all of Thu 12 |
 | **AYB250** | 27 | 29% | All nine topics, each with its tutorial, plus Week 10 social security by Thu 5 Nov, then the practice questions, the 36 traps, and the Tue 10 night-before |
 | USB245 | 17 | 18% | One topic a day to Thu 5 Nov, then practice sets, then the Mon 9 night-before |
 | USB244 | 15 | 16% | One topic a day, then the tutorials and the 20-item exam guide, the drill, then the Sun 8 night-before |
@@ -75,7 +75,14 @@ to decide when you start.
 5. **Too many blocks today?** Drop Block 6, then Block 5. **Never drop Blocks 1–4** (EFB335 and AYB250).
 6. **Lost a whole day?** Don't push the plan back. Do that day's Block 1 and Block 2 in place of the next day's Blocks 5 and 6.
 
-> **EFB335: understand it in plain English, answer in the jargon.**
+> **EFB335: plain English first, then the full depth, then the jargon.**
+> Every EFB335 lesson starts with the plain-English note (10–20 minutes)
+> so the idea makes sense, then goes through the full material: the
+> revision pack and the tutorial attempted before checking (Topics 1–4),
+> or the lecture slides section by section (Topics 5–10). It always ends
+> in the jargon.
+>
+> **Understand it in plain English, answer in the jargon.**
 > Each [plain-English note](#/EFB335/20-plain-english-start-here) has
 > a picture and a worked example to make the idea click, then a
 > **Jargon to Learn** table (the term, what it means, an exam sentence
@@ -109,10 +116,10 @@ to decide when you start.
    - **Sprint 1:** [Topic 1](#/AYB250/01-topic-1-financial-planning-and-regulation), first half.
    - **Sprint 2:** second half, then [Tutorial 1](#/AYB250/14-tutorial-1-solutions): read each question, answer it in your head, then read the solution.
    - **Output:** [Practice Section A](#/AYB250/23-practice-questions/section-a-regulation-and-concepts), questions A1–A3, closed book, then checked.
-3. **EFB335 · Topic 2: diversification and utility.**
-   - **Sprint 1:** [Topics 1–2](#/EFB335/21-plain-english-topics-1-2-return-and-risk) steps 4–6: mixing two assets, systematic vs unsystematic risk, utility.
-   - **Sprint 2:** the rest of the **Jargon to Learn** table, then **Say it back**.
-   - **Output:** a two-asset portfolio's σ on new numbers · "Explain the benefit of diversification" as a 4-mark answer, in the jargon.
+3. **EFB335 · Topic 1 in depth: Revision Pack 1.**
+   - **Sprint 1:** [Pack 1 Part A](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/part-a-concepts-taught-from-scratch), the sections the plain note skips: [A3 annualising](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/a3-annualising-a-multi-year-return), [A5 portfolio HPY](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/a5-portfolio-hpy), [A7 historical variance](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/a7-variance-and-standard-deviation-expected-and-historical), [A8 CV](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/a8-coefficient-of-variation-cv), [A11 order types](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/a11-types-of-orders), [A12 margin](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/a12-buying-on-margin) and [A13 short selling](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/a13-short-selling-on-margin).
+   - **Sprint 2:** [Part B, Tutorial 1 fully worked](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/part-b-tutorial-1-fully-worked): for each question, try it first from 📁 `Tutorial 1 Questions-1.docx`, then check against the worked answer.
+   - **Output:** [Pack 1 Part C self-test](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/part-c-self-test), closed book · learn the [cheat sheet's traps](#/EFB335/13-revision-pack-topic-1-and-tutorial-1/traps).
 4. **AYB250 · Topic 2a: personal financial statements and ratios.**
    - **Sprint 1:** [statements and ratios](#/AYB250/02-topic-2-personal-financial-statements-and-ratios): the balance sheet and cash flow statement.
    - **Sprint 2:** the four planning ratios, then the [formula sheet's ratios](#/AYB250/24-formula-sheet-and-exam-traps/the-four-planning-ratios).
@@ -128,20 +135,20 @@ to decide when you start.
 
 ### Thu 29 Oct
 
-**Morning recall, 8:10 (15 min):** *yesterday, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 2: diversification and utility; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
+**Morning recall, 8:10 (15 min):** *yesterday, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 1 in depth: Revision Pack 1; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
 
-1. **EFB335 · Topic 3: CML, beta and the CAPM.**
-   - **Sprint 1:** [Topics 3–4](#/EFB335/22-plain-english-topics-3-4-capm-and-factors): the picture, the words, steps 1–2 (the CML, why beta and not σ).
-   - **Sprint 2:** steps 3–4 (the CAPM, spotting a mispriced share), then the CAPM rows of the **Jargon to Learn** table.
-   - **Output:** [sample Q2](#/EFB335/18-sample-final-exam/question-2-capm-topic-3-4-marks) answered closed book and marked.
+1. **EFB335 · Topic 2 in depth (1 of 2): portfolio risk.**
+   - **Sprint 1:** [Plain note](#/EFB335/21-plain-english-topics-1-2-return-and-risk) steps 4–5 as the way in (10 min), then [Pack 2](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/part-a-the-concepts-taught-from-scratch) A1–A7: risk aversion, expected return, variance, [covariance](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a4-covariance-direction-of-co-movement), [correlation](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a5-correlation-strength-of-co-movement), [two-asset variance term by term](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a6-two-asset-portfolio-variance-derived-term-by-term).
+   - **Sprint 2:** Pack 2 [A8 minimum-variance weights](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a8-minimum-variance-weights), [A9 three assets and the covariance matrix](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a9-three-assets-the-covariance-matrix-and-ww), [A11 efficient frontier](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a11-the-efficient-frontier), [A12 how many stocks](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a12-diversification-benefits-and-how-many-stocks).
+   - **Output:** a two-asset σ and the minimum-variance weight on new numbers · why portfolio σ isn't a weighted average, in two jargon sentences.
 2. **AYB250 · Topic 2b: time value of money.** Calculator in hand.
    - **Sprint 1:** [TVM and investment maths](#/AYB250/03-topic-2-time-value-of-money-and-investment-maths), first half: PV, FV, annuities.
    - **Sprint 2:** second half, then [Tutorial 2](#/AYB250/15-tutorial-2-solutions).
    - **Output:** [Practice C1–C3](#/AYB250/23-practice-questions/section-c-time-value-of-money), closed book, then checked.
-3. **EFB335 · Topic 4: APT and factor models.**
-   - **Sprint 1:** [Topics 3–4](#/EFB335/22-plain-english-topics-3-4-capm-and-factors) steps 5–6, with the [full Topic 4 note](#/EFB335/05-topic-4-apt-and-multifactor-models) sections 4.2–4.3 beside it.
-   - **Sprint 2:** the rest of the **Jargon to Learn** table, then **Say it back**.
-   - **Output:** an APT expected return on your own numbers · CAPM vs APT in four exam sentences.
+3. **EFB335 · Topic 2 in depth (2 of 2): Tutorial 2 and utility.**
+   - **Sprint 1:** [Pack 2 Part B, Tutorial 2 fully worked](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/part-b-tutorial-2-fully-worked): try each from 📁 `Tutorial 2 Questions-1.docx` first, then check.
+   - **Sprint 2:** [Pack 2 A13 utility](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a13-investor-utility-and-indifference-curves) and [A14 risk tolerance](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a14-the-risk-tolerance-questionnaire), then the plain note's **Jargon to Learn** table.
+   - **Output:** [Pack 2 Part C self-test](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/part-c-self-test), closed book · the [cheat sheet traps](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/traps).
 4. **AYB250 · TVM practice.**
    - **Sprint 1:** [Practice C4–C7](#/AYB250/23-practice-questions/section-c-time-value-of-money), calculator in hand.
    - **Sprint 2:** the [TVM section of the formula sheet](#/AYB250/24-formula-sheet-and-exam-traps/time-value-of-money).
@@ -157,20 +164,20 @@ to decide when you start.
 
 ### Fri 30 Oct
 
-**Morning recall, 8:10 (15 min):** *two days ago, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 2: diversification and utility; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
+**Morning recall, 8:10 (15 min):** *two days ago, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 1 in depth: Revision Pack 1; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
 
-1. **EFB335 · Topic 5: market efficiency (1 of 2).**
-   - **Sprint 1:** [Topic 5](#/EFB335/23-plain-english-topic-5-market-efficiency): the picture, the three forms table, why markets should be efficient.
-   - **Sprint 2:** the runs test, the event study, the strong-form tests.
-   - **Output:** the three forms table from memory: what each form says prices reflect, and what it rules out.
+1. **EFB335 · Topic 3 in depth: CML, beta and the CAPM.**
+   - **Sprint 1:** [Plain note](#/EFB335/22-plain-english-topics-3-4-capm-and-factors) steps 1–4 as the way in (10 min), then [Pack 3 Part A](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/part-a-the-concepts-taught-from-scratch) A3–A13: the risk-free asset, the CML, lending vs borrowing, the SML, [beta's three formulas](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/a11-beta-definition-three-formulas-excel-and-two-rules), [the CAPM and mispricing](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/a12-the-capm-equation-each-input-and-finding-mispriced-stocks).
+   - **Sprint 2:** [Pack 3 Part B, Tutorial 3](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/part-b-tutorial-3-fully-worked) B2–B6: try each from 📁 `Tutorial 3 Questions-2.docx` first, then check. Skim A14–A16 (relaxed assumptions, tests, Roll's critique).
+   - **Output:** [sample Q2](#/EFB335/18-sample-final-exam/question-2-capm-topic-3-4-marks) closed book · [Pack 3 Part C self-test](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/part-c-self-test).
 2. **AYB250 · Topic 3a: income tax and deductions.**
    - **Sprint 1:** [Topic 3a](#/AYB250/04-topic-3-income-tax-and-deductions), first half.
    - **Sprint 2:** second half, then the income tax questions in [Tutorial 3](#/AYB250/16-tutorial-3-solutions).
    - **Output:** [Practice D1–D2](#/AYB250/23-practice-questions/section-d-tax-hecs-and-goal-modelling) closed book.
-3. **EFB335 · Topic 5: market efficiency (2 of 2).**
-   - **Sprint 1:** [Topic 5](#/EFB335/23-plain-english-topic-5-market-efficiency): the anomalies, the behavioural explanations, what it means for investors.
-   - **Sprint 2:** the **Jargon to Learn** table, then **Say it back**.
-   - **Output:** [sample Q1](#/EFB335/18-sample-final-exam/question-1-market-efficiency-topic-5-4-marks) answered closed book, in the jargon, and marked.
+3. **EFB335 · Topic 4 in depth: APT and factor models.**
+   - **Sprint 1:** [Plain note](#/EFB335/22-plain-english-topics-3-4-capm-and-factors) steps 5–6 (10 min), then [Pack 4 Part A](#/EFB335/16-revision-pack-topic-4-and-tutorial-4/part-a-the-concepts-taught-from-scratch): the APT equation, [CAPM vs APT](#/EFB335/16-revision-pack-topic-4-and-tutorial-4/a4-capm-vs-apt-the-comparison-table), [the two-factor example](#/EFB335/16-revision-pack-topic-4-and-tutorial-4/a5-using-the-apt-the-two-factor-example), [the three-stock arbitrage](#/EFB335/16-revision-pack-topic-4-and-tutorial-4/a6-the-three-stock-arbitrage-slowly), [Fama–French](#/EFB335/16-revision-pack-topic-4-and-tutorial-4/a11-famafrench-three-factor-the-micro-school-and-its-signs).
+   - **Sprint 2:** [Pack 4 Part B, Tutorial 4](#/EFB335/16-revision-pack-topic-4-and-tutorial-4/part-b-tutorial-4-fully-worked): try each from 📁 `Tutorial 4 Questions-2 (1).docx` first. Then the plain note's **Jargon to Learn** for Topics 3–4.
+   - **Output:** [Pack 4 Part C self-test](#/EFB335/16-revision-pack-topic-4-and-tutorial-4/part-c-self-test) · CAPM vs APT in four jargon sentences.
 4. **AYB250 · Topic 3b: investment tax and planning.**
    - **Sprint 1:** [Topic 3b](#/AYB250/05-topic-3-investment-tax-and-planning): CGT, franking, negative gearing.
    - **Sprint 2:** the rest of [Tutorial 3](#/AYB250/16-tutorial-3-solutions), then [Practice Section E](#/AYB250/23-practice-questions/section-e-taxation-planning-week-3).
@@ -186,20 +193,20 @@ to decide when you start.
 
 ### Sat 31 Oct
 
-**Morning recall, 8:10 (15 min):** *two days ago, Thu 29 Oct:* EFB335 · Topic 3: CML, beta and the CAPM; AYB250 · Topic 2b: time value of money; EFB335 · Topic 4: APT and factor models; AYB250 · TVM practice; USB245 · Topic 2: property as an asset class and the DCF; USB244 · Topic 2: office and industrial
+**Morning recall, 8:10 (15 min):** *two days ago, Thu 29 Oct:* EFB335 · Topic 2 in depth (1 of 2): portfolio risk; AYB250 · Topic 2b: time value of money; EFB335 · Topic 2 in depth (2 of 2): Tutorial 2 and utility; AYB250 · TVM practice; USB245 · Topic 2: property as an asset class and the DCF; USB244 · Topic 2: office and industrial
 
-1. **EFB335 · Topic 6: equity strategies (1 of 2).**
-   - **Sprint 1:** [Topic 6](#/EFB335/24-plain-english-topic-6-equity-strategies): the picture, the words, tracking error and the tax cost ratio.
-   - **Sprint 2:** 📁 deck `Topic 6_Equity Portfolio Management Strategies - upload.pptx`, slides 7–37, skimmed to check the note covers it.
-   - **Output:** tracking error and a tax cost ratio on your own numbers.
+1. **EFB335 · Topic 5 (1 of 2): the three forms and weak-form tests.**
+   - **Sprint 1:** [Plain note](#/EFB335/23-plain-english-topic-5-market-efficiency): the picture, the three forms, why markets should be efficient, the runs test (15 min). Then 📁 deck `Topic 5_Market Efficiency_upload.pptx` **slides 4–13**.
+   - **Sprint 2:** 📁 deck **slides 14–21**: calendar effects, the January effect, momentum and reversals and their explanations, trading-rule tests, the checkpoint.
+   - **Output:** the three forms table from memory · the slide 21 checkpoint answered.
 2. **AYB250 · Topic 4a: asset classes.**
    - **Sprint 1:** [Topic 4a](#/AYB250/06-topic-4-asset-classes-and-investments).
    - **Sprint 2:** the first half of [Tutorial 4](#/AYB250/17-tutorial-4-solutions).
    - **Output:** the asset classes ranked by risk and return, one line each.
-3. **EFB335 · Topic 6: equity strategies (2 of 2).**
-   - **Sprint 1:** [Topic 6](#/EFB335/24-plain-english-topic-6-equity-strategies): the four asset allocation strategies, value vs growth, style analysis, super.
-   - **Sprint 2:** the **Jargon to Learn** table, then **Say it back**.
-   - **Output:** [sample Q3](#/EFB335/18-sample-final-exam/question-3-superannuation-and-asset-allocation-topic-6-4-marks) answered in the jargon and marked · [Q10(a)](#/EFB335/18-sample-final-exam/question-10-beating-the-benchmark-topics-6-and-10-4-marks).
+3. **EFB335 · Topic 5 (2 of 2): semi-strong, strong and what it means.**
+   - **Sprint 1:** 📁 deck **slides 23–34**: return prediction, P/E, size, neglected firms, B/M, event studies, post-earnings drift. The plain note's anomalies table beside it.
+   - **Sprint 2:** 📁 deck **slides 35–48**: insiders, analysts, fund managers, implications for technical, fundamental and portfolio managers. Then the **Jargon to Learn** table.
+   - **Output:** [sample Q1](#/EFB335/18-sample-final-exam/question-1-market-efficiency-topic-5-4-marks) in the jargon, marked.
 4. **AYB250 · Topic 4b: risk, return and portfolio theory.**
    - **Sprint 1:** [Topic 4b](#/AYB250/07-topic-4-risk-return-and-portfolio-theory).
    - **Sprint 2:** the rest of [Tutorial 4](#/AYB250/17-tutorial-4-solutions), then [Practice Section F](#/AYB250/23-practice-questions/section-f-investments-and-portfolio-theory-week-4).
@@ -215,20 +222,20 @@ to decide when you start.
 
 ### Sun 1 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Fri 30 Oct:* EFB335 · Topic 5: market efficiency (1 of 2); AYB250 · Topic 3a: income tax and deductions; EFB335 · Topic 5: market efficiency (2 of 2); AYB250 · Topic 3b: investment tax and planning; USB245 · Topic 3: the DCF and its cashflows; USB244 · Topic 3: retail
+**Morning recall, 8:10 (15 min):** *two days ago, Fri 30 Oct:* EFB335 · Topic 3 in depth: CML, beta and the CAPM; AYB250 · Topic 3a: income tax and deductions; EFB335 · Topic 4 in depth: APT and factor models; AYB250 · Topic 3b: investment tax and planning; USB245 · Topic 3: the DCF and its cashflows; USB244 · Topic 3: retail
 
-1. **EFB335 · Topic 7: bonds (1 of 2).**
-   - **Sprint 1:** [Topic 7](#/EFB335/25-plain-english-topic-7-bonds): the seesaw, the words, what makes a bond more sensitive.
-   - **Sprint 2:** worked examples 1–3: Macaulay duration by hand, the price change with convexity, portfolio duration.
-   - **Output:** `%ΔP ≈ −ModD × Δy + ½ × Convexity × (Δy)²` from memory, used on yields up 1% and down 1%.
+1. **EFB335 · Topic 6 (1 of 2): passive and active.**
+   - **Sprint 1:** [Plain note](#/EFB335/24-plain-english-topic-6-equity-strategies): the picture, the words, tracking error and the tax cost ratio (15 min). Then 📁 deck `Topic 6_Equity Portfolio Management Strategies - upload.pptx` **slides 4–21**: the industry, passive vs active, index construction, tracking error, index funds and ETFs, alpha.
+   - **Sprint 2:** 📁 deck **slides 24–37**: top-down vs bottom-up, 130/30, contrarian vs momentum, factor strategies, tax efficiency, the checkpoint.
+   - **Output:** tracking error and a tax cost ratio on your own numbers · the slide 37 checkpoint answered.
 2. **AYB250 · Topic 5a: property investment.**
    - **Sprint 1:** [Topic 5a](#/AYB250/08-topic-5-property-investment).
    - **Sprint 2:** the property questions in [Tutorial 5](#/AYB250/18-tutorial-5-solutions).
    - **Output:** [Practice G1–G2](#/AYB250/23-practice-questions/section-g-property-and-leveraged-investing-week-5) closed book.
-3. **EFB335 · Topic 7: bonds (2 of 2).**
-   - **Sprint 1:** [Topic 7](#/EFB335/25-plain-english-topic-7-bonds): the strategies table and the three term-structure theories.
-   - **Sprint 2:** the **Jargon to Learn** table, then **Say it back**.
-   - **Output:** [sample Q4](#/EFB335/18-sample-final-exam/question-4-bond-portfolio-choice-topic-7-4-marks) answered in the jargon: your rate view first, then three reasons.
+3. **EFB335 · Topic 6 (2 of 2): styles and asset allocation.**
+   - **Sprint 1:** 📁 deck **slides 38–48**: value vs growth, style analysis, the four asset allocation strategies.
+   - **Sprint 2:** The plain note's super section and **Jargon to Learn** table, then **Say it back**.
+   - **Output:** [sample Q3](#/EFB335/18-sample-final-exam/question-3-superannuation-and-asset-allocation-topic-6-4-marks) and [Q10(a)](#/EFB335/18-sample-final-exam/question-10-beating-the-benchmark-topics-6-and-10-4-marks) in the jargon, marked.
 4. **AYB250 · Topic 5b: leveraged investing and margin lending.**
    - **Sprint 1:** [Topic 5b](#/AYB250/09-topic-5-leveraged-investing).
    - **Sprint 2:** the rest of [Tutorial 5](#/AYB250/18-tutorial-5-solutions) and [Practice Section G](#/AYB250/23-practice-questions/section-g-property-and-leveraged-investing-week-5).
@@ -248,20 +255,20 @@ to decide when you start.
 
 ### Mon 2 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Sat 31 Oct:* EFB335 · Topic 6: equity strategies (1 of 2); AYB250 · Topic 4a: asset classes; EFB335 · Topic 6: equity strategies (2 of 2); AYB250 · Topic 4b: risk, return and portfolio theory; USB245 · Topic 4: deriving the discount rate; USB244 · Topic 4: commercial and green leases
+**Morning recall, 8:10 (15 min):** *two days ago, Sat 31 Oct:* EFB335 · Topic 5 (1 of 2): the three forms and weak-form tests; AYB250 · Topic 4a: asset classes; EFB335 · Topic 5 (2 of 2): semi-strong, strong and what it means; AYB250 · Topic 4b: risk, return and portfolio theory; USB245 · Topic 4: deriving the discount rate; USB244 · Topic 4: commercial and green leases
 
-1. **EFB335 · Topic 8: derivatives (1 of 2).**
-   - **Sprint 1:** [Topic 8](#/EFB335/26-plain-english-topic-8-derivatives): the pictures, the words, the two payoff lines, what makes an option worth more.
-   - **Sprint 2:** using derivatives in a portfolio: the futures hedge, protective put, collar, covered call, cash equitisation.
-   - **Output:** [sample Q5](#/EFB335/18-sample-final-exam/question-5-futures-for-cash-equitisation-topic-8-4-marks) answered in the jargon and marked.
+1. **EFB335 · Topic 7 (1 of 2): price, duration and convexity.**
+   - **Sprint 1:** [Plain note](#/EFB335/25-plain-english-topic-7-bonds): the seesaw, sensitivity rules, worked examples 1–3 (20 min). Then 📁 deck `Topic 7_Bond Portfolio Management Strategies-4.pptx` **slides 16–21**.
+   - **Sprint 2:** 📁 deck **slides 23–33**: Macaulay and modified duration, BPV, portfolio duration, convexity.
+   - **Output:** Macaulay duration by hand on a 3-year bond · the price-change line with convexity on ±1%.
 2. **AYB250 · Topic 6: risk management and insurance.**
    - **Sprint 1:** [Topic 6](#/AYB250/10-topic-6-risk-management-and-insurance).
    - **Sprint 2:** [Tutorial 6](#/AYB250/19-tutorial-6-solutions), then [Practice Section H](#/AYB250/23-practice-questions/section-h-risk-management-and-insurance-week-6).
    - **Output:** the insurance types in a table (what each covers, who needs it) · Section H score.
-3. **EFB335 · Topic 8: derivatives (2 of 2).**
-   - **Sprint 1:** [Topic 8](#/EFB335/26-plain-english-topic-8-derivatives): the trading strategies table and both worked tables, redone with the note covered.
-   - **Sprint 2:** the **Jargon to Learn** table, then **Say it back**.
-   - **Output:** [sample Q6](#/EFB335/18-sample-final-exam/question-6-a-bull-spread-with-puts-topic-8-4-marks) as a payoff and profit table, marked.
+3. **EFB335 · Topic 7 (2 of 2): strategies and the yield curve.**
+   - **Sprint 1:** 📁 deck **slides 3–15**: performance, style, passive (buy-and-hold, ladder, indexing) and active strategies, yield spreads.
+   - **Sprint 2:** 📁 deck **slides 34 to the end**: term structure theories, bond swaps, global, core-plus, dedication, horizon matching, contingent immunisation. Then the **Jargon to Learn** table.
+   - **Output:** [sample Q4](#/EFB335/18-sample-final-exam/question-4-bond-portfolio-choice-topic-7-4-marks) in the jargon: rate view first, three reasons.
 4. **AYB250 · Topic 7: superannuation and SMSFs.**
    - **Sprint 1:** [Topic 7](#/AYB250/11-topic-7-superannuation-and-smsfs), first half.
    - **Sprint 2:** second half.
@@ -277,20 +284,20 @@ to decide when you start.
 
 ### Tue 3 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Sun 1 Nov:* EFB335 · Topic 7: bonds (1 of 2); AYB250 · Topic 5a: property investment; EFB335 · Topic 7: bonds (2 of 2); AYB250 · Topic 5b: leveraged investing and margin lending; USB245 · Topic 5: NPV, IRR and return measures; USB244 · Topic 5: taxation and decision-making
+**Morning recall, 8:10 (15 min):** *two days ago, Sun 1 Nov:* EFB335 · Topic 6 (1 of 2): passive and active; AYB250 · Topic 5a: property investment; EFB335 · Topic 6 (2 of 2): styles and asset allocation; AYB250 · Topic 5b: leveraged investing and margin lending; USB245 · Topic 5: NPV, IRR and return measures; USB244 · Topic 5: taxation and decision-making
 
-1. **EFB335 · Topic 9: hedge funds and alternatives.**
-   - **Sprint 1:** [Topic 9](#/EFB335/27-plain-english-topic-9-alternatives): the picture, the words, the J-curve, the strategies table.
-   - **Sprint 2:** the high-water mark, adding a hedge fund, do the claimed benefits exist, then the **Jargon to Learn** table.
-   - **Output:** [sample Q7](#/EFB335/18-sample-final-exam/question-7-the-claimed-benefits-of-hedge-funds-topic-9-4-marks) and [Q8](#/EFB335/18-sample-final-exam/question-8-adding-a-hedge-fund-to-a-portfolio-topic-9-4-marks) answered in the jargon and marked.
+1. **EFB335 · Topic 8 (1 of 2): options and futures in a portfolio.**
+   - **Sprint 1:** [Plain note](#/EFB335/26-plain-english-topic-8-derivatives): the pictures, payoffs, value drivers (15 min). Then 📁 deck `Topic 8_Derivatives-Upload.pptx` **slides 4–19**: futures, call and put values, determinants, hedging with futures, protective puts.
+   - **Sprint 2:** 📁 deck **slides 20–32**: collars, covered calls, calls while establishing a portfolio, selling puts. Check against 📁 `Topic 8 Derivative Strategies-2-1.xlsx`.
+   - **Output:** [sample Q5](#/EFB335/18-sample-final-exam/question-5-futures-for-cash-equitisation-topic-8-4-marks) in the jargon · the slide 26 checkpoint.
 2. **AYB250 · Super in practice.**
    - **Sprint 1:** [Tutorial 7](#/AYB250/20-tutorial-7-solutions).
    - **Sprint 2:** [Practice Section I](#/AYB250/23-practice-questions/section-i-superannuation-week-7), closed book.
    - **Output:** Section I score, misses traced back.
-3. **EFB335 · Topic 10: judging a manager (1 of 2).**
-   - **Sprint 1:** [Topic 10](#/EFB335/28-plain-english-topic-10-performance): the picture, the five measures, the slides' own numbers worked with the note covered.
-   - **Sprint 2:** why Sharpe and Treynor disagree, then the first half of the **Jargon to Learn** table.
-   - **Output:** each measure: its formula, which risk it uses, when to use it. **Sortino isn't on the sheet.**
+3. **EFB335 · Topic 8 (2 of 2): trading strategies.**
+   - **Sprint 1:** 📁 deck **slides 34–45**: straddles, strips, straps, strangles. Draw each payoff as you go.
+   - **Sprint 2:** 📁 deck **slides 46–54**: spreads, butterflies, range forwards. Then the plain note's worked tables redone covered, and the **Jargon to Learn** table.
+   - **Output:** [sample Q6](#/EFB335/18-sample-final-exam/question-6-a-bull-spread-with-puts-topic-8-4-marks) as a payoff and profit table · the slide 45 checkpoint.
 4. **AYB250 · Topic 8: retirement planning.**
    - **Sprint 1:** [Topic 8](#/AYB250/12-topic-8-retirement-planning).
    - **Sprint 2:** [Tutorial 8](#/AYB250/21-tutorial-8-solutions), then [Practice Section J](#/AYB250/23-practice-questions/section-j-retirement-planning-week-8).
@@ -306,20 +313,20 @@ to decide when you start.
 
 ### Wed 4 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Mon 2 Nov:* EFB335 · Topic 8: derivatives (1 of 2); AYB250 · Topic 6: risk management and insurance; EFB335 · Topic 8: derivatives (2 of 2); AYB250 · Topic 7: superannuation and SMSFs; USB245 · Topic 6: the financial calculator; USB244 · Topic 6: green buildings and disclosure — *a week ago, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 2: diversification and utility; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
+**Morning recall, 8:10 (15 min):** *two days ago, Mon 2 Nov:* EFB335 · Topic 7 (1 of 2): price, duration and convexity; AYB250 · Topic 6: risk management and insurance; EFB335 · Topic 7 (2 of 2): strategies and the yield curve; AYB250 · Topic 7: superannuation and SMSFs; USB245 · Topic 6: the financial calculator; USB244 · Topic 6: green buildings and disclosure — *a week ago, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 1 in depth: Revision Pack 1; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
 
-1. **EFB335 · Topic 10: judging a manager (2 of 2).**
-   - **Sprint 1:** [Topic 10](#/EFB335/28-plain-english-topic-10-performance): attribution, then the rest of the topic.
-   - **Sprint 2:** the rest of the **Jargon to Learn** table, **Say it back**, then 📁 `Tutorial 10 Questions-2.docx` with `Tutorial 10 SV-3.xlsx`.
-   - **Output:** [sample Q9](#/EFB335/18-sample-final-exam/question-9-risk-adjusted-performance-topic-10-4-marks) and [Q10](#/EFB335/18-sample-final-exam/question-10-beating-the-benchmark-topics-6-and-10-4-marks) answered and marked. **Every EFB335 topic is now learned once.**
+1. **EFB335 · Topic 9 (1 of 2): private equity and venture capital.**
+   - **Sprint 1:** [Plain note](#/EFB335/27-plain-english-topic-9-alternatives): the picture, the words, the J-curve (15 min). Then 📁 deck `Topic 9_Hedge Funds and Other Alternative Investments-4.pptx` **slides 4–17**: alternatives, structure, private equity, returns.
+   - **Sprint 2:** 📁 deck **slides 18–26**: the J-curve, venture capital stages and VC returns (raw vs risk-adjusted).
+   - **Output:** the J-curve sketched and explained · PE vs VC in a table.
 2. **AYB250 · Topic 9: estate planning.**
    - **Sprint 1:** [Topic 9](#/AYB250/13-topic-9-estate-planning).
    - **Sprint 2:** 📁 `AYB250 › Tutorials › AYB250 Tutorial Questions Topic 9.docx`, then [Practice Section K](#/AYB250/23-practice-questions/section-k-estate-planning-week-9).
    - **Output:** intestacy (the $150,000 off the top) · super death benefits to an adult child · what marriage and divorce do to a will.
-3. **EFB335 · The official formula sheet.**
-   - **Sprint 1:** [the formula sheet note](#/EFB335/17-official-exam-formula-sheet), line by line. Say what each line is for, out loud.
-   - **Sprint 2:** [what is NOT on the sheet](#/EFB335/17-official-exam-formula-sheet/what-is-not-on-the-sheet-memorise-these), read once, then covered.
-   - **Output:** every "not on the sheet" formula written from memory and checked. Start an **index card** with the ones you missed.
+3. **EFB335 · Topic 9 (2 of 2): hedge funds.**
+   - **Sprint 1:** 📁 deck **slides 28–42**: characteristics, claimed benefits, the strategies, merger arbitrage, LTCM, funds of funds.
+   - **Sprint 2:** 📁 deck **slides 43–49**: performance, fees, the high-water mark, drawbacks, the 10–20% allocation. Then the plain note's worked examples and **Jargon to Learn** table. Skim 📁 `Tutorial 9 Questions (Hedge Funds).docx`.
+   - **Output:** [sample Q7](#/EFB335/18-sample-final-exam/question-7-the-claimed-benefits-of-hedge-funds-topic-9-4-marks) and [Q8](#/EFB335/18-sample-final-exam/question-8-adding-a-hedge-fund-to-a-portfolio-topic-9-4-marks) in the jargon, marked.
 4. **AYB250 · Week 10: social security (1 of 2).** [Week 10 note](#/AYB250/25-week-10-social-security) (📁 deck `AYB250 › Lecture › AYB250 Week 10.pptx` slides 1–40 to check).
    - **Sprint 1:** the note's system, payment types, age pension rates, then the assets test.
    - **Sprint 2:** the income test and deeming, then case study A, worked with the note covered.
@@ -335,20 +342,20 @@ to decide when you start.
 
 ### Thu 5 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Tue 3 Nov:* EFB335 · Topic 9: hedge funds and alternatives; AYB250 · Super in practice; EFB335 · Topic 10: judging a manager (1 of 2); AYB250 · Topic 8: retirement planning; USB245 · Topic 7: property finance and leverage; USB244 · Tutorials 1–2: the IM and the tenancy schedule — *a week ago, Thu 29 Oct:* EFB335 · Topic 3: CML, beta and the CAPM; AYB250 · Topic 2b: time value of money; EFB335 · Topic 4: APT and factor models; AYB250 · TVM practice; USB245 · Topic 2: property as an asset class and the DCF; USB244 · Topic 2: office and industrial
+**Morning recall, 8:10 (15 min):** *two days ago, Tue 3 Nov:* EFB335 · Topic 8 (1 of 2): options and futures in a portfolio; AYB250 · Super in practice; EFB335 · Topic 8 (2 of 2): trading strategies; AYB250 · Topic 8: retirement planning; USB245 · Topic 7: property finance and leverage; USB244 · Tutorials 1–2: the IM and the tenancy schedule — *a week ago, Thu 29 Oct:* EFB335 · Topic 2 in depth (1 of 2): portfolio risk; AYB250 · Topic 2b: time value of money; EFB335 · Topic 2 in depth (2 of 2): Tutorial 2 and utility; AYB250 · TVM practice; USB245 · Topic 2: property as an asset class and the DCF; USB244 · Topic 2: office and industrial
 
-1. **EFB335 · Sample exam Q1–5, timed.** [Sample final exam](#/EFB335/18-sample-final-exam). No notes.
-   - **Sprint 1:** Q1–Q3, 25 minutes.
-   - **Sprint 2:** Q4–Q5 (15 minutes), then mark all five.
-   - **Output:** marks out of 20, and each lost mark named.
+1. **EFB335 · Topic 10 (1 of 2): the five measures.**
+   - **Sprint 1:** [Plain note](#/EFB335/28-plain-english-topic-10-performance): the picture, the five measures, the slides' numbers (15 min). Then 📁 deck `Topic 10_Performance Evaluation-5.pptx` **slides 4–20**: past performance, peer groups, tracking measures, Sharpe, Treynor.
+   - **Sprint 2:** 📁 deck **slides 21–31**: Jensen, the information ratio, Sortino and downside risk.
+   - **Output:** each measure: formula, which risk, when to use it · why Sharpe and Treynor can disagree, in the jargon.
 2. **AYB250 · Week 10: social security (2 of 2).** [Week 10 note](#/AYB250/25-week-10-social-security).
    - **Sprint 1:** case studies B and C (couples, and the younger partner's super), then income streams, real estate and deprivation.
    - **Sprint 2:** the perverse incentive, the five ways to maximise the pension, case study D, then the note's **Jargon**, **Traps** and **Say it back**. Then 📁 `AYB250 Tutorial Questions Topic 10.docx`.
    - **Output:** case study B without the slides · the five ways to maximise the pension (slide 62).
-3. **EFB335 · Sample exam Q6–10, timed.** No notes.
-   - **Sprint 1:** Q6–Q8, 25 minutes.
-   - **Sprint 2:** Q9–Q10 (15 minutes), then mark all five.
-   - **Output:** your total out of 40 · every lost mark listed against its topic.
+3. **EFB335 · Topic 10 (2 of 2): attribution and evidence.**
+   - **Sprint 1:** 📁 deck **slides 32–42**: fund returns, what a manager needs, attribution, benchmarks, reporting standards, the studies.
+   - **Sprint 2:** 📁 `Tutorial 10 Questions-2.docx` with `Tutorial 10 SV-3.xlsx`, then the **Jargon to Learn** table.
+   - **Output:** [sample Q9](#/EFB335/18-sample-final-exam/question-9-risk-adjusted-performance-topic-10-4-marks) and [Q10](#/EFB335/18-sample-final-exam/question-10-beating-the-benchmark-topics-6-and-10-4-marks) answered and marked. **Every EFB335 topic is now learned once.**
 4. **AYB250 · Practice A–C, closed book.** Answer first, then reveal.
    - **Sprint 1:** [Sections A and B](#/AYB250/23-practice-questions/section-a-regulation-and-concepts).
    - **Sprint 2:** [Section C](#/AYB250/23-practice-questions/section-c-time-value-of-money), calculator in hand.
@@ -364,20 +371,20 @@ to decide when you start.
 
 ### Fri 6 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Wed 4 Nov:* EFB335 · Topic 10: judging a manager (2 of 2); AYB250 · Topic 9: estate planning; EFB335 · The official formula sheet; AYB250 · Week 10: social security (1 of 2); USB245 · Topics 8–9: property tax and the after-tax DCF; USB244 · Tutorials 3–4: WALE and outgoings — *a week ago, Fri 30 Oct:* EFB335 · Topic 5: market efficiency (1 of 2); AYB250 · Topic 3a: income tax and deductions; EFB335 · Topic 5: market efficiency (2 of 2); AYB250 · Topic 3b: investment tax and planning; USB245 · Topic 3: the DCF and its cashflows; USB244 · Topic 3: retail
+**Morning recall, 8:10 (15 min):** *two days ago, Wed 4 Nov:* EFB335 · Topic 9 (1 of 2): private equity and venture capital; AYB250 · Topic 9: estate planning; EFB335 · Topic 9 (2 of 2): hedge funds; AYB250 · Week 10: social security (1 of 2); USB245 · Topics 8–9: property tax and the after-tax DCF; USB244 · Tutorials 3–4: WALE and outgoings — *a week ago, Fri 30 Oct:* EFB335 · Topic 3 in depth: CML, beta and the CAPM; AYB250 · Topic 3a: income tax and deductions; EFB335 · Topic 4 in depth: APT and factor models; AYB250 · Topic 3b: investment tax and planning; USB245 · Topic 3: the DCF and its cashflows; USB244 · Topic 3: retail
 
-1. **EFB335 · Fix the sample exam misses.**
-   - **Sprint 1:** each lost mark goes to its plain-English note's **How the Exam Asks It** section. Read it, cover it, rewrite your answer in the jargon.
-   - **Sprint 2:** keep going through the list. Written answers first: they're 28 of the 40 marks.
-   - **Output:** every lost mark rewritten as a full-mark answer.
+1. **EFB335 · The official formula sheet and your index card.**
+   - **Sprint 1:** [the formula sheet note](#/EFB335/17-official-exam-formula-sheet), line by line. Say what each line is for, out loud.
+   - **Sprint 2:** [what is NOT on the sheet](#/EFB335/17-official-exam-formula-sheet/what-is-not-on-the-sheet-memorise-these): read once, cover, write each from memory, check.
+   - **Output:** an **index card** with every formula you missed. It goes with you to the night-before revision.
 2. **AYB250 · Practice D–F, closed book.**
    - **Sprint 1:** [Sections D and E](#/AYB250/23-practice-questions/section-d-tax-hecs-and-goal-modelling).
    - **Sprint 2:** [Section F](#/AYB250/23-practice-questions/section-f-investments-and-portfolio-theory-week-4).
    - **Output:** score per section, misses traced back.
-3. **EFB335 · Calculations, Topics 1–4.** [Practice sets](#/EFB335/10-practice-questions).
-   - **Sprint 1:** one question each from Sets A–C (returns, margin, two-asset portfolios).
-   - **Sprint 2:** one question each from Sets D–F (multi-asset, CAPM, APT).
-   - **Output:** six answers checked · formulas you blanked on added to the index card.
+3. **EFB335 · Sample exam Q1–5, timed.**
+   - **Sprint 1:** [Sample final exam](#/EFB335/18-sample-final-exam), no notes: Q1–Q3, 25 minutes.
+   - **Sprint 2:** Q4–Q5 (15 minutes), then mark all five.
+   - **Output:** marks out of 20, and each lost mark named.
 4. **AYB250 · Practice G–I, closed book.**
    - **Sprint 1:** [Sections G and H](#/AYB250/23-practice-questions/section-g-property-and-leveraged-investing-week-5).
    - **Sprint 2:** [Section I](#/AYB250/23-practice-questions/section-i-superannuation-week-7).
@@ -393,20 +400,20 @@ to decide when you start.
 
 ### Sat 7 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Thu 5 Nov:* EFB335 · Sample exam Q1–5, timed; AYB250 · Week 10: social security (2 of 2); EFB335 · Sample exam Q6–10, timed; AYB250 · Practice A–C, closed book; USB245 · Weeks 10–11: risk and portfolio analysis; USB244 · Exam guide items 1–7 and 18 — *a week ago, Sat 31 Oct:* EFB335 · Topic 6: equity strategies (1 of 2); AYB250 · Topic 4a: asset classes; EFB335 · Topic 6: equity strategies (2 of 2); AYB250 · Topic 4b: risk, return and portfolio theory; USB245 · Topic 4: deriving the discount rate; USB244 · Topic 4: commercial and green leases
+**Morning recall, 8:10 (15 min):** *two days ago, Thu 5 Nov:* EFB335 · Topic 10 (1 of 2): the five measures; AYB250 · Week 10: social security (2 of 2); EFB335 · Topic 10 (2 of 2): attribution and evidence; AYB250 · Practice A–C, closed book; USB245 · Weeks 10–11: risk and portfolio analysis; USB244 · Exam guide items 1–7 and 18 — *a week ago, Sat 31 Oct:* EFB335 · Topic 5 (1 of 2): the three forms and weak-form tests; AYB250 · Topic 4a: asset classes; EFB335 · Topic 5 (2 of 2): semi-strong, strong and what it means; AYB250 · Topic 4b: risk, return and portfolio theory; USB245 · Topic 4: deriving the discount rate; USB244 · Topic 4: commercial and green leases
 
-1. **EFB335 · Calculations, Topics 7, 8 and 10.**
-   - **Sprint 1:** a bond's price change with duration and convexity · payoff and profit tables for a protective put and a bear spread (📁 `Tutorial 8 Questions (Derivatives)-4.docx`).
-   - **Sprint 2:** Sharpe, Treynor, Jensen, IR, Sortino and attribution on one fund (📁 `Tutorial 10 Questions-2.docx`).
-   - **Output:** the index card finished: every formula that isn't on the sheet.
+1. **EFB335 · Sample exam Q6–10, timed.**
+   - **Sprint 1:** No notes: Q6–Q8, 25 minutes.
+   - **Sprint 2:** Q9–Q10 (15 minutes), then mark all five.
+   - **Output:** your total out of 40 · every lost mark listed against its topic.
 2. **AYB250 · Practice J–K plus social security.**
    - **Sprint 1:** [Sections J and K](#/AYB250/23-practice-questions/section-j-retirement-planning-week-8), closed book.
    - **Sprint 2:** social security case study D from the [Week 10 note](#/AYB250/25-week-10-social-security), cold.
    - **Output:** score per section · case D's pension amount.
-3. **EFB335 · Written answers in the jargon, Topics 5–9.**
-   - **Sprint 1:** 📁 `Tutorial 5 Questions-2.docx` and `Tutorial 6 Questions.docx`: one written question each, 8 minutes, checked against `Tutorial 5 Solutions-1-1.docx` and `Tutorial 6 Solutions-1.docx`.
-   - **Sprint 2:** 📁 `Tutorial 7 Questions-2.docx` and `Tutorial 9 Questions (Hedge Funds).docx`, one each, checked against `Tutorial 7 Solutions-1.docx` and the [Topic 9 note](#/EFB335/27-plain-english-topic-9-alternatives).
-   - **Output:** four answers, each marked: did you use the terms from the **Jargon to Learn** tables?
+3. **EFB335 · Fix the sample exam misses.**
+   - **Sprint 1:** each lost mark: that topic's plain-English **How the Exam Asks It** and **Jargon to Learn**, then rewrite the answer.
+   - **Sprint 2:** keep going. Written answers first: they're 28 of the 40 marks.
+   - **Output:** every lost mark rewritten as a full-mark answer.
 4. **AYB250 · Traps 1–18.** [The traps](#/AYB250/24-formula-sheet-and-exam-traps/the-traps-ranked-by-how-much-they-cost).
    - **Sprint 1:** traps 1–9: say each from its title, then work its example.
    - **Sprint 2:** traps 10–18.
@@ -422,7 +429,7 @@ to decide when you start.
 
 ### Sun 8 Nov · USB244 night-before
 
-**Morning recall, 8:10 (15 min):** *two days ago, Fri 6 Nov:* EFB335 · Fix the sample exam misses; AYB250 · Practice D–F, closed book; EFB335 · Calculations, Topics 1–4; AYB250 · Practice G–I, closed book; USB245 · Practice G–I, closed book; USB244 · Exam guide items 8–17, 19–20 — *a week ago, Sun 1 Nov:* EFB335 · Topic 7: bonds (1 of 2); AYB250 · Topic 5a: property investment; EFB335 · Topic 7: bonds (2 of 2); AYB250 · Topic 5b: leveraged investing and margin lending; USB245 · Topic 5: NPV, IRR and return measures; USB244 · Topic 5: taxation and decision-making
+**Morning recall, 8:10 (15 min):** *two days ago, Fri 6 Nov:* EFB335 · The official formula sheet and your index card; AYB250 · Practice D–F, closed book; EFB335 · Sample exam Q1–5, timed; AYB250 · Practice G–I, closed book; USB245 · Practice G–I, closed book; USB244 · Exam guide items 8–17, 19–20 — *a week ago, Sun 1 Nov:* EFB335 · Topic 6 (1 of 2): passive and active; AYB250 · Topic 5a: property investment; EFB335 · Topic 6 (2 of 2): styles and asset allocation; AYB250 · Topic 5b: leveraged investing and margin lending; USB245 · Topic 5: NPV, IRR and return measures; USB244 · Topic 5: taxation and decision-making
 
 Four day blocks for the other units, then the evening is USB244's
 night-before revision.
@@ -507,20 +514,20 @@ Three exams in three days. Have a proper lunch and a break first. If
 you're running on empty, do Blocks 1–3 and stop: EFB335 has all of
 tomorrow too.
 
-1. **Afternoon · EFB335: say it back, Topics 1–6.**
-   - **Sprint 1:** the **Say it back** questions in [Topics 1–2](#/EFB335/21-plain-english-topics-1-2-return-and-risk), [3–4](#/EFB335/22-plain-english-topics-3-4-capm-and-factors) and [5](#/EFB335/23-plain-english-topic-5-market-efficiency), out loud, in the jargon.
-   - **Sprint 2:** the same for [Topic 6](#/EFB335/24-plain-english-topic-6-equity-strategies), then reread the picture for anything you missed.
-   - **Output:** misses listed.
-2. **Afternoon · EFB335: say it back, Topics 7–10.**
-   - **Sprint 1:** [Topic 7](#/EFB335/25-plain-english-topic-7-bonds) and [Topic 8](#/EFB335/26-plain-english-topic-8-derivatives).
-   - **Sprint 2:** [Topic 9](#/EFB335/27-plain-english-topic-9-alternatives) and [Topic 10](#/EFB335/28-plain-english-topic-10-performance).
+1. **Afternoon · EFB335: say it back, all ten topics.**
+   - **Sprint 1:** the **Say it back** questions in [Topics 1–2](#/EFB335/21-plain-english-topics-1-2-return-and-risk), [3–4](#/EFB335/22-plain-english-topics-3-4-capm-and-factors), [5](#/EFB335/23-plain-english-topic-5-market-efficiency) and [6](#/EFB335/24-plain-english-topic-6-equity-strategies), out loud, in the jargon.
+   - **Sprint 2:** the same for [7](#/EFB335/25-plain-english-topic-7-bonds), [8](#/EFB335/26-plain-english-topic-8-derivatives), [9](#/EFB335/27-plain-english-topic-9-alternatives) and [10](#/EFB335/28-plain-english-topic-10-performance).
    - **Output:** misses listed. They go first tomorrow.
-3. **Afternoon · EFB335: option diagrams.**
-   - **Sprint 1:** payoff and profit for the straddle, strangle, strip, strap, protective put, covered call, collar and both spreads, drawn cold.
-   - **Sprint 2:** check them against [Topic 8](#/EFB335/26-plain-english-topic-8-derivatives) and redraw any you got wrong.
-   - **Output:** every diagram right.
+2. **Afternoon · EFB335: written answers in the jargon.**
+   - **Sprint 1:** 📁 `Tutorial 5 Questions-2.docx` and `Tutorial 6 Questions.docx`: one written question each, 8 minutes, checked against `Tutorial 5 Solutions-1-1.docx` and `Tutorial 6 Solutions-1.docx`.
+   - **Sprint 2:** 📁 `Tutorial 7 Questions-2.docx` and `Tutorial 9 Questions (Hedge Funds).docx`, one each, checked against `Tutorial 7 Solutions-1.docx` and the [Topic 9 note](#/EFB335/27-plain-english-topic-9-alternatives).
+   - **Output:** four answers marked: did you use the terms from the **Jargon to Learn** tables?
+3. **Afternoon · EFB335: calculations and option diagrams.**
+   - **Sprint 1:** a bond's price change with duration and convexity · Sharpe, Treynor, Jensen, IR and Sortino on one fund (📁 `Tutorial 10 Questions-2.docx`).
+   - **Sprint 2:** payoff and profit for the straddle, strangle, strip, strap, protective put, covered call, collar and both spreads, drawn cold, then checked against [Topic 8](#/EFB335/26-plain-english-topic-8-derivatives).
+   - **Output:** every diagram right · formulas you blanked on added to the index card.
 4. **Evening · EFB335: your two weakest topics.**
-   - **Sprint 1:** the weakest topic's plain-English note, top to bottom, slowly.
+   - **Sprint 1:** the weakest topic's notes (plain note, then its pack or deck section), slowly.
    - **Sprint 2:** the second weakest, the same way.
    - **Output:** both notes' **Say it back** questions, all correct.
 5. **Evening · EFB335: light.** One 30-minute sprint, then stop.
@@ -533,7 +540,7 @@ tomorrow too.
    - **Sprint 2:** Q4–Q6.
 2. **EFB335 · The full sample exam, again (2 of 2).**
    - **Sprint 1:** Q7–Q10.
-   - **Sprint 2:** mark all ten. Compare with your total from Thu 5 Nov.
+   - **Sprint 2:** mark all ten. Compare with your total from 6–7 Nov.
 3. **EFB335 · Fix the misses.**
    - **Sprint 1:** each lost mark: reread its note's **How the Exam Asks It** and **Jargon to Learn**, then rewrite the answer.
    - **Sprint 2:** whatever's left from yesterday's say-it-back misses.
