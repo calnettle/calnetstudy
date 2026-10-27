@@ -115,6 +115,31 @@ across for total payoff, then subtract the net premium paid (or add the
 net premium received) for profit. [Sample Q6](#/EFB335/18-sample-final-exam/question-6-a-bull-spread-with-puts-topic-8-4-marks)
 does exactly this with puts.
 
+## The Jargon to Learn
+
+The plain English above is there to help you *understand* it. **The
+marks go to the proper terms**, so learn every one of these: the term,
+what it means, and a sentence that uses it the way a marker wants to
+read it. Cover the right two columns and test yourself.
+
+| Term | What it means | Say it like this in the exam |
+|---|---|---|
+| **Derivative** | A contract whose value comes from an underlying asset | "Derivatives are used for hedging, speculation and arbitrage." |
+| **Forward vs futures contract** | Custom OTC agreement vs standardised exchange-traded contract | "Futures are standardised, exchange-traded and marked to market; forwards are customised over-the-counter contracts." |
+| **Call / put option** | Right to buy / right to sell at the exercise price | "The holder of a put profits when the underlying price falls below the exercise price by more than the premium." |
+| **Exercise (strike) price, premium, expiry** | Locked-in price, cost of the option, end date | "The call writer receives the premium and is obliged to sell at the exercise price if exercised." |
+| **Long / short (holder / writer)** | Bought / sold the option | "A short call has limited gain (the premium) and unlimited potential loss." |
+| **In / at / out of the money** | Exercise would pay / break even / not pay | "A collar uses an out-of-the-money put and an out-of-the-money call." |
+| **Payoff vs profit** | Value at expiry vs value minus net premium | "Payoff to call holder = max(S_T − X, 0); profit deducts the premium." |
+| **Hedging with futures** | Selling index futures against a share portfolio | "Selling stock index futures locks in the current portfolio value." |
+| **Cash equitisation** | Buying futures to get market exposure for uninvested cash | "Long index futures eliminate cash drag while the manager builds positions." |
+| **Protective put (portfolio insurance)** | Shares plus a long put | "A protective put sets a floor on portfolio value while retaining upside, at the cost of the premium." |
+| **Covered call** | Shares plus a short call | "A covered call earns premium income but caps upside at the exercise price." |
+| **Collar / range forward** | Long OTM put + short OTM call, often zero cost | "A zero-cost collar is a range forward: downside is protected and upside surrendered above the call strike." |
+| **Straddle / strangle** | Call + put, same strike / different OTM strikes | "A long straddle profits from high volatility in either direction." |
+| **Strip / strap** | 1 call + 2 puts / 2 calls + 1 put | "A strap is a volatility position with a bullish bias." |
+| **Bull / bear spread; butterfly; calendar spread** | Options differing in strike (or expiry) | "A bull spread buys the lower-strike option and sells the higher-strike option, capping both gain and loss." |
+
 ## How the Exam Asks It
 
 **Sample Q5** (4 marks): how can a fund get market exposure while

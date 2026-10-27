@@ -107,6 +107,29 @@ point by picking better shares and bonds than the index.
 - **Benchmark error:** the "market" is hard to measure. A different index gives a different beta and a different answer. A good benchmark is unambiguous, investable, measurable, appropriate, reflects current opinion, and is **specified in advance**.
 - **Evidence:** early studies found funds underperformed on average (Jensen 1968: average alpha −1.1%). Recent evidence is mixed and depends on the period, benchmark and fees.
 
+## The Jargon to Learn
+
+The plain English above is there to help you *understand* it. **The
+marks go to the proper terms**, so learn every one of these: the term,
+what it means, and a sentence that uses it the way a marker wants to
+read it. Cover the right two columns and test yourself.
+
+| Term | What it means | Say it like this in the exam |
+|---|---|---|
+| **Peer group comparison** | Ranking a fund against similar funds | "Peer group comparisons ignore risk explicitly and depend on a comparable universe." |
+| **Benchmark portfolio** | The passive standard the manager is judged against | "A valid benchmark is unambiguous, investable, measurable, appropriate and specified in advance." |
+| **Tracking performance: ATP / AATP / σ(TP)** | Average, average absolute and standard deviation of fund − benchmark returns | "AATP avoids positive and negative tracking errors cancelling out; σ(TP) penalises large deviations." |
+| **Sharpe ratio** | Excess return per unit of total risk | "The Sharpe ratio is appropriate when the portfolio is the investor's entire wealth." |
+| **Treynor ratio** | Excess return per unit of systematic risk | "The Treynor ratio assumes a well-diversified portfolio, since it ignores unsystematic risk." |
+| **Jensen's alpha** | Actual return minus CAPM-required return | "A significantly positive Jensen's alpha indicates superior risk-adjusted performance." |
+| **Information ratio** | Active return ÷ tracking error | "The information ratio measures the consistency of a manager's active return relative to the active risk taken." |
+| **Sortino ratio / downside risk / semi-deviation** | Return above a minimum target ÷ downside risk only | "The Sortino ratio penalises only returns below the minimum acceptable return." |
+| **Excess return** | Return above Rf (or above the benchmark) | "Both Sharpe and Treynor use excess return over the risk-free rate." |
+| **Market timing vs security selection** | Shifting exposure vs picking assets | "Superior risk-adjusted returns can come from superior timing or superior security selection." |
+| **Attribution analysis: allocation effect / selection effect** | Where the excess return came from | "The allocation effect measures over- or under-weighting segments; the selection effect measures picking better securities within segments." |
+| **Performance persistence** | Do winners keep winning? | "Evidence of persistence is weak for top performers and stronger for poor performers." |
+| **Time-weighted return / GIPS** | Return unaffected by the client's deposits and withdrawals; presentation standards | "Performance presentation standards require total, time-weighted returns, geometrically linked." |
+
 ## How the Exam Asks It
 
 **Sample Q9** (4 marks): (a) when can Sharpe and Treynor conflict, and

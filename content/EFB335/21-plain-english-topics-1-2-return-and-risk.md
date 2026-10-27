@@ -24,7 +24,8 @@ most important idea in the unit.
 
 | Term | Plain meaning |
 |---|---|
-| **Holding period return (HPR)** | (What you got back − what you paid + any income) ÷ what you paid |
+| **Holding period return (HPR)** | What you ended with ÷ what you started with. 1.14 means you finished with 1.14 times your money |
+| **Holding period yield (HPY)** | HPR − 1, the return as a percentage. 1.14 → 14%. With a dividend: (P₁ − P₀ + D) ÷ P₀ |
 | **Arithmetic mean** | The simple average of yearly returns. Good for "what's a typical year?" |
 | **Geometric mean** | The average that actually compounds to your real result. Always ≤ arithmetic. Use it for "how did my money really grow?" |
 | **Expected return E(R)** | The probability-weighted average of the possible returns |
@@ -40,8 +41,12 @@ most important idea in the unit.
 sell for $55.
 
 ```
-HPR = (55 − 50 + 2) / 50 = 7 / 50 = 14%
+HPR = ending value / beginning value = (55 + 2) / 50 = 1.14
+HPY = HPR − 1 = 0.14 = 14%          or directly: (55 − 50 + 2) / 50 = 14%
 ```
+
+Over several years, annualise with the root: annual HPR = HPR^(1/n),
+annual HPY = HPR^(1/n) − 1.
 
 **2. Why the two averages differ.** Your $100 goes up 50% to $150, then
 down 50% to $75.
@@ -114,6 +119,29 @@ get a margin call when your equity falls to 30% of the value:
 (100P − 4,000) / 100P = 0.30   →   P = 4,000 / 70 = $57.14
 ```
 
+## The Jargon to Learn
+
+The plain English above is there to help you *understand* it. **The
+marks go to the proper terms**, so learn every one of these: the term,
+what it means, and a sentence that uses it the way a marker wants to
+read it. Cover the right two columns and test yourself.
+
+| Term | What it means | Say it like this in the exam |
+|---|---|---|
+| **Holding period return (HPR) / yield (HPY)** | HPR = ending ÷ beginning value; HPY = HPR − 1 | "The HPY of 14% includes both the capital gain and the dividend yield." |
+| **Arithmetic vs geometric mean** | Simple average vs the compounded average | "The geometric mean is the better measure of past performance because it reflects compounding; the arithmetic mean is an unbiased estimate of a single future period's return." |
+| **Expected return, E(R)** | Probability-weighted average return | "E(R) is the sum of each outcome's return weighted by its probability." |
+| **Variance / standard deviation (σ)** | Spread of returns around the mean; σ is the square root of variance | "Standard deviation measures total risk, the dispersion of returns around the expected return." |
+| **Coefficient of variation (CV)** | σ ÷ E(R): risk per unit of return | "Asset A has the lower CV, so it offers less risk per unit of expected return." |
+| **Covariance / correlation coefficient (ρ)** | Whether two returns move together; ρ is covariance scaled to −1…+1 | "Because the correlation is less than +1, combining the assets reduces portfolio standard deviation." |
+| **Systematic (market, non-diversifiable) risk** | Economy-wide risk that hits everything | "Systematic risk cannot be diversified away and is the only risk rewarded with a premium." |
+| **Unsystematic (idiosyncratic, diversifiable) risk** | Firm-specific risk | "Unsystematic risk is eliminated in a well-diversified portfolio." |
+| **Efficient frontier** | The set of portfolios with the highest return for each level of risk | "A rational investor only holds portfolios on the efficient frontier; anything below it is dominated." |
+| **Minimum-variance portfolio** | The mix of the assets with the lowest possible risk | "The minimum-variance portfolio is the left-most point of the efficient frontier." |
+| **Risk aversion coefficient (A) and utility** | A measures dislike of risk; U = E(r) − ½Aσ² scores a portfolio | "A more risk-averse investor (higher A) applies a larger penalty to variance, so prefers lower-risk portfolios." |
+| **Initial margin / maintenance margin / margin call** | Your own share of the purchase / the minimum equity allowed / the demand to top up | "If the equity falls below the maintenance margin, the investor receives a margin call to deposit more funds." |
+| **Short selling** | Selling borrowed shares, hoping to buy back cheaper | "A short seller profits when the price falls and faces theoretically unlimited loss if it rises." |
+
 ## How the Exam Asks It
 
 Topics 1–2 carried no question of their own in the sample, but they
@@ -158,7 +186,7 @@ The investor dislikes risk more, so each unit of variance costs them
 more utility. They'll choose safer portfolios.
 </details>
 
-<details><summary>5. A share goes from $20 to $23 and pays $1 of dividends. HPR?</summary>
+<details><summary>5. A share goes from $20 to $23 and pays $1 of dividends. HPR and HPY?</summary>
 
-(23 − 20 + 1) / 20 = 4 / 20 = **20%**.
+HPR = (23 + 1) / 20 = **1.20**. HPY = 1.20 − 1 = **20%**.
 </details>

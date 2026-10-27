@@ -81,6 +81,32 @@ Australia's managed funds (slide 5). It grew because contributions are
 until retirement, contributions and earnings get **tax concessions**,
 and the population is ageing.
 
+## The Jargon to Learn
+
+The plain English above is there to help you *understand* it. **The
+marks go to the proper terms**, so learn every one of these: the term,
+what it means, and a sentence that uses it the way a marker wants to
+read it. Cover the right two columns and test yourself.
+
+| Term | What it means | Say it like this in the exam |
+|---|---|---|
+| **Passive equity portfolio management** | Buy-and-hold or index tracking | "A passive manager is evaluated on tracking error relative to the target index." |
+| **Active equity portfolio management** | Seeking to beat a benchmark on a risk-adjusted basis, net of costs | "Active management seeks positive alpha but must overcome higher transaction costs and fees." |
+| **Alpha** | Return above the benchmark's risk-adjusted return | "Total return = risk-free rate + risk premium + alpha." |
+| **Full replication / sampling / optimisation** | Three ways to build an index portfolio | "Full replication minimises tracking error but maximises transaction costs; sampling trades a little tracking error for lower costs." |
+| **Tracking error** | Standard deviation of the return difference between fund and benchmark | "A low tracking error indicates the portfolio closely replicates the index." |
+| **Active share** | How different the holdings are from the index | "High active share with high tracking error indicates a concentrated stock picker." |
+| **Exchange-traded fund (ETF)** | An index portfolio traded on an exchange like a share | "ETFs can be traded intraday and short sold, unlike traditional index funds." |
+| **Top-down vs bottom-up** | Economy → sector → stock vs stock-first | "A top-down manager starts with country and asset class allocation before security selection." |
+| **Sector rotation** | Shifting between sectors through the business cycle | "Sector rotation overweights sectors expected to outperform at the current stage of the cycle." |
+| **130/30 strategy** | 130% long, 30% short | "The short positions fund extra long exposure, letting the manager act on both undervalued and overvalued views." |
+| **Contrarian vs price momentum** | Buy the unloved vs buy the trend | "Contrarian investing relies on mean reversion and the overreaction hypothesis." |
+| **Factor-based (smart beta) investing** | Tilting to size, value, low volatility, momentum, quality | "Factor portfolios aim to earn factor risk premia with better diversification than a cap-weighted index." |
+| **Value vs growth investing** | Focus on low price (P/E) vs focus on EPS growth | "A value investor assumes the P/E is below its natural level; a growth investor assumes a constant P/E and rising EPS." |
+| **Style analysis** | Matching returns to style indexes to see what a manager really does | "Returns-based style analysis identifies the combination of passive indexes that best mimics the manager." |
+| **Portfolio turnover / tax cost ratio** | Sales ÷ average assets / tax drag on returns | "Higher turnover crystallises capital gains, raising the tax cost ratio of active funds." |
+| **Integrated / strategic / tactical / insured asset allocation** | The four asset allocation strategies | "Strategic asset allocation sets long-term policy weights, rebalanced periodically; tactical allocation makes short-term contrarian shifts." |
+
 ## How the Exam Asks It
 
 **Sample Q3** (4 marks): why has super grown (2) and what asset

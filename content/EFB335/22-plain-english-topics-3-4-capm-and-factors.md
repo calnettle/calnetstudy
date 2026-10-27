@@ -88,6 +88,31 @@ you to name them:
 - **Microeconomic (Fama–French):** factors built from company traits: market, size (SMB), value (HML).
 - **Statistical (PCA):** let the data find the factors. Good fit, but the factors have no obvious meaning.
 
+## The Jargon to Learn
+
+The plain English above is there to help you *understand* it. **The
+marks go to the proper terms**, so learn every one of these: the term,
+what it means, and a sentence that uses it the way a marker wants to
+read it. Cover the right two columns and test yourself.
+
+| Term | What it means | Say it like this in the exam |
+|---|---|---|
+| **Risk-free asset (RFR, Rf)** | An asset with certain return and zero variance, e.g. a T-bill | "The risk-free asset has zero covariance with every risky asset." |
+| **Market portfolio (M)** | All risky assets held in proportion to their market value | "The market portfolio is completely diversified, so it contains only systematic risk." |
+| **Capital market line (CML)** | Combinations of Rf and M; return against total risk σ | "The CML is the new efficient frontier once a risk-free asset is available; it only prices efficient portfolios." |
+| **Separation theorem** | Everyone holds the same risky portfolio M; only the mix with Rf differs | "The investment decision (hold M) is separate from the financing decision (how much to lend or borrow)." |
+| **Lending / borrowing portfolio** | Below M on the CML you lend at Rf; above M you borrow at Rf | "A portfolio beyond M on the CML is a leveraged (borrowing) portfolio." |
+| **Beta (β)** | Cov(i, M) ÷ Var(M): sensitivity to the market | "Beta measures the asset's systematic risk relative to the market, which has a beta of 1." |
+| **Security market line (SML) / CAPM** | E(Ri) = Rf + βi[E(RM) − Rf] | "The CAPM gives the required return for any asset given its systematic risk." |
+| **Market risk premium** | E(RM) − Rf | "The market risk premium is the extra return investors require for holding the market rather than the risk-free asset." |
+| **Undervalued / overvalued; alpha** | Above the SML / below the SML; the gap is alpha | "The stock plots above the SML, so it has a positive alpha and is undervalued: buy." |
+| **Characteristic line** | Regression of the stock's returns on the market's; slope = beta | "Beta is estimated as the slope of the characteristic line." |
+| **Benchmark error** | Using the wrong proxy for the market portfolio | "Because the true market portfolio is unobservable, beta and the SML depend on the proxy chosen, which is benchmark error." |
+| **Arbitrage pricing theory (APT)** | Return explained by several factor sensitivities and premiums | "Unlike the CAPM, the APT does not specify the factors, and needs fewer assumptions." |
+| **Factor sensitivity (b) and factor risk premium (λ)** | How much the asset responds to a factor, and the reward for that factor | "E(R) = Rf + b1λ1 + b2λ2, where λ is the premium for bearing each factor's risk." |
+| **Fama–French three-factor model (SMB, HML)** | Market, size and value factors | "SMB captures the small-firm premium and HML the value (high book-to-market) premium." |
+| **Principal component analysis (PCA)** | A statistical method that extracts factors from the data | "PCA identifies statistical factors that explain return co-movement, but they are hard to interpret economically." |
+
 ## How the Exam Asks It
 
 **Sample Q2** gives Rf = 2% and Rm = 8% and asks for required returns

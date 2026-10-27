@@ -7,6 +7,14 @@ picture to hang it on, one worked example, then how the exam asks it.
 If a sentence here and a lecture slide ever disagree, the slide wins.
 Tell Trent and the note gets fixed.
 
+> **Plain English to understand it, jargon to answer it.** The simple
+> explanations are a way in, not a replacement. The exam marks the
+> proper terms (systematic risk, semi-strong form efficiency, modified
+> duration, protective put, Jensen's alpha), so every note also has a
+> **Jargon to Learn** table: the term, what it means, and a sentence
+> using it the way a marker wants to read it. Understand it in plain
+> words, then write it in the jargon.
+
 ## The Whole Unit in One Story
 
 You have money and you want it to grow. Everything in EFB335 answers one
@@ -32,19 +40,20 @@ sentences*. That's exactly what these notes train.
 
 ## How to Use a Plain-English Note
 
-Each note has the same six parts. Work them in this order:
+Each note has the same seven parts. Work them in this order:
 
 1. **The one-sentence version.** Read it, then say it out loud without looking.
 2. **The picture.** An everyday comparison. It's the hook your memory hangs the idea on.
 3. **The words you need.** Only the terms the exam uses, each in plain words.
 4. **One worked example.** Do it on paper with the note covered, then check.
-5. **How the exam asks it.** A model answer shape you can reuse.
-6. **Say it back.** Five questions. Answer each out loud or on paper *before* opening the answer.
+5. **The jargon to learn.** Cover the right two columns and test yourself on each term. Then say each exam sentence out loud.
+6. **How the exam asks it.** A model answer shape you can reuse. Notice it's written in the jargon.
+7. **Say it back.** Five questions. Answer each out loud or on paper *before* opening the answer, using the proper terms.
 
-> **The rule that makes this work: explain it to an imaginary friend.**
-> If you can't explain an idea in plain words to someone who has never
-> done finance, you don't have it yet. Go back to the picture. That's
-> the test, and it's also exactly what a 4-mark written answer is.
+> **The rule that makes this work: explain it twice.** First to an
+> imaginary friend in plain words. If you can't, you don't have it yet,
+> so go back to the picture. Then explain it again to the marker,
+> using the jargon. A 4-mark written answer is the second version.
 
 ## The Nine Notes
 

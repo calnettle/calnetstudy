@@ -104,6 +104,32 @@ durations: 60% in a duration-4 bond and 40% in a duration-9 bond gives
 | **Liquidity preference** | Investors want extra pay for tying money up longer | Usually **upward** sloping |
 | **Segmented markets** | Different investors stick to different maturities. Supply and demand in each segment sets its yield | Whatever the big institutions' needs dictate |
 
+## The Jargon to Learn
+
+The plain English above is there to help you *understand* it. **The
+marks go to the proper terms**, so learn every one of these: the term,
+what it means, and a sentence that uses it the way a marker wants to
+read it. Cover the right two columns and test yourself.
+
+| Term | What it means | Say it like this in the exam |
+|---|---|---|
+| **Yield to maturity (YTM)** | The discount rate that equates the bond's cash flows to its price | "Bond price and YTM are inversely related." |
+| **Premium / discount bond** | Price above par (YTM < coupon) / below par (YTM > coupon) | "Because the YTM exceeds the coupon rate, the bond trades at a discount to par." |
+| **Interest rate risk** | Price change from a change in yields | "Longer maturity, lower coupon and lower YTM all increase interest rate risk." |
+| **Macaulay duration** | Weighted average time to receive the bond's cash flows (PV weights) | "Macaulay duration is the weighted average of the payment dates, using each cash flow's PV as the weight." |
+| **Modified duration** | Macaulay ÷ (1 + i): % price change per 1% change in yield | "%ΔP ≈ −Modified duration × Δi." |
+| **Basis point value (BPV)** | Dollar price change for a 0.01% change in yield | "The BPV converts duration into a dollar sensitivity for one basis point." |
+| **Convexity** | Curvature of the price–yield relationship | "Duration alone overestimates price falls and underestimates price rises; positive convexity corrects both." |
+| **Negative convexity / call risk** | Callable bonds' prices are capped when yields fall | "A callable bond exhibits negative convexity at low yields because the issuer can call it." |
+| **Term structure / yield curve** | Yield vs term to maturity at a point in time | "An upward-sloping yield curve is consistent with expectations of rising short rates or a liquidity premium." |
+| **Expectations / liquidity preference / segmented markets** | The three term-structure theories | "Liquidity preference theory says investors require a premium to hold longer, less liquid bonds, so the curve normally slopes up." |
+| **Ladder / barbell / bullet** | Even maturities / short + long / concentrated around one maturity | "A barbell splits funds between short and long duration securities." |
+| **Interest-rate anticipation** | Changing duration based on a rate forecast | "If rates are expected to fall, lengthen duration to maximise price gains." |
+| **Yield spread analysis / bond swaps** | Trading on abnormal spreads; substitution, pure yield pickup, tax swaps | "A substitution swap exchanges a bond for a near-identical one that is temporarily undervalued." |
+| **Core-plus** | A passive core with active satellite positions | "Core-plus combines an indexed core with actively managed high-yield or global bonds." |
+| **Dedication / immunisation / horizon matching** | Cash-flow matching / duration matching / both | "Immunisation sets portfolio duration equal to the investment horizon so price risk and reinvestment risk offset." |
+| **Contingent immunisation (cushion spread, safety margin, trigger point)** | Active management until the floor is threatened, then immunise | "When the portfolio value hits the trigger point, the manager must immunise to lock in the minimum return." |
+
 ## How the Exam Asks It
 
 **Sample Q4** (4 marks) gives two bond portfolios (modified duration,

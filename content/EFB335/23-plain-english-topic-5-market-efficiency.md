@@ -96,6 +96,31 @@ slowly, and overconfidence makes prices overshoot.
 - **Fundamental analysts** can only win if they value companies *better* than everyone else. Average analysis earns average returns.
 - **Portfolio managers without superior analysts** should: find out the client's risk preference, build the matching portfolio, **diversify globally** to remove unsystematic risk, **rebalance** to keep the risk level, and **keep costs low**. In other words, go passive (that's Topic 6).
 
+## The Jargon to Learn
+
+The plain English above is there to help you *understand* it. **The
+marks go to the proper terms**, so learn every one of these: the term,
+what it means, and a sentence that uses it the way a marker wants to
+read it. Cover the right two columns and test yourself.
+
+| Term | What it means | Say it like this in the exam |
+|---|---|---|
+| **Efficient market hypothesis (EMH)** | Prices fully reflect all available information | "Under the EMH, investors cannot consistently earn abnormal risk-adjusted returns." |
+| **Weak / semi-strong / strong form** | Past market data / all public information / all public and private information | "Each form is nested: strong-form efficiency implies semi-strong and weak-form efficiency." |
+| **Random walk** | Price changes are independent and unpredictable | "If prices follow a random walk, past returns have no predictive power." |
+| **Abnormal return** | Actual return minus the expected (or market) return: ARit = Rit − Rmt | "An efficient market shows no significant abnormal returns after the announcement day." |
+| **Risk-adjusted return** | Return after allowing for the risk taken | "Outperformance only counts if it survives adjustment for risk and transaction costs." |
+| **Autocorrelation test** | Correlation of returns with their own past returns | "Insignificant autocorrelation coefficients support weak-form efficiency." |
+| **Runs test** | Counts sequences of price rises and falls | "Fewer runs than expected indicates positive dependence (trends), inconsistent with weak-form efficiency." |
+| **Filter rule / trading rule test** | Testing a mechanical technical strategy against buy-and-hold | "After transaction costs, filter rules generally fail to beat buy-and-hold, supporting the weak form." |
+| **Event study / cumulative abnormal return (CAR)** | Average abnormal returns around an announcement, added up over time | "In an efficient market the CAR adjusts fully on day 0 and is flat thereafter." |
+| **Joint hypothesis problem** | Tests of efficiency also test the asset pricing model used | "An apparent anomaly may reflect a mis-specified pricing model rather than inefficiency." |
+| **Anomaly** | A pattern inconsistent with efficiency | "The size, value and January effects are anomalies that challenge semi-strong and weak-form efficiency." |
+| **Post-earnings announcement drift** | Prices keep moving after an earnings surprise | "Post-earnings announcement drift shows earnings news is not instantly reflected in prices." |
+| **Momentum / reversal (overreaction)** | Winners keep winning short-term / extreme winners and losers reverse over 3–5 years | "Momentum is linked to underreaction and gradual information diffusion; reversals to investor overreaction." |
+| **Disposition effect** | Selling winners too early, holding losers too long | "The disposition effect, from prospect theory, slows price adjustment and contributes to momentum." |
+| **Technical vs fundamental analysis** | Trading on price history vs valuing the business | "Weak-form efficiency undermines technical analysis; semi-strong efficiency undermines fundamental analysis unless the analyst is superior." |
+
 ## How the Exam Asks It
 
 **Sample Q1** (4 marks): (a) define weak form, 1 mark; (b) how to test

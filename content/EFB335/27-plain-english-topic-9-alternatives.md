@@ -107,6 +107,32 @@ Also: VC looks great on raw averages (30–45% a year in early studies),
 but it's very risky (betas around 1.4–1.7) and **risk-adjusted, the
 average return is negative** (slide 25).
 
+## The Jargon to Learn
+
+The plain English above is there to help you *understand* it. **The
+marks go to the proper terms**, so learn every one of these: the term,
+what it means, and a sentence that uses it the way a marker wants to
+read it. Cover the right two columns and test yourself.
+
+| Term | What it means | Say it like this in the exam |
+|---|---|---|
+| **Alternative investments** | Assets outside traditional shares, bonds and cash | "Alternatives tend to be illiquid, have high minimum investments and barriers to entry." |
+| **Limited partnership (GP / LP)** | The usual structure: a manager (general partner) and investors (limited partners) | "Hedge funds and private equity funds are usually structured as limited partnerships." |
+| **Private equity** | Ownership interests not traded on a public market | "Private equity commitments are long-term, highly illiquid positions." |
+| **Venture capital and its funding stages** | PE for start-ups: seed, Series A, B/C, mezzanine, pre-IPO | "VC funds exit mainly through an IPO and take large ownership stakes and fees." |
+| **J-curve effect** | Negative early returns, then strong later returns | "The J-curve reflects fees and costs incurred before portfolio companies are exited." |
+| **Illiquidity premium** | Extra return for money you can't easily sell | "Part of private equity's return compensates investors for illiquidity and poor diversification." |
+| **Absolute return** | Aiming for positive returns whatever the market does | "Hedge funds target absolute rather than relative returns." |
+| **Leverage / short selling** | Borrowing to magnify positions / selling borrowed securities | "Hedge funds use leverage, short selling and derivatives, unlike most mutual funds." |
+| **Long–short equity / equity market neutral** | Long underpriced, short overpriced / market exposure netted to zero | "A market-neutral fund aims for zero beta, so returns come from security selection." |
+| **Convertible / fixed-income / merger (risk) arbitrage** | Exploiting relative mispricings | "Merger arbitrage profits if the manager judges the deal's completion probability better than the market." |
+| **Global macro / managed futures / distressed** | Opportunistic strategies | "Global macro funds take directional bets on interest rates, currencies and commodities." |
+| **Fund of funds** | A fund investing in several hedge funds | "Funds of funds offer diversification and access but add a second layer of fees." |
+| **Management fee / performance (incentive) fee** | Annual % of assets / share of profits | "Hedge fund fees combine a management fee of around 1.5% with a performance fee." |
+| **High-water mark** | Performance fee only on new highs | "The high-water mark requires past losses to be recouped before a performance fee is paid." |
+| **Survivorship bias / backfill bias** | Dead funds drop out / funds report only after good runs | "Survivorship and backfill bias overstate average hedge fund returns." |
+| **Non-normal returns** | Returns with skew and fat tails, often from derivatives | "Because hedge fund returns are non-normal, standard deviation understates their true risk." |
+
 ## How the Exam Asks It
 
 **Sample Q7** (4 marks): list the three claimed benefits and say
