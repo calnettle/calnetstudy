@@ -55,7 +55,9 @@ Between blocks       a 10–15 minute walk. It's part of the plan, not a reward
 
 **Every morning, 8:10 to 8:25: the spaced recall.** Before Block 1,
 fifteen minutes, closed book, on what you learned **two days ago and
-seven days ago** (each day below lists it). For each item write one
+seven days ago** (each day below lists it). Each day has its own
+**recall sheet** with two questions and short revision notes for every
+block being recalled, answers hidden until you tap them. For each item write one
 line on the main idea and one formula or worked example, then check
 the note. For practice blocks, redo one of the misses you listed.
 Anything you couldn't do goes to the top of that unit's next block.
@@ -135,7 +137,7 @@ to decide when you start.
 
 ### Thu 29 Oct
 
-**Morning recall, 8:10 (15 min):** *yesterday, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 1 in depth: Revision Pack 1; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
+**Morning recall, 8:10 (15 min)** · [today's recall sheet](#/REVISION/10-recall-thu-29-oct): *yesterday, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 1 in depth: Revision Pack 1; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
 
 1. **EFB335 · Topic 2 in depth (1 of 2): portfolio risk.**
    - **Sprint 1:** [Plain note](#/EFB335/21-plain-english-topics-1-2-return-and-risk) steps 4–5 as the way in (10 min), then [Pack 2](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/part-a-the-concepts-taught-from-scratch) A1–A7: risk aversion, expected return, variance, [covariance](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a4-covariance-direction-of-co-movement), [correlation](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a5-correlation-strength-of-co-movement), [two-asset variance term by term](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a6-two-asset-portfolio-variance-derived-term-by-term).
@@ -164,7 +166,7 @@ to decide when you start.
 
 ### Fri 30 Oct
 
-**Morning recall, 8:10 (15 min):** *two days ago, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 1 in depth: Revision Pack 1; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
+**Morning recall, 8:10 (15 min)** · [today's recall sheet](#/REVISION/11-recall-fri-30-oct): *two days ago, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 1 in depth: Revision Pack 1; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
 
 1. **EFB335 · Topic 3 in depth: CML, beta and the CAPM.**
    - **Sprint 1:** [Plain note](#/EFB335/22-plain-english-topics-3-4-capm-and-factors) steps 1–4 as the way in (10 min), then [Pack 3 Part A](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/part-a-the-concepts-taught-from-scratch) A3–A13: the risk-free asset, the CML, lending vs borrowing, the SML, [beta's three formulas](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/a11-beta-definition-three-formulas-excel-and-two-rules), [the CAPM and mispricing](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/a12-the-capm-equation-each-input-and-finding-mispriced-stocks).
@@ -193,7 +195,7 @@ to decide when you start.
 
 ### Sat 31 Oct
 
-**Morning recall, 8:10 (15 min):** *two days ago, Thu 29 Oct:* EFB335 · Topic 2 in depth (1 of 2): portfolio risk; AYB250 · Topic 2b: time value of money; EFB335 · Topic 2 in depth (2 of 2): Tutorial 2 and utility; AYB250 · TVM practice; USB245 · Topic 2: property as an asset class and the DCF; USB244 · Topic 2: office and industrial
+**Morning recall, 8:10 (15 min)** · [today's recall sheet](#/REVISION/12-recall-sat-31-oct): *two days ago, Thu 29 Oct:* EFB335 · Topic 2 in depth (1 of 2): portfolio risk; AYB250 · Topic 2b: time value of money; EFB335 · Topic 2 in depth (2 of 2): Tutorial 2 and utility; AYB250 · TVM practice; USB245 · Topic 2: property as an asset class and the DCF; USB244 · Topic 2: office and industrial
 
 1. **EFB335 · Topic 5 (1 of 2): the three forms and weak-form tests.**
    - **Sprint 1:** [Plain note](#/EFB335/23-plain-english-topic-5-market-efficiency): the picture, the three forms, why markets should be efficient, the runs test (15 min). Then 📁 deck `Topic 5_Market Efficiency_upload.pptx` **slides 4–13**.
@@ -222,7 +224,7 @@ to decide when you start.
 
 ### Sun 1 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Fri 30 Oct:* EFB335 · Topic 3 in depth: CML, beta and the CAPM; AYB250 · Topic 3a: income tax and deductions; EFB335 · Topic 4 in depth: APT and factor models; AYB250 · Topic 3b: investment tax and planning; USB245 · Topic 3: the DCF and its cashflows; USB244 · Topic 3: retail
+**Morning recall, 8:10 (15 min)** · [today's recall sheet](#/REVISION/13-recall-sun-1-nov): *two days ago, Fri 30 Oct:* EFB335 · Topic 3 in depth: CML, beta and the CAPM; AYB250 · Topic 3a: income tax and deductions; EFB335 · Topic 4 in depth: APT and factor models; AYB250 · Topic 3b: investment tax and planning; USB245 · Topic 3: the DCF and its cashflows; USB244 · Topic 3: retail
 
 1. **EFB335 · Topic 6 (1 of 2): passive and active.**
    - **Sprint 1:** [Plain note](#/EFB335/24-plain-english-topic-6-equity-strategies): the picture, the words, tracking error and the tax cost ratio (15 min). Then 📁 deck `Topic 6_Equity Portfolio Management Strategies - upload.pptx` **slides 4–21**: the industry, passive vs active, index construction, tracking error, index funds and ETFs, alpha.
@@ -255,7 +257,7 @@ to decide when you start.
 
 ### Mon 2 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Sat 31 Oct:* EFB335 · Topic 5 (1 of 2): the three forms and weak-form tests; AYB250 · Topic 4a: asset classes; EFB335 · Topic 5 (2 of 2): semi-strong, strong and what it means; AYB250 · Topic 4b: risk, return and portfolio theory; USB245 · Topic 4: deriving the discount rate; USB244 · Topic 4: commercial and green leases
+**Morning recall, 8:10 (15 min)** · [today's recall sheet](#/REVISION/14-recall-mon-2-nov): *two days ago, Sat 31 Oct:* EFB335 · Topic 5 (1 of 2): the three forms and weak-form tests; AYB250 · Topic 4a: asset classes; EFB335 · Topic 5 (2 of 2): semi-strong, strong and what it means; AYB250 · Topic 4b: risk, return and portfolio theory; USB245 · Topic 4: deriving the discount rate; USB244 · Topic 4: commercial and green leases
 
 1. **EFB335 · Topic 7 (1 of 2): price, duration and convexity.**
    - **Sprint 1:** [Plain note](#/EFB335/25-plain-english-topic-7-bonds): the seesaw, sensitivity rules, worked examples 1–3 (20 min). Then 📁 deck `Topic 7_Bond Portfolio Management Strategies-4.pptx` **slides 16–21**.
@@ -284,7 +286,7 @@ to decide when you start.
 
 ### Tue 3 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Sun 1 Nov:* EFB335 · Topic 6 (1 of 2): passive and active; AYB250 · Topic 5a: property investment; EFB335 · Topic 6 (2 of 2): styles and asset allocation; AYB250 · Topic 5b: leveraged investing and margin lending; USB245 · Topic 5: NPV, IRR and return measures; USB244 · Topic 5: taxation and decision-making
+**Morning recall, 8:10 (15 min)** · [today's recall sheet](#/REVISION/15-recall-tue-3-nov): *two days ago, Sun 1 Nov:* EFB335 · Topic 6 (1 of 2): passive and active; AYB250 · Topic 5a: property investment; EFB335 · Topic 6 (2 of 2): styles and asset allocation; AYB250 · Topic 5b: leveraged investing and margin lending; USB245 · Topic 5: NPV, IRR and return measures; USB244 · Topic 5: taxation and decision-making
 
 1. **EFB335 · Topic 8 (1 of 2): options and futures in a portfolio.**
    - **Sprint 1:** [Plain note](#/EFB335/26-plain-english-topic-8-derivatives): the pictures, payoffs, value drivers (15 min). Then 📁 deck `Topic 8_Derivatives-Upload.pptx` **slides 4–19**: futures, call and put values, determinants, hedging with futures, protective puts.
@@ -313,7 +315,7 @@ to decide when you start.
 
 ### Wed 4 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Mon 2 Nov:* EFB335 · Topic 7 (1 of 2): price, duration and convexity; AYB250 · Topic 6: risk management and insurance; EFB335 · Topic 7 (2 of 2): strategies and the yield curve; AYB250 · Topic 7: superannuation and SMSFs; USB245 · Topic 6: the financial calculator; USB244 · Topic 6: green buildings and disclosure — *a week ago, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 1 in depth: Revision Pack 1; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
+**Morning recall, 8:10 (15 min)** · [today's recall sheet](#/REVISION/16-recall-wed-4-nov): *two days ago, Mon 2 Nov:* EFB335 · Topic 7 (1 of 2): price, duration and convexity; AYB250 · Topic 6: risk management and insurance; EFB335 · Topic 7 (2 of 2): strategies and the yield curve; AYB250 · Topic 7: superannuation and SMSFs; USB245 · Topic 6: the financial calculator; USB244 · Topic 6: green buildings and disclosure — *a week ago, Wed 28 Oct:* EFB335 · Topic 1: return, risk and margin; AYB250 · Topic 1: financial planning and regulation; EFB335 · Topic 1 in depth: Revision Pack 1; AYB250 · Topic 2a: personal financial statements and ratios; USB245 · Topic 1: investment principles; USB244 · Topic 1: property and asset management
 
 1. **EFB335 · Topic 9 (1 of 2): private equity and venture capital.**
    - **Sprint 1:** [Plain note](#/EFB335/27-plain-english-topic-9-alternatives): the picture, the words, the J-curve (15 min). Then 📁 deck `Topic 9_Hedge Funds and Other Alternative Investments-4.pptx` **slides 4–17**: alternatives, structure, private equity, returns.
@@ -342,7 +344,7 @@ to decide when you start.
 
 ### Thu 5 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Tue 3 Nov:* EFB335 · Topic 8 (1 of 2): options and futures in a portfolio; AYB250 · Super in practice; EFB335 · Topic 8 (2 of 2): trading strategies; AYB250 · Topic 8: retirement planning; USB245 · Topic 7: property finance and leverage; USB244 · Tutorials 1–2: the IM and the tenancy schedule — *a week ago, Thu 29 Oct:* EFB335 · Topic 2 in depth (1 of 2): portfolio risk; AYB250 · Topic 2b: time value of money; EFB335 · Topic 2 in depth (2 of 2): Tutorial 2 and utility; AYB250 · TVM practice; USB245 · Topic 2: property as an asset class and the DCF; USB244 · Topic 2: office and industrial
+**Morning recall, 8:10 (15 min)** · [today's recall sheet](#/REVISION/17-recall-thu-5-nov): *two days ago, Tue 3 Nov:* EFB335 · Topic 8 (1 of 2): options and futures in a portfolio; AYB250 · Super in practice; EFB335 · Topic 8 (2 of 2): trading strategies; AYB250 · Topic 8: retirement planning; USB245 · Topic 7: property finance and leverage; USB244 · Tutorials 1–2: the IM and the tenancy schedule — *a week ago, Thu 29 Oct:* EFB335 · Topic 2 in depth (1 of 2): portfolio risk; AYB250 · Topic 2b: time value of money; EFB335 · Topic 2 in depth (2 of 2): Tutorial 2 and utility; AYB250 · TVM practice; USB245 · Topic 2: property as an asset class and the DCF; USB244 · Topic 2: office and industrial
 
 1. **EFB335 · Topic 10 (1 of 2): the five measures.**
    - **Sprint 1:** [Plain note](#/EFB335/28-plain-english-topic-10-performance): the picture, the five measures, the slides' numbers (15 min). Then 📁 deck `Topic 10_Performance Evaluation-5.pptx` **slides 4–20**: past performance, peer groups, tracking measures, Sharpe, Treynor.
@@ -371,7 +373,7 @@ to decide when you start.
 
 ### Fri 6 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Wed 4 Nov:* EFB335 · Topic 9 (1 of 2): private equity and venture capital; AYB250 · Topic 9: estate planning; EFB335 · Topic 9 (2 of 2): hedge funds; AYB250 · Week 10: social security (1 of 2); USB245 · Topics 8–9: property tax and the after-tax DCF; USB244 · Tutorials 3–4: WALE and outgoings — *a week ago, Fri 30 Oct:* EFB335 · Topic 3 in depth: CML, beta and the CAPM; AYB250 · Topic 3a: income tax and deductions; EFB335 · Topic 4 in depth: APT and factor models; AYB250 · Topic 3b: investment tax and planning; USB245 · Topic 3: the DCF and its cashflows; USB244 · Topic 3: retail
+**Morning recall, 8:10 (15 min)** · [today's recall sheet](#/REVISION/18-recall-fri-6-nov): *two days ago, Wed 4 Nov:* EFB335 · Topic 9 (1 of 2): private equity and venture capital; AYB250 · Topic 9: estate planning; EFB335 · Topic 9 (2 of 2): hedge funds; AYB250 · Week 10: social security (1 of 2); USB245 · Topics 8–9: property tax and the after-tax DCF; USB244 · Tutorials 3–4: WALE and outgoings — *a week ago, Fri 30 Oct:* EFB335 · Topic 3 in depth: CML, beta and the CAPM; AYB250 · Topic 3a: income tax and deductions; EFB335 · Topic 4 in depth: APT and factor models; AYB250 · Topic 3b: investment tax and planning; USB245 · Topic 3: the DCF and its cashflows; USB244 · Topic 3: retail
 
 1. **EFB335 · The official formula sheet and your index card.**
    - **Sprint 1:** [the formula sheet note](#/EFB335/17-official-exam-formula-sheet), line by line. Say what each line is for, out loud.
@@ -400,7 +402,7 @@ to decide when you start.
 
 ### Sat 7 Nov
 
-**Morning recall, 8:10 (15 min):** *two days ago, Thu 5 Nov:* EFB335 · Topic 10 (1 of 2): the five measures; AYB250 · Week 10: social security (2 of 2); EFB335 · Topic 10 (2 of 2): attribution and evidence; AYB250 · Practice A–C, closed book; USB245 · Weeks 10–11: risk and portfolio analysis; USB244 · Exam guide items 1–7 and 18 — *a week ago, Sat 31 Oct:* EFB335 · Topic 5 (1 of 2): the three forms and weak-form tests; AYB250 · Topic 4a: asset classes; EFB335 · Topic 5 (2 of 2): semi-strong, strong and what it means; AYB250 · Topic 4b: risk, return and portfolio theory; USB245 · Topic 4: deriving the discount rate; USB244 · Topic 4: commercial and green leases
+**Morning recall, 8:10 (15 min)** · [today's recall sheet](#/REVISION/19-recall-sat-7-nov): *two days ago, Thu 5 Nov:* EFB335 · Topic 10 (1 of 2): the five measures; AYB250 · Week 10: social security (2 of 2); EFB335 · Topic 10 (2 of 2): attribution and evidence; AYB250 · Practice A–C, closed book; USB245 · Weeks 10–11: risk and portfolio analysis; USB244 · Exam guide items 1–7 and 18 — *a week ago, Sat 31 Oct:* EFB335 · Topic 5 (1 of 2): the three forms and weak-form tests; AYB250 · Topic 4a: asset classes; EFB335 · Topic 5 (2 of 2): semi-strong, strong and what it means; AYB250 · Topic 4b: risk, return and portfolio theory; USB245 · Topic 4: deriving the discount rate; USB244 · Topic 4: commercial and green leases
 
 1. **EFB335 · Sample exam Q6–10, timed.**
    - **Sprint 1:** No notes: Q6–Q8, 25 minutes.
@@ -429,7 +431,7 @@ to decide when you start.
 
 ### Sun 8 Nov · USB244 night-before
 
-**Morning recall, 8:10 (15 min):** *two days ago, Fri 6 Nov:* EFB335 · The official formula sheet and your index card; AYB250 · Practice D–F, closed book; EFB335 · Sample exam Q1–5, timed; AYB250 · Practice G–I, closed book; USB245 · Practice G–I, closed book; USB244 · Exam guide items 8–17, 19–20 — *a week ago, Sun 1 Nov:* EFB335 · Topic 6 (1 of 2): passive and active; AYB250 · Topic 5a: property investment; EFB335 · Topic 6 (2 of 2): styles and asset allocation; AYB250 · Topic 5b: leveraged investing and margin lending; USB245 · Topic 5: NPV, IRR and return measures; USB244 · Topic 5: taxation and decision-making
+**Morning recall, 8:10 (15 min)** · [today's recall sheet](#/REVISION/20-recall-sun-8-nov): *two days ago, Fri 6 Nov:* EFB335 · The official formula sheet and your index card; AYB250 · Practice D–F, closed book; EFB335 · Sample exam Q1–5, timed; AYB250 · Practice G–I, closed book; USB245 · Practice G–I, closed book; USB244 · Exam guide items 8–17, 19–20 — *a week ago, Sun 1 Nov:* EFB335 · Topic 6 (1 of 2): passive and active; AYB250 · Topic 5a: property investment; EFB335 · Topic 6 (2 of 2): styles and asset allocation; AYB250 · Topic 5b: leveraged investing and margin lending; USB245 · Topic 5: NPV, IRR and return measures; USB244 · Topic 5: taxation and decision-making
 
 Four day blocks for the other units, then the evening is USB244's
 night-before revision.
