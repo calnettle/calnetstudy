@@ -1,11 +1,21 @@
 # The Daily Plan — 15 October to 13 November
 
-**Rebuilt 15 October 2026. Split into 25-minute sprints 16 October.**
-Three one-hour blocks a day, every day, from today to the last exam. Each
-hour is two 25-minute sprints with a break between them, and every sprint
-names exactly what to do. EFB335 and AYB250 get most of the time; USB244
-and USB245 get short, regular sessions and then the days just before
-their exams.
+**Rebuilt 15 October 2026. Split into 25-minute sprints 16 October.
+Five blocks a day from 27 October.** From the evening of Tue 27 Oct
+there are **five** one-hour blocks a day, and most of the extra time
+goes to EFB335, taught the simple way through the new
+[Plain English notes](#/EFB335/20-plain-english-start-here). The day
+before each exam is a **cram day** for that exam: Sun 8 Nov (USB244),
+Mon 9 Nov evening (USB245), Tue 10 Nov evening (AYB250), and Wed 11
+afternoon plus all of Thu 12 Nov (EFB335). Each hour is still two
+25-minute sprints with a break between them, and every sprint names
+exactly what to do.
+
+> **The five-block day.** Blocks 1–3 in the morning (9:00, 10:15,
+> 11:30), lunch, then Blocks 4–5 (1:30, 2:45). On most days Blocks 1
+> and 2 are the new plain-English EFB335 blocks, so the hardest new
+> learning happens fresh. Exam days are different and are set out in
+> Exam Week below.
 
 This replaces the 28 September version (two hours plus a droppable
 hour). Notes [00–03](#/REVISION/00-exam-plan-overview) still explain the
@@ -20,7 +30,18 @@ reasoning. **This page is the one to follow.**
 | **USB245** Property Investment Analysis | Tue 10 Nov, 1:30 | 13 | 15% | The Weeks 10–11 decks, the formula sheet, the practice sets, the calculator |
 | **USB244** Property and Asset Management | Mon 9 Nov, 1:30 | 11 | 13% | The [Final Exam Guide](#/USB244/15-final-exam-guide) item by item, then the [30 + 7 drill](#/USB244/16-final-exam-drill) |
 | Mixed sweeps | — | 5 | 6% | Three Sunday sweeps and re-plans, and two light-recall blocks on the A2 days |
-| | | **86** | **100%** | 15 Oct – 12 Nov |
+| | | **86** | **100%** | 15 Oct – 12 Nov, as first planned |
+
+**From the evening of 27 October** (the five-block plan), the 82 blocks
+left split like this:
+
+| Unit | Blocks | Share | What changed |
+|---|---|---|---|
+| **EFB335** | **44** | **54%** | Nine plain-English blocks teach the whole unit again simply (27 Oct – 1 Nov), then two extra EFB335 blocks a day of written answers, calculations and say-it-back, then the Wed 11 afternoon and all of Thu 12 as cram |
+| AYB250 | 14 | 17% | Unchanged, plus a keep-warm block on Sat 7 and the Tue 10 evening cram |
+| USB244 | 12 | 15% | Sun 8 Nov is now a full cram day |
+| USB245 | 11 | 13% | The Mon 9 evening cram |
+| Sweep | 1 | 1% | Sun 1 Nov |
 
 > **Exam times are your own calendar entries, not a QUT timetable
 > export.** USB244 Mon 9 Nov 1:30pm · USB245 Tue 10 Nov 1:30pm · AYB250
@@ -82,15 +103,21 @@ yesterday's outputs, inside Sprint 1.
 > in `QUT › 2nd Year › Sem 2 › <unit>`. Slide numbers are given so you
 > know where to stop.
 
-> **EFB335 Topics 5–10 have no notes on the site yet.** You learn them
-> straight from the lecture decks (slide ranges given). The
+> **Struggling with EFB335? Use the plain-English notes first (added
+> 27 Oct).** [Start here](#/EFB335/20-plain-english-start-here), then
+> one short note per topic: the one-sentence version, an everyday
+> picture, the words you need, one worked example, how the exam asks
+> it, and five "say it back" questions. From 28 Oct the EFB335 blocks
+> point at them, and the decks become the check, not the teacher.
+>
+> **Before 27 Oct, Topics 5–10 had no notes on the site.** The blocks up
+> to then learn them straight from the lecture decks (slide ranges given). The
 > [sample exam walkthrough](#/EFB335/18-sample-final-exam) gives a model
 > answer for every question, and the
 > [official formula sheet note](#/EFB335/17-official-exam-formula-sheet)
 > explains every line you'll be handed. The tutorial solutions for
 > Topics 5–7 are the unit's own and **haven't been checked**. Topics 8–10
-> have questions only. Ask Trent to write these topics up and the blocks
-> below will point at the new notes, on the same dates.
+> have questions only.
 
 ---
 
@@ -306,78 +333,126 @@ marked after.
    - **Sprint 1:** the [formula sheet](#/USB245/22-formula-sheet), Returns through Discounted Cash Flow.
    - **Sprint 2:** [Topics 1–3](#/USB245/03-topic-3-dcf-and-cashflow-components): NOI, capitalisation, the seven steps, the net income waterfall, the `n+1` year.
    - **Output:** the seven-step DCF and the cashflow waterfall written from memory.
+4. **EFB335 · Plain English 1: the whole unit, then return and risk.** **This evening, 6:30.**
+   - **Sprint 1:** [Start here](#/EFB335/20-plain-english-start-here) (the five-question story), then [Topics 1–2](#/EFB335/21-plain-english-topics-1-2-return-and-risk) steps 1–3: HPR, the two averages, expected return and σ.
+   - **Sprint 2:** Steps 4–7: mixing two assets, the two kinds of risk, utility, margin. Then **Say it back**, answering before you open each one.
+   - **Output:** the two-asset example redone with the note covered · diversification explained in five plain sentences, as if to a friend.
+5. **EFB335 · Plain English 2: CAPM and factors.** **This evening, 7:45.**
+   - **Sprint 1:** [Topics 3–4](#/EFB335/22-plain-english-topics-3-4-capm-and-factors): the picture, the words, steps 1–4 (CML, beta, CAPM, spotting a bargain).
+   - **Sprint 2:** Steps 5–6 (APT and where factors come from), then **Say it back**.
+   - **Output:** [sample Q2](#/EFB335/18-sample-final-exam/question-2-capm-topic-3-4-marks) answered closed book, then marked.
 
 ### Wed 28 Oct
 
-1. **EFB335 · Topic 10 Performance evaluation (1 of 2).** 📁 deck `Topic 10_Performance Evaluation-5.pptx`, **slides 4–31**. Keep the [official sheet's Topic 10 lines](#/EFB335/17-official-exam-formula-sheet/risk-adjusted-performance-topic-10) open beside it.
-   - **Sprint 1:** why past performance matters, peer groups, Sharpe and Treynor.
-   - **Sprint 2:** Jensen, the information ratio, Sortino.
+1. **EFB335 · Plain English 3: market efficiency.**
+   - **Sprint 1:** [Topic 5](#/EFB335/23-plain-english-topic-5-market-efficiency): the pub-tip picture, the three forms table, why markets should be efficient.
+   - **Sprint 2:** the runs test, the event study, the strong-form tests, then the anomalies table. Then **Say it back**.
+   - **Output:** [sample Q1](#/EFB335/18-sample-final-exam/question-1-market-efficiency-topic-5-4-marks) answered closed book and marked.
+2. **EFB335 · Topic 10 Performance evaluation (1 of 2), the plain way.**
+   - **Sprint 1:** [Topic 10](#/EFB335/28-plain-english-topic-10-performance): the two-drivers picture, the five measures table, then the slides' own numbers worked with the note covered.
+   - **Sprint 2:** why Sharpe and Treynor disagree, then the attribution example. Keep the [official sheet's Topic 10 lines](#/EFB335/17-official-exam-formula-sheet/risk-adjusted-performance-topic-10) open beside it.
    - **Output:** each measure: its formula, which risk it uses (total, systematic, active, downside), and when it ranks funds differently. **Sortino isn't on the sheet.**
-2. **AYB250 · Week 10 Social security (2 of 2).** 📁 deck, **slides 40–70**.
+3. **AYB250 · Week 10 Social security (2 of 2).** 📁 deck, **slides 40–70**.
    - **Sprint 1:** the pension amount, couples (case studies B and C), income streams, real estate, deprivation.
    - **Sprint 2:** super and the pension, maximising the pension (case study D). Then 📁 `AYB250 Tutorial Questions Topic 10.docx`.
    - **Output:** case study B worked again without the slides · the five ways to maximise the pension (slide 62).
-3. **EFB335 · Topic 10 Performance evaluation (2 of 2).**
-   - **Sprint 1:** 📁 deck **slides 32–42**: applying the measures, what's required of a manager, attribution, reporting, the performance studies.
+4. **EFB335 · Topic 10 Performance evaluation (2 of 2).**
+   - **Sprint 1:** 📁 deck **slides 32–42**: applying the measures, what's required of a manager, attribution, reporting, the performance studies. The [plain note's](#/EFB335/28-plain-english-topic-10-performance) last section covers the same ground.
    - **Sprint 2:** 📁 `Tutorial 10 Questions-2.docx` with `Tutorial 10 SV-3.xlsx`.
    - **Output:** [sample Q9](#/EFB335/18-sample-final-exam/question-9-risk-adjusted-performance-topic-10-4-marks) and [Q10](#/EFB335/18-sample-final-exam/question-10-beating-the-benchmark-topics-6-and-10-4-marks) answered and marked. **First pass of EFB335 done.**
+5. **EFB335 · Plain English 4: equity strategies.**
+   - **Sprint 1:** [Topic 6](#/EFB335/24-plain-english-topic-6-equity-strategies): the cruise-control picture, the words, tracking error and the tax cost ratio worked.
+   - **Sprint 2:** the four asset allocation strategies and why super matters. Then **Say it back**.
+   - **Output:** [sample Q3](#/EFB335/18-sample-final-exam/question-3-superannuation-and-asset-allocation-topic-6-4-marks) answered closed book and marked.
 
 ### Thu 29 Oct
 
-1. **EFB335 · The official formula sheet, line by line.** [Note 17](#/EFB335/17-official-exam-formula-sheet).
+1. **EFB335 · Plain English 5: bonds (1 of 2).**
+   - **Sprint 1:** [Topic 7](#/EFB335/25-plain-english-topic-7-bonds): the seesaw picture, the words, what makes a bond more sensitive.
+   - **Sprint 2:** Worked examples 1–3: Macaulay duration by hand, the duration-plus-convexity price change, portfolio duration.
+   - **Output:** the price-change line `%ΔP ≈ −ModD × Δy + ½ × C × (Δy)²` from memory, used on yields up 1% and down 1%.
+2. **EFB335 · Plain English 6: bonds (2 of 2).**
+   - **Sprint 1:** [Topic 7](#/EFB335/25-plain-english-topic-7-bonds): the strategies table and the three yield-curve theories.
+   - **Sprint 2:** **Say it back**, then the 📁 deck slides 34–45 skimmed to check nothing's missing.
+   - **Output:** [sample Q4](#/EFB335/18-sample-final-exam/question-4-bond-portfolio-choice-topic-7-4-marks) answered closed book: rate view first, then three reasons.
+3. **EFB335 · The official formula sheet, line by line.** [Note 17](#/EFB335/17-official-exam-formula-sheet).
    - **Sprint 1:** what each line on the sheet is for. Say it out loud.
    - **Sprint 2:** the table of [what is NOT on the sheet](#/EFB335/17-official-exam-formula-sheet/what-is-not-on-the-sheet-memorise-these), read once, then covered.
    - **Output:** every "not on the sheet" formula written from memory and checked.
-2. **AYB250 · Practice A–C, closed book.** [Practice questions](#/AYB250/23-practice-questions). Answer first, then reveal.
+4. **AYB250 · Practice A–C, closed book.** [Practice questions](#/AYB250/23-practice-questions). Answer first, then reveal.
    - **Sprint 1:** Sections A (regulation) and B (statements and ratios).
    - **Sprint 2:** Section C (TVM), calculator in hand.
    - **Output:** your score per section, and every miss traced back to its topic note.
-3. **USB245 · Refresh 2: discount rate and returns.**
+5. **USB245 · Refresh 2: discount rate and returns.**
    - **Sprint 1:** [Topic 4](#/USB245/04-topic-4-deriving-the-discount-rate): the four methods of deriving the discount rate.
    - **Sprint 2:** [Topic 5](#/USB245/05-topic-5-return-measurements): NPV and IRR decision rules and the three ranking conflicts.
    - **Output:** the four discount-rate methods with one line each · when NPV and IRR disagree, and which one wins.
 
 ### Fri 30 Oct
 
-1. **AYB250 · Practice D–F, closed book.** Answer first, then reveal.
+1. **EFB335 · Plain English 7: derivatives (1 of 2).**
+   - **Sprint 1:** [Topic 8](#/EFB335/26-plain-english-topic-8-derivatives): the deposit and insurance pictures, the words, the two payoff lines, what makes an option worth more.
+   - **Sprint 2:** Using derivatives in a portfolio: futures hedge, protective put, collar, covered call, cash equitisation, selling a put.
+   - **Output:** [sample Q5](#/EFB335/18-sample-final-exam/question-5-futures-for-cash-equitisation-topic-8-4-marks) answered closed book · the six portfolio uses in a table from memory.
+2. **EFB335 · Plain English 8: derivatives (2 of 2).**
+   - **Sprint 1:** [Topic 8](#/EFB335/26-plain-english-topic-8-derivatives): the trading strategies table and the spread memory trick.
+   - **Sprint 2:** Both worked tables (straddle, bull call spread) redone with the note covered, then **Say it back**.
+   - **Output:** [sample Q6](#/EFB335/18-sample-final-exam/question-6-a-bull-spread-with-puts-topic-8-4-marks) built as a payoff and profit table, then marked.
+3. **AYB250 · Practice D–F, closed book.** Answer first, then reveal.
    - **Sprint 1:** [Section D](#/AYB250/23-practice-questions/section-d-tax-hecs-and-goal-modelling) (tax and HECS) and Section E (tax planning).
    - **Sprint 2:** Section F (investments).
    - **Output:** score per section, misses traced back.
-2. **EFB335 · Topic 10 calculation drill.** Re-work 📁 `Tutorial 10 Questions-2.docx` cold.
+4. **EFB335 · Topic 10 calculation drill.** Re-work 📁 `Tutorial 10 Questions-2.docx` cold.
    - **Sprint 1:** Sharpe, Treynor, Jensen, IR and Sortino.
    - **Sprint 2:** attribution: [allocation + selection = excess return](#/EFB335/17-official-exam-formula-sheet/attribution-analysis-topic-10).
    - **Output:** one fund ranked on all five measures, with one line on why the rankings differ.
-3. **USB244 · Guide items 18–20.** [Final Exam Guide](#/USB244/15-final-exam-guide).
+5. **USB244 · Guide items 18–20.** [Final Exam Guide](#/USB244/15-final-exam-guide).
    - **Sprint 1:** item 18: corporate real estate (Week 8). Say the five property types out loud.
    - **Sprint 2:** items 19–20: WALE step by step, SAM and scenario analysis. Work the guide's WALE example without looking.
    - **Output:** WALE by income and by area on the guide's example · the core / flexible / serviced space split.
 
 ### Sat 31 Oct
 
-1. **EFB335 · Option strategies drill.** Blank paper, no deck.
+1. **EFB335 · Plain English 9: hedge funds and alternatives.**
+   - **Sprint 1:** [Topic 9](#/EFB335/27-plain-english-topic-9-alternatives): the restaurant picture, the words, the J-curve, the strategies table.
+   - **Sprint 2:** The high-water mark and adding-a-hedge-fund examples redone, then do the claimed benefits exist? Then **Say it back**.
+   - **Output:** [sample Q7](#/EFB335/18-sample-final-exam/question-7-the-claimed-benefits-of-hedge-funds-topic-9-4-marks) and [Q8](#/EFB335/18-sample-final-exam/question-8-adding-a-hedge-fund-to-a-portfolio-topic-9-4-marks) answered closed book and marked.
+2. **EFB335 · Say it back, Topics 1–5.**
+   - **Sprint 1:** The **Say it back** questions in [Topics 1–2](#/EFB335/21-plain-english-topics-1-2-return-and-risk) and [3–4](#/EFB335/22-plain-english-topics-3-4-capm-and-factors), closed book, answered out loud.
+   - **Sprint 2:** The same for [Topic 5](#/EFB335/23-plain-english-topic-5-market-efficiency) and [Topic 6](#/EFB335/24-plain-english-topic-6-equity-strategies). Every miss: reread that note's picture and one-sentence version.
+   - **Output:** a list of every question you missed. It's what Sunday's sweep and the 4–6 Nov blocks fix first.
+3. **EFB335 · Option strategies drill.** Blank paper, no deck.
    - **Sprint 1:** draw payoff **and** profit for the long and short straddle, strangle, strip, strap, protective put, covered call and collar.
    - **Sprint 2:** the bull and bear spreads, then check everything against 📁 Topic 8 slides 34–54.
    - **Output:** every diagram you got wrong, redrawn.
-2. **AYB250 · Practice G–I, closed book.** Answer first, then reveal.
+4. **AYB250 · Practice G–I, closed book.** Answer first, then reveal.
    - **Sprint 1:** [Section G](#/AYB250/23-practice-questions/section-g-property-and-leveraged-investing-week-5) (property and leverage) and Section H (insurance).
    - **Sprint 2:** Section I (super).
    - **Output:** score per section, misses traced back.
-3. **USB245 · Refresh 3: calculator and finance.** Calculator in hand.
+5. **USB245 · Refresh 3: calculator and finance.** Calculator in hand.
    - **Sprint 1:** [Topic 6 the calculator](#/USB245/06-topic-6-the-financial-calculator): cash-flow mode, NPV, IRR.
    - **Sprint 2:** [Topic 7](#/USB245/07-topic-7-property-finance-and-leverage) and [Tutorial 5 mortgages](#/USB245/13-tutorial-5-mortgages-and-the-after-finance-dcf).
    - **Output:** NPV and IRR in cash-flow mode · `PMT`, the interest/principal split, the balance after n years, all on the calculator.
 
 ### Sun 1 Nov
 
-1. **AYB250 · Practice J–K plus social security.**
+1. **EFB335 · Say it back, Topics 7–10.**
+   - **Sprint 1:** The **Say it back** questions in [Topic 7](#/EFB335/25-plain-english-topic-7-bonds) and [Topic 8](#/EFB335/26-plain-english-topic-8-derivatives), closed book.
+   - **Sprint 2:** The same for [Topic 9](#/EFB335/27-plain-english-topic-9-alternatives) and [Topic 10](#/EFB335/28-plain-english-topic-10-performance).
+   - **Output:** add your misses to yesterday's list.
+2. **EFB335 · The whole unit on one page.**
+   - **Sprint 1:** From memory, write the five-question story table from [Start here](#/EFB335/20-plain-english-start-here): each question, its topics, the short answer. Then check it.
+   - **Sprint 2:** For each of Topics 5–10, write the one-sentence version and draw the picture in a line. Check each against its note.
+   - **Output:** that one page. It's your first warm-up on 12 Nov.
+3. **AYB250 · Practice J–K plus social security.**
    - **Sprint 1:** [Sections J–K](#/AYB250/23-practice-questions/section-j-retirement-planning-week-8): retirement and estate, closed book.
    - **Sprint 2:** social security case study D from the 📁 Week 10 deck (slides 63–68), cold.
    - **Output:** score per section · case D's pension amount.
-2. **EFB335 · Bonds and efficiency, written.** Without the decks.
+4. **EFB335 · Bonds and efficiency, written.** Without the decks.
    - **Sprint 1:** duration vs convexity and why immunisation needs both · the three term-structure theories.
    - **Sprint 2:** the semi-strong form and what an event study shows. Then check against 📁 Topic 7 slides 23–38 and Topic 5 slides 23–34.
    - **Output:** four 4-mark answers, marked.
-3. **SWEEP 3, the whole-plan audit.**
+5. **SWEEP 3, the whole-plan audit.**
    - **Sprint 1:** walk the [EFB335](#/REVISION/07-topics-efb335) and [AYB250](#/REVISION/06-topics-ayb250) checklists and mark every row you can't produce.
    - **Sprint 2:** the same for [USB244](#/REVISION/04-topics-usb244) and [USB245](#/REVISION/05-topics-usb245).
    - **Output:** that list. It's what the weak-spot time in the last week goes to.
@@ -388,170 +463,265 @@ marked after.
 
 ### Mon 2 Nov
 
-1. **EFB335 · Sample exam Q1–5, timed.** [Sample final exam](#/EFB335/18-sample-final-exam). No notes, as if it's the real paper.
+1. **EFB335 · Written answers, Topics 5 and 6.**
+   - **Sprint 1:** Each note's **How the exam asks it**: [Topic 5](#/EFB335/23-plain-english-topic-5-market-efficiency) and [Topic 6](#/EFB335/24-plain-english-topic-6-equity-strategies). Read the model answer once, cover it, write it from memory.
+   - **Sprint 2:** 📁 `Tutorial 5 Questions-2.docx` and `Tutorial 6 Questions.docx`: two written questions, 8 minutes each, then check against `Tutorial 5 Solutions-1-1.docx` and `Tutorial 6 Solutions-1.docx`.
+   - **Output:** four written answers, each marked against the note or the solutions.
+2. **EFB335 · Bond calculations.**
+   - **Sprint 1:** Duration by hand on a fresh 3-year bond, then the price change with convexity, using [Topic 7](#/EFB335/25-plain-english-topic-7-bonds) as the check.
+   - **Sprint 2:** 📁 `Tutorial 7 Questions-2.docx`, the calculation questions, checked against `Tutorial 7 Solutions-1.docx`.
+   - **Output:** each answer checked, misses traced back to the note.
+3. **EFB335 · Sample exam Q1–5, timed.** [Sample final exam](#/EFB335/18-sample-final-exam). No notes, as if it's the real paper.
    - **Sprint 1:** Q1–Q3, 25 minutes.
    - **Sprint 2:** Q4–Q5 (15 minutes), then mark all five against the model answers. (The 8-minutes-a-question pace is a practice pace. Check the real paper's length on Canvas.)
    - **Output:** marks out of 20, and each lost mark named.
-2. **AYB250 · Traps 1–17.** [The traps](#/AYB250/24-formula-sheet-and-exam-traps/the-traps-ranked-by-how-much-they-cost): say each one from its title, then work its example.
+4. **AYB250 · Traps 1–17.** [The traps](#/AYB250/24-formula-sheet-and-exam-traps/the-traps-ranked-by-how-much-they-cost): say each one from its title, then work its example.
    - **Sprint 1:** traps 1–9.
    - **Sprint 2:** traps 10–17.
    - **Output:** the traps you couldn't explain, rewritten in your own words.
-3. **USB244 · Formula sheet and the two calculation tutorials.**
+5. **USB244 · Formula sheet and the two calculation tutorials.**
    - **Sprint 1:** the [formula sheet](#/USB244/12-formula-sheet), then [WALE](#/USB244/09-tutorial-3-wale-calculation) re-worked from the question.
    - **Sprint 2:** [outgoings](#/USB244/10-tutorial-4-outgoings) re-worked from the question.
    - **Output:** `CV = NI / CR` both ways · WALE both ways · an outgoings recovery.
 
 ### Tue 3 Nov
 
-1. **AYB250 · Traps 18–36.** Same method as yesterday.
+1. **EFB335 · Option tables drill.**
+   - **Sprint 1:** Blank paper: payoff and profit tables for a protective put, a covered call, a long strangle and a bear spread with puts, each with your own numbers. Check the method in [Topic 8](#/EFB335/26-plain-english-topic-8-derivatives).
+   - **Sprint 2:** 📁 `Tutorial 8 Questions (Derivatives)-4.docx`, two questions, checked against 📁 `Topic 8 Derivative Strategies-2-1.xlsx`.
+   - **Output:** every table you got wrong, redone.
+2. **EFB335 · Hedge funds and Topic 6, written.**
+   - **Sprint 1:** 📁 `Tutorial 9 Questions (Hedge Funds).docx`: two questions, 8 minutes each, checked against [Topic 9](#/EFB335/27-plain-english-topic-9-alternatives).
+   - **Sprint 2:** Four short answers from [Topic 6](#/EFB335/24-plain-english-topic-6-equity-strategies): passive vs active, the four asset allocation strategies, value vs growth, why active funds have a higher tax cost ratio.
+   - **Output:** six written answers, marked.
+3. **AYB250 · Traps 18–36.** Same method as yesterday.
    - **Sprint 1:** traps 18–27.
    - **Sprint 2:** traps 28–36.
    - **Output:** the traps you couldn't explain, rewritten.
-2. **EFB335 · Sample exam Q6–10, timed.** No notes.
+4. **EFB335 · Sample exam Q6–10, timed.** No notes.
    - **Sprint 1:** Q6–Q8, 25 minutes.
    - **Sprint 2:** Q9–Q10 (15 minutes), then mark all five.
    - **Output:** marks out of 20. Add yesterday's for a total out of 40.
-3. **USB245 · Refresh 4: tax and after-tax.**
+5. **USB245 · Refresh 4: tax and after-tax.**
    - **Sprint 1:** [Topic 8](#/USB245/08-topic-8-property-taxation) and [Topic 9](#/USB245/16-topic-9-discounting-after-tax-cashflows).
    - **Sprint 2:** [Tutorial 6 depreciation](#/USB245/14-tutorial-6-depreciation) and [Tutorial 7 CGT](#/USB245/15-tutorial-7-cgt-and-the-after-tax-dcf), skimmed, with one question re-worked.
    - **Output:** the four-cashflow grid from memory · CGT on sale with depreciation clawed back.
 
 ### Wed 4 Nov
 
-1. **EFB335 · The written answers.** EFB335 is mostly written: 28 of the sample's 40 marks. 4-mark answers, 8 minutes each, then check each against the 📁 deck.
+1. **EFB335 · Topic 10 calculations cold.**
+   - **Sprint 1:** Sharpe, Treynor, Jensen, IR and Sortino on one made-up fund, then check the method in [Topic 10](#/EFB335/28-plain-english-topic-10-performance).
+   - **Sprint 2:** An attribution table with your own weights and returns. Check that allocation + selection = the excess return.
+   - **Output:** [sample Q9](#/EFB335/18-sample-final-exam/question-9-risk-adjusted-performance-topic-10-4-marks) and [Q10](#/EFB335/18-sample-final-exam/question-10-beating-the-benchmark-topics-6-and-10-4-marks) answered closed book again.
+2. **EFB335 · Fix the misses list.**
+   - **Sprint 1:** The list from 31 Oct and 1 Nov: for each miss, reread that note's picture, then answer the question again without looking.
+   - **Sprint 2:** Whatever's left: the worked example from that note, redone.
+   - **Output:** the list, with each miss ticked off or carried to Friday.
+3. **EFB335 · The written answers.** EFB335 is mostly written: 28 of the sample's 40 marks. 4-mark answers, 8 minutes each, then check each against the 📁 deck.
    - **Sprint 1:** EMH implications for active managers · passive vs active equity · value vs growth and style analysis.
    - **Sprint 2:** claimed benefits of hedge funds · private equity's J-curve · why Sharpe and Treynor rank differently.
    - **Output:** the six answers, each marked against the deck.
-2. **AYB250 · Tutorials 1–4 re-worked.** The calculation questions only, from the question, before looking.
+4. **AYB250 · Tutorials 1–4 re-worked.** The calculation questions only, from the question, before looking.
    - **Sprint 1:** [Tutorial 1](#/AYB250/14-tutorial-1-solutions) and [Tutorial 2](#/AYB250/15-tutorial-2-solutions).
    - **Sprint 2:** [Tutorial 3](#/AYB250/16-tutorial-3-solutions) and [Tutorial 4](#/AYB250/17-tutorial-4-solutions).
    - **Output:** each answer checked, and every error traced to its trap number.
-3. **USB245 · Practice G–I, closed book.** [Sections G–I](#/USB245/20-practice-questions-weeks-3-plus).
+5. **USB245 · Practice G–I, closed book.** [Sections G–I](#/USB245/20-practice-questions-weeks-3-plus).
    - **Sprint 1:** Section G (the seven-step DCF).
    - **Sprint 2:** Sections H–I (the discount rate, NPV and IRR).
    - **Output:** score, misses traced back to the [formula sheet](#/USB245/22-formula-sheet).
 
 ### Thu 5 Nov
 
-1. **AYB250 · Tutorials 5–8 re-worked.** Same method as yesterday.
+1. **EFB335 · Teach it out loud, Topics 1–5.**
+   - **Sprint 1:** For each topic: say the one-sentence version, describe the picture, and walk through the worked example **out loud**, as if teaching a friend. Notes closed. [Start here](#/EFB335/20-plain-english-start-here) has the rule.
+   - **Sprint 2:** Anything that came out muddled: read that note's section, then teach it again.
+   - **Output:** one 4-mark answer written for whichever topic felt weakest.
+2. **EFB335 · Teach it out loud, Topics 6–10.**
+   - **Sprint 1:** Same method for Topics 6–10.
+   - **Sprint 2:** Anything muddled: read the section, teach it again.
+   - **Output:** one 4-mark answer for the weakest topic.
+3. **AYB250 · Tutorials 5–8 re-worked.** Same method as yesterday.
    - **Sprint 1:** [Tutorial 5](#/AYB250/18-tutorial-5-solutions) (property) and [Tutorial 6](#/AYB250/19-tutorial-6-solutions) (insurance).
    - **Sprint 2:** [Tutorial 7](#/AYB250/20-tutorial-7-solutions) (super) and [Tutorial 8](#/AYB250/21-tutorial-8-solutions) (retirement).
    - **Output:** each answer checked, errors traced to their traps.
-2. **EFB335 · Topics 1–4 calculations.** [Practice sets](#/EFB335/10-practice-questions): one question from each set.
+4. **EFB335 · Topics 1–4 calculations.** [Practice sets](#/EFB335/10-practice-questions): one question from each set.
    - **Sprint 1:** Sets A–C (returns, margin, two-asset variance).
    - **Sprint 2:** Sets D–F (multi-asset, CAPM, APT).
    - **Output:** six answers, checked · the [quick traps checklist](#/EFB335/11-formula-sheet/exam-traps-quick-checklist) read once.
-3. **USB244 · Drill Part A, 30 MCQs.** [Part A](#/USB244/16-final-exam-drill/part-a-30-multiple-choice), closed book.
+5. **USB244 · Drill Part A, 30 MCQs.** [Part A](#/USB244/16-final-exam-drill/part-a-30-multiple-choice), closed book.
    - **Sprint 1:** all 30 questions, 25 minutes.
    - **Sprint 2:** mark them, then send each miss back to its item in the [guide](#/USB244/15-final-exam-guide) and read that item.
    - **Output:** score out of 30, and one line per miss on what the right answer is and why.
 
 ### Fri 6 Nov
 
-1. **AYB250 · Last full block before the exam.**
+1. **EFB335 · Weakest topic, properly.**
+   - **Sprint 1:** The topic that's cost you most so far (check your sample exam marks from 2–3 Nov and the misses list). Its plain-English note top to bottom, slowly.
+   - **Sprint 2:** Its tutorial questions from the 📁 EFB335 folder, closed book, then checked.
+   - **Output:** its **Say it back** questions, all correct.
+2. **EFB335 · Second-weakest topic.**
+   - **Sprint 1:** Same method, the next weakest topic.
+   - **Sprint 2:** Its tutorial questions, closed book, checked.
+   - **Output:** its **Say it back** questions, all correct.
+3. **AYB250 · Last full block before the exam.**
    - **Sprint 1:** social security cases A and C, cold (📁 Week 10 deck).
    - **Sprint 2:** the [AYB250 formula sheet](#/AYB250/24-formula-sheet-and-exam-traps) top to bottom: statements, ratios, TVM, the 2026-27 rates.
    - **Output:** the formula sheet's ratios, TVM and tax lines written out and checked.
-2. **EFB335 · Closed-book recall of both sheets.**
+4. **EFB335 · Closed-book recall of both sheets.**
    - **Sprint 1:** write out the [site formula sheet](#/EFB335/11-formula-sheet), then check it.
    - **Sprint 2:** write out the [not-on-the-sheet list](#/EFB335/17-official-exam-formula-sheet/what-is-not-on-the-sheet-memorise-these), then check it.
    - **Output:** the gaps, on one index card. That card is Thursday's warm-up.
-3. **USB245 · Practice J–N plus calculator drills.** [Sections J–N](#/USB245/21-practice-questions-weeks-6-plus), closed book.
+5. **USB245 · Practice J–N plus calculator drills.** [Sections J–N](#/USB245/21-practice-questions-weeks-6-plus), closed book.
    - **Sprint 1:** Sections J–K (the calculator, leverage).
    - **Sprint 2:** Sections L–N (mortgages, tax, putting it together).
    - **Output:** score, misses traced back.
 
 ### Sat 7 Nov
 
-1. **USB244 · Drill Part B, 7 short answers.** [Part B](#/USB244/16-final-exam-drill/part-b-7-mock-short-answers-10-points-each). Write each as exam notes (notes are allowed), 8 minutes each.
+1. **EFB335 · Say it back, all nine notes.**
+   - **Sprint 1:** [Start here](#/EFB335/20-plain-english-start-here) through Topic 6: every **Say it back** question, out loud, fast.
+   - **Sprint 2:** Topics 7–10, same again.
+   - **Output:** anything still missed goes on the index card from Fri 6.
+2. **AYB250 · Keep it warm.**
+   - **Sprint 1:** All 36 [traps](#/AYB250/24-formula-sheet-and-exam-traps/the-traps-ranked-by-how-much-they-cost), titles only: say each one and its fix.
+   - **Sprint 2:** Social security case study A, cold (📁 `AYB250 › Lecture › AYB250 Week 10.pptx`).
+   - **Output:** the traps you couldn't say, written out.
+3. **USB244 · Drill Part B, 7 short answers.** [Part B](#/USB244/16-final-exam-drill/part-b-7-mock-short-answers-10-points-each). Write each as exam notes (notes are allowed), 8 minutes each.
    - **Sprint 1:** short answers 1–3.
    - **Sprint 2:** short answers 4–5, then mark all five against the points.
    - **Output:** points scored. Answers 6–7 go first in the next block.
-2. **USB244 · Finish the drill, fix the misses.**
+4. **USB244 · Finish the drill, fix the misses.**
    - **Sprint 1:** short answers 6–7, marked. Then every miss from Thursday and this morning goes back to its [guide item](#/USB244/15-final-exam-guide).
    - **Sprint 2:** [practice Sections F–G](#/USB244/11-practice-questions/section-f-leases-and-wale-interpretation) (leases, WALE, outgoings).
    - **Output:** total points out of 70 · each missed point, rewritten.
-3. **USB245 · The traps, closed book.**
+5. **USB245 · The traps, closed book.**
    - **Sprint 1:** the [USB245 checklist's seven traps](#/REVISION/05-topics-usb245/traps-the-recurring-seven), stated from memory, then checked.
    - **Sprint 2:** the [formula sheet's](#/USB245/22-formula-sheet) unit conversions and maximum-price-vs-expected-return sections.
    - **Output:** the seven traps stated from memory.
 
-### Sun 8 Nov · the day before USB244
+### Sun 8 Nov · USB244 cram day
+
+**The whole day is USB244.** Five blocks, all of them recall and
+practice, nothing new.
 
 1. **USB244 · Formula sheet recall.** [Formula sheet](#/USB244/12-formula-sheet).
    - **Sprint 1:** from memory: the PCA measurement table, WALE both ways, `CV = NI / CR`, face vs effective rent, the outgoings recovery structures. Then check it.
    - **Sprint 2:** redo whatever you missed.
    - **Output:** a clean copy.
-2. **USB244 · The guide's last-minute checklist.**
+2. **USB244 · The guide, items 1–10, fast.** [Final Exam Guide](#/USB244/15-final-exam-guide).
+   - **Sprint 1:** items 1–5: say each one out loud from its title, then read it.
+   - **Sprint 2:** items 6–10, same method.
+   - **Output:** the items you couldn't say, listed.
+3. **USB244 · The guide, items 11–20, fast.**
+   - **Sprint 1:** items 11–15, same method.
+   - **Sprint 2:** items 16–20, then work the WALE and effective-rent examples cold.
+   - **Output:** add to the list · both calculations checked.
+4. **USB244 · Drill misses and short answers.** [Final exam drill](#/USB244/16-final-exam-drill).
+   - **Sprint 1:** every MCQ you missed on Thu 5, answered again.
+   - **Sprint 2:** three short answers rehearsed out loud, with the points you'd write.
+   - **Output:** the list from Blocks 2–3, each item reread once.
+5. **USB244 · The last-minute checklist.**
    - **Sprint 1:** the [Last-Minute Checklist](#/USB244/15-final-exam-guide/last-minute-checklist), every line.
-   - **Sprint 2:** rehearse three short answers aloud.
-   - **Output:** nothing new. This block is for confidence.
-3. **USB245 · The DCF from memory.**
-   - **Sprint 1:** the seven steps and the waterfall, written cold.
-   - **Sprint 2:** the after-tax grid and terminal value, then check everything against the [formula sheet](#/USB245/22-formula-sheet).
-   - **Output:** the grid. **Then stop by 7pm.** Sort out the venue, your ID and the calculator, then sleep.
+   - **Sprint 2:** your clean formula sheet from Block 1, read once.
+   - **Output:** nothing new. **Stop by 7pm.** Venue, ID, calculator, notes for the open-book parts, then sleep.
 
 ---
 
 ## Exam Week — Mon 9 to Fri 13 Nov
 
-Same three blocks and the same sprints, placed around the exams. **No new
-material from here.** Formula sheets, traps and questions you have already
-done. The exam-week rules (no post-mortems, stop by 8pm) are in
+Five blocks a day here too, placed around the exams. **No new material
+from here.** Each exam day has a light morning read for that day's
+paper, then the evening is the cram session for the next one. The
+exam-week rules (no post-mortems, stop by 8pm) are in
 [note 03](#/REVISION/03-the-exam-week).
 
-### Mon 9 Nov · USB244 exam, 1:30pm
+### Mon 9 Nov · USB244 exam, 1:30pm · USB245 cram this evening
 
-1. **Morning · USB244.** Read only. Stop by 11:30.
+1. **Morning · USB244, read only.** Stop by 11:15.
    - **Sprint 1:** your clean formula sheet from yesterday.
    - **Sprint 2:** the guide's [last-minute checklist](#/USB244/15-final-exam-guide/last-minute-checklist).
-2. **Evening · USB245.**
+2. **Morning · USB244, read only.**
+   - **Sprint 1:** the list of guide items you couldn't say yesterday.
+   - **Sprint 2:** the three short answers, read once. Then eat and go.
+3. **Evening · USB245 cram: the DCF from memory.**
+   - **Sprint 1:** the seven steps and the net income waterfall, written cold.
+   - **Sprint 2:** the after-tax grid and terminal value, then check everything against the [formula sheet](#/USB245/22-formula-sheet).
+   - **Output:** the grid, clean.
+4. **Evening · USB245 cram: the tutorials.**
    - **Sprint 1:** [Tutorial 5](#/USB245/13-tutorial-5-mortgages-and-the-after-finance-dcf), one question re-worked.
    - **Sprint 2:** [Tutorial 6](#/USB245/14-tutorial-6-depreciation) and [Tutorial 7](#/USB245/15-tutorial-7-cgt-and-the-after-tax-dcf), one question each.
-3. **Evening · USB245.** Calculator drills. Clear the cash-flow memory each time.
-   - **Sprint 1:** NPV and IRR.
-   - **Sprint 2:** `PMT` and the balance after n years. **Stop by 8pm.**
+   - **Output:** each answer checked.
+5. **Evening · USB245 cram: calculator drills.** Clear the cash-flow memory each time.
+   - **Sprint 1:** NPV and IRR in cash-flow mode.
+   - **Sprint 2:** `PMT`, the interest/principal split and the balance after n years. **Stop by 8pm.**
 
-### Tue 10 Nov · USB245 exam, 1:30pm
+### Tue 10 Nov · USB245 exam, 1:30pm · AYB250 cram this evening
 
-1. **Morning · USB245.** Read only.
+1. **Morning · USB245, read only.**
    - **Sprint 1:** the [formula sheet's](#/USB245/22-formula-sheet) quick-reference blocks.
-   - **Sprint 2:** the seven traps.
-2. **Evening · AYB250.**
-   - **Sprint 1:** all 36 [traps](#/AYB250/24-formula-sheet-and-exam-traps/the-traps-ranked-by-how-much-they-cost), titles only.
+   - **Sprint 2:** the [seven traps](#/REVISION/05-topics-usb245/traps-the-recurring-seven).
+2. **Morning · USB245, read only.**
+   - **Sprint 1:** last night's clean grid.
+   - **Sprint 2:** the calculator keystrokes for NPV, IRR and `PMT`, read once. Then eat and go.
+3. **Evening · AYB250 cram: the traps.**
+   - **Sprint 1:** all 36 [traps](#/AYB250/24-formula-sheet-and-exam-traps/the-traps-ranked-by-how-much-they-cost), titles only: say each one and its fix.
    - **Sprint 2:** the AYB250 [checklist](#/REVISION/06-topics-ayb250) rows you never ticked.
-3. **Evening · AYB250.**
+   - **Output:** the traps you couldn't say, written out.
+4. **Evening · AYB250 cram: numbers.**
    - **Sprint 1:** TVM and the tax ladder on fresh numbers · the proportioning rule.
-   - **Sprint 2:** one age-pension assets and income test. **Stop by 8pm.** The exam is at 8:30 tomorrow.
+   - **Sprint 2:** one age-pension assets and income test (📁 Week 10 deck, case study A or C).
+   - **Output:** each answer checked against the [formula sheet](#/AYB250/24-formula-sheet-and-exam-traps).
+5. **Evening · AYB250 cram: last read.**
+   - **Sprint 1:** the [AYB250 formula sheet](#/AYB250/24-formula-sheet-and-exam-traps) top to bottom.
+   - **Sprint 2:** the traps list from Block 3. **Stop by 8pm.** The exam is at 8:30 tomorrow.
 
-### Wed 11 Nov · AYB250 exam, 8:30am
+### Wed 11 Nov · AYB250 exam, 8:30am · EFB335 cram begins this afternoon
 
-**Two blocks today, on purpose.** Take the afternoon off. That's three
-exams in three days, and Thursday needs you fresh.
+Three exams in three days, so the afternoon starts after a proper lunch
+and a break. If you're running on empty, do Blocks 1–3 and stop.
+EFB335 gets all of tomorrow as well.
 
-1. **Evening · EFB335.** Read only.
-   - **Sprint 1:** the [official formula sheet note](#/EFB335/17-official-exam-formula-sheet).
-   - **Sprint 2:** your index card from Fri 6.
-2. **Evening · EFB335.**
-   - **Sprint 1:** the option payoff diagrams, drawn once, cold.
-   - **Sprint 2:** check them against 📁 Topic 8 slides 34–54 and redraw any you got wrong.
+1. **Afternoon · EFB335: the sheet.** [Official formula sheet note](#/EFB335/17-official-exam-formula-sheet).
+   - **Sprint 1:** what each line on the sheet is for, said out loud.
+   - **Sprint 2:** the [not-on-the-sheet list](#/EFB335/17-official-exam-formula-sheet/what-is-not-on-the-sheet-memorise-these) written from memory, then checked.
+   - **Output:** the gaps added to your index card from Fri 6.
+2. **Afternoon · EFB335: option diagrams.**
+   - **Sprint 1:** payoff and profit for the straddle, strangle, strip, strap, protective put, covered call, collar and both spreads, drawn cold.
+   - **Sprint 2:** check them against [Plain English Topic 8](#/EFB335/26-plain-english-topic-8-derivatives) and 📁 Topic 8 slides 34–54. Redraw any you got wrong.
+   - **Output:** every diagram right.
+3. **Afternoon · EFB335: say it back, Topics 1–6.**
+   - **Sprint 1:** the **Say it back** questions in [Topics 1–2](#/EFB335/21-plain-english-topics-1-2-return-and-risk), [3–4](#/EFB335/22-plain-english-topics-3-4-capm-and-factors) and [5](#/EFB335/23-plain-english-topic-5-market-efficiency), out loud.
+   - **Sprint 2:** the same for [Topic 6](#/EFB335/24-plain-english-topic-6-equity-strategies), then reread the picture for any you missed.
+   - **Output:** misses listed.
+4. **Evening · EFB335: say it back, Topics 7–10.**
+   - **Sprint 1:** [Topic 7](#/EFB335/25-plain-english-topic-7-bonds) and [Topic 8](#/EFB335/26-plain-english-topic-8-derivatives).
+   - **Sprint 2:** [Topic 9](#/EFB335/27-plain-english-topic-9-alternatives) and [Topic 10](#/EFB335/28-plain-english-topic-10-performance).
+   - **Output:** misses listed. They go first tomorrow.
+5. **Evening · EFB335: light.** One 30-minute sprint, then stop.
+   - **Sprint 1:** your one-page summary of the whole unit from 1 Nov, read once. **Stop by 8pm.**
 
-### Thu 12 Nov · the free day, all EFB335
+### Thu 12 Nov · EFB335 cram day
 
-1. **EFB335 · The full sample exam, again.** All ten [questions](#/EFB335/18-sample-final-exam), closed book, 80 minutes. This one runs as **two blocks back to back**, with the usual breaks.
+**The whole day is EFB335.** Warm up with your one-page summary and
+yesterday's misses inside Block 1's first five minutes.
+
+1. **EFB335 · The full sample exam, again.** All ten [questions](#/EFB335/18-sample-final-exam), closed book, 80 minutes. This runs as **two blocks back to back**, with the usual breaks.
    - **Sprint 1:** Q1–Q3.
    - **Sprint 2:** Q4–Q6.
 2. **EFB335 · Finish the paper and mark it.**
    - **Sprint 1:** Q7–Q10.
    - **Sprint 2:** mark all ten. Compare with your total from 2–3 Nov.
-3. **EFB335 · Fix the misses, then calculations cold.**
-   - **Sprint 1:** each lost mark goes back to its 📁 deck section or pack. The written answers first, since they're 28 of the 40 marks.
-   - **Sprint 2:** Sharpe, Treynor, Jensen, IR, Sortino and attribution on one fund · CAPM expected return · a bull spread's payoff and profit. **Stop by 8pm.**
-
-> **Thursday is the one day with room for a fourth hour.** If you have
-> the energy, spend it on the checklist rows still open in
-> [EFB335](#/REVISION/07-topics-efb335). If not, three is enough. Sleep
-> matters more on the last night.
+3. **EFB335 · Fix the misses.**
+   - **Sprint 1:** each lost mark goes back to its plain-English note: reread the picture and the **How the exam asks it** section, then rewrite the answer. Written answers first, since they're 28 of the 40 marks.
+   - **Sprint 2:** whatever's left from yesterday's say-it-back misses.
+   - **Output:** every lost mark rewritten as a full-mark answer.
+4. **EFB335 · Calculations cold.**
+   - **Sprint 1:** Sharpe, Treynor, Jensen, IR, Sortino and attribution on one fund ([Topic 10](#/EFB335/28-plain-english-topic-10-performance) to check) · CAPM expected return.
+   - **Sprint 2:** a bull spread's payoff and profit table · a bond's price change with duration and convexity · a two-asset portfolio's σ.
+   - **Output:** each one checked.
+5. **EFB335 · The last read.**
+   - **Sprint 1:** the one-sentence version of every plain-English note, said out loud from [Start here](#/EFB335/20-plain-english-start-here).
+   - **Sprint 2:** your index card and the [official formula sheet note](#/EFB335/17-official-exam-formula-sheet). **Stop by 8pm.** Sleep matters more than one more hour tonight.
 
 ### Fri 13 Nov · EFB335 exam, 8:30am
 
@@ -564,6 +734,8 @@ Twenty minutes with the index card and the formula sheet, then go. **Done.**
 | What happened | Do this |
 |---|---|
 | Can't face a full sprint today | Do two 15-minute sprints and the output. It counts |
+| Five blocks is too many today | Drop Block 5 first, then Block 4. **Never drop the plain-English EFB335 blocks** (usually Blocks 1–2): they're the reason the plan went to five |
+| A plain-English note still doesn't click | Stop at its picture and one-sentence version. Explain those out loud, do its worked example, and move on. Ask Trent to explain that one part a different way |
 | Lost one day | Skip it. At the next sweep, do its EFB335 or AYB250 block instead of the sweep |
 | Lost two or more days in Weeks 1–2 | Drop the USB244 and USB245 blocks in Weeks 1–3, which are only there to keep those units warm, and use them for the missed EFB335/AYB250 blocks. The property units' late blocks stay |
 | A deck block takes two hours | Finish it in the next block and push that block's unit to the next sweep. Topics 5–10 are worth the time, since they carry 36 of the sample's 40 marks |
