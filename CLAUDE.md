@@ -176,6 +176,21 @@ Consequences to keep in mind:
 - **`#/notes` is a reserved route.** Unit codes are uppercase so there is
   no clash today; don't create a lowercase subject folder named `notes`.
 
+## Plan checkboxes (client-side)
+
+`decorateChecks()` in `public/app.js` adds a checkbox to every Sprint and
+Output line of the docs in `CHECK_DOCS` (the daily plan). A block's title
+gets a ring that ticks itself once all its lines are ticked; it can't be
+ticked by hand. Ticks are stored as notes under the doc key
+`ticks::<doc key>`, anchor `<day heading id>/<block number>/<sprint-1|sprint-2|output>`,
+so they use the notes tombstones and PocketBase sync and stay out of My notes.
+
+- **Wording edits keep ticks. Renaming a day heading or reordering a day's
+  blocks strands or moves them.** Same risk as renumbering content files.
+- **Sync reads `perPage=500`.** Ticks and notes share `study_notes`. The plan
+  has about 280 lines, so there's room, but past 500 rows sync would try to
+  re-create the rows it didn't read, and the unique index would fail it.
+
 ## Adding content
 
 1. `content/<UNIT-CODE>/NN-slug.md` — numeric prefix controls ordering.

@@ -69,6 +69,11 @@
 
   var NOTES_KEY = 'calnetstudy-mynotes';
 
+  // Plan checkboxes are stored as notes under a prefixed doc key, so they get
+  // tombstones and PocketBase sync for free. They never show up as notes.
+  var TICK_PREFIX = 'ticks::';
+  function isTickKey(k) { return k.indexOf(TICK_PREFIX) === 0; }
+
   function loadNotes() {
     try {
       var all = JSON.parse(localStorage.getItem(NOTES_KEY)) || {};
@@ -113,7 +118,7 @@
   function allNotesFlat() {
     var all = loadNotes(), out = [];
     for (var k in all) {
-      if (!all.hasOwnProperty(k)) continue;
+      if (!all.hasOwnProperty(k) || isTickKey(k)) continue;
       for (var a in all[k]) {
         if (all[k].hasOwnProperty(a) && !all[k][a].d) {
           out.push({ key: k, anchor: a, note: all[k][a] });
@@ -205,7 +210,11 @@
   function scheduleSync(delay) {
     if (!syncState()) return;
     clearTimeout(syncTimer);
-    syncTimer = setTimeout(syncNow, delay || 1500);
+    // A sync already running would drop this one, so try again after it.
+    syncTimer = setTimeout(function () {
+      if (syncBusy) scheduleSync();
+      else syncNow();
+    }, delay || 1500);
   }
 
   function syncNow() {
@@ -219,6 +228,7 @@
       .then(function (res) {
         var all = loadNotes();
         var remoteChanged = false;
+        var ticksChanged = false;
         var pushes = [];
         var seen = {};
         s.ids = s.ids || {};
@@ -235,7 +245,8 @@
             all[r.doc][r.anchor] = r.deleted
               ? { d: 1, u: r.stamp, h: r.heading || '' }
               : { t: r.body, u: r.stamp, h: r.heading || '' };
-            remoteChanged = true;
+            if (isTickKey(r.doc)) ticksChanged = true;
+            else remoteChanged = true;
           } else if (local && localU > r.stamp) {
             pushes.push({ key: r.doc, anchor: r.anchor, note: local, id: r.id });
           }
@@ -251,7 +262,7 @@
           }
         }
 
-        if (remoteChanged) storeNotes(all);
+        if (remoteChanged || ticksChanged) storeNotes(all);
 
         var chain = Promise.resolve();
         pushes.forEach(function (p) {
@@ -272,15 +283,19 @@
           });
         });
 
-        return chain.then(function () { return remoteChanged; });
+        return chain.then(function () {
+          return { notes: remoteChanged, ticks: ticksChanged };
+        });
       })
-      .then(function (remoteChanged) {
+      .then(function (changed) {
         s.last = new Date().toISOString();
         setSyncState(s);
         syncStatus = 'Synced';
         refreshNotesCount();
+        // Ticks update in place: a repaint would throw the plan back to the top.
+        if (changed.ticks) paintChecks();
         // Repaint if another device changed something — but never mid-typing.
-        if (remoteChanged && document.activeElement.tagName !== 'TEXTAREA') route();
+        if (changed.notes && document.activeElement.tagName !== 'TEXTAREA') route();
         else if (location.hash === '#/notes') updateSyncCard();
       })
       .catch(function (err) {
@@ -297,6 +312,9 @@
   }
 
   window.addEventListener('online', function () { scheduleSync(800); });
+  document.addEventListener('visibilitychange', function () {
+    if (!document.hidden) scheduleSync(300);
+  });
 
   function docByKey(key) {
     if (!manifest) return null;
@@ -542,6 +560,7 @@
       });
 
       decorateHeadings(key);
+      decorateChecks(key);
       mountNotationKey();
       requestAnimationFrame(function () { scrollToAnchor(anchor); });
     }
@@ -595,6 +614,95 @@
 
     els.main.appendChild(panel);
     els.main.appendChild(btn);
+  }
+
+  // ------------------------------------------------------ plan checkboxes
+  //
+  // On a plan page, every Sprint and Output line gets a checkbox. A block's
+  // title (the subject) ticks itself once all of its lines are ticked.
+  // A tick is keyed by day heading, block number and label, so editing a
+  // line's wording keeps its tick; renaming a day or reordering blocks doesn't.
+
+  var CHECK_DOCS = { 'REVISION__08-daily-plan': true };
+  var CHECK_LABEL = /^(Sprint( \d+)?|Output):$/;
+
+  function decorateChecks(key) {
+    if (!CHECK_DOCS[key]) return;
+    var tickKey = TICK_PREFIX + key;
+
+    Array.prototype.forEach.call(els.main.querySelectorAll('.prose h3[id]'), function (h) {
+      var day = h.textContent.trim();
+      var el = h.nextElementSibling;
+      while (el && !/^H[1-3]$/.test(el.tagName)) {
+        if (el.tagName === 'OL') decorateBlocks(el, h.id, day, tickKey);
+        el = el.nextElementSibling;
+      }
+    });
+    paintChecks();
+  }
+
+  function decorateBlocks(ol, dayId, day, tickKey) {
+    Array.prototype.forEach.call(ol.children, function (block, i) {
+      var title = block.firstElementChild;
+      var rows = block.querySelectorAll(':scope > ul > li');
+      var count = 0;
+
+      Array.prototype.forEach.call(rows, function (row) {
+        var strong = row.firstElementChild;
+        if (!strong || strong.tagName !== 'STRONG') return;
+        var label = strong.textContent.trim();
+        if (!CHECK_LABEL.test(label)) return;
+        label = label.slice(0, -1);
+        count++;
+
+        var anchor = dayId + '/' + (i + 1) + '/' + label.toLowerCase().replace(/ /g, '-');
+        var box = document.createElement('input');
+        box.type = 'checkbox';
+        box.className = 'check-box';
+        box.setAttribute('data-anchor', anchor);
+        box.setAttribute('aria-label', label + ' done: ' + title.textContent);
+
+        var hit = document.createElement('label');
+        hit.className = 'check-hit';
+        hit.appendChild(box);
+        row.classList.add('check-row');
+        row.insertBefore(hit, row.firstChild);
+
+        box.addEventListener('change', function () {
+          var heading = day + ' · ' + title.textContent + ' · ' + label;
+          // Failed to store (private mode, say): don't show a tick that won't last.
+          if (!saveNote(tickKey, anchor, box.checked ? 'done' : '', heading)) {
+            box.checked = !box.checked;
+          }
+          paintChecks();
+        });
+      });
+
+      if (!count) return;
+      var ring = document.createElement('span');
+      ring.className = 'check-ring';
+      ring.setAttribute('role', 'img');
+      block.classList.add('check-block');
+      block.insertBefore(ring, title);
+    });
+  }
+
+  // Sets every box from the store, then each subject from its boxes.
+  function paintChecks() {
+    if (!currentKey || !CHECK_DOCS[currentKey]) return;
+    var ticks = loadNotes()[TICK_PREFIX + currentKey] || {};
+
+    Array.prototype.forEach.call(els.main.querySelectorAll('.check-box'), function (box) {
+      var tick = ticks[box.getAttribute('data-anchor')];
+      box.checked = !!tick && !tick.d;
+      box.closest('.check-row').classList.toggle('done', box.checked);
+    });
+    Array.prototype.forEach.call(els.main.querySelectorAll('.check-block'), function (block) {
+      var done = !block.querySelector('.check-box:not(:checked)');
+      block.classList.toggle('done', done);
+      block.querySelector('.check-ring').setAttribute('aria-label',
+        done ? 'Subject done' : 'Subject not done yet');
+    });
   }
 
   // ------------------------------------------------- my notes: doc panel

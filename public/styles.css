@@ -508,3 +508,20 @@ a.mynote-title:active { color: var(--purple-dark); }
                            padding: 6px 6px 6px 0; border-bottom: 1px solid var(--line); }
 .np-body td:first-child { white-space: nowrap; padding-right: 10px; }
 .np-body p { margin: 10px 0 2px; }
+
+/* ---- plan checkboxes (app.js decorateChecks) ---- */
+.prose li.check-row { list-style: none; position: relative; }
+.prose li.check-row.done { color: var(--muted); text-decoration: line-through;
+                           text-decoration-thickness: 1px; }
+.check-hit { position: absolute; left: -32px; top: -7px; width: 40px; height: 40px;
+             display: flex; align-items: center; justify-content: center;
+             cursor: pointer; }
+.check-box { width: 20px; height: 20px; margin: 0; cursor: pointer;
+             accent-color: var(--purple); }
+.check-ring { display: inline-flex; align-items: center; justify-content: center;
+              width: 18px; height: 18px; margin-right: 7px; vertical-align: -3px;
+              border: 2px solid var(--line); border-radius: 50%;
+              font-size: 12px; line-height: 1; color: #fff; }
+.check-block.done > .check-ring { background: var(--purple); border-color: var(--purple); }
+.check-block.done > .check-ring::before { content: "✓"; }
+.check-block.done > strong:first-of-type { color: var(--muted); }

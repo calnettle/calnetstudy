@@ -7,7 +7,7 @@
  * Bump CACHE when the shell changes so old assets get evicted.
  */
 
-var CACHE = 'calnetstudy-v6';
+var CACHE = 'calnetstudy-v7';
 
 var SHELL = [
   '/',
