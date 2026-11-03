@@ -23,20 +23,31 @@
 | `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
 | `w, wᵢ` | Weight — the fraction of the portfolio held in asset i. Weights add up to 1 |
 | `Cov(i,j)` | Covariance — do two assets move together (+) or in opposite directions (−)? Cov(i,i) is just σᵢ² |
+| `r(i,j), ρ` | Correlation — covariance rescaled to −1 … +1. +1 moves perfectly together, −1 perfectly opposite, 0 unrelated |
 | `U` | Utility — an investor's satisfaction score for a portfolio. Higher is better |
 | `A` | Risk-aversion coefficient — how much the investor dislikes risk (≈7 conservative, ≈1 aggressive) |
 | `MM` | Maintenance margin — the minimum equity % before the broker makes a margin call |
 | `N` | Number of shares bought, or sold short |
 | `P*` | Margin-call price — the share price that triggers a margin call |
 | `β (beta)` | Beta — how sensitive an asset is to market moves; its systematic risk. β = 1 moves with the market |
+| `α (alpha)` | Alpha — the return above (or below) what the CAPM says the risk deserves |
 | `CML` | Capital market line — the best mixes of the risk-free asset and the market portfolio, priced on total risk σ |
 | `SML` | Security market line — the CAPM as a line: required return against beta |
 | `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
 | `APT` | Arbitrage pricing theory — expected return explained by several risk factors, not just the market |
 | `SMB` | Small Minus Big — the Fama–French size factor (small firms' return minus big firms') |
 | `HML` | High Minus Low — the Fama–French value factor (high book-to-market minus low) |
+| `AUM` | Assets under management — the (average) dollar size of the fund |
+| `TCR` | Tax cost ratio — the share of return lost to tax |
+| `S_T` | Share price at expiry (time T) |
 | `X` | Strike (exercise) price of the option |
+| `ATP` | Average tracking performance — average of (portfolio − benchmark) returns |
+| `AATP` | Average absolute tracking performance — the same, ignoring sign |
+| `σ(TP)` | Tracking error — standard deviation of (portfolio − benchmark) returns |
 | `SI (Sharpe)` | Sharpe index — (R_p − R_f) ÷ σ_p: excess return per unit of total risk |
+| `TI (Treynor)` | Treynor index — (R_p − R_f) ÷ β_p: excess return per unit of systematic risk |
+| `IR` | Information ratio — active return ÷ tracking error |
+| `EP, BP, Div, Cap.Dist` | Fund return inputs — ending price, beginning price, dividends paid, capital-gain distributions |
 
 [Full EFB335 notation key →](#/EFB335/99-notation-key)
 
@@ -642,5 +653,600 @@ The strength: APT never specifies its factors and never invokes the market portf
 - **b3 = −0.29, t = −2.8** — significant *negative* exposure: the portfolio hedges factor 3, and holding it should lower required return through that channel.
 - **Intercept 0.61, t = 2.1** — marginally significant abnormal return of 0.61%/month the factors don't explain.
 - **R² = 0.94** — the factors jointly explain 94% of monthly variation: excellent fit. Note joint fit (R²) and per-factor significance (t) answer different questions — b2 contributes nothing even though the model overall fits superbly.
+
+</details>
+
+---
+
+## Set G — Market Efficiency (Topic 5)
+
+**G1.** *(Practice numbers.)* A stock's daily price changes over 12 days are `+-+-+--+-+-+`. (a) Count the runs. (b) Calculate the expected number of runs if changes were independent. (c) What does the result say about weak-form efficiency?
+
+<details><summary>Answer G1</summary>
+
+(a) `+ | - | + | - | + | -- | + | - | + | - | +` = **11 runs** (n₁ = 6 pluses, n₂ = 6 minuses).
+
+(b)
+```
+E(runs) = 2n₁n₂/(n₁ + n₂) + 1 = 2(6)(6)/12 + 1 = 6 + 1 = 7
+(unit workbook form: 1 + 2(12 − 1)(0.5)(0.5) = 6.5)
+```
+
+(c) 11 actual vs about 7 expected: **more runs than expected**. Price changes keep reversing, which is **negative** dependence. That still contradicts independence, so it is evidence against the weak form. It is the opposite pattern to the deck's checkpoint, where too few runs meant trends. With 12 observations the sample is far too small to conclude anything in practice.
+
+</details>
+
+**G2.** *(Practice numbers, %.)* Two firms announce surprise earnings on day 0.
+
+```
+Day          −1     0     +1    +2    +3
+Firm X  R   0.5   3.0   1.2   0.9   0.8
+        Rm  0.4   0.5   0.2   0.1   0.3
+Firm Y  R  −0.3   2.6   1.5   0.4   0.6
+        Rm −0.2   0.4   0.3  −0.3   0.2
+```
+
+Calculate AR, AAR and CAR, and state whether the result is consistent with semi-strong efficiency.
+
+<details><summary>Answer G2</summary>
+
+```
+Day                −1      0      +1     +2     +3
+AR_X = R − Rm     0.1    2.5    1.0    0.8    0.5
+AR_Y = R − Rm    −0.1    2.2    1.2    0.7    0.4
+AAR (average)    0.00   2.35   1.10   0.75   0.45
+CAR (running)    0.00   2.35   3.45   4.20   4.65
+```
+
+Only 2.35/4.65 = **50.5%** of the 4.65% cumulative abnormal return arrives on day 0. The other **49.5%** drifts in over the next three days. An investor who bought at the close on day 0, after the news was public, would still have earned about 2.3% abnormal. That is **inconsistent with semi-strong efficiency**: the post-earnings-announcement drift pattern. Caveat: `R − Rm` ignores beta, so the joint hypothesis applies.
+
+</details>
+
+**G3.** *(Practice numbers.)* An autocorrelation regression of daily ASX returns on the previous day's return gives ρ = −0.04, with a t-statistic of −0.9. Interpret it for weak-form efficiency.
+
+<details><summary>Answer G3</summary>
+
+ρ is close to zero and **not statistically significant** (|t| is below roughly 2). Yesterday's return explains `ρ² = 0.04² = 0.0016 = 0.16%` of today's variation, which is essentially nothing. Past returns don't predict future returns, which is **consistent with weak-form efficiency**. Even a significant ρ this small would be unprofitable after transaction costs, which is why trading-rule tests complement the statistical tests.
+
+</details>
+
+**G4.** *(Sample-exam style, 4 marks.)* (a) Describe semi-strong form efficiency. (b) Explain how an event study tests it. (c) Give one piece of evidence against it.
+
+<details><summary>Answer G4</summary>
+
+(a) Prices fully reflect **all publicly available information**, market and non-market, including the historical data covered by the weak form. Trading on information after it is announced cannot earn above-average **risk-adjusted** returns, and fundamental analysis of public data adds nothing on average.
+
+(b) Collect firms with a surprise announcement and set the announcement day as day 0. Compute each firm's daily abnormal return `AR = R − Rm` over the window, average across firms (AAR) and cumulate across days (CAR). Efficient: the CAR adjusts fully on day 0 and is flat afterwards, so there is nothing to earn by trading after the announcement.
+
+(c) Any one of: **post-earnings-announcement drift** (large SUEs, with over 50% of the price change after the announcement); the **low-P/E**, **size**, **neglected-firm** or **book-to-market** effects, where public information predicts risk-adjusted returns. Note the joint hypothesis: these may instead reflect a mis-specified risk model.
+
+</details>
+
+**G5.** Is the strong form of the EMH supported? Refer to the three groups the deck tests.
+
+<details><summary>Answer G5</summary>
+
+**No, the strong form is rejected.** **Corporate insiders** earn above-average returns on their own firms' stock, especially on purchases, so private information is not fully reflected in price. **Security analysts** show some superior ability (market timing and stock picking); consensus levels carry no incremental information, but changes in consensus and upward earnings revisions are useful. **Professional money managers** mostly fail to beat their benchmarks, which gives at best weak support for the strong form. The rejection rests on insiders. Public investors who copy insider trades after disclosure don't profit after costs, which is consistent with semi-strong efficiency.
+
+</details>
+
+**G6.** Momentum and long-term reversals are both documented in stock returns. Define each, give its horizon, and give one behavioural explanation for each.
+
+<details><summary>Answer G6</summary>
+
+**Momentum:** recent winners keep outperforming over the next **1–12 months** (Jegadeesh and Titman). It is explained by **underreaction**. Under the disposition effect from prospect theory, investors sell winners too soon and hold losers too long, so prices adjust slowly. Under gradual information diffusion (Hong and Stein), news spreads slowly across newswatchers.
+
+**Long-term reversal:** over **3–5 years**, past winners become losers and past losers become winners (DeBondt and Thaler). It is explained by **overreaction**. Extreme losers become too cheap and extreme winners too expensive. Under overconfidence and self-attribution (Daniel, Hirshleifer and Subrahmanyam), prices overshoot and then correct. In Hong–Stein, momentum traders push prices past fundamentals, which then revert.
+
+Both patterns make past returns predictive, which challenges the weak form. Fama–French's 3-factor model explains reversals but not momentum.
+
+</details>
+
+---
+
+## Set H — Equity Portfolio Management Strategies (Topic 6)
+
+**H1.** *(Practice numbers.)* An index fund's monthly returns over four months were 0.9%, 1.4%, −0.6% and 2.0%; its benchmark returned 1.0%, 1.1%, −0.4% and 1.8%. Using the official formula sheet, calculate ATP, AATP and σ(TP), then annualise σ(TP). Is this a good result for a passive manager?
+
+<details><summary>Answer H1</summary>
+
+```
+Δ = Rp − Rb:   −0.1, +0.3, −0.2, +0.2
+
+ATP   = (−0.1 + 0.3 − 0.2 + 0.2) / 4       = 0.2 / 4  = 0.05%
+AATP  = (0.1 + 0.3 + 0.2 + 0.2) / 4         = 0.8 / 4  = 0.20%
+σ(TP) = √[(0.01 + 0.09 + 0.04 + 0.04) / 4]  = √(0.18 / 4) = √0.045 = 0.212% a month
+Annualised: 0.212 × √12 = 0.73% a year
+```
+
+Yes. The fund beats the index by only 0.05% a month on average, and its deviations are small (annualised tracking error of about 0.7%). A passive manager is judged on low tracking error, not on beating the index. Annualise with √12, not 12.
+
+</details>
+
+**H2.** *(Practice numbers.)* Active fund K earned 12.0% pretax and 10.0% after tax. Index fund L earned 12.0% pretax and 11.6% after tax. K sold $600m of securities during the year; L sold $15m. Both started the year at $480m and ended at $520m. Calculate each fund's tax cost ratio and portfolio turnover, and explain the link between them.
+
+<details><summary>Answer H2</summary>
+
+```
+TCR_K = 1 − 1.100 / 1.120 = 1 − 0.9821 = 1.79%
+TCR_L = 1 − 1.116 / 1.120 = 1 − 0.9964 = 0.36%
+
+AUM (average) = (480 + 520) / 2 = $500m
+PT_K = 600 / 500 = 120%
+PT_L =  15 / 500 =   3%
+```
+
+High turnover crystallises capital gains every year, so investors in K pay tax sooner. Same pretax return, but K's investors keep 1.6 points less. That's why active funds generally have a higher TCR than passive funds.
+
+</details>
+
+**H3.** *(Practice numbers; ignore short-sale costs.)* A manager runs a $50m 130/30 fund. State the long and short positions and the net exposure. If the long book returns 9% and the stocks shorted return 4%, what does the fund return, and how much of that comes from the extension compared with a long-only fund holding the same longs?
+
+<details><summary>Answer H3</summary>
+
+```
+Long  = 1.30 × 50 = $65m      Short = 0.30 × 50 = $15m      Net = 100% ($50m)
+
+Return = 1.30(9%) − 0.30(4%) = 11.7 − 1.2 = 10.5%
+Long-only with the same picks = 9%
+Extension adds 1.5 points = 0.30 × (9% − 4%)   (extra 30% long, 30% short on the spread)
+```
+
+The short book funds extra long exposure, so the manager earns the long–short spread on an extra 30% of capital. If the picks were wrong (shorted stocks beat the longs), the extension would lose by the same mechanism. Higher risk, higher expected return.
+
+</details>
+
+**H4.** *(Practice numbers, in the format of Exhibit 11.27.)* Three efficient portfolios have (ER, σ²) of X (6, 4), Y (9, 16) and Z (11, 30). Using `EU = ER − σ²/RT`, which portfolio does each investor choose: RT = 2, RT = 5 and RT = 50? Which asset allocation strategy is this, and which step of Exhibit 11.26 does it represent?
+
+<details><summary>Answer H4</summary>
+
+```
+              X               Y                 Z
+RT = 2:    6 − 4/2 = 4.00   9 − 16/2 = 1.00    11 − 30/2 = −4.00    → X
+RT = 5:    6 − 4/5 = 5.20   9 − 16/5 = 5.80    11 − 30/5 =  5.00    → Y
+RT = 50:   6 − 4/50 = 5.92  9 − 16/50 = 8.68   11 − 30/50 = 10.40   → Z
+```
+
+The more risk-tolerant the investor, the riskier the chosen mix. This is **integrated asset allocation**: capital market inputs (C3: expected returns, risks) combined with the investor's risk tolerance (I3) in the optimiser (M1) to give the investor's asset mix (M2).
+
+</details>
+
+**H5.** Distinguish strategic, tactical and insured asset allocation. For each, state what a fund does after shares rally strongly.
+
+<details><summary>Answer H5</summary>
+
+- **Strategic:** long-term policy weights set from long-run average returns, risks and covariances (efficient frontier); constant mix with periodic rebalancing. After a rally it **sells shares** back to the policy weight.
+- **Tactical:** frequent shifts in the asset mix driven only by perceived changes in relative value, often relying on mean reversion. Inherently contrarian. If the rally makes shares look expensive, it **sells shares** (or underweights them).
+- **Insured:** two assets (shares and T-bills). Assumes market expectations are constant but the investor's objectives change with wealth. After a rally it **buys more shares**; after a fall it moves toward T-bills.
+
+</details>
+
+**H6.** Explain why passive investing has grown, referring to tracking error, costs and the evidence on active manager performance.
+
+<details><summary>Answer H6</summary>
+
+Passive funds aim only to match an index, so they are judged on tracking error and run at very low cost: Exhibit 11.16's index fund has a 0.02% expense ratio and 2% turnover (TCR 0.47%), against 0.99%, 205% and 3.19% for the active fund. Active managers must beat the benchmark **net of** these costs on a risk-adjusted basis, and most don't. In most years since 2001, fewer than half of US active funds beat the S&P 500 (Exhibit 11.5). Over 15 years, 86.94% of Australian funds underperformed the S&P/ASX 200 (SPIVA). Consistent with market efficiency (Topic 5), investors have moved money to index funds and ETFs: US passive equity assets grew 390.6% from 2008 to 2022 against 142.4% for active, and passive overtook active.
+
+</details>
+
+---
+
+## Set I — Bond Portfolio Management (Topic 7)
+
+*Practice numbers throughout, made up for this set and verified in Python. Annual coupons, $1,000 par.*
+
+**I1.** A 3-year bond pays a 6% annual coupon and yields 5%. Calculate its price, Macaulay duration, modified duration and basis point value.
+
+<details><summary>Answer I1</summary>
+
+```
+ t   CF       PV = CF/1.05^t    t × PV
+ 1     60          57.14          57.14
+ 2     60          54.42         108.84
+ 3  1,060         915.67       2,747.00
+            P0 = 1,027.23    Σ = 2,912.99
+
+Macaulay D = 2,912.99 / 1,027.23 = 2.84 years
+Mod D      = 2.84 / 1.05         = 2.70
+BPV        = 2.70 × 0.0001 × 1,027.23 = $0.28 per bp
+```
+
+The bond trades at a premium because YTM (5%) is below the coupon (6%). D is below the 3-year maturity because the coupons arrive early.
+
+</details>
+
+**I2.** For the bond in I1, compute convexity, then estimate the dollar price change if yields rise by 1 point using (a) duration only and (b) duration plus convexity. Compare with the actual repriced change.
+
+<details><summary>Answer I2</summary>
+
+```
+PV × (t² + t):  57.14×2 = 114.29   54.42×6 = 326.53   915.67×12 = 10,988.01
+Σ = 11,428.83
+Convexity = (11,428.83 / 1.05²) / 1,027.23 = 10.09
+
+(a) ΔP ≈ −2.70 × 0.01 × 1,027.23           = −$27.74
+(b) + 0.5 × 10.09 × 0.0001 × 1,027.23       = +$0.52   →  ΔP ≈ −$27.22
+Actual: at 6% YTM = coupon, P = $1,000.00  →  ΔP = −$27.23
+```
+
+(Duration term computed with unrounded Mod D, 2.7007.) Duration alone overstates the fall. Adding convexity brings the estimate within a cent of the actual change.
+
+</details>
+
+**I3.** A $10m bond portfolio holds $2m in a bond with modified duration 4.5, $3m with modified duration 7.0, and $5m with modified duration 11.2. Calculate the portfolio's modified duration and the approximate dollar change if all yields rise 50 basis points.
+
+<details><summary>Answer I3</summary>
+
+```
+Weights: 0.2, 0.3, 0.5
+D_port = 0.2(4.5) + 0.3(7.0) + 0.5(11.2) = 0.90 + 2.10 + 5.60 = 8.60
+ΔP/P ≈ −8.60 × 0.005 = −4.30%   →   ΔP ≈ −0.043 × $10m = −$430,000
+```
+
+Weights are market values ($ invested), not face values.
+
+</details>
+
+**I4.** You expect interest rates to fall. For each pair, choose the bond and give the reason. (a) 10-year, 4% coupon vs 10-year, 9% coupon, both yielding 5%. (b) 20-year zero-coupon vs 25-year, 10% coupon, both yielding 6%. (c) Two 15-year, 5% coupon bonds, one yielding 4% and one yielding 7%.
+
+<details><summary>Answer I4</summary>
+
+To profit from falling rates, pick the **higher-duration** bond in each pair.
+
+| Pair | Choose | Macaulay D | Why |
+|---|---|---|---|
+| (a) | **4% coupon** | 8.36 vs 7.40 | Lower coupon → more value in the final payment → higher duration |
+| (b) | **20-year zero** | 20.00 vs 12.37 | All cash at maturity, so D = maturity. It beats the *longer* bond because the 10% coupons pull the 25-year bond's duration down |
+| (c) | **4% yield** | 11.13 vs 10.41 | Lower initial YTM → distant cash flows are discounted less → higher sensitivity |
+
+Part (b) is the trap: maturity alone does not rank sensitivity, duration does.
+
+</details>
+
+**I5.** The yield curve slopes upward: short rates are well below long rates. Explain how each of the three term-structure theories would account for this shape.
+
+<details><summary>Answer I5</summary>
+
+- **Expectations hypothesis:** long rates reflect expected future short rates, so an upward slope means the market **expects short-term rates to rise**.
+- **Liquidity preference:** investors prefer short-term bonds because long bonds are more volatile and less liquid, so issuers must pay a **premium** to induce them to hold longs. The curve should *normally* slope up even with no expected rate rise, and other shapes are temporary aberrations.
+- **Segmented markets:** institutions confine themselves to particular maturity segments. The slope reflects **supply and demand within each segment**: relatively heavy demand for short maturities, or heavy supply of long bonds, pushes long yields above short yields.
+
+</details>
+
+**I6.** A client gives a manager $100m for 4 years under contingent immunisation, with a floor return of 5%. Market rates are currently 7%. Using annual compounding, find the cushion spread, the required terminal value, the value needed today to reach it by immunising at 7%, and the safety margin. What happens if the portfolio falls to that required value?
+
+<details><summary>Answer I6</summary>
+
+```
+Cushion spread            = 7% − 5% = 2 percentage points
+Required terminal value   = 100 × 1.05^4        = $121.55m
+Required value today      = 121.55 / 1.07^4     = $92.73m
+Safety margin             = 100.00 − 92.73      = $7.27m
+```
+
+The manager may run the portfolio actively while its value stays above $92.73m. If losses wipe out the $7.27m safety margin, the **trigger point** is reached: active management stops and the manager **immunises** (sets duration equal to the remaining horizon) to lock in the 5% floor. The method is the textbook's; the deck gives only the definitions.
+
+</details>
+
+---
+
+## Set J — Derivatives and Option Strategies (Topic 8)
+
+**J1.** *(Practice numbers.)* A share has a call and a put, both with X = $25. The call costs $2.10 and the put $1.60. For S_T = $21 and S_T = $29, find the payoff and profit to (a) the call holder, (b) the call writer, (c) the put holder. State each holder's break-even.
+
+<details><summary>Answer J1</summary>
+
+```
+                      S_T = $21                    S_T = $29
+Call holder   payoff  max(21 − 25, 0) = 0          max(29 − 25, 0) = 4
+              profit  0 − 2.10 = −2.10             4 − 2.10 = +1.90
+Call writer   profit  2.10 − 0 = +2.10             2.10 − 4 = −1.90
+Put holder    payoff  max(25 − 21, 0) = 4          max(25 − 29, 0) = 0
+              profit  4 − 1.60 = +2.40             0 − 1.60 = −1.60
+
+Break-evens: call 25 + 2.10 = $27.10;  put 25 − 1.60 = $23.40
+```
+
+Only the payoff lines are on the formula sheet. Profit needs the premium, with a minus sign for the holder and a plus sign for the writer.
+
+</details>
+
+**J2.** *(Practice numbers.)* A fund holds a $6,000,000 share portfolio with β = 1.2. The ASX 200 is at 8,000 and SPI 200 futures are worth $25 per index point (assume the futures price equals the index). (a) How many contracts hedge the portfolio, and on which side? (b) The index then falls 5%. Show that the hedge offsets the expected portfolio loss.
+
+<details><summary>Answer J2</summary>
+
+```
+(a) n = (PV × β) / (Index × 25) = (6,000,000 × 1.2) / (8,000 × 25) = 7,200,000 / 200,000 = 36
+    → SELL 36 contracts
+
+(b) Index falls 5%: 8,000 × 0.05 = 400 points
+    Expected portfolio loss = β × 5% = 6% × 6,000,000 = $360,000
+    Short futures gain      = 36 × $25 × 400        = $360,000   → offset exactly
+```
+
+The hedge only works this neatly if the portfolio moves exactly β times the index (no tracking error) and the futures price tracks the index (no basis risk). It also gives away the same $360,000 if the index rises 5%.
+
+</details>
+
+**J3.** *(Practice numbers.)* You own a share at $50. You buy a $45 put for $1.20 and sell a $56 call for $1.20. Name the strategy, state the net premium, and give the position value at S_T = $40, $50 and $60. What are the maximum loss and maximum gain, as a percentage of $50?
+
+<details><summary>Answer J3</summary>
+
+A **zero-cost collar**: long OTM put + short OTM call. Net premium = 1.20 − 1.20 = **0**.
+
+```
+S_T = 40:  40 + (45 − 40) − 0         = 45   (floor)
+S_T = 50:  50 + 0 − 0                 = 50
+S_T = 60:  60 + 0 − (60 − 56)         = 56   (cap)
+
+Max loss = (45 − 50)/50 = −10%      Max gain = (56 − 50)/50 = +12%   (base: today's $50 price)
+```
+
+You get the protection of a protective put with no upfront cost. The price is surrendering every gain above $56.
+
+</details>
+
+**J4.** *(Practice numbers.)* Calls on a share with strikes $45, $50 and $55 cost $7.00, $3.50 and $1.20. Build a long butterfly spread. Find the net premium, the maximum profit and loss, the break-evens, and the profit at S_T = $48.
+
+<details><summary>Answer J4</summary>
+
+Buy one $45 call, **sell two** $50 calls, buy one $55 call.
+
+```
+Net debit D = 7.00 + 1.20 − 2(3.50) = 1.20
+
+Max loss   = 1.20         (S_T ≤ 45 or S_T ≥ 55)
+Max profit = (50 − 45) − 1.20 = 3.80   (at S_T = 50)
+Break-evens: 45 + 1.20 = 46.20   and   55 − 1.20 = 53.80
+
+S_T = 48:  (48 − 45) − 0 + 0 − 1.20 = 1.80
+```
+
+The deck writes the net premium as "P2 − P1 − P3". With two short options at the middle strike it is 2P_2 − P_1 − P_3 = 7.00 − 8.20 = −1.20, i.e. the −D above. A butterfly is a low-volatility bet with a small, known maximum loss.
+
+</details>
+
+**J5.** *(Practice numbers.)* A share trades near $30. A $30 call costs $2.50 and a $30 put $2.20. A $33 call costs $1.00 and a $27 put $0.90. Compare a long straddle and a long strangle: cost, break-evens, and profit at S_T = $24, $30 and $38. When would you prefer each?
+
+<details><summary>Answer J5</summary>
+
+```
+                 Straddle (30/30)            Strangle (27 put / 33 call)
+Cost             2.50 + 2.20 = 4.70          1.00 + 0.90 = 1.90
+Break-evens      30 ± 4.70 = 25.30 / 34.70   27 − 1.90 = 25.10 / 33 + 1.90 = 34.90
+
+S_T = 24         6 − 4.70 = +1.30            3 − 1.90 = +1.10
+S_T = 30         −4.70 (max loss)            −1.90 (max loss)
+S_T = 38         8 − 4.70 = +3.30            5 − 1.90 = +3.10
+```
+
+Both bet on a large move in either direction. The **strangle** costs much less and loses far less if nothing happens. It needs a slightly bigger move to break even and earns a little less on big moves. Prefer the strangle when you expect a significant gap but want to cut the upfront cost (deck Checkpoint 2 Q3). Prefer the straddle when you expect a move but not necessarily a huge one.
+
+</details>
+
+**J6.** A fund manager will receive a large cash inflow next month to buy ASX 200 shares. (a) Describe two option strategies from the deck for managing the purchase price, and the futures alternative. (b) Which would you choose if you feared a sharp rally, and why?
+
+<details><summary>Answer J6</summary>
+
+(a)
+- **Buy calls** (slides 27–29): this caps the purchase price at K + premium (deck: 8,200 + 19 = 8,219). If the market falls, the manager buys in the market at S_T + premium, so the premium is the cost of the protection.
+- **Sell puts** (slides 30–32, the "covered put"): this earns a premium while waiting. On a fall the manager is assigned at K and pays an effective K − premium (deck: 8,075 − 20 = 8,055), which they wanted to do anyway. On a rally the cost is **uncapped** (S_T − premium).
+- **Buy index futures** (sample Q5, cash equitisation): no premium, and the price is locked in both ways. Rises are offset by futures gains, but the manager cannot benefit from a fall. Basis risk remains.
+
+(b) Fearing a sharp rally, **long calls** or **long futures**. Selling puts gives no protection against a rise, only premium income. Choose calls if you want to keep the benefit of a possible fall and can pay the premium. Choose futures to lock the level at no upfront cost.
+
+</details>
+
+---
+
+## Set K — Hedge Funds and Alternative Investments (Topic 9)
+
+*All numbers in this set are practice numbers, not taken from the deck.*
+
+**K1.** A hedge fund charges a 20% performance fee subject to a high-water mark, with no management fee. Its unit price starts at $1.00 and ends each year at $1.20, $1.02 and $1.26 (values before fees, as in the deck's example). (a) Calculate the performance fee each year and in total. (b) What would the total be without a high-water mark? (c) Explain the difference.
+
+<details><summary>Answer K1</summary>
+
+```
+Year 1:  1.20 > HWM 1.00  →  20% × (1.20 − 1.00) = $0.040;  HWM → 1.20
+Year 2:  1.02 ≤ HWM 1.20  →  no fee;                         HWM stays 1.20
+Year 3:  1.26 > HWM 1.20  →  20% × (1.26 − 1.20) = $0.012;  HWM → 1.26
+Total with HWM:  $0.052   ( = 20% × (1.26 − 1.00), the net new-high gain )
+
+Without HWM, fee on every rise:
+  rises 0.20 (yr 1) + 0.24 (yr 3, 1.02 → 1.26) = 0.44
+  20% × 0.44 = $0.088
+```
+
+(c) Without the mark, the manager is paid again in year 3 for recovering the $0.18 lost in year 2, which is ground already paid for in year 1. The high-water mark requires past losses to be recouped before any further performance fee is paid, so the manager is paid only on the $0.06 above the old peak.
+
+</details>
+
+**K2.** A fund has an opening NAV of $50m and earns a gross 10% for the year. Fees are a 2% management fee on opening NAV and a 20% performance fee on the gain after the management fee, subject to a 6% hard hurdle. The fund is above its high-water mark. (a) Calculate each fee and the investor's net return. (b) Recalculate with no hurdle.
+
+<details><summary>Answer K2</summary>
+
+```
+Management fee      = 2% × 50           = $1.0m
+Gain after mgmt fee = 10% × 50 − 1.0    = $4.0m
+Hurdle              = 6% × 50           = $3.0m
+
+(a) Hard hurdle:  performance fee = 20% × (4.0 − 3.0) = $0.2m
+                  investor's net  = 4.0 − 0.2          = $3.8m  →  7.6%
+
+(b) No hurdle:    performance fee = 20% × 4.0          = $0.8m
+                  investor's net  = 4.0 − 0.8          = $3.2m  →  6.4%
+```
+
+A hard hurdle charges the performance fee only on the return *above* the hurdle. State your fee conventions in any exam answer, because funds differ.
+
+</details>
+
+**K3.** An investor holds $700,000 in an equity portfolio (β 1.0, expected return 9%) and adds $300,000 of a hedge fund (β 0.3, expected return 5%). The risk-free rate is 3%. Calculate the combined portfolio's beta and expected return. Has the hedge fund improved the risk–return trade-off?
+
+<details><summary>Answer K3</summary>
+
+```
+Weights 0.7 / 0.3
+β_p    = 0.7(1.0) + 0.3(0.3) = 0.70 + 0.09 = 0.79
+E(R_p) = 0.7(9)   + 0.3(5)   = 6.3  + 1.5  = 7.8%
+
+Return per unit of beta:   equity 9/1.0 = 9.00   HF 5/0.3 = 16.67   blend 7.8/0.79 = 9.87
+Treynor (E(R) − Rf)/β:     equity 6.00           HF 6.67            blend 6.08
+```
+
+**Yes.** The hedge fund offers more excess return per unit of systematic risk than the equity it replaces, so the blend improves on both measures. This is the opposite of sample Q8, where the hedge fund's 5/0.8 = 6.25 was below the equity's 10.91. Always do the comparison. A low correlation could improve the trade-off further in total-risk terms (slide 49).
+
+</details>
+
+**K4.** A takeover offer of $50 a share is announced for a target that traded at $40 beforehand. The target now trades at $46. You believe there is an 80% chance the deal completes, and that the price returns to $40 if it fails. What probability does the market imply, what trade do you make, and what is your expected gain?
+
+<details><summary>Answer K4</summary>
+
+```
+Implied P  = (46 − 40) / (50 − 40) = 0.60
+Your view  = 0.80 > 0.60  →  BUY the target
+Expected price = 0.8(50) + 0.2(40) = $48.00
+Expected gain  = 48 − 46 = $2.00 per share = 4.35% on $46
+```
+
+This is merger (risk) arbitrage. You profit if your judgement of the deal's completion probability is better than the market's (slide 39). The implied-probability formula is the textbook's standard approach and is not on the slides. If the deal fails, you lose $6 a share, which is why leverage and position limits matter (the LTCM lessons).
+
+</details>
+
+**K5.** Early studies reported venture capital returns of 30.5% and 45% p.a. Explain why the deck concludes that VC does not offer superior returns. *(3 marks)*
+
+<details><summary>Answer K5</summary>
+
+- **Risk is high.** VC betas are estimated at 1.4 (Gompers & Lerner) and 1.7 (Cochrane), so VC *should* earn well above the market.
+- **Risk-adjusted returns are negative.** Measured against NASDAQ, the mean risk-adjusted return is **−7.1%**, so the raw return does not compensate for the risk.
+- **Averages mislead.** VC returns are non-normal (a few huge winners), so traditional averages are not appropriate. The typical fund earns much less than the mean.
+- VC is also costly: VC firms take large fees and large ownership stakes. The evidence does not support superior risk-adjusted returns.
+
+</details>
+
+**K6.** A trustee says: "Hedge funds give higher returns at lower risk, so we should put 50% of the fund in them." Evaluate the claim using the Topic 9 evidence. *(4 marks)*
+
+<details><summary>Answer K6</summary>
+
+- **The claimed benefits** are higher returns, low risk and diversifying power (slide 32).
+- **Returns:** research casts doubt on superior returns. On a risk-adjusted basis, hedge funds do not appear to outperform (slide 48). Fees (around 1.5% plus a performance fee, and a second layer in a fund of funds) absorb much of any gross outperformance.
+- **Risk:** the average hedge fund is less risky than the market, but not low risk, and risk varies widely by strategy (slide 48). Strategy returns swing enormously from year to year; for example, convertible arbitrage went from −31.6% in 2008 to +47.4% in 2009. Leverage and illiquidity add tail risk (LTCM).
+- **Measurement:** lack of disclosure, reporting lags, net-of-fee measurement and non-normal returns all make reported performance unreliable (slide 47).
+- **Diversification is the real case.** Lower correlations improve portfolio efficiency in certain circumstances, but the suggested allocation is **10–20%**, not 50% (slide 49). Illiquidity and redemption limits also matter for a fund that must pay members.
+
+</details>
+
+---
+
+## Set L — Performance Evaluation (Topic 10)
+
+*All numbers in this set are practice numbers, not from the deck.*
+
+**L1.** Rf = 3%, market return 9%, market σ 15%. Fund P: return 11%, σ 22%, β 0.9. Fund Q: return 10%, σ 13%, β 0.8. (a) Calculate Sharpe, Treynor and Jensen's alpha for both funds and the Sharpe and Treynor of the market. (b) Which fund would you recommend to an investor for whom it will be their entire portfolio, and which to one adding it to a large diversified portfolio? Explain.
+
+<details><summary>Answer L1</summary>
+
+```
+Market:  Sharpe = (9 − 3) / 15 = 0.40        Treynor = (9 − 3) / 1 = 6.00
+
+Fund P:  Sharpe  = (11 − 3) / 22 = 8 / 22   = 0.364     below market
+         Treynor = (11 − 3) / 0.9 = 8 / 0.9 = 8.89      above market
+         α       = 8 − 0.9 × 6 = 8 − 5.4    = +2.6%
+
+Fund Q:  Sharpe  = (10 − 3) / 13 = 7 / 13   = 0.538     above market
+         Treynor = (10 − 3) / 0.8 = 7 / 0.8 = 8.75      above market
+         α       = 7 − 0.8 × 6 = 7 − 4.8    = +2.2%
+```
+
+(b) **Entire portfolio → Q** (higher Sharpe). P's σ of 22% is far above its systematic risk of 0.9 × 15 = 13.5%, so most of its risk is unsystematic — an investor holding only P bears all of it. **Part of a diversified portfolio → P** (higher Treynor and alpha), because the diversified investor's other holdings wash out P's unsystematic risk, leaving only β to be paid for. This is the Sharpe–Treynor conflict in action.
+
+</details>
+
+**L2.** A fund and its benchmark returned the following over four quarters (%): fund 2.4, −0.8, 1.9, 3.1; benchmark 2.0, −1.5, 2.2, 2.5. Calculate ATP, AATP, σ(TP) using the formula-sheet definitions, and the information ratio. Interpret.
+
+<details><summary>Answer L2</summary>
+
+```
+Differences:  +0.4, +0.7, −0.3, +0.6
+
+ATP   = (0.4 + 0.7 − 0.3 + 0.6) / 4      = 1.4 / 4         = 0.35%
+AATP  = (0.4 + 0.7 + 0.3 + 0.6) / 4      = 2.0 / 4         = 0.50%
+σ(TP) = √[(0.16 + 0.49 + 0.09 + 0.36) / 4] = √(1.10 / 4) = √0.275 = 0.524%
+IR    = 0.35 / 0.524                                       = 0.67
+```
+
+The fund beat its benchmark by 0.35% a quarter on average, missing in only one quarter. An IR of about 0.67 means it earned 0.67% of active return per 1% of tracking error — high relative to the spread of manager IRs in Exhibit 18.6, where 1.0+ is rare.
+
+</details>
+
+**L3.** A fund's annual returns over six years were 12%, −4%, 8%, −2%, 15% and 7%. The minimum acceptable return is 3%, which is also the risk-free rate. Using the deck's conventions (population σ; semi-deviation with the mean as hurdle, divided by the number of below-mean years), calculate the Sharpe and Sortino ratios. Why is Sortino lower here?
+
+<details><summary>Answer L3</summary>
+
+```
+Mean = (12 − 4 + 8 − 2 + 15 + 7) / 6 = 36 / 6 = 6%
+
+σ (population):  deviations 6, −10, 2, −8, 9, 1  → squares sum to 286
+                 σ = √(286 / 6) = √47.67 = 6.90%
+Sharpe  = (6 − 3) / 6.90 = 0.435
+
+Below-mean years: −4, −2
+DR = √{[(−4 − 6)² + (−2 − 6)²] / 2} = √[(100 + 64) / 2] = √82 = 9.06%
+Sortino = (6 − 3) / 9.06 = 0.331
+```
+
+Sortino is lower because this fund's volatility is concentrated on the **downside**: its two bad years are 10 and 8 points below the mean, while its good years are modest. Sharpe dilutes those two shortfalls across all six years of volatility; Sortino charges for them alone. (Under other DR conventions the number changes — state the one you use.)
+
+</details>
+
+**L4.** A managed fund's unit price was $1.80 at the start of the month and $1.86 at the end. During the month it paid a dividend of $0.04 and a capital-gain distribution of $0.05. What was its total return, and what would you get if you used the price change alone?
+
+<details><summary>Answer L4</summary>
+
+```
+R = (EP + Div + Cap.Dist − BP) / BP
+  = (1.86 + 0.04 + 0.05 − 1.80) / 1.80 = 0.15 / 1.80 = 8.33%
+
+Price only: (1.86 − 1.80) / 1.80 = 0.06 / 1.80 = 3.33%
+```
+
+Ignoring the distributions understates the month's return by 5 percentage points.
+
+</details>
+
+**L5.** A balanced fund and its benchmark:
+
+| Segment | w_p | w_b | R_p % | R_b % |
+|---|---|---|---|---|
+| Australian equities | 0.55 | 0.45 | 8.0 | 7.0 |
+| International equities | 0.25 | 0.35 | 10.0 | 11.0 |
+| Cash | 0.20 | 0.20 | 3.0 | 3.0 |
+
+Calculate the fund and benchmark returns, the allocation and selection effects (formula-sheet form), and explain the result.
+
+<details><summary>Answer L5</summary>
+
+```
+Fund      = 0.55(8.0) + 0.25(10.0) + 0.20(3.0) = 4.40 + 2.50 + 0.60 = 7.50%
+Benchmark = 0.45(7.0) + 0.35(11.0) + 0.20(3.0) = 3.15 + 3.85 + 0.60 = 7.60%
+Excess    = 7.50 − 7.60 = −0.10%
+
+Allocation = (0.10)(7.0) + (−0.10)(11.0) + (0)(3.0) = 0.70 − 1.10 + 0  = −0.40%
+Selection  = 0.55(1.0) + 0.25(−1.0) + 0.20(0)       = 0.55 − 0.25 + 0  = +0.30%
+Check: −0.40 + 0.30 = −0.10 ✓
+```
+
+The manager **picked well** (selection +0.30%, mostly from Australian equities) but **allocated badly** — under-weighting international equities, the best-performing benchmark segment at 11%. The allocation loss outweighed the selection gain, so the fund under-performed by 0.10%.
+
+</details>
+
+**L6.** (a) What are the required characteristics of a valid benchmark? (b) Explain how benchmark error affects the evaluation of a portfolio manager, and which performance measures are most exposed to it.
+
+<details><summary>Answer L6</summary>
+
+(a) **Unambiguous, investable, measurable, appropriate, reflective of current investment opinions, and specified in advance.**
+
+(b) The true market portfolio is difficult to approximate, so any index used is a proxy. Using a different proxy changes **estimated betas** (substantially, even for the same stock over the same period) and the **slope of the SML**. The **beta-based measures — Treynor and Jensen's alpha —** are most exposed: the same manager can appear superior against one benchmark and inferior against another. The problem is greater with **global investing**, where the choice of benchmark is wider, and it is a problem of **measurement**, not of the manager's skill.
 
 </details>

@@ -18,7 +18,7 @@
 **QUT · Semester 2, 2026 · Unit Coordinator: Yatra Forudi**
 **Textbook: Reilly & Brown, *Investment Analysis and Portfolio Management***
 
-> Living document. Topics 1–4 complete, including Tutorials 1–4, plus the Assessment 1 prep guide — the briefing's full coverage (Topics 1–4) is now on the site. Add new topics as lectures are released.
+> Living document. Topics 1–4 complete, including Tutorials 1–4, plus the Assessment 1 prep guide. **Topics 5–10 now have full reference notes (docs 30–35, added 3 Nov 2026)**, written from the lecture decks; Tutorials 5–10 are not yet worked on the site.
 
 ---
 
@@ -36,8 +36,8 @@
 | 07 | **Tutorial 2 — Full Worked Solutions** | Ch 6 Q11 (variation), Ch 6 P1, P3, P4 and P7 |
 | 08 | **Tutorial 3 — Full Worked Solutions** | Ch 7 Q2 & Q5, Ch 7 P2, plus three non-textbook CML/CAPM/optimisation problems |
 | 09 | **Tutorial 4 — Full Worked Solutions** | Ch 7 Q7 & Q9, Ch 7 P9, P13 and P14(a–b), including the full Exhibit 7.22 regressions |
-| 10 | **Extra Practice Questions** | Sets A–F, closed-book, answers collapsed |
-| 11 | **Formula Sheet & Exam Traps** | Every formula in one place plus the checklist of traps |
+| 10 | **Extra Practice Questions** | Sets A–L (G–L cover Topics 5–10), closed-book, answers collapsed |
+| 11 | **Formula Sheet & Exam Traps** | Every formula in one place (Topics 1–10) plus the checklist of 83 traps |
 | 12 | **Assessment 1 — Investment Briefing Prep Guide** | The 14 calculations with exact Excel formulas, the briefing-note template, a two-hour time plan, sanity checks, and two flagged discrepancies in the unit's sample solution |
 | 13 | **Revision Pack 1 — Topic 1 + Tutorial 1** | From-scratch teaching of returns, risk, margin and short sales; Tutorial 1 fully worked; self-test; cheat sheet |
 | 14 | **Revision Pack 2 — Topic 2 + Tutorial 2** | From-scratch teaching of covariance, correlation, portfolio risk, the efficient frontier and utility; Tutorial 2 fully worked; self-test; cheat sheet |
@@ -45,13 +45,20 @@
 | 16 | **Revision Pack 4 — Topic 4 + Tutorial 4** | From-scratch teaching of APT, the arbitrage conditions, factor models and the Fama–French regressions; Tutorial 4 fully worked; self-test; cheat sheet |
 | 17 | **[The Official Exam Formula Sheet](#/EFB335/17-official-exam-formula-sheet)** | The one-page sheet you get in the final exam, line by line and mapped to topics · the garbled fund-return formula reconstructed · **what is NOT on it and must be memorised** (the CAPM among them) · the attribution-formula difference from the textbook |
 | 18 | **[The Sample Final Exam](#/EFB335/18-sample-final-exam)** | The unit's own sample paper, all ten questions worked · **36 of 40 marks come from Topics 5–10** · 28 of 40 marks are written answers, not calculations |
+| 30 | **[Topic 5 — Market Efficiency](#/EFB335/30-topic-5-market-efficiency)** | The EMH and its three forms, weak-form tests (autocorrelation, runs, trading rules), semi-strong tests (return prediction, event studies, anomalies), strong-form tests (insiders, analysts, fund managers), implications for analysis and portfolio management |
+| 31 | **[Topic 6 — Equity Portfolio Management Strategies](#/EFB335/31-topic-6-equity-portfolio-management)** | The industry, passive vs active, index construction, tracking error, index funds and ETFs, fundamental and technical strategies, anomalies, tax efficiency, value vs growth, style analysis, asset allocation |
+| 32 | **[Topic 7 — Bond Portfolio Management Strategies](#/EFB335/32-topic-7-bond-portfolio-management)** | Passive and active bond strategies, the price–yield curve, rate sensitivity, Macaulay and modified duration, convexity, the term structure, core-plus, matched funding and immunisation, contingent immunisation |
+| 33 | **[Topic 8 — Derivative Use in Investments](#/EFB335/33-topic-8-derivatives)** | Forwards and futures, call and put payoffs, hedging with futures, protective puts, collars, covered calls, straddles, strips, straps, strangles, spreads, range forwards |
+| 34 | **[Topic 9 — Hedge Funds and Other Alternative Investments](#/EFB335/34-topic-9-hedge-funds-and-alternatives)** | Private equity and the J-curve, venture capital, hedge fund structure and strategies, merger arbitrage, LTCM, fees and the high-water mark, hedge fund performance |
+| 35 | **[Topic 10 — Performance Evaluation of Managed Funds](#/EFB335/35-topic-10-performance-evaluation)** | Peer groups, tracking measures, Sharpe, Treynor, Jensen's alpha, the information ratio, Sortino, fund returns, attribution analysis, benchmark error, reporting standards, persistence |
 
-> **Topics 5–10 are released but not yet written up here.** Market
-> efficiency, equity portfolio management, bond portfolio management,
-> derivatives, hedge funds and performance evaluation — decks and
-> Tutorials 5–10 have been in the source folder since 26 September. The
-> exam covers all ten. [Doc 17](#/EFB335/17-official-exam-formula-sheet)
-> lists exactly what each one contributes to the formula sheet.
+> **Topics 5–10 are written up as docs 30–35** (3 Nov 2026), from the
+> lecture decks, with every worked number re-checked in Python. Each note
+> flags where a slide is unclear, contradicts itself or disagrees with the
+> official formula sheet — check those with your tutor. The plain-English
+> primers (docs 23–28) are still the gentlest way in. Tutorials 5–10 are
+> not yet worked here. [Doc 17](#/EFB335/17-official-exam-formula-sheet)
+> lists exactly what each topic contributes to the formula sheet.
 
 **Start with the revision packs (13–16)** if you're learning the material for the first time — they teach each topic from scratch and end with a cheat sheet. Docs 01–11 are the reference notes.
 
@@ -105,9 +112,9 @@ Marking: Q1–6 → 20 points (report), Q7 → 5 points (reflection), presentati
 | 2 | Portfolio Management | Ch 6 |
 | 3 | Asset Pricing Models I | Ch 7 (§7.1–7.3) |
 | 4 | Asset Pricing Models II | Ch 7 (§7.4–7.5) |
-| 5 | Market Efficiency | — |
-| 6 | Equity Portfolio Management Strategies | — |
-| 7 | Analysis of Bonds | Ch 13 (Ch 12 revision) — *video only, no live lecture wk 7* |
-| 8 | Derivative Use in Investments | — |
-| 9 | Hedge Funds and Other Alternative Investments | — |
-| 10 | Performance Evaluation | — |
+| 5 | Market Efficiency | Ch 5 · [doc 30](#/EFB335/30-topic-5-market-efficiency) |
+| 6 | Equity Portfolio Management Strategies | Ch 11 · [doc 31](#/EFB335/31-topic-6-equity-portfolio-management) |
+| 7 | Analysis of Bonds (deck title: Bond Portfolio Management Strategies) | Ch 13 (Ch 12 revision) — *video only, no live lecture wk 7* · [doc 32](#/EFB335/32-topic-7-bond-portfolio-management) |
+| 8 | Derivative Use in Investments | Ch 16.4 · [doc 33](#/EFB335/33-topic-8-derivatives) |
+| 9 | Hedge Funds and Other Alternative Investments | Ch 17 · [doc 34](#/EFB335/34-topic-9-hedge-funds-and-alternatives) |
+| 10 | Performance Evaluation | Ch 18 · [doc 35](#/EFB335/35-topic-10-performance-evaluation) |
