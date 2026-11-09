@@ -51,6 +51,11 @@ Everything from Weeks 1 to 9 and the Part A technique, on one page. Nothing
 here is new — it is the reference version of notes 01 to 09 and the
 tutorial solutions in notes 14 to 20.
 
+> **The exam's own reference sheet is in [note 26](#/AYB250/26-official-exam-reference-sheet).**
+> It prints the tax scale, the super rates and caps, the pension minimums
+> and the age pension tests, but **no formulas**. Everything else on this
+> page has to come from memory.
+
 ## Personal financial statements
 
 ```

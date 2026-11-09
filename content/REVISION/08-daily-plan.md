@@ -502,15 +502,17 @@ in [note 03](#/REVISION/03-the-exam-week).
    - **Sprint 1:** all 36 [traps](#/AYB250/24-formula-sheet-and-exam-traps/the-traps-ranked-by-how-much-they-cost), titles only: say each one and its fix.
    - **Sprint 2:** the AYB250 [checklist](#/REVISION/06-topics-ayb250) rows you never ticked.
    - **Output:** the traps you couldn't say, written out.
-4. **Evening · AYB250 night-before: the numbers.**
-   - **Sprint 1:** TVM and the tax ladder on fresh numbers · a capital gain with the discount.
-   - **Sprint 2:** one age pension assets and income test ([Week 10 note](#/AYB250/25-week-10-social-security), case study A or C).
-   - **Output:** each answer checked against the [formula sheet](#/AYB250/24-formula-sheet-and-exam-traps).
-5. **Evening · AYB250 night-before: last read.**
-   - **Sprint 1:** the [AYB250 formula sheet](#/AYB250/24-formula-sheet-and-exam-traps) top to bottom.
-   - **Sprint 2:** the traps list from Block 3. **Stop by 8pm.** The exam is at 8:30 tomorrow.
+4. **Evening · AYB250 night-before: the exam's reference sheet.** Open 📁 `Reference Sheet.docx` (AYB250 folder) beside [note 26](#/AYB250/26-official-exam-reference-sheet).
+   - **Sprint 1:** sections 1–6 of note 26: for each line on the sheet, cover the note and say what it's for and which question words send you to it, then check. Do the worked example under each.
+   - **Sprint 2:** sections 7–10, the age pension, as one calculation: Harry's assets test and income test from the sheet alone, then the [Say It Back](#/AYB250/26-official-exam-reference-sheet/say-it-back) questions.
+   - **Output:** the [not-on-the-sheet list](#/AYB250/26-official-exam-reference-sheet/not-on-the-sheet-memorise-these) read once: these are the formulas you have to bring yourself.
+5. **Evening · AYB250 night-before: the numbers and the last read.**
+   - **Sprint 1:** TVM, the four ratios and a franked dividend on fresh numbers (none of these are on the sheet), checked against the [formula sheet](#/AYB250/24-formula-sheet-and-exam-traps).
+   - **Sprint 2:** the traps list from Block 3, then the [which-line-for-which-question table](#/AYB250/26-official-exam-reference-sheet/which-line-for-which-question). **Stop by 8pm.** The exam is at 8:30 tomorrow.
 
 ### Wed 11 Nov · AYB250 exam 8:30am · EFB335 afternoon
+
+**Before the exam (10 min):** the [which-line-for-which-question table](#/AYB250/26-official-exam-reference-sheet/which-line-for-which-question), once. Then go.
 
 Three exams in three days. Have a proper lunch and a break first. If
 you're running on empty, do Blocks 1–3 and stop: EFB335 has all of
@@ -553,15 +555,15 @@ tomorrow too.
    - **Output:** each one checked.
 5. **Evening · EFB335 night-before: the jargon.**
    - **Sprint 1:** every **Jargon to Learn** table, right two columns covered, fast.
-   - **Sprint 2:** the [official formula sheet note](#/EFB335/17-official-exam-formula-sheet), read once.
-   - **Output:** nothing new. Any term still shaky goes on the index card.
+   - **Sprint 2:** the [official formula sheet note](#/EFB335/17-official-exam-formula-sheet): the [What Each Formula Is For](#/EFB335/17-official-exam-formula-sheet/what-each-formula-is-for) table with the right three columns covered. Say what each line works out and when you'd use it, then check.
+   - **Output:** nothing new. Any formula you couldn't place goes on the index card, along with the [not-on-the-sheet list](#/EFB335/17-official-exam-formula-sheet/what-is-not-on-the-sheet-memorise-these).
 6. **Evening · EFB335 night-before: the last read.**
    - **Sprint 1:** the one-sentence version of every note, said out loud from [Start here](#/EFB335/20-plain-english-start-here).
    - **Sprint 2:** your index card. **Stop by 8pm.** Sleep matters more than one more hour.
 
 ### Fri 13 Nov · EFB335 exam, 8:30am
 
-Twenty minutes with the index card and the formula sheet, then go. **Done.**
+Twenty minutes with the index card and the [What Each Formula Is For](#/EFB335/17-official-exam-formula-sheet/what-each-formula-is-for) table, then go. **Done.**
 
 ---
 

@@ -1,5 +1,26 @@
 # Plain English — Topics 1–2: Return, Risk and Mixing Assets
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `E(R)` | Expected return — the probability-weighted average return you expect. E(Rᵢ) for asset i, E(R_p) for a portfolio |
+| `σ (sigma)` | Standard deviation — how widely returns swing around their average. The standard measure of risk |
+| `σ₁, σᵢ` | Standard deviation of one asset (asset 1, asset i …) |
+| `σ_p, σ_port` | Standard deviation of the whole portfolio |
+| `HPR` | Holding period return — ending value ÷ beginning value. 1.10 means +10% |
+| `HPY` | Holding period yield — HPR − 1, the return as a percentage |
+| `w, wᵢ` | Weight — the fraction of the portfolio held in asset i. Weights add up to 1 |
+| `r(i,j), ρ` | Correlation — covariance rescaled to −1 … +1. +1 moves perfectly together, −1 perfectly opposite, 0 unrelated |
+| `U` | Utility — an investor's satisfaction score for a portfolio. Higher is better |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 [← Start here](#/EFB335/20-plain-english-start-here) · Full notes:
 [Topic 1](#/EFB335/01-topic-1-investment-background) ·
 [Topic 2](#/EFB335/02-topic-2-portfolio-management) ·

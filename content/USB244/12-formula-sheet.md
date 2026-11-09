@@ -22,6 +22,8 @@
 | `PCA` | Property Council of Australia — sets the measurement, grading and classification standards |
 | `sqm, m²` | Square metres |
 | `NABERS` | National Australian Built Environment Rating System — rates measured performance |
+| `BEEC` | Building energy efficiency certificate — mandatory disclosure |
+| `OPEX` | Operating expenditure — day-to-day running costs |
 
 [Full USB244 notation key →](#/USB244/99-notation-key)
 

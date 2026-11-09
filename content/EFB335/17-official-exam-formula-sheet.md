@@ -40,6 +40,7 @@
 | `R_pt, R_Bt` | Portfolio and benchmark return in period t |
 | `SI (Sharpe)` | Sharpe index — (R_p − R_f) ÷ σ_p: excess return per unit of total risk |
 | `TI (Treynor)` | Treynor index — (R_p − R_f) ÷ β_p: excess return per unit of systematic risk |
+| `IR` | Information ratio — active return ÷ tracking error |
 | `W_pi, W_bi` | Weight in segment i — portfolio (p) vs benchmark (b) |
 | `R_pi, R_bi` | Return in segment i — portfolio (p) vs benchmark (b) |
 | `EP, BP, Div, Cap.Dist` | Fund return inputs — ending price, beginning price, dividends paid, capital-gain distributions |
@@ -57,17 +58,50 @@ the topic it comes from.
 Two things make it valuable for revision, beyond the formulas themselves:
 
 1. **It shows what the exam covers.** Formulas come from Topics 2, 3, 6, 8
-   and 10. Topics 5–10 were released on 26 September and are **not yet
-   written up on this site** — see [the scope note](#/EFB335/17-official-exam-formula-sheet/the-scope-problem-this-sheet-exposes) below.
+   and 10, and every one of those topics now has a full note on this
+   site ([the topic map](#/EFB335/17-official-exam-formula-sheet/topic-by-topic-what-the-sheet-gives-you) is at the bottom).
 2. **It shows what you have to memorise.** Anything examinable that is
    *not* on this page has to come out of your head. That list is long,
    and it includes the CAPM.
+
+**Start with the table below.** It's every line on the sheet in one
+place: what it works out, the words in a question that should send you
+to it, and where it's taught. The line-by-line section after it has the
+detail and the worked numbers.
 
 > **The sheet is printed from a Word file with embedded equation images,
 > and one of them does not render cleanly** — the mutual-fund return
 > formula comes out as `Eᵢ + Dᵢ + Caᵢ Dsᵢ − Bᵢ`. The correct form,
 > checked against Topic 10 slide 32, is below. If your printed copy on
 > the day is garbled the same way, you now know what it says.
+
+---
+
+## What Each Formula Is For
+
+| # | Formula on the sheet | What it works out | Reach for it when the question says… | Taught in |
+|---|---|---|---|---|
+| 1 | `E(Rp) = wa·E(Ra) + wb·E(Rb)` | The **expected return of a portfolio**: the weighted average of what each holding is expected to return. The same weighting gives a **portfolio beta** | "a portfolio of 60% A and 40% B", "expected return of the combined portfolio", adding an asset to a portfolio ([Sample Q8](#/EFB335/18-sample-final-exam/question-8-adding-a-hedge-fund-to-a-portfolio-topic-9-4-marks)) | [Pack 2](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/part-a-the-concepts-taught-from-scratch) |
+| 2 | `σ_port = √(ΣΣ wᵢwⱼCov(i,j))` | The **total risk of a portfolio**, allowing for how the assets move together. Why it's **less** than the weighted average of the σs: that gap is diversification | "portfolio standard deviation", "risk of the combined portfolio", "diversification benefit", a correlation or covariance is given | [Pack 2 A6](#/EFB335/14-revision-pack-topic-2-and-tutorial-2/a6-two-asset-portfolio-variance-derived-term-by-term) |
+| 3 | `E(R_port) = RFR + σ_port × [E(R_M) − RFR] / σ_M` (CML) | The **return you can expect from mixing the risk-free asset with the market portfolio**, for a chosen level of total risk σ | "combine T-bills with the market index", "the investor wants a σ of 10%: what return?", "lending or borrowing at the risk-free rate", efficient portfolios | [Pack 3](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/part-a-the-concepts-taught-from-scratch) |
+| 4 | `PT = SS / AUM` | **Portfolio turnover**: how much of the fund is sold in a year. 0.8 = 80% of the fund traded | "turnover", "how actively is the fund traded", comparing an active fund with an index fund | [Topic 6 §6.10](#/EFB335/31-topic-6-equity-portfolio-management/610-tax-efficiency-slides-3436) |
+| 5 | `TCR = 1 − (1 + TAR)/(1 + PTR)` | **Tax cost ratio**: the share of the pre-tax return lost to tax. Higher turnover → more gains realised → higher TCR | "tax efficiency", "after-tax return", "which fund suits a taxable investor?" | [Topic 6 §6.10](#/EFB335/31-topic-6-equity-portfolio-management/610-tax-efficiency-slides-3436) |
+| 6 | Call payoff `max(S_T − X, 0)` · Put payoff `max(X − S_T, 0)` | What **one call or one put is worth at expiry**. Every option strategy is built by adding these up; take off the premiums for **profit** | Any option strategy: protective put, covered call, collar, straddle, strangle, spreads ([Sample Q6](#/EFB335/18-sample-final-exam/question-6-a-bull-spread-with-puts-topic-8-4-marks), a bull spread with puts) | [Topic 8 §8.3–8.5](#/EFB335/33-topic-8-derivatives/85-how-the-decks-strategy-tables-work) |
+| 7 | `ATP = (1/T) Σ (R_pt − R_Bt)` | **Average tracking performance**: on average, did the fund beat or lag its benchmark? Ups and downs cancel | "an index fund", "how closely did it track", average over- or under-performance | [Topic 10 §10.3](#/EFB335/35-topic-10-performance-evaluation/103-index-benchmarks-and-tracking-performance) |
+| 8 | `AATP = (1/T) Σ \|R_pt − R_Bt\|` | **Average absolute tracking**: the average size of the miss, either direction. Fixes ATP's cancelling | "how far off the benchmark, regardless of direction" | [Topic 10 §10.3](#/EFB335/35-topic-10-performance-evaluation/103-index-benchmarks-and-tracking-performance) |
+| 9 | `σ(TP) = √[(1/T) Σ (R_pt − R_Bt)²]` | **Tracking error**: how much the fund's gap from the benchmark swings. Big misses count most. It's the **active risk** | "tracking error", "active risk", how well an index fund replicates; the bottom line of the information ratio | [Topic 6 §6.4](#/EFB335/31-topic-6-equity-portfolio-management/64-tracking-error-slides-1113), [Topic 10 §10.3](#/EFB335/35-topic-10-performance-evaluation/103-index-benchmarks-and-tracking-performance) |
+| 10 | Jensen's `α = (R_p − R_f) − β_p(R_m − R_f)` | The **return above what the CAPM says the fund's beta deserves**, in percentage points. Positive = the manager added value | "alpha", "did the manager add value after allowing for risk?", "abnormal return" ([Sample Q9b](#/EFB335/18-sample-final-exam/question-9-risk-adjusted-performance-topic-10-4-marks)) | [Topic 10 §10.6](#/EFB335/35-topic-10-performance-evaluation/106-jensens-alpha-return-above-what-the-capm-says-the-risk-deserves) |
+| 11 | Sharpe `SI = (R_p − R_f) / σ_p` | **Excess return per unit of total risk**. Higher is better. Right when the fund is the investor's **whole** wealth | "risk-adjusted performance", "rank these funds", a σ is given | [Topic 10 §10.4](#/EFB335/35-topic-10-performance-evaluation/104-the-sharpe-measure-excess-return-per-unit-of-total-risk) |
+| 12 | Treynor `TI = (R_p − R_f) / β_p` | **Excess return per unit of systematic risk (beta)**. Right when the fund is **one part** of a diversified whole | A beta is given; "Sharpe and Treynor disagree: why?" ([Sample Q9a](#/EFB335/18-sample-final-exam/question-9-risk-adjusted-performance-topic-10-4-marks)) | [Topic 10 §10.5](#/EFB335/35-topic-10-performance-evaluation/105-the-treynor-measure-excess-return-per-unit-of-systematic-risk) |
+| 13 | Information ratio `IR = (R_pt − R_Bt) / σ(TP)` | **Benchmark-beating return per unit of tracking error**: an active manager's skill and consistency | "active manager", "against the benchmark", "information ratio" ([Sample Q9c](#/EFB335/18-sample-final-exam/question-9-risk-adjusted-performance-topic-10-4-marks)) | [Topic 10 §10.7](#/EFB335/35-topic-10-performance-evaluation/107-the-information-ratio-active-return-per-unit-of-active-risk) |
+| 14 | Fund return `R = (EP + Div + Cap.Dist − BP) / BP` | A **managed fund's total return for the period**, counting the dividends and capital-gain distributions it paid out, not just the unit price change | "mutual fund", "managed fund", "distributions", "NAV went from … to …" | [Topic 10 §10.10](#/EFB335/35-topic-10-performance-evaluation/total-rate-of-return-on-a-mutual-fund-slide-32) |
+| 15 | Allocation `Σ (W_pi − W_bi) × R_bi` | How much of the excess return came from **weighting the segments differently** from the benchmark (picking the right asset classes or sectors) | "attribution", "where did the outperformance come from?", "asset allocation decision" ([Sample Q10](#/EFB335/18-sample-final-exam/question-10-beating-the-benchmark-topics-6-and-10-4-marks)) | [Topic 10 §10.11](#/EFB335/35-topic-10-performance-evaluation/1011-attribution-analysis-where-did-the-excess-return-come-from) |
+| 16 | Selection `Σ W_pi × (R_pi − R_bi)` | How much came from **picking better securities within each segment** | "stock selection", "security selection", the second half of an attribution question | [Topic 10 §10.11](#/EFB335/35-topic-10-performance-evaluation/1011-attribution-analysis-where-did-the-excess-return-come-from) |
+
+**The four performance measures, in one line each:** Sharpe charges for
+**all** the risk (σ). Treynor charges only for **market** risk (β). Jensen
+gives the answer in **percentage points** above the CAPM line. The
+information ratio judges a manager **against their own benchmark**.
 
 ---
 
@@ -241,9 +275,10 @@ Everything below is examinable and has to come out of your head.
 | 2 | **Utility** `U = E(r) − ½Aσ²` | [Topic 2b](#/EFB335/03-topic-2-utility-and-strategy) |
 | 3 | **The CAPM / SML** `E(Rᵢ) = Rf + βᵢ(Rm − Rf)` · **beta** `= Cov(i,m)/σ²m` | [Pack 3](#/EFB335/15-revision-pack-topic-3-and-tutorial-3/part-d-cheat-sheet-memorise-this) |
 | 4 | **APT** and multifactor expected return · the arbitrage construction | [Pack 4](#/EFB335/16-revision-pack-topic-4-and-tutorial-4/part-d-cheat-sheet-memorise-this) |
-| 7 | **Bond duration and convexity** — 15 slides of Topic 7, zero formulas on the sheet | *Not yet on the site* |
-| 8 | Every **combined option strategy** — built from the call/put payoff lines | *Not yet on the site* |
-| 10 | **Sortino ratio** | *Not yet on the site* |
+| 5 | Nothing to calculate: the three forms and the tests are **conceptual** | [Topic 5](#/EFB335/30-topic-5-market-efficiency) |
+| 7 | **Bond duration and convexity**: Macaulay and modified duration, the price-change prediction `ΔP/P ≈ −Mod D × Δi`, and the convexity add-on. 15 slides of Topic 7, zero formulas on the sheet | [Topic 7 §7.6](#/EFB335/32-topic-7-bond-portfolio-management/76-bond-analysis-tools-duration-slides-2328), [§7.7](#/EFB335/32-topic-7-bond-portfolio-management/77-bond-convexity-slides-2933) |
+| 8 | Every **combined option strategy**, built from the call/put payoff lines · the **futures payoff** and hedge ratio | [Topic 8](#/EFB335/33-topic-8-derivatives/816-which-strategy-for-which-view) |
+| 10 | **Sortino ratio** `ST = (R̄ − τ) / DR` and the downside deviation | [Topic 10 §10.8](#/EFB335/35-topic-10-performance-evaluation/108-the-sortino-measure-downside-risk-only) |
 
 > **The CAPM is not on the sheet, but Jensen's alpha is — and alpha is
 > the CAPM rearranged.** `α = (R_p − R_f) − β(R_m − R_f)` is just actual
@@ -253,30 +288,29 @@ Everything below is examinable and has to come out of your head.
 
 > **The bond gap is the one to worry about.** Topic 7 spends fifteen
 > slides on duration and convexity and the sheet gives nothing for
-> either. Either they are examined conceptually only, or you are
-> expected to know them cold. Ask the unit coordinator which — it is a
-> one-line question with a big answer.
+> either. The sample exam's bond question ([Q4](#/EFB335/18-sample-final-exam/question-4-bond-portfolio-choice-topic-7-4-marks))
+> gives you modified duration and convexity and asks you to *use* them
+> in a judgement, not calculate them, but a duration price-change is
+> still fair game. Know modified duration and the
+> convexity add-on cold.
 
 ---
 
-## The Scope Problem This Sheet Exposes
+## Topic by Topic: What the Sheet Gives You
 
-The site currently covers **Topics 1–4**. The exam covers **Topics 1–10**:
-
-| Topic | Title | On the sheet? | On this site? |
+| Topic | Title | On the sheet? | Full note |
 |---|---|---|---|
-| 1 | Investment background | No (memorise) | ✅ |
-| 2 | Portfolio management | **Yes** | ✅ |
-| 3 | Capital market theory, CAPM | **CML only** | ✅ |
-| 4 | APT and multifactor models | No (memorise) | ✅ |
-| 5 | **Market efficiency** — weak, semi-strong, strong form | No — conceptual | ❌ |
-| 6 | **Equity portfolio management** — passive vs active, indexing, tracking error, style, asset allocation, **tax efficiency** | **Yes** — PT, TCR | ❌ |
-| 7 | **Bond portfolio management** — passive/active, **duration, convexity**, term structure, immunisation | No | ❌ |
-| 8 | **Derivatives** — futures, options, hedging, straddles, strangles, collars | **Yes** — payoffs | ❌ |
-| 9 | **Hedge funds and alternatives** — private equity, hedge fund strategies and performance | No — conceptual | ❌ |
-| 10 | **Performance evaluation** — Sharpe, Treynor, Jensen, IR, Sortino, tracking, attribution | **Yes — most of the sheet** | ❌ |
+| 1 | Investment background | No: memorise HPR, HPY, means, margin | [Topic 1](#/EFB335/01-topic-1-investment-background) |
+| 2 | Portfolio management | **Yes**: E(Rp), σ_port | [Topic 2](#/EFB335/02-topic-2-portfolio-management) |
+| 3 | Capital market theory, CAPM | **CML only**: memorise the CAPM and beta | [Topic 3](#/EFB335/04-topic-3-capital-market-theory-and-capm) |
+| 4 | APT and multifactor models | No: memorise | [Topic 4](#/EFB335/05-topic-4-apt-and-multifactor-models) |
+| 5 | Market efficiency | No: conceptual | [Topic 5](#/EFB335/30-topic-5-market-efficiency) |
+| 6 | Equity portfolio management | **Yes**: PT, TCR (and tracking error) | [Topic 6](#/EFB335/31-topic-6-equity-portfolio-management) |
+| 7 | Bond portfolio management | **No**: memorise duration and convexity | [Topic 7](#/EFB335/32-topic-7-bond-portfolio-management) |
+| 8 | Derivatives | **Yes**: call and put payoffs only | [Topic 8](#/EFB335/33-topic-8-derivatives) |
+| 9 | Hedge funds and alternatives | No: conceptual (plus E(Rp) and beta weighting) | [Topic 9](#/EFB335/34-topic-9-hedge-funds-and-alternatives) |
+| 10 | Performance evaluation | **Yes, most of the sheet**: everything except Sortino | [Topic 10](#/EFB335/35-topic-10-performance-evaluation) |
 
-> **Half of this formula sheet belongs to topics you have not yet met.**
-> Topic 10 alone supplies eight of its lines. The decks and Tutorials
-> 5–10 have been in your EFB335 folder since 26 September; they need
-> writing up here, and the revision plan needs re-cutting to teach them.
+> **Topic 10 supplies eight of the sheet's lines.** If you're short of
+> time on Thursday, the [Topic 10 note](#/EFB335/35-topic-10-performance-evaluation)
+> and the table at the top of this page are the best hour you can spend.

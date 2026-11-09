@@ -1,5 +1,18 @@
 # Plain English — Topic 6: Equity Portfolio Strategies
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `TAR` | Tax-adjusted return — the return after tax |
+| `PTR` | Pre-tax return |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 [← Start here](#/EFB335/20-plain-english-start-here) · 📁 Deck:
 `Topic 6_Equity Portfolio Management Strategies - upload.pptx` ·
 [Sample Q3](#/EFB335/18-sample-final-exam/question-3-superannuation-and-asset-allocation-topic-6-4-marks) ·

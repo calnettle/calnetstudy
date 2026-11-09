@@ -41,6 +41,11 @@
 in the block**, and the only one with no assessment left to cushion it.
 Parts A and B are banked; this exam is the whole remaining mark.
 
+> **You get a reference sheet in the exam: rates and thresholds, no
+> formulas.** [Note 26](#/AYB250/26-official-exam-reference-sheet) goes
+> through every line: what it is for and which question words should
+> send you to it.
+
 Nine topics, each largely self-contained. **You cannot triage by topic** —
 any one of the nine can carry a question, and dropping one drops those
 marks outright. What you *can* do is triage *within* a topic, which is

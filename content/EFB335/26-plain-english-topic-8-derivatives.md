@@ -1,5 +1,18 @@
 # Plain English — Topic 8: Derivatives
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `S_T` | Share price at expiry (time T) |
+| `X` | Strike (exercise) price of the option |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 [← Start here](#/EFB335/20-plain-english-start-here) · 📁 Deck:
 `Topic 8_Derivatives-Upload.pptx` · 📁 `Topic 8 Derivative Strategies-2-1.xlsx` ·
 [Sample Q5](#/EFB335/18-sample-final-exam/question-5-futures-for-cash-equitisation-topic-8-4-marks) ·

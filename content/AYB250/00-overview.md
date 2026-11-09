@@ -96,6 +96,8 @@ folder.
 | 22 | Individual Project Part A | The case study worked end to end, with every figure verified |
 | 23 | Practice questions | Exam-style, answers hidden — Sections A–K now span Weeks 1–9 |
 | 24 | Formula sheet and exam traps | Everything on one page — 36 numbered traps |
+| 25 | Week 10 social security | The age pension, the assets and income tests, deeming, and the four case studies |
+| 26 | **Official exam reference sheet** | The sheet you get in the exam, line by line: what each rate and threshold is for, the question words that send you to it, and a worked example |
 
 ## Assessment
 

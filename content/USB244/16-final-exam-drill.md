@@ -1,5 +1,29 @@
 # Final Exam Drill — 30 MCQs and 7 Short Answers
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `CV` | Capital value — what the property is worth |
+| `NI` | Net income — gross income minus outgoings |
+| `CR` | Cap rate — the capitalisation rate, a risk weighting. CV = NI ÷ CR |
+| `CPI` | Consumer price index — the inflation measure used in rent reviews |
+| `WALE` | Weighted average lease expiry — average remaining lease term, weighted by income or area |
+| `GLAR` | Gross lettable area retail — the PCA measure for shops |
+| `GLA` | Gross lettable area — whole-building measure (industrial, retail centres) |
+| `NLA` | Net lettable area — the PCA measure for offices |
+| `PCA` | Property Council of Australia — sets the measurement, grading and classification standards |
+| `NABERS` | National Australian Built Environment Rating System — rates measured performance |
+| `BEEC` | Building energy efficiency certificate — mandatory disclosure |
+| `GST` | Goods and services tax |
+| `CGT` | Capital gains tax |
+
+[Full USB244 notation key →](#/USB244/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 **Built to match the paper: 30 multiple choice (30 points) + 7 short
 answers (70 points).** The questions follow the order of the
 [Final Exam Guide](#/USB244/15-final-exam-guide), so a miss sends you

@@ -1,5 +1,22 @@
 # Plain English — Topic 10: Judging a Fund Manager
 
+<!-- notation:start -->
+<details class="notation"><summary>Notation key — what the symbols in this note mean</summary>
+
+| Symbol | Means |
+|---|---|
+| `Σ` | "Add them all up" — a sum over every item (Σᵢ = over every asset i) |
+| `CAPM` | Capital asset pricing model — E(Rᵢ) = R_f + βᵢ[E(R_M) − R_f] |
+| `ATP` | Average tracking performance — average of (portfolio − benchmark) returns |
+| `AATP` | Average absolute tracking performance — the same, ignoring sign |
+| `W_pi, W_bi` | Weight in segment i — portfolio (p) vs benchmark (b) |
+| `R_pi, R_bi` | Return in segment i — portfolio (p) vs benchmark (b) |
+
+[Full EFB335 notation key →](#/EFB335/99-notation-key)
+
+</details>
+<!-- notation:end -->
+
 [← Start here](#/EFB335/20-plain-english-start-here) · 📁 Deck:
 `Topic 10_Performance Evaluation-5.pptx` ·
 [Official sheet, Topic 10 lines](#/EFB335/17-official-exam-formula-sheet/risk-adjusted-performance-topic-10) ·
